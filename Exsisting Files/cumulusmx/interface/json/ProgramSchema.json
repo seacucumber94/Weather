@@ -1,0 +1,159 @@
+{
+    "version": "Last Modified: 2025/04/22 16:03:19",
+    "type": "object",
+    "properties": {
+        "accessible": {
+            "type": "boolean"
+        },
+        "startup": {
+            "title": "Start-up Options",
+            "type": "object",
+            "properties": {
+                "startupdelay": {
+                    "title": "Start-up Delay (secs)",
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "startupdelaymaxuptime" : {
+                    "title": "Max system uptime to apply the start-up delay",
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "startuphostping": {
+                    "title": "Host to PING on program start-up",
+                    "type": "string"
+                },
+                "startuppingescape": {
+                    "title": "PING escape time (mins)",
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "startuptask": {
+                    "title": "Start-up Task",
+                    "type": "object",
+                    "properties": {
+                        "task": {
+                            "title": "Start-up task executable",
+                            "type": "string"
+                        },
+                        "taskparams": {
+                            "title": "Start-up task parameters",
+                            "type": "string"
+                        },
+                        "wait": {
+                            "title": "Start-up task waits",
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        "shutdown": {
+            "title": "Shutdown Options",
+            "type": "object",
+            "properties": {
+                "datastoppedexit": {
+                    "type": "boolean"
+                },
+                "datastoppedmins": {
+                    "title": "Data Stopped exit delay",
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "shutdowntask": {
+                    "title": "Shutdown Task",
+                    "type": "object",
+                    "properties": {
+                        "task": {
+                            "title": "Shutdown task executable",
+                            "type": "string"
+                        },
+                        "taskparams": {
+                            "title": "Shutdown task parameters",
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "dependencies": {
+                "datastoppedmins": ["datastoppedexit"]
+            }
+        },
+        "logging": {
+            "title": "Logging Options",
+            "type": "object",
+            "properties": {
+                "debuglogging": {
+                    "type": "boolean"
+                },
+                "datalogging": {
+                    "type": "boolean"
+                },
+                "ftplogging": {
+                    "type": "boolean"
+                },
+                "ftplogginglevel": {
+                    "enum": [0, 1, 2, 3, 4, 5]
+                },
+                "emaillogging": {
+                    "type": "boolean"
+                },
+                "spikelogging": {
+                    "type": "boolean"
+                },
+                "errorlistlevel": {
+                    "enum": [1, 2]
+                }
+            },
+            "dependencies": {
+                "ftplogginglevel": ["ftplogging"]
+            }
+        },
+        "options": {
+            "title": "General Options",
+            "type": "object",
+            "properties": {
+                "stopsecondinstance": {
+                    "type": "boolean"
+                },
+                "listwebtags": {
+                    "type": "boolean"
+                },
+                "usewebsockets": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "culture": {
+            "title": "Culture Over-rides",
+            "type": "object",
+            "properties": {
+                "removespacefromdateseparator": {
+                    "type": "boolean"
+                },
+                "timeFormat": {
+                    "enum": ["t", "h:mm tt", "HH:mm"]
+                }
+            }
+        },
+        "security": {
+            "title": "Security Settings",
+            "type": "object",
+            "properties": {
+                "securesettings": {
+                    "type": "boolean"
+                },
+                "username": {
+                    "minLength": 4
+                },
+                "password": {
+                    "minLength": 6
+                }
+            },
+            "dependencies": {
+                "username": ["securesettings"],
+                "password": ["securesettings"]
+            }
+        }
+    }
+}

@@ -1,0 +1,343 @@
+<!--
+ This file is generated as part of CumulusUtils - 22/07/2026 01:05:41
+ This header must not be removed and the user must comply to the Creative Commons 4.0 license
+ The license conditions imply the non-commercial use of HighCharts for which the user is held responsible
+ © Copyright 2019 - 2026 Hans Rottier <hans.rottier@gmail.com>
+ See also License conditions of CumulusUtils: https://meteo-wagenborgen.nl/
+-->
+
+<style>
+#report{
+  font-family: arial;
+  border-radius: 15px;
+  border-spacing: 0;
+  border: 1px solid #b0b0b0;
+  height: 80vh; overflow: auto;
+}
+#report .CUtable{
+   border-collapse: collapse;
+   border-spacing: 0;
+   text-align: center;
+   width:100%;
+   max-width:1000px;
+   margin: auto;
+}
+#report th{
+   border: 1px solid #b0b0b0;
+   text-align: center;
+   background-color: #d0d0d0;
+   padding: 4px;
+}
+#report td{
+  border: 1px solid #b0b0b0;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 4px;
+}
+</style>
+<div id="reportBox">
+<div id="report">
+<br/>
+<table class="CUtable">
+<thead>
+<tr>
+<th style="color:Green;">maxTemp<br/>(°C)</th>
+<th style="color:Green;">minTemp<br/>(°C)</th>
+<th style="color:Green;">minHumidity<br/>(%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="color:DarkOrange;">10/07/2026 14:30 : <b>34.3</b></td>
+<td >06/01/2026 01:17 : <b>-8.8</b></td>
+<td >30/04/2025 13:48 : <b>23</b></td>
+</tr>
+<tr>
+<td >26/05/2026 13:58 : <b>33.8</b></td>
+<td >05/01/2026 23:57 : <b>-8.1</b></td>
+<td >25/04/2026 18:10 : <b>27</b></td>
+</tr>
+<tr>
+<td style="color:DarkOrange;">26/06/2026 14:19 : <b>33.3</b></td>
+<td >18/01/2024 03:26 : <b>-7.2</b></td>
+<td >16/05/2025 14:54 : <b>28</b></td>
+</tr>
+<tr>
+<td >25/05/2026 13:47 : <b>32.6</b></td>
+<td >11/01/2025 06:39 : <b>-7.1</b></td>
+<td >24/04/2026 17:24 : <b>28</b></td>
+</tr>
+<tr>
+<td style="color:DarkOrange;">25/06/2026 14:15 : <b>32.4</b></td>
+<td >10/01/2025 06:48 : <b>-6.4</b></td>
+<td >11/05/2025 13:13 : <b>30</b></td>
+</tr>
+<tr>
+<td >13/08/2025 14:35 : <b>32.2</b></td>
+<td >17/01/2024 23:49 : <b>-6.3</b></td>
+<td >25/05/2026 14:29 : <b>30</b></td>
+</tr>
+<tr>
+<td >12/07/2025 14:38 : <b>32.1</b></td>
+<td >09/01/2025 07:21 : <b>-5.6</b></td>
+<td >19/05/2024 15:29 : <b>31</b></td>
+</tr>
+<tr>
+<td style="color:DarkOrange;">09/07/2026 14:21 : <b>32.1</b></td>
+<td >21/11/2024 08:11 : <b>-5.5</b></td>
+<td >10/05/2025 14:42 : <b>31</b></td>
+</tr>
+<tr>
+<td style="color:DarkOrange;">23/06/2026 17:53 : <b>31.9</b></td>
+<td >04/01/2026 05:00 : <b>-4.8</b></td>
+<td >30/04/2026 18:34 : <b>31</b></td>
+</tr>
+<tr>
+<td style="color:DarkOrange;">24/06/2026 14:16 : <b>31.6</b></td>
+<td >21/11/2025 07:23 : <b>-4.0</b></td>
+<td >12/05/2025 16:19 : <b>32</b></td>
+</tr>
+</tbody></table><br/>
+<table class="CUtable">
+<thead>
+<tr>
+<th style="color:Green;">highPressure<br/>(hPa)</th>
+<th style="color:Green;">lowPressure<br/>(hPa)</th>
+<th style="color:Green;">highWind<br/>(mph)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td >27/12/2025 10:10 : <b>1038.0</b></td>
+<td >28/03/2024 17:21 : <b>952.0</b></td>
+<td >07/12/2024 15:28 : <b>15.0</b></td>
+</tr>
+<tr>
+<td >24/12/2025 19:08 : <b>1036.6</b></td>
+<td >06/01/2025 02:57 : <b>955.3</b></td>
+<td >24/01/2025 10:15 : <b>15.0</b></td>
+</tr>
+<tr>
+<td >28/12/2025 00:06 : <b>1036.1</b></td>
+<td >09/02/2024 06:15 : <b>955.4</b></td>
+<td >04/04/2026 21:52 : <b>15.0</b></td>
+</tr>
+<tr>
+<td >30/12/2025 10:23 : <b>1035.9</b></td>
+<td >28/01/2025 03:33 : <b>955.5</b></td>
+<td >05/04/2026 00:11 : <b>15.0</b></td>
+</tr>
+<tr>
+<td >25/12/2025 00:52 : <b>1035.3</b></td>
+<td >27/01/2025 02:38 : <b>956.3</b></td>
+<td >09/12/2025 17:29 : <b>14.0</b></td>
+</tr>
+<tr>
+<td >26/12/2025 23:39 : <b>1035.1</b></td>
+<td >27/03/2024 23:50 : <b>957.0</b></td>
+<td >23/01/2024 22:13 : <b>13.0</b></td>
+</tr>
+<tr>
+<td >31/12/2025 00:06 : <b>1034.6</b></td>
+<td >05/01/2025 23:57 : <b>957.6</b></td>
+<td >30/03/2026 14:32 : <b>13.0</b></td>
+</tr>
+<tr>
+<td >11/10/2025 10:20 : <b>1034.4</b></td>
+<td >26/01/2025 23:44 : <b>957.6</b></td>
+<td >22/01/2024 00:21 : <b>12.0</b></td>
+</tr>
+<tr>
+<td >10/10/2025 22:42 : <b>1033.9</b></td>
+<td >08/02/2024 23:50 : <b>959.8</b></td>
+<td >22/12/2024 19:02 : <b>12.0</b></td>
+</tr>
+<tr>
+<td >12/10/2025 00:00 : <b>1033.3</b></td>
+<td >22/02/2024 12:53 : <b>959.9</b></td>
+<td >12/03/2026 15:09 : <b>12.0</b></td>
+</tr>
+</tbody></table><br/>
+<table class="CUtable">
+<thead>
+<tr>
+<th style="color:Green;">highGust<br/>(mph)</th>
+<th style="color:Green;">totalRun<br/>(mi)</th>
+<th style="color:Green;">highRainRate<br/>(mm/hr)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td >04/04/2026 20:02 : <b>40.0</b></td>
+<td >07/12/2024 : <b>218.6</b></td>
+<td >31/10/2025 14:54 : <b>65.4</b></td>
+</tr>
+<tr>
+<td >24/01/2025 10:07 : <b>39.0</b></td>
+<td >15/09/2025 : <b>155.7</b></td>
+<td >04/09/2025 11:19 : <b>57.0</b></td>
+</tr>
+<tr>
+<td >07/12/2024 14:19 : <b>37.0</b></td>
+<td >31/12/2024 : <b>145.8</b></td>
+<td >21/09/2024 16:48 : <b>49.8</b></td>
+</tr>
+<tr>
+<td >24/03/2026 14:19 : <b>34.0</b></td>
+<td >24/01/2025 : <b>145.5</b></td>
+<td >20/09/2025 18:43 : <b>40.2</b></td>
+</tr>
+<tr>
+<td >11/04/2026 13:39 : <b>34.0</b></td>
+<td >12/03/2026 : <b>137.7</b></td>
+<td >21/05/2024 23:23 : <b>38.4</b></td>
+</tr>
+<tr>
+<td >23/01/2024 19:55 : <b>33.0</b></td>
+<td >21/01/2024 : <b>136.7</b></td>
+<td >28/11/2025 12:37 : <b>37.8</b></td>
+</tr>
+<tr>
+<td >12/03/2026 14:40 : <b>33.0</b></td>
+<td >02/02/2024 : <b>136.2</b></td>
+<td >02/06/2026 18:04 : <b>36.0</b></td>
+</tr>
+<tr>
+<td >22/12/2024 18:59 : <b>31.0</b></td>
+<td >22/12/2024 : <b>135.6</b></td>
+<td >01/01/2025 06:10 : <b>34.8</b></td>
+</tr>
+<tr>
+<td >15/09/2025 14:16 : <b>31.0</b></td>
+<td >08/12/2024 : <b>132.8</b></td>
+<td >16/05/2024 11:54 : <b>33.0</b></td>
+</tr>
+<tr>
+<td >15/03/2026 11:01 : <b>31.0</b></td>
+<td >24/03/2026 : <b>130.7</b></td>
+<td >16/10/2024 14:37 : <b>31.2</b></td>
+</tr>
+</tbody></table><br/>
+<table class="CUtable">
+<thead>
+<tr>
+<th style="color:Green;">highHourlyRain<br/>(mm)</th>
+<th style="color:Green;">highDailyRain<br/>(mm)</th>
+<th style="color:Green;">highestMonthlyRain<br/>(mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td >06/02/2024 10:25 : <b>32.5</b></td>
+<td >21/09/2024 : <b>49.9</b></td>
+<td >Sept 2024 : <b>231.9</b></td>
+</tr>
+<tr>
+<td >04/09/2025 12:01 : <b>31.3</b></td>
+<td >22/05/2024 : <b>49.6</b></td>
+<td >Sept 2025 : <b>174.5</b></td>
+</tr>
+<tr>
+<td >21/09/2024 17:34 : <b>17.8</b></td>
+<td >20/09/2025 : <b>44.2</b></td>
+<td >Dec 2025 : <b>155.9</b></td>
+</tr>
+<tr>
+<td >31/10/2025 14:57 : <b>15.2</b></td>
+<td >04/09/2025 : <b>41.4</b></td>
+<td >Nov 2025 : <b>149.2</b></td>
+</tr>
+<tr>
+<td >16/10/2024 15:08 : <b>12.9</b></td>
+<td >16/05/2024 : <b>37.3</b></td>
+<td >May 2024 : <b>138.0</b></td>
+</tr>
+<tr>
+<td >21/05/2024 23:29 : <b>11.8</b></td>
+<td >07/12/2024 : <b>33.9</b></td>
+<td >Jan 2026 : <b>131.7</b></td>
+</tr>
+<tr>
+<td >01/01/2025 06:49 : <b>11.7</b></td>
+<td >08/09/2024 : <b>33.3</b></td>
+<td >Feb 2026 : <b>129.2</b></td>
+</tr>
+<tr>
+<td >16/05/2024 19:55 : <b>11.5</b></td>
+<td >30/09/2024 : <b>32.1</b></td>
+<td >Jan 2025 : <b>120.8</b></td>
+</tr>
+<tr>
+<td >20/09/2025 19:32 : <b>9.8</b></td>
+<td >09/12/2025 : <b>29.8</b></td>
+<td >Dec 2024 : <b>119.7</b></td>
+</tr>
+<tr>
+<td >22/05/2024 00:00 : <b>9.5</b></td>
+<td >15/12/2025 : <b>29.3</b></td>
+<td >Apr 2024 : <b>116.3</b></td>
+</tr>
+</tbody></table><br/>
+<table class="CUtable">
+<thead>
+<tr>
+<th style="color:Green;">lowestMonthlyRain<br/>(mm)</th>
+<th style="color:Green;">longestDryPeriod<br/>(Days)</th>
+<th style="color:Green;">longestWetPeriod<br/>(Days)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="color:DarkOrange;">Jul 2026 : <b>1.1</b></td>
+<td >20/05/2025 : <b>27</b></td>
+<td >13/02/2026 : <b>15</b></td>
+</tr>
+<tr>
+<td >Mar 2025 : <b>18.4</b></td>
+<td style="color:DarkOrange;">21/07/2026 : <b>19</b></td>
+<td >01/11/2025 : <b>14</b></td>
+</tr>
+<tr>
+<td >Apr 2026 : <b>22.7</b></td>
+<td >13/04/2025 : <b>16</b></td>
+<td >23/02/2024 : <b>13</b></td>
+</tr>
+<tr>
+<td >Apr 2025 : <b>23.0</b></td>
+<td >30/04/2026 : <b>12</b></td>
+<td >25/11/2024 : <b>13</b></td>
+</tr>
+<tr>
+<td >Feb 2025 : <b>24.1</b></td>
+<td >28/06/2024 : <b>11</b></td>
+<td >08/12/2024 : <b>12</b></td>
+</tr>
+<tr>
+<td >Aug 2025 : <b>27.3</b></td>
+<td >31/12/2025 : <b>9</b></td>
+<td >29/03/2024 : <b>11</b></td>
+</tr>
+<tr>
+<td >Aug 2024 : <b>33.5</b></td>
+<td >20/03/2025 : <b>8</b></td>
+<td >11/04/2024 : <b>11</b></td>
+</tr>
+<tr>
+<td >Jun 2025 : <b>37.6</b></td>
+<td >30/12/2024 : <b>7</b></td>
+<td >02/04/2026 : <b>10</b></td>
+</tr>
+<tr>
+<td >Jan 2024 : <b>47.6</b></td>
+<td >19/01/2025 : <b>7</b></td>
+<td >20/05/2026 : <b>10</b></td>
+</tr>
+<tr>
+<td >Mar 2026 : <b>50.1</b></td>
+<td >05/03/2025 : <b>7</b></td>
+<td >20/10/2024 : <b>9</b></td>
+</tr>
+</tbody></table><br/>
+<p>Records registered since Thursday, 4 January 2024 - (930 Days)</p>
+</div>
+</div>

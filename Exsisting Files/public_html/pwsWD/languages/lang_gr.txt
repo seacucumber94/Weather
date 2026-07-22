@@ -1,0 +1,770 @@
+# $scrpt_vrsn_dt = 'lang_gr.txt|01|2020-12-15|';  # release 2012_lts
+
+# units
+ |/h|/ ω|
+ |/m|/λ|
+ |and|και|
+ |Bft|Bft|
+ |C|K|
+ |Celsius|Κελσίου|
+ |cm|cm|
+ |F|Φ|
+ |Fahrenheit|Φαρενάιτ|
+ |feet|Πόδια|
+ |Hours|Ωρες|
+ |hPa|hPa|
+ |hrs |Ω. |
+ |Hrs|Ωρες|
+ |hrs|Φαρενάιτ|
+ |inHg|inHg|
+ |in|in|
+ |KM/H|KM/H|
+ |km/h|km/h|
+ |km|km|
+ |KMs|KMs|
+ |kph|kph|
+ |KTS|KTS|
+ |Kts|Kts|
+ |M/S|M/S|
+ |m/s|m/s|
+ |mile|μίλι|
+ |Miles|Μάιλς|
+ |min |λ. |
+ |mins |λεπτά |
+ |minutes|λεπτά|
+ |mm|mm|
+ |MPH|MPH|
+ |mph|mph|
+ |mt|mt|
+ |secs |secs |
+
+# months short
+ |Apr |Απρ|
+ |Aug |Αυγ|
+ |Dec |Δεκ|
+ |Feb |Φεβ|
+ |Jan |Ιάν|
+ |Jul |Ιούλ|
+ |Jun |Ιούν|
+ |Mar |Μάρ|
+ |May |Μάιος|
+ |Nov |Νοέ|
+ |Oct |Οκτ|
+ |Sep |Σεπ|
+
+# months long
+ |April|Απρίλιος|
+ |August|Αύγουστος|
+ |December|Δεκέμβριος|
+ |February|Φεβρουάριος|
+ |January|Ιανουάριος|
+ |July|Ιούλιος|
+ |June|Ιούνιος|
+ |March|Μάρτιος|
+ |May|Μάιος|
+ |November|Νοέμβριος|
+ |October|Οκτώβριος|
+ |September|Σεπτέμβριος|
+
+# days short
+ |Fri |Παρ|
+ |Mon |Δευ|
+ |Sat |Σάβ|
+ |Sun |Ήλιος|
+ |Thu |Πέμ |
+ |Thur |Πέμ|
+ |Tue |Τρί|
+ |Wed |Τετ|
+
+# days long
+ |Friday|Παρασκευή|
+ |Monday|Δευτέρα|
+ |Saturday|Σάββατο|
+ |Sunday|Κυριακή|
+ |Thursday|Πέμπτη|
+ |Tuesday|Τρίτη|
+ |Wednesday|Τετάρτη|
+
+# dayparts
+ |Afternoon|Απόγευμα|
+ |afternoon|απόγευμα|
+ |Evening|Απόγευμα|
+ |evening|απόγευμα|
+ |Morning|Πρωί|
+ |morning|πρωί|
+ |Night time|Νύχτα|
+ |Night|Νύχτα|
+ |night|νύχτα|
+
+# compass
+ |E|A|
+ |East|Ανατολή|
+ |ENE|AVA|
+ |ESE|ANA|
+ |N|V|
+ |NE|VA|
+ |NNE|VVA|
+ |NNW|VVD|
+ |North|Vóreios|
+ |NW|VD|
+ |S|N|
+ |SE|NA|
+ |South|Nótos|
+ |SSE|NNA|
+ |SSW|NND|
+ |SW|ND|
+ |W|D|
+ |West|Dytiká|
+ |WNW|DVD|
+ |WSW|DND|
+
+# common
+ |All time|Συνεχώς|
+ |any day|οποιαδήποτε ημέρα|
+ |any month|οποιονδήποτε μήνα|
+ |any year|κάθε χρόνο|
+ |Average|Μέση τιμή|
+ |Avg |Μ.|
+ |avg|Μέση|
+ |by|από|
+ |Close|Κλείσε|
+ |Current|Ρεύμα|
+ |current|τρέχουσα|
+ |Daily|Καθημερινά|
+ |Day|Ημέρα|
+ |days|μέρες|
+ |Description|Περιγραφή|
+ |Distance|Απόσταση|
+ |Falling Rapidly|Πτώση γρήγορα|
+ |Falling Slowly|Πέφτοντας αργά|
+ |Falling|Πτώση|
+ |Force|Δύναμη|
+ |Forecast for|Πρόβλεψη για|
+ |forecast|Πρόβλεψη|
+ |from|από|
+ |Graph type|Τύπος γραφήματος|
+ |here|εδώ|
+ |History|Ιστορία|
+ |Hourly|Ωριαίος|
+ |Information|Πληροφορίες|
+ |Last Hour|Τελευταία ώρα|
+ |Last Updated|Τελευταία ενημέρωση|
+ |Link|Σύνδεσμος|
+ |Max|Μέγιστη|
+ |Min|Ελάχιστη|
+ |Month|Μήνας|
+ |Never base important decisions that could result in harm to people or property on this weather information.|Ποτέ μην βασίζετε σημαντικές αποφάσεις που θα μπορούσαν να βλάψουν ανθρώπους ή ιδιοκτησία σε αυτές τις πληροφορίες καιρού.|
+ |No valid sensors found|Δεν βρέθηκαν έγκυροι αισθητήρες|
+ |Offline|Εκτός Σύνδεσης|
+ |Online|συνδεδεμένοι|
+ |Period|Περίοδος|
+ |Powered by|Δεδομένα από|
+ |Rising Rapidly|Αυξάνεται γρήγορα|
+ |Rising Slowly|Αυξάνεται αργά|
+ |Rising|Αυξανόμενες|
+ |Select|Επιλέγω|
+ |Steady|Σταθερά|
+ |the last|το τελευταίο|
+ |Time|ώρα|
+ |Today|σήμερα|
+ |today|σήμερα|
+ |Tomorrow|αύριο|
+ |Tonight|Απόψε|
+ |Updated|Ενημερώθηκε|
+ |Year|Ετος|
+ |Yesterday|Εχθές|
+
+# notifications
+ |Heat Exhaustion|Εξάντληση θερμότητας|
+ |Heat Index Caution|Προσοχή δείκτη θερμότητας|
+ |Lightning Strike Alert Detected|Ανίχνευση προειδοποίησης απεργίας|
+ |Notification|Γνωστοποίηση|
+ |Notifications|Ειδοποιήσεις|
+ |Reduce Sun Exposure|Μειώστε την έκθεση στον ήλιο|
+ |seconds ago|δευτερόλεπτα πριν|
+ |UV-Index Caution|UV Index Προσοχή|
+ |Wind Gusts Becoming Strong Caution Required|Οι ριπές γίνονται ισχυρές. Απαιτείται προσοχή|
+ |Wind Gusts Reaching Gale Force|Ο αέρας φτάνει στη Δύναμη|
+
+# blocks
+ |24h Avg|24 ω μέσος|
+ |Airport|Aεροδρόμιο|
+ |Annual Rainfall|Ετήσια βροχόπτωση|
+ |Aurora|Αυrora|
+ |Currentsky|Ο σημερινός ουρανός|
+ |Details|Λεπτομέριες|
+ |Enlarge|Enlarge|
+ |Environment Canada forecast|Πρόβλεψη από "Environment Canada"|
+ |for the last|για τον τελευταίο|
+ |Forecast|Πρόβλεψη|
+ |Full page|Πλήρης σελίδα|
+ |Indoor Temperature|Θερμοκρασία εσωτερικού χώρου|
+ |LiveWebCam|Ζω κάμερα ιστός|
+ |Map|Χάρτης|
+ |Max-Min Temperature|Μέγιστη - ελάχιστη θερμοκρασία|
+ |Meteors|Μετεωροί|
+ |Moon info|Πληροφορίες για το φεγγάρι|
+ |Moonphase information|Φάση της σελήνης Πληροφορίες |
+ |Movie|Movie|
+ |Official AQ sensor station|Επίσημος σταθμός αισθητήρα AQ|
+ |One hour forecast|Πρόβλεψη μίας ώρας|
+ |Our WXSIM forecast|Πρόβλεψη WXSIM|
+ |Outside|Εξωτερική|
+ |Radar|Ραντάρ|
+ |Rainfalltoday|Βροχόπτωση σήμερα|
+ |Solar - UV-Index - Lux|Ηλιακός - UV-δείκτης - Lux|
+ |Station weather history|Ιστορικό του σταθμού|
+ |Station|ΣΤΑΘΜΟΣ|
+ |stored at WU|αποθηκευμένο σε WU|
+ |SunPosition|Θέση Κυρ|
+ |Texts|Κείμενα|
+ |UV Guide|UV Γύρισε|
+ |WeatherUnderground forecast|Πρόβλεψη από "WeatherUnderground"|
+ |Wind - Gust|Ανεμος - Ριπή|
+
+# soil-moist
+ |Adequate|Επαρκής|
+ |Current planting and watering guide|Τρέχων οδηγός φύτευσης και ποτίσματος|
+ |Dangerous Dry|Επικίνδυνο στεγνό|
+ |ERROR no reading|ΣΦΑΛΜΑ χωρίς ανάγνωση|
+ |Explanation|Εξήγηση|
+ |Irrigation desired|Επιθυμητή άρδευση|
+ |Irrigation needed|Απαιτείται άρδευση|
+ |Moisture|Υγρασία εδάφους|
+ |Saturated|Κορεσμένα|
+ |Soil info|Πληροφορίες εδάφους|
+ |Soil sensor - more information|Αισθητήρας εδάφους - περισσότερες πληροφορίες|
+
+# soil-moist explain
+ |Saturated Soil. Occurs for a day or two after irrigation.|Κορεσμένο έδαφος. Εμφανίζεται για μία ή δύο ημέρες μετά την άρδευση.|
+ |Soil is adequately wet (except coarse sands which are drying out at this range)|Το έδαφος είναι επαρκώς υγρό (εκτός από χονδροειδείς άμμους που στεγνώνουν σε αυτό το εύρος)|
+ |Soil is becoming dangerously dry for maximum production.|Το έδαφος στεγνώνει επικίνδυνα για μέγιστη παραγωγή.|
+ |Usual range to irrigate heavy clay soils|Συνήθης σειράς για την άρδευση βαρέων αργίλων εδαφών|
+ |Usual range to irrigate or water (except heavy clay soils)<br />Irrigate at the upper end of this range in cool humid climates and with higher water-holding capacity soils.|Συνήθης εμβέλεια για άρδευση ή νερό (εκτός από βαριά πήλινα εδάφη) <br /> Ποτίζετε στο άνω άκρο αυτής της περιοχής σε δροσερά υγρά κλίματα και με εδάφη με μεγαλύτερη χωρητικότητα νερού.|
+
+# soil-temp
+ |Deep freeze|Εντελώς κατεψυγμένο|
+ |Frost line|Γραμμή παγετού|
+ |Ideal growth|Ιδανική ανάπτυξη|
+ |Minimum growth|Ελάχιστη ανάπτυξη|
+ |Optimal growth|Βέλτιστη ανάπτυξη|
+ |Too cold to plant|Πάρα πολύ κρύο για φύτευση|
+
+# advisory
+ |(Severe) thunderstorms possible|(Δυνατές) καταιγίδες|
+ |Below Freezing|Κάτω από το πάγωμα|
+ |Caution|Προσοχή|
+ |Expect|Αναμένω|
+ |Firerisk|Κίνδυνος φωτιάς|
+ |Flooding Possible|Πλημμύρες Πιθανές|
+ |Have a nice day|Να εχετε μια ομορφη μερα|
+ |Lightning Strike Nearby|Κίνδυνος φωτιάς κοντά|
+ |Possible Storm Approaching|Πιθανή προσέγγιση καταιγίδας|
+ |Possible|Δυνατόν|
+ |Radio Aurora Possible|Radio Aurora Possible|
+ |This hour|Αυτή την ώρα|
+ |This Week|Αυτή την εβδομάδα|
+ |Viewing Possible|Προβολή δυνατό|
+
+# lightning
+ |Direction|Κατεύθυνση|
+ |Last 3 hr|3 ώρες|
+ |Latest strike at|Η πιο πρόσφατη αστραπή|
+ |Lightning strike|Αστραπή|
+ |Lightning|Αστραπή|
+ |Nearby Lightning|Κοντινή αστραπή|
+ |Nearby|Πλησίον|
+ |Total strikes|Συνολικές αστραπές|
+
+# bft_names
+ |Calm|Ηρεμία|
+ |Fresh breeze|Φρέσκο αεράκι|
+ |Gale force|Θύελλα δύναμη|
+ |Gentle breeze|Απαλό αεράκι|
+ |Hurricane|Τυφώνας|
+ |Light air|Φως αέρα|
+ |Light breeze|Φως Ασθενής|
+ |Moderate breeze|Μέτρια αεράκι|
+ |Near gale|Θύελλα Κοντά στο|
+ |Storm|Καταιγίδα|
+ |Strong breeze|Ισχυρός άνεμος|
+ |Strong gale|Ισχυρή Θύελλα|
+ |Violent storm|Βίαιη θύελλα|
+
+# w-names common
+ |Barometer|βαρόμετρο|
+ |Dewpoint|Σημείο δρόσου|
+ |ET|ET|
+ |Feels like|Αισθάνεται|
+ |Feels|Αισθάνεται|
+ |Gust|Ριπή|
+ |Heatindex|Δείκτης θερμότητας|
+ |Humidity|Υγρασία|
+ |Indoor|Μέσα|
+ |Leaf wetness|Υγρασία φύλλων|
+ |Precipitation|Κατακρήμνιση|
+ |precipitation|krecipitation|
+ |Pressure|πίεση|
+ |Rainfall|βροχόπτωση|
+ |Rate|Τιμή|
+ |Solar|Ηλιακός|
+ |Speed|Ταχύτητα|
+ |Temp|θερμοκρασία|
+ |Temperature|θερμοκρασία|
+ |UV index|Deíktis UV|
+ |UV|UV|
+ |UVI|UVI|
+ |Wet Bulb|υγρό|
+ |Wind Run|Άνεμος|
+ |Wind run|ανέμου|
+ |Wind|Ανεμος|
+ |Windchill|Δροσιά|
+ |Winddirection|Κατεύθυνση|
+ |Windspeed|Ταχύτητα ανέμου|
+
+# meteors
+ |Active Sky Events|Ενεργά γεγονότα ουρανός|
+ |Annual Meteor Showers|Ετήσια ντους μετεωριτών|
+ |Annular|Δακτυλιοειδής|
+ |Current Events|Τρέχοντα γεγονότα|
+ |Data Provided by|Δεδομένα που παρέχονται από το|
+ |Eclipse|Εκλειψη|
+ |Guide|Οδηγός|
+ |Lunar|Σεληνιακός|
+ |Meteor Shower|Βροχή μετεωριτών|
+ |Meteor Showers|Μετρητές ντους|
+ |Next Events|Επόμενα γεγονότα|
+ |No Active Sky Events|Δεν υπάρχουν συμβάντα ουρανός|
+ |Partial|Μερικός|
+ |Peak|Κορυφή|
+ |Total|Σύνολο|
+ |Visible|Ορατός|
+ |Wikipedia|Wikipedia|
+
+# meteors explain
+ |Any nearby ambientlight, Moonlight can make it difficult viewing.|Οποιοδήποτε κοντινό φως του περιβάλλοντος, Moonlight μπορεί να δυσκολεύει την προβολή.|
+ |Meteor showers are best viewed away from the city lights.|Οι μετεωρολογικοί σταθμοί προβάλλονται από τα φωτιστικά.|
+ |Meteors are best viewed during the night hours, though meteors enter the atmosphere at any time of the day.|Οι μετεωροί παρατηρούνται καλύτερα κατά τη διάρκεια των νυχτερινών ωρών, αν και οι μετεωρίτες μπαίνουν στην ατμόσφαιρα οποιαδήποτε στιγμή της ημέρας.|
+ |They are just harder to see in the daylight apart from dawn and dusk.|Αυτά είναι πολύ δύσκολο να μοιραστούν με μερικούς από τους γονείς.|
+
+# aurora
+ |A-INDEX|A-ΔΕΙΚΤΗΣ|
+ |Excellent Aurora Viewing Possible|Εξαιρετική θέαση Aurora|
+ |Geomagnetic Major Storm|Γεωμορφογνητική μεγάλη καταιγίδα|
+ |Geomagnetic Severe Storm|Γεωμαγνητική Σοβαρή Θύελλα|
+ |Geomagnetic Storm|Γεωμορφογενής θύελλα|
+ |High Latitude Aurora Viewing Possible|Υψηλή προβολή Aurora Latitude|
+ |High Latitude Radio Aurora|Υψηλός ραδιοφωνικός σταθμός|
+ |High Latitude Weak Radio Aurora|Υψηλή αρυθρό ραδιόφωνο|
+ |KP-INDEX|KP-ΔΕΙΚΤΗΣ|
+ |KP-PLANETARY INDEX|KP-PLANETARY ΔΕΙΚΤΗΣ|
+ |Major Storm|Μεγάλη Θύελλα|
+ |Mid to High Latitude Aurora Viewing Possible|Μεγάλο έως Υψηλό Γεωγραφικό πλάτος Aurora Προβολή Πιθανό|
+ |Mid-High Latitude Radio Aurora|Μέση Υψηλή Latitude ραδιόφωνο Aurora|
+ |Minor|Ανήλικος|
+ |No Aurora|Δεν εκδίδει Aurora|
+ |No Radio Aurora|Δεν υπάρχει ραδιόφωνο|
+ |NOT ACTIVE|ΑΝΕΝΕΡΓΟΣ|
+ |Quiet No|Ήσυχο όχι|
+ |RADIO AURORA ACTIVE|ΡΑΔΙΟ ΑΥΡΟΡΑ ΕΝΕΡΓΟ|
+ |Radio Aurora Indicators|Δείκτες ραδιοφώνου|
+ |Radio Aurora|Ραδιόφωνο Aurora|
+ |Severe Storm|Σοβαρή καταιγίδα|
+ |Strong Radio Aurora|Ισχυρό ραδιόφωνο Aurora|
+ |Visual Aurora Borealis/Northern Lights and VHF Radio Aurora Indicators|Οπτικές ενδείξεις Aurora Borealis / Northern Lights και VHF Radio Aurora|
+ |Weak High Latitude Aurora Viewing Possible|Αδύνατη προβολή δυνατού Latitude Aurora|
+ |Weak|Αδύναμος|
+
+# aurora explain
+ |is an indicator of possible enhanced VHF radio communication at a range of 1000 miles or more.|είναι ένας δείκτης πιθανής βελτιωμένης ραδιοεπικοινωνίας VHF σε εύρος 1000 μιλίων ή περισσότερο.|
+ |provides a good indicator of viewing the Aurora Borealis or Northern Lights.|παρέχει μια καλή ένδειξη για την προβολή των Aurora Borealis ή Northern Lights.|
+ |Strong solar activity may allow long-distance radio communications at 28-433 MHz in mid to high latitudes.|Η ισχυρή ηλιακή δραστηριότητα μπορεί να επιτρέψει ραδιοεπικοινωνίες μεγάλων αποστάσεων στα 28-433 MHz σε μεσαία έως μεγάλα γεωγραφικά πλάτη.|
+ |The estimated 3-hour Planetary Kp-index data is collected from ground-based magnetometers.|Τα εκτιμώμενα δεδομένα 3-ωρών Planetary Kp-index συλλέγονται από επίγεια μαγνητόμετρα.|
+ |The higher the Kp-Index the greater the probability of viewing.|Όσο υψηλότερο είναι το Kp-Index τόσο μεγαλύτερη είναι η πιθανότητα προβολής.|
+
+# airquality
+ |1 hour|1 ώρα|
+ |1 week|1 εβδομάδα|
+ |10 min|10 λεπτά|
+ |24 hour|24 ώρες|
+ |24 hours|24 ώρες|
+ |30 min|30 λεπτά|
+ |6 hour|6 ώρες|
+ |_1_hour|1 ώρα|
+ |_24_hour|24 ώρες|
+ |_3_hour|3 ώρες|
+ |Air Quality data from our own sensor|Δεδομένα σχετικά με την ποιότητα του αέρα από τον δικό μας αισθητήρα.|
+ |Air Quality Index|Δείκτης ποιότητας αέρα|
+ |Air quality sensor|Αισθητήρας ποιότητας αέρα|
+ |Air Quality|CΠοιότητα αέρα|
+ |AQI|Δείκτης ποιότητας αέρα|
+ |Based on a common formula using the temperature & dewpoint, as recorded realtime from this weather station, an estimated height of the cloudbase is calculated.|Με βάση μια κοινή φόρμουλα που χρησιμοποιεί τη θερμοκρασία και το σημείο δρόσου, όπως καταγράφεται σε πραγματικό χρόνο από αυτόν τον μετεωρολογικό σταθμό, υπολογίζεται ένα εκτιμώμενο ύψος της βάση του.|
+ |classification|ταξινόμηση|
+ |concentration|συγκέντρωση|
+ |Critical Conditions|Κρίσιμες συνθήκες|
+ |Current cloudbase|Τρέχουσα βάση σύννεφου|
+ |Davis sensor|Αισθητήρας Davis|
+ |EPA Air Quality Index|Δείκτης ποιότητας αέρα EPA|
+ |GoodAQ|Kαλή ποιότητα του αέρα|
+ |HazordousAQ|Επικίνδυνη ποιότητα αέρα|
+ |iaqB|iaqB|
+ |Information on Air Quality|Πληροφορίες για την ποιότητα του αέρα|
+ |Information on Cloudbase|Πληροφορίες σχετικά με τη βάση σύννεφων|
+ |It is not a accurate tool it is a relative indicator.|Δεν είναι ένα ακριβές εργαλείο, είναι ένας σχετικός δείκτης.|
+ |Last 24 hours|Τελευταίες 24 ώρες|
+ |Last 7 days|Τελευταίες 7 ημέρες|
+ |Life Threatening|Απειλή ζωής|
+ |Luftdaten sensor|Αισθητήρας Luftdaten|
+ |max|μέγιστη|
+ |min|ταχύτητα|
+ |ModerateAQ|Μέτρια ποιότητα αέρα|
+ |More information|Περισσότερες πληροφορίες|
+ |My city|Η πόλη μου|
+ |O3|O3|
+ |Our Davis AQ sensor|Ο αισθητήρας μας Davis|
+ |Our Luftdaten AQ sensor|Ο αισθητήρας μας Luftdaten |
+ |Our Luftdaten sensor|Ο αισθητήρας μας Luftdaten|
+ |Our measurement values above are real-time values|Οι παραπάνω τιμές μέτρησης είναι τιμές πραγματικού χρόνου|
+ |Our Purple AQ sensor|Ο αισθητήρας μας PurpleAir|
+ |Our PurpleAir sensor|Ο αισθητήρας μας PurpleAir|
+ |Our station AQ sensor|Ο αισθητήρας του σταθμού μας|
+ |Our station sensor|Ο αισθητήρας του σταθμού μας|
+ |Particle|Σωματίδιο|
+ |particle|σωματίδιο|
+ |period|περίοδος|
+ |pm10|pm10|
+ |pm1|pm1|
+ |pm2.5|pm2.5|
+ |PM25|pm2.5|
+ |pm_10|pm10|
+ |pm_2p5|pm2.5|
+ |Precautions Required|Απαιτούνται προφυλάξεις|
+ |Purpleair sensor|Αισθητήρας Purpleair|
+ |Risk|Κίνδυνος|
+ |Sensor data captured at|Δεδομένα αισθητήρα που καταγράφηκαν στις|
+ |Sensor_ID|Αναγνωριστικό αισθητήρα|
+ |Station ID|Αναγνωριστικό σταθμού|
+ |Station sensor|Αναγνωριστικό σταθμού|
+ |The health effects should be based on 24 hours average values only.|Οι επιπτώσεις στην υγεία πρέπει να βασίζονται μόνο σε μέσες τιμές 24 ωρών.|
+ |UnhealthyAQ|Ανθυγιεινή ποιότητα του αέρα|
+ |UnhealthyFSAQ|ανθυγιεινές για ευαίσθητες ομάδες|
+ |unkown / error in data|άγνωστο / σφάλμα στα δεδομένα|
+ |VeryUnhealthyAQ|πολύ ανθυγιεινή ποιότητα του αέρα|
+
+# airquality explain
+ |Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.|Η ποιότητα του αέρα είναι αποδεκτή. Ωστόσο, για ορισμένους ρύπους μπορεί να υπάρχει μέτρια ανησυχία για την υγεία για πολύ μικρό αριθμό ατόμων που είναι ασυνήθιστα ευαίσθητα στην ατμοσφαιρική ρύπανση.|
+ |Air quality is considered satisfactory, and air pollution poses little or no risk|Η ποιότητα του αέρα θεωρείται ικανοποιητική και η ατμοσφαιρική ρύπανση ενέχει μικρό ή καθόλου κίνδυνο|
+ |Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.|Ο καθένας μπορεί να αρχίσει να βιώνει επιπτώσεις στην υγεία. τα μέλη των ευαίσθητων ομάδων μπορεί να παρουσιάσουν πιο σοβαρές επιπτώσεις στην υγεία.|
+ |Health alert: everyone may experience more serious health effects|Προειδοποίηση για την υγεία: όλοι μπορεί να παρουσιάσουν πιο σοβαρές επιπτώσεις στην υγεία|
+ |Health warnings of emergency conditions. The entire population is more likely to be affected|Προειδοποιήσεις υγείας για καταστάσεις έκτακτης ανάγκης. Είναι πιθανότερο να επηρεαστεί ολόκληρος ο πληθυσμός|
+ |Members of sensitive groups may experience health effects. The general public is not likely to be affected.|Τα μέλη ευαίσθητων ομάδων ενδέχεται να παρουσιάσουν επιπτώσεις στην υγεία. Το ευρύ κοινό δεν είναι πιθανό να επηρεαστεί.|
+
+# earthquake
+ |Click to sort the table on|Κάντε κλικ για να ταξινομήσετε τον πίνακα|
+ |Coordinates|Συντεταγμένες|
+ |Dangerous|Επικίνδυνος|
+ |Depth|Βάθος|
+ |Earthquake information courtesy of|Σεισμική πληροφορία ευγενική προσφορά|
+ |Earthquake|Σεισμός|
+ |Earthquakes|Σεισμοί|
+ |Great earthquake|Μεγάλος σεισμός|
+ |GreatE|Μεγάλος σεισμός|
+ |Largest|Μεγαλύτερο|
+ |Last Earthquake|Τελευταίο σεισμό|
+ |LightE|Ελαφρύς σεισμός|
+ |Magnitude|Μέγεθος|
+ |Major earthquake|Μεγάλος σεισμός|
+ |MajorE|Μεγάλος σεισμός|
+ |Minor earthquake|Μικρός σεισμός|
+ |MinorE|Μικρός σεισμός|
+ |Moderate earthquake|Μέτριος σεισμός|
+ |ModerateE|Μέτριος σεισμός|
+ |or on|ή επάνω|
+ |Regional earthquake|Περιφερειακός σεισμός|
+ |RegionalE|Περιφερειακός σεισμός|
+ |Strong earthquake|Ισχυρός σεισμός|
+ |StrongE|Ισχυρός σεισμός|
+ |Table is sorted by|Ο πίνακας ταξινομείται με βάση|
+
+# sun/moon
+ |Azimuth|Aζιμούθιο|
+ |Current Moon cycle is|Ο τρέχων κύκλος της Σελήνης είναι|
+ |Darkness|Σκοτάδι|
+ |day before|μέρα πρίν|
+ |Daylight|Φως ημέρας|
+ |days old|Παλιές μέρες|
+ |Elevation|Ανύψωση|
+ |Estimated|Εκτιμώμενη|
+ |First Quarter|Πρώτο τέταρτο|
+ |Full Moon|Πανσέληνος|
+ |Luminance|Φωτεινότητα|
+ |Moon Phase / Sun-Moon  Rise-Set Information|Πληροφορίες Φάσης Σελήνης / Σελήνης-Σελήνης|
+ |Moon Rise/Set Information|Πληροφορίες ανατολής / ηλιοβασιλέματος|
+ |Moon|Φεγγάρι|
+ |Moonphase|Φάση της σελήνης|
+ |Moonrise|Σελήνη|
+ |Moonset|Σελήνη|
+ |New Moon|Νέα Σελήνη|
+ |Next Full Moon|Πανσέληνος|
+ |Next New Moon|Νέα Σελήνη|
+ |Of Daylight|φως ημέρας|
+ |Sun Rise/Set Information|Πληροφορίες αύξησης / ρύθμισης Ήλιος|
+ |Sun rose at|Ο ήλιος ανέβηκε|
+ |Sun set|ηλιοβασίλεμα|
+ |Sun will set|Ο ήλιος θα θέσει|
+ |Sun|Ήλιος|
+ |SunRise/Set|Ηλιοφάνεια και ηλιοβασίλεμα|
+ |Sunrise|Ανατολή|
+ |Sunset|ηλιοβασίλεμα|
+ |Third Quarter|Τρίτο τέταρτο|
+ |Till Sunrise|Μέχρι την<br /> ανατολή|
+ |Till Sunset|Μέχρι ηλιοβασίλεμα|
+ |Waning Crescent|Εξαφανισμένη ημισέληνο|
+ |Waning Gibbous|Εξαφανίστρια|
+ |Waxing Crescent|Αποτρίχωση ημισελήνου|
+ |Waxing Gibbous|Αποτρίχωση ημιελήνου|
+
+# UV/solar/lux
+ |Brightness|Λάμψη|
+ |Current UVINDEX Advisory|Τρέχουσα Συμβουλευτική UV Δείκτης|
+ |CURRENT UVINDEX|ΤΡΕΧΟΝ Δείκτης UV|
+ |Excellent and Sustainable|Εξαιρετικό και βιώσιμο|
+ |Good and Sustainable|Καλό και βιώσιμο|
+ |Good to Excellent|Καλή προς Εξαιρετική|
+ |Index|Δείκτης|
+ |Low |Χαμηλός|
+ |Low to Moderate|Χαμηλή έως Μέτρια|
+ |Lux Brightness|Lux Φωτεινότητα|
+ |Lux measurement|Μετρητές Lux|
+ |Lux|Lux|
+ |Moderate to Good|Μέτρια έως καλή|
+ |None |Κανένας |
+ |Poor |Κακό |
+ |Solar Energy Replenishment|Ανανέωση ηλιακής ενέργειας|
+ |Solar Radiation|Ακτινοβολία|
+ |Ultraviolet|Υπεριώδης|
+
+# UV/solar/lux explain
+ |High risk of harm from unprotected sun exposure.|Υψηλός κίνδυνος βλάβης από απροστάτευτη έκθεση στον ήλιο.|
+ |Low danger from the sun&apos;s UV rays for the average person|Χαμηλός κίνδυνος από τις υπεριώδεις ακτίνες του ήλιου για τον μέσο άνθρωπο|
+ |Measures the approximate human eye response to light under a variety of lighting conditions.|Μετρά την κατά προσέγγιση ανταπόκριση του ανθρώπινου οφθαλμού στο φως υπό διάφορες συνθήκες φωτισμού.|
+ |Moderate risk of harm from unprotected sun exposure.|Μέτριος κίνδυνος βλάβης από την έκθεση στον ήλιο χωρίς προστασία.|
+ |The total amount of all the light measured is known as the "luminous flux".|Η συνολική ποσότητα όλου του μετρουμένου φωτός είναι γνωστή ως "φωτεινή ροή".|
+ |Very high risk of harm from unprotected sun exposure. Take extra precautions.|Πολύ υψηλός κίνδυνος βλάβης από απροστάτευτη έκθεση στον ήλιο. Λάβετε πρόσθετες προφυλάξεις.|
+
+# metar
+ |Airport-code|Κωδικός αεροδρομίου|
+ |Current Conditions|Τρέχουσες συνθήκες|
+ |Heavy |Βαρύς|
+ |Light |Φως|
+ |Location|Τοποθεσία|
+ |Metar Aviation Weather Data|Στοιχεία αεροπορικών μετεωρολογικών δεδομένων METAR|
+ |Visibility|Ορατότητα|
+
+# menu
+ |air-quality.com|air-quality.com|
+ |Atlantic Ocean pressure map|Χάρτης πίεσης του Ατλαντικού Ωκεανού|
+ |Aurora info|Πληροφορίες Aurora|
+ |Awekas|Awekas|
+ |Contact Info|Στοιχεία επικοινωνίας|
+ |CWOP|CWOP|
+ |Dark Theme|Σκούρο θέμα|
+ |DarkSky Forecast|Πρόγνωση DarkSky|
+ |European Weather Network|Ευρωπαϊκό δίκτυο καιρού|
+ |EXTRAS|ΠΡΟΣΘΕΤΑ|
+ |FIRST SETUP (protected)|ΠΡΩΤΗ ΡΥΘΜΙΣΗ (προστατευμένη)|
+ |Graphs|Γραφικές παραστάσεις|
+ |History at WU |Ιστορία στην WU|
+ |History at WU|Ιστορία στην WU|
+ |Home|Σπίτι|
+ |HWA|HWA|
+ |Imperial|Αυτοκρατορικός|
+ |License|Αδεια|
+ |Light Theme|Ελαφρύ θέμα|
+ |Luftdaten Map|Χάρτης Luftdaten|
+ |Maintained by|Διατηρείται από|
+ |Menu|Μενού|
+ |Metric|Μετρικός|
+ |NWS forecast|Πρόβλεψη NWS|
+ |Official weather alarms|Επίσημες ειδοποιήσεις καιρού|
+ |Pacific Ocean pressure map|Χάρτης πίεσης του Ειρηνικού Ωκεανού|
+ |PurpleAir Map|Χάρτης PurpleAir|
+ |PwsWeather|PwsWeather|
+ |pwsWeather|PwsWeather|
+ |Reports at WU |Αναφορές στην WU|
+ |Reports at WU|Αναφορές στην WU|
+ |Scandinavia|Σκανδιναβία|
+ |Select language|Επιλέξτε γλώσσα|
+ |Settings|Ρυθμίσεις|
+ |Station Theme|Θέμα Σταθμού|
+ |Stations data at WL.com|Δεδομένα σταθμών στο WL.com|
+ |SUPPORT|ΥΠΟΣΤΗΡΙΞΗ|
+ |Template by|Πρότυπο από|
+ |UK (MPH)|UK (MPH)|
+ |USER PREFERENCES|ΠΡΟΤΙΜΗΣΕΙΣ ΧΡΗΣΤΗ|
+ |WEATHER NETWORKS|ΔΙΚΤΥΑ ΚΑΙΡΟΥ|
+ |Weather Networks|Δίκτυα καιρού|
+ |WeatherCloud|WeatherCloud|
+ |WeatherFlow map|Χάρτης WeatherFlow|
+ |WeatherFlow_map|Χάρτης WeatherFlow|
+ |WeatherUnderground|WeatherUnderground|
+ |Web Cam|Κάμερα Web|
+ |Wind forecast|Πρόγνωση ανέμου|
+ |WOW|WOW|
+ |WXSIM Forecast|Πρόβλεψη WXSIM|
+ |YrNo Forecast|Πρόβλεψη YrNo|
+
+# bio
+ |About copyrighted parts used in this template|Σχετικά με τα μέρη που προστατεύονται από πνευματικά δικαιώματα που χρησιμοποιούνται σε αυτό το πρότυπο|
+ |Contact information|Στοιχεία επικοινωνίας|
+ |Copyrighted material used|Χρησιμοποιήθηκε υλικό που προστατεύεται από πνευματικά δικαιώματα|
+ |Credits, contact and|Συντελεστές, επικοινωνία και|
+ |Download and support|Λήψη και υποστήριξη|
+ |Facebook|Facebook|
+ |For your remarks or questions|Για τις παρατηρήσεις ή τις ερωτήσεις σας|
+ |Legal information|Νομικές πληροφορίες|
+ |Mail|eMail|
+ |More information about the used website template and tools|Περισσότερες πληροφορίες σχετικά με το χρησιμοποιημένο πρότυπο και εργαλεία ιστότοπου|
+ |Our main website|Ο κύριος ιστότοπός μας|
+ |Twitter|Twitter|
+ |Website|Δικτυακός τόπος|
+ |You can find us here also|Μπορείτε να μας βρείτε εδώ επίσης|
+
+# graphs
+ |Data from our weatherstation|Δεδομένα από τον καιρό σας|
+ |for this day|για αυτήν την ημέρα|
+ |for this month|για αυτό το μήνα|
+ |for this year|για το τρέχον έτος|
+ |High|Υψηλό|
+ |Low|Χαμηλός|
+
+# snow
+ |Add measurement|Προσθήκη μέτρησης|
+ |Current height|Τρέχον ύψος|
+ |Date|Ημερομηνία|
+ |Fresh|Φρέσκο|
+ |Manual measurements|Χειροκίνητες μετρήσεις|
+ |Melted|Λειωμένο|
+ |Snow measurements|Μετρήσεις χιονιού|
+ |Snowfall since last measurement|Χιονοπτώσεις από την τελευταία μέτρηση|
+ |Remove measurement|Αφαιρέστε τη μέτρηση|
+
+# conditions
+ |blowing|Πιέζοντας|
+ |Clear sky|Καθαρός ουρανός|
+ |Clear|Σαφή|
+ |Clouds|Σύννεφα|
+ |Cloudy|Συννεφιασμένος|
+ |Conditions|Συνθήκες|
+ |Drizzle|Ψιλοβρέχει|
+ |drizzle|ψιλοβρέχει|
+ |dust|σκόνη|
+ |Fair|Καλοκαιρία|
+ |Fog|Ομίχλη|
+ |fog|ομίχλη|
+ |freezing|πάγωμα|
+ |hail|χαλάζι|
+ |haze|ομίχλη|
+ |Heavy rain and thunder|Δυνατή βροχή και βροντή|
+ |Heavy rain showers and thunder|Δυνατή βροχή και βροντή|
+ |Heavy rain showers|Δυνατή βροχή|
+ |Heavy rain|Δυνατή βροχή|
+ |Heavy sleet and thunder|Βαριά χιονόνερο και βροντές|
+ |Heavy sleet showers and thunder|Βαριά χιονόνερο και βροντές|
+ |Heavy sleet showers|Βαριά χιονόνερο|
+ |Heavy sleet|Βαριά χιονόνερο και βροντές|
+ |Heavy snow and thunder|Δυνατή χιονόπτωση και βροντές|
+ |Heavy snow showers and thunder|Δυνατή χιονόπτωση και βροντές|
+ |Heavy snow showers|Βαρύ χιόνι|
+ |Heavy snow|Βαρύ χιόνι|
+ |heavy|Βαρύς|
+ |ice_crystals|κρυστάλλους πάγου|
+ |ice_pellets|σφαιρίδια πάγου|
+ |Isolated Light Showers|Απομονωμένες ντους|
+ |Isolated Showers|Απομονωμένες ντους|
+ |Isolated|Απομονωμένος|
+ |Light rain and thunder|Ελαφρά βροχή και βροντή|
+ |Light rain showers and thunder|Ελαφρά βροχή και βροντή|
+ |Light Rain Showers|Ελαφρά βροχή |
+ |Light rain showers|Ελαφρά βροχή |
+ |Light rain|Ελαφρά βροχή|
+ |Light Showers|Ελαφρά βροχή |
+ |Light sleet and thunder|Ελαφρύς χιόνι και βροντή|
+ |Light sleet showers|Ελαφρύς χιόνι |
+ |Light sleet|Ελαφρύς χιόνι|
+ |Light snow and thunder|Ελαφρά χιόνι και βροντές|
+ |Light Snow Showers|Ελαφρά χιόνι |
+ |Light snow showers|Ελαφρά χιόνι |
+ |Light snow|Ελαφρά χιόνι |
+ |Light Wintry Mix|Ελαφρύ Χειμερινό Μίγμα|
+ |light|ελαφρός|
+ |lightning|Αστραπή|
+ |Lights sleet showers and thunder|Ελαφρά ντους και βροντές|
+ |Lights snow showers and thunder|Ελαφρά χιονόπτωση και βροντές|
+ |Mist and Fog|Ομίχλη|
+ |Mist|Ομίχλη|
+ |mist|ομίχλη|
+ |moderate|Μέτριος|
+ |Mostly Clear|Σχεδόν ξεκάθαρα|
+ |Mostly Cloudy|Κυρίως συννεφιά|
+ |Mostly Scattered Clouds|Συννεφιά|
+ |Mostly Sunny|Κυρίως αίθριος|
+ |Mostly|κυρίως|
+ |or|or|
+ |Overcast|Νεφελώδης|
+ |Partly Cloudy|Μερικώς συννεφιασμένος|
+ |Partly cloudy|μερικώς συννεφιασμένος|
+ |Rain and thunder|Βροχή και βροντή|
+ |Rain showers and thunder|Βροχή και βροντή|
+ |Rain Showers Likely|Πιθανή βροχόπτωση|
+ |Rain showers|Βροχή|
+ |Rain|Βροχή|
+ |rain|βροχή|
+ |sand|άμμος|
+ |Scattered Light Showers|Σποραδικές Βροχές|
+ |Scattered Showers|Σποραδικές Βροχές|
+ |Scattered|Διεσπαρμένος|
+ |showers,|καταιγισμός|
+ |showers|καταιγισμός|
+ |Sleet and thunder|Γλυκό και βροντή|
+ |Sleet showers and thunder|Γλυκό και βροντή|
+ |Sleet showers|Γλυκό|
+ |Sleet|Γλυκό και βροντή|
+ |smoke|καπνός|
+ |Snow and thunder|Χιόνι και βροντές|
+ |Snow showers and thunder|Χιόνι και βροντές|
+ |Snow showers|Χιόνι |
+ |Snow|Χιόνι|
+ |snow|χιόνι|
+ |squall|καταιγίδα|
+ |steady|Σταθερά|
+ |storm|Καταιγίδα|
+ |Sunny|Ηλιόλουστος|
+ |thunderstorm|καταιγίδα|
+ |tornado|ανεμοστρόβιλος|
+ |unknown|άγνωστος|
+ |vulcanic_ash|ηφαιστειακή στάχτη|
+ |water_spout|δοχείο νερού|
+ |widespread|διαδεδομένη|
+ |Windy|Ανεμώδης|
+
+# extra sensors
+ |Extra block large|Extra block large|
+ |Extra block|Extra block|
+ |Extra sensors|Extra sensors|
+ |extra_hum1|extra_hum1|
+ |extra_hum2|extra_hum2|
+ |extra_hum3|extra_hum3|
+ |extra_hum4|extra_hum4|
+ |extra_hum5|extra_hum5|
+ |extra_hum6|extra_hum6|
+ |extra_hum7|extra_hum7|
+ |extra_hum8|extra_hum8|
+ |extra_tmp1|extra_tmp1|
+ |extra_tmp2|extra_tmp2|
+ |extra_tmp3|extra_tmp3|
+ |extra_tmp4|extra_tmp4|
+ |extra_tmp5|extra_tmp5|
+ |extra_tmp6|extra_tmp6|
+ |extra_tmp7|extra_tmp7|
+ |extra_tmp8|extra_tmp8|

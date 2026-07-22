@@ -1,0 +1,499 @@
+{
+	"version": "Last Modified: 2025/05/10 11:50:11",
+	"type": "object",
+	"properties": {
+		"accessible": {
+			"type": "boolean"
+		},
+		"airquality": {
+			"title": "Air Quality Settings",
+			"type": "object",
+			"properties": {
+				"primaryaqsensor": {
+					"enum": [-1, 0, 5, 1, 2, 3, 4, 6]
+				},
+				"aqi": {
+					"enum": [0, 1, 2, 3, 4, 5, 6, 7]
+				}
+			}
+		},
+		"airLink": {
+			"title": "Davis AirLink",
+			"type": "object",
+			"properties": {
+				"isNode": {
+					"type": "boolean"
+				},
+				"apiKey": {
+				},
+				"apiSecret": {
+				},
+				"autoUpdateIp": {
+					"type": "boolean"
+				},
+				"indoor": {
+					"title": "Indoor AirLink",
+					"type": "object",
+					"properties": {
+						"enabled": {
+							"type": "boolean"
+						},
+						"ipAddress": {
+							"format": "ip-address"
+						},
+						"hostname": {
+						},
+						"stationId": {
+						}
+					},
+					"dependencies": {
+						"ipAddress": ["enabled"],
+						"hostname": ["enabled"],
+						"stationId": ["enabled"]
+					}
+				},
+				"outdoor": {
+					"title": "Outdoor AirLink",
+					"type": "object",
+					"properties": {
+						"enabled": {
+							"type": "boolean"
+						},
+						"ipAddress": {
+							"format": "ip-address"
+						},
+						"hostname": {
+						},
+						"stationId": {
+						}
+					},
+					"dependencies": {
+						"ipAddress": ["enabled"],
+						"hostname": ["enabled"],
+						"stationId": ["enabled"]
+					}
+				}
+			},
+			"dependencies": {
+				"apiKey": ["isNode"],
+				"apiSecret": ["isNode"]
+			}
+		},
+		"purpleAir": {
+			"title": "Purple Air Sensors",
+			"type": "object",
+			"properties": {
+				"enabled": {
+					"type": "boolean"
+				},
+				"sensors" : {
+					"title": "Sensors",
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"id": {
+								"type": "string"
+							},
+							"ipAddress": {
+								"format": "ip-address"
+							},
+							"algorithm": {
+								"enum": [0, 1]
+							},
+							"thsensor": {
+								"enum": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+							}
+						}
+					},
+					"dependencies": ["enabled"]
+				}
+			}
+		},
+		"httpSensors":{
+			"title": "Use a second station for extra sensors",
+			"type": "object",
+			"properties": {
+				"extraStation": {
+					"enum": [-1, 0, 1, 2, 3]
+				},
+				"ecowittapi": {
+					"title": "Ecowitt Cloud Access API",
+					"type": "object",
+					"properties": {
+						"applicationkey": {
+						},
+						"userkey": {
+						},
+						"mac": {
+						}
+					},
+					"dependencies": ["stationid"]
+				},
+				"ecowitt": {
+					"title": "Ecowitt",
+					"type": "object",
+					"properties": {
+						"stationid": {
+						},
+						"useSolar": {
+							"type": "boolean"
+						},
+						"useUv": {
+							"type": "boolean"
+						},
+						"useTempHum": {
+							"type": "boolean"
+						},
+						"useSoilMoist": {
+							"type": "boolean"
+						},
+						"useLeafWet": {
+							"type": "boolean"
+						},
+						"useUserTemp": {
+							"type": "boolean"
+						},
+						"useAQI": {
+							"type": "boolean"
+						},
+						"useCo2": {
+							"type": "boolean"
+						},
+						"useLightning": {
+							"type": "boolean"
+						},
+						"useLeak": {
+							"type": "boolean"
+						},
+						"useLaserDist": {
+							"type": "boolean"
+						},
+						"useCamera": {
+							"type": "boolean"
+						},
+						"setcustom": {
+							"type": "boolean",
+							"dependencies": ["stationid"]
+						},
+						"dummy": {
+							"dependencies": ["stationid","setcustom"]
+						},
+						"gwaddr": {
+							"dependencies": ["setcustom"]
+						},
+						"localaddr": {
+							"dependencies": ["setcustom"]
+						},
+						"interval": {
+							"type": "integer",
+							"minimum": 5,
+							"maximum": 600,
+							"dependencies": ["setcustom"]
+						},
+						"mappings": {
+							"title": "Sensor mappings",
+							"type": "object",
+							"properties": {
+								"primaryTHsensor": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								},
+								"primaryIndoorTHsensor": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								},
+								"wn34chan1": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								},
+								"wn34chan2": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								},
+								"wn34chan3": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								},
+								"wn34chan4": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								},
+								"wn34chan5": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								},
+								"wn34chan6": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								},
+								"wn34chan7": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								},
+								"wn34chan8": {
+									"enum": [0,1,2,3,4,5,6,7,8]
+								}
+							}
+						},
+						"forwarders": {
+							"title": "HTTP Forwarders",
+							"type": "object",
+							"properties": {
+								"usemain":
+								{
+									"type":"boolean"
+								},
+								"forward": {
+									"type": "array",
+									"title": "Forwarding URLs",
+									"maxItems": 10,
+									"items": {
+										"type": "object",
+										"properties": {
+											"url": {
+												"type": "string"
+											}
+										}
+									},
+									"dependencies": ["usemain"]
+								}
+							},
+							"dependencies": ["stationid"]
+						}
+					}
+				},
+				"ambient": {
+					"title": "Ambient",
+					"type": "object",
+					"properties": {
+						"useSolar": {
+							"type": "boolean"
+						},
+						"useUv": {
+							"type": "boolean"
+						},
+						"useTempHum": {
+							"type": "boolean"
+						},
+						"useSoilMoist": {
+							"type": "boolean"
+						},
+						"useAQI": {
+							"type": "boolean"
+						},
+						"useLightning": {
+							"type": "boolean"
+						},
+						"useLeak": {
+							"type": "boolean"
+						}
+					}
+				},
+				"jsonstation": {
+					"title": "JSON Station",
+					"type": "object",
+					"properties": {
+						"conntype": {
+							"enum": [
+								0,
+								1,
+								2
+							]
+						},
+						"filename": {
+							"type": "string",
+							"dependencies": "conntype"
+						},
+						"dummy": {
+							"dependencies": "conntype"
+						},
+						"mqttserver": {
+							"type": "string",
+							"dependencies": "conntype"
+						},
+						"mqttport": {
+							"type": "integer",
+							"minimum": 1,
+							"maximum": 65535,
+							"dependencies": "conntype"
+						},
+						"mqttuser": {
+							"type": "string",
+							"dependencies": "conntype"
+						},
+						"mqttpass": {
+							"type": "string",
+							"dependencies": "conntype"
+						},
+						"mqtttopic": {
+							"type": "string",
+							"dependencies": "conntype"
+						},
+						"advanced": {
+							"title": "Advanced Settings",
+							"type": "object",
+							"properties": {
+								"conntype": {
+									"type": "integer"
+								},
+								"filedelay": {
+									"type": "integer",
+									"minimum": 0,
+									"dependencies": "conntype"
+								},
+								"fileignore": {
+									"type": "integer",
+									"minimum": 0,
+									"dependencies": "conntype"
+								},
+								"mqtttls": {
+									"type": "boolean",
+									"dependencies": "conntype"
+								}
+							},
+							"dependencies": [
+								"conntype"
+							]
+						},
+						"useSolar": {
+							"type": "boolean"
+						},
+						"useUv": {
+							"type": "boolean"
+						},
+						"useTempHum": {
+							"type": "boolean"
+						},
+						"useSoilMoist": {
+							"type": "boolean"
+						},
+						"useLeafWet": {
+							"type": "boolean"
+						},
+						"useUserTemp": {
+							"type": "boolean"
+						},
+						"useAQI": {
+							"type": "boolean"
+						},
+						"useCo2": {
+							"type": "boolean"
+						},
+						"useLaserDist": {
+							"type": "boolean"
+						}
+					}
+				}
+			},
+			"dependencies": {
+				"ecowitt": ["extraStation"],
+				"ecowittapi": ["extraStation"],
+				"ambient": ["extraStation"],
+				"jsonstation": ["extraStation"]
+			}
+		},
+		"blakeLarsen": {
+			"title": "Blake-Larsen Sunshine recorder",
+			"type": "object",
+			"properties": {
+				"enabled": {
+					"type": "boolean"
+				}
+			}
+		},
+		"laser": {
+			"title": "Laser Sensor Options",
+			"type": "object",
+			"properties": {
+				"sensor1": {
+					"title": "Sensor 1",
+					"type": "object",
+					"properties": {
+						"depth": {
+							"type": "number",
+							"minimum": -1
+						}
+					}
+				},
+				"sensor2": {
+					"title": "Sensor 2",
+					"type": "object",
+					"properties": {
+						"depth": {
+							"type": "number",
+							"minimum": -1
+						}
+					}
+				},
+				"sensor3": {
+					"title": "Sensor 3",
+					"type": "object",
+					"properties": {
+						"depth": {
+							"type": "number",
+							"minimum": -1
+						}
+					}
+				},
+				"sensor4": {
+					"title": "Sensor 4",
+					"type": "object",
+					"properties": {
+						"depth": {
+							"type": "number",
+							"minimum": -1
+						}
+					}
+				}
+			}
+		},
+		"rg11": {
+			"title": "Hydreon RG-11 rain device(s)",
+			"type": "object",
+			"properties": {
+				"port1": {
+					"title": "Device 1",
+					"type": "object",
+					"properties": {
+						"enabled": {
+							"type": "boolean"
+						},
+						"commPort": {
+						},
+						"tipMode": {
+							"type": "boolean"
+						},
+						"tipSize": {
+						},
+						"dtrMode": {
+							"type": "boolean"
+						}
+					},
+					"dependencies": {
+						"commPort": ["enabled"],
+						"tipMode": ["enabled"],
+						"tipSize": ["enabled"],
+						"dtrMode": ["enabled"]
+					}
+				},
+				"port2": {
+					"title": "Device 2",
+					"type": "object",
+					"properties": {
+						"enabled": {
+							"type": "boolean"
+						},
+							"commPort": {
+						},
+						"tipMode": {
+							"type": "boolean"
+						},
+						"tipSize": {
+						},
+						"dtrMode": {
+							"type": "boolean"
+						}
+					},
+					"dependencies": {
+						"commPort": ["enabled"],
+						"tipMode": ["enabled"],
+						"tipSize": ["enabled"],
+						"dtrMode": ["enabled"]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,563 @@
+2026-07-22 01:05:02.173 Information According to Inifile Info => Error: True, Warning: True, Info: True, Verbose: False, 
+2026-07-22 01:05:02.202 CumulusUtils Initial: Shutting down the default listener
+2026-07-22 01:05:02.204 Information CumulusUtils Initial: Shutting down the default listener
+2026-07-22 01:05:02.251  CUstrings[xx].ini : CUstringsEN.ini looked for.
+2026-07-22 01:05:02.275  CumulusUtils version: 7.1.1 
+2026-07-22 01:05:02.275  CuSupport constructor : Unit Wind (m/s, mph2026-07-22 01:05:02.278  CumulusUtils version: 7.1.1 
+2026-07-22 01:05:02.278  CuSupport constructor : Unit Wind (m/s, mph, km/h, kts): mph
+2026-07-22 01:05:02.278  CuSupp2026-07-22 01:05:02.280  CuSupport constructor : Unit T (C,F): °C
+2026-07-22 01:05:02.281  CuSupport constructor : Unit Distance (m, mi, km, kn): mi
+2026-07-22 01:05:02.281  CuSupport constructor : Unit Height (m, ft): ft
+2026-07-22 01:05:02.295 InetSupport: Constructor starting
+2026-07-22 01:05:02.361 CumulusUtils : ----------------------------
+2026-07-22 01:05:02.361 CumulusUtils : Entering Main
+2026-07-22 01:05:02.376 HelpTexts: starting
+2026-07-22 01:05:02.430 Information HelpTexts Contructor: stop
+2026-07-22 01:05:02.473 CommandLineArgs : starting
+2026-07-22 01:05:02.473  CommandLineArgs : handling arg: thrifty
+2026-07-22 01:05:02.473  CommandLineArgs : handling arg: website
+2026-07-22 01:05:02.474 Dayfile: Reading the dayfile.txt...
+2026-07-22 01:05:02.560 Information CumulusUtils : Read dayfile.txt succesfully - 930 records
+2026-07-22 01:05:02.580 Information SystemStatus : starting
+2026-07-22 01:05:02.611 Information GetUrlData Start: URL - http://localhost:8998/api/tags/process.json?version&build&Prog2026-07-22 01:05:02.615 Information GetUrlData Start: URL - h2026-07-22 01:05:03.021 CumulusMX Version: 4.5.2 build 4105
+2026-07-22 01:05:03.025 Information  SystemStatus: Found device 12 GW1000/Ecowitt Local API
+2026-07-22 01:05:03.028 Inform2026-07-22 01:05:03.033 Information  SystemStatus: Found device 12 GW1000/Ecowitt Local API
+2026-07-22 01:05:03.034 Information ReplaceWebtagsPostAsync start:
+2026-07-22 01:05:03.040 Information  PostUrl2026-07-22 01:05:03.078 Information PostUrlData success response : OK - OK
+2026-07-22 01:05:03.081 SystemStatus : DoingUni2026-07-22 01:05:03.086 Information PostUrlData success response : OK2026-07-22 01:05:03.093 Information StartProcess cat /etc/os-release
+2026-07-22 01:05:03.105 Information StartProcess cat: output=PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+2026-07-22 01:052026-07-22 01:05:03.111 Information StartProcess cat: output=PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+2026-07-22 01:05:03.111 Information StartProcess cat: output=NAME="Debian GNU/Linux"
+2026-07-22 01:05:03.111 Information StartProcess cat: output=VERSION_ID="12"
+2026-07-22 01:05:03.111 Information StartProcess cat: output=VERSION="12 (bookworm)"
+2026-07-22 01:05:03.111 Information StartProcess cat: output=VERSION_CODENAME=bookworm
+2026-07-22 01:05:03.111 Information StartProcess cat: output=ID=debian
+2026-07-22 01:05:03.111 Information StartProcess cat: output=HOME_URL="https://www.debian.org/"
+2026-07-22 01:05:03.111 Information StartProcess cat: output=SUPPORT_URL="https://www.debian.org/support"
+2026-07-22 01:05:03.111 Information StartProcess cat: output=BUG_REPORT_URL="https://bugs.debian.org/"
+2026-07-22 01:05:03.114 Information Found Linux NAME: PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+22026-07-22 01:05:03.118 Information StartProcess uptime: output=up 3 weeks, 4 days, 5 hours, 31 minutes
+2026-07-22 01:05:02026-07-22 01:05:03.125 Information StartProcess uptime: output=up 3 weeks, 4 days, 5 hours, 31 minutes
+2026-07-22 01:05:03.125 Information StartProcess lshw -quiet -class system
+2026-07-22 01:05:03.128 Error System/Processor: Unknown (exception) - An error occurred trying to start process 'lshw' with working directory '/opt/CumulusMX'. No such file or directory
+2026-07-22026-07-22 01:05:03.129 Information StartProcess uname: output=Linux 6.1.0-23-amd64 x86_64
+2026-07-22 01:05:03.130 Informa2026-07-22 01:05:03.131 Informati2026-07-22 01:05:03.160 Information StartProcess lsb_release: output=Distributor ID:	Debian
+2026-07-22 01:05:03.160 Inform2026-07-22 01:05:03.163 Information StartProcess lsb_release: output=Distributor ID:	Debian
+2026-07-22 01:05:03.163 Information StartProcess lsb_release: output=Description:	Debian GNU/Linux 12 (bookworm)
+2026-07-22 01:05:03.163 Information StartProcess lsb_release: output=Release:	12
+2026-07-22 01:05:03.163 Information St2026-07-22 01:05:03.171 Information StartProcess dotnet: output=Microsoft.NETCore.App 8.0.8 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+2026-07-22 01:05:03.172 Information StartProcess free -m
+2026-07-22 01:05:03.175 Information StartProcess free: output=               total        used        free      shared  bu2026-07-22 01:05:03.178 Information StartProcess free: output=               total        used        free      shared  buff/cache   available
+2026-07-22 01:05:03.178 Information StartProcess free: output=Mem:             960         374         348          32         416         585
+2026-07-22 01:05:03.178 Information StartProcess free: ou2026-07-22 01:05:03.180 Information StartProcess df: output=Filesystem     Type  Size  Used Avail Use% Mounted on
+2026-07-2026-07-22 01:05:03.189 Information StartProcess df: output=Filesystem     Type  Size  Used Avail Use% Mounted on
+2026-07-22 01:05:03.189 Information S2026-07-22 01:05:03.217 Information  GenerateStationMap: End
+2026-07-22 01:05:03.217 MeteoCam: Starting
+2026-07-22 01:05:03.225 Information MeteoCam CamType : Manual
+2026-07-22 01:05:2026-07-22 01:05:03.226 MeteoCam:2026-07-22 01:05:03.238 USerReports: Starting
+2026-07-22 01:05:03.240 Information PwsFWIfuncs constructor
+2026-07-22 01:05:03.253 Information  PwsFWIfuncs BeteljuiceFormat = False
+2026-07-22 01:05:03.253 Information  PwsFWIfuncs2026-07-22 01:05:03.261 Information  PwsFWIfuncs BeteljuiceFormat = False
+2026-07-22 01:05:03.261 Information  PwsFWIfuncs USerFireImage = True
+2026-07-22 01:05:03.261 Information  PwsFWIfuncs DoPredi2026-07-22 01:2026-07-22 01:05:03.270 Error Exception Unknown : Access to the path '/opt/CumulusMX/utils/pwsFWIanalyse.csv' is denied.
+2026-07-22 01:05:03.270 Error Data (cont): System.Private.CoreLib
+2026-07-22 01:05:03.370 Error Data:    at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at CumulusUtils.PwsFWI.CalculatePwsFWI(List`1 ThisList)
+   at CumulusUtils.CUtils.RealMainAsync(String[] args)
+   at CumulusUtils.CUtils.Main(String[] args)
+2026-07-22 01:05:03.370 Error Exiting - check log file
+.23; 15.20; 195.72; 0; 151.88
+2026-07-22 01:05:03.266 Information    01/07/2026; 22.1; 11.3; 0.0; 0.59; 26.54; 10.88; 122.56; 1; 121.58
+2026-07-22 01:05:03.266 Information    02/07/2026; 18.3; 11.3; 1.1; 0.55; 20.98; 9.44; 106.37; 0; 131.22
+2026-07-22 01:05:03.266 Information    03/07/2026; 24.9; 9.7; 0.0; 0.46; 31.41; 16.96; 163.79; 1; 108.13
+2026-07-22 01:05:03.266 Information    04/07/2026; 22.4; 8.0; 0.0; 0.66; 27.02; 9.19; 73.93; 2; 88.79
+2026-07-22 01:05:03.266 Information    05/07/2026; 24.9; 6.4; 0.0; 0.62; 31.41; 11.94; 76.84; 3; 90.43
+2026-07-22 01:05:03.266 Information    06/07/2026; 28.4; 9.7; 0.0; 0.41; 38.60; 22.77; 219.90; 4; 135.41
+2026-07-22 01:05:03.266 Information    07/07/2026; 25.9; 8.0; 0.0; 0.41; 33.34; 19.67; 158.26; 5; 143.55
+2026-07-22 01:05:03.266 Information    08/07/2026; 31.0; 4.8; 0.0; 0.36; 44.83; 28.69; 138.52; 6; 172.25
+2026-07-22 01:05:03.266 Information    09/07/2026; 32.1; 6.4; 0.0; 0.36; 47.72; 30.54; 196.60; 7; 179.81
+2026-07-22 01:05:03.266 Information    10/07/2026; 34.3; 4.8; 0.0; 0.33; 53.99; 36.17; 174.64; 8; 200.95
+2026-07-22 01:05:03.266 Information    11/07/2026; 29.5; 4.8; 0.0; 0.44; 41.14; 23.04; 111.22; 9; 208.83
+2026-07-22 01:05:03.266 Information    12/07/2026; 27.9; 6.4; 0.0; 0.36; 37.49; 24.00; 154.46; 10; 196.74
+2026-07-22 01:05:03.266 Information    13/07/2026; 26.3; 4.8; 0.0; 0.49; 34.13; 17.41; 84.05; 11; 182.90
+2026-07-22 01:05:03.266 Information    14/07/2026; 26.4; 4.8; 0.0; 0.50; 34.34; 17.17; 82.89; 12; 172.77
+2026-07-22 01:05:03.266 Information    15/07/2026; 26.2; 3.2; 0.0; 0.42; 33.93; 19.68; 63.35; 13; 147.12
+2026-07-22 01:05:03.266 Information    16/07/2026; 28.0; 3.2; 0.0; 0.36; 37.71; 24.14; 77.68; 14; 128.73
+2026-07-22 01:05:03.266 Information    17/07/2026; 26.4; 6.4; 0.0; 0.41; 34.34; 20.26; 130.41; 15; 133.57
+2026-07-22 01:05:03.266 Information    18/07/2026; 23.0; 4.8; 0.0; 0.50; 28.03; 14.01; 67.65; 16; 117.20
+2026-07-22 01:05:03.267 Information    19/07/2026; 23.1; 4.8; 0.0; 0.38; 28.20; 17.48; 84.40; 17; 118.27
+2026-07-22 01:05:03.267 Information    20/07/2026; 25.3; 4.8; 0.0; 0.35; 32.17; 20.91; 100.96; 18; 122.89
+2026-07-22 01:05:03.267 Information    21/07/2026; 25.0; 6.4; 0.0; 0.53; 31.60; 14.85; 95.61; 19; 130.34
+2026-07-22 01:05:03.274 Information HTMLexportPwsFWI : starting
+2026-07-22 01:05:03.274 Information HTMLexportPwsFWI : starting pwsFWIcurrent
+2026-07-22 01:05:03.276 Information HTMLexportPwsFWI : starting pwsFWI.txt
+2026-07-22 01:05:03.277 Information HTMLexportPwsFWI : Using Standard format
+2026-07-22 01:05:03.277 Information calculatePwsFWI : Deleting empty ANALYSIS csv file
+2026-07-22 01:05:03.281 Information Main CmulusUtils: Yadr Constructor Start
+2026-07-22 01:05:03.282 Generate Yadr Starting
+2026-07-22 01:05:03.296 Information GenerateYadrTempData: Looping over years, doing year 2026
+2026-07-22 01:05:03.351 Information GenerateYadrRainData: Looping over years, doing year 2026
+2026-07-22 01:05:03.394 Information GenerateYadrWindData: Looping over years, doing year 2026
+2026-07-22 01:05:03.426 Information GenerateYadrWindrunData: Looping over years, doing year 2026
+2026-07-22 01:05:03.473 Information GenerateYadrPressionData: Looping over years, doing year 2026
+2026-07-22 01:05:03.490 Information GenerateYadrHumidityData: Looping over years, doing year 2026
+2026-07-22 01:05:03.504 Generate Records Starting
+2026-07-22 01:05:03.515 Information Generate Yearly Records
+2026-07-22 01:05:03.515 Information Generate Records for AllTime
+2026-07-22 01:05:03.537 Information Generate Records for AllTime/month: 1
+2026-07-22 01:05:03.544 Information Generate Records for AllTime/month: 2
+2026-07-22 01:05:03.546 Information Generate Records for AllTime/month: 3
+2026-07-22 01:05:03.551 Information Generate Records for AllTime/month: 4
+2026-07-22 01:05:03.554 Information Generate Records for AllTime/month: 5
+2026-07-22 01:05:03.558 Information Generate Records for AllTime/month: 6
+2026-07-22 01:05:03.561 Information Generate Records for AllTime/month: 7
+2026-07-22 01:05:03.565 Information Generate Records: CUtils.ThriftyRecordsDirty True detected on 21/07/2026 00:00:00
+2026-07-22 01:05:03.565 Information Generate Records for AllTime/month: 8
+2026-07-22 01:05:03.569 Information Generate Records for AllTime/month: 9
+2026-07-22 01:05:03.572 Information Generate Records for AllTime/month: 10
+2026-07-22 01:05:03.575 Information Generate Records for AllTime/month: 11
+2026-07-22 01:05:03.579 Information Generate Records for AllTime/month: 12
+2026-07-22 01:05:03.583 Information Generate Records for 2024
+2026-07-22 01:05:03.586 Information Generate Records for 2024/month: 1
+2026-07-22 01:05:03.589 Information Generate Records for 2024/month: 2
+2026-07-22 01:05:03.616 Information Generate Records for 2024/month: 3
+2026-07-22 01:05:03.619 Information Generate Records for 2024/month: 4
+2026-07-22 01:05:03.622 Information Generate Records for 2024/month: 5
+2026-07-22 01:05:03.625 Information Generate Records for 2024/month: 6
+2026-07-22 01:05:03.628 Information Generate Records for 2024/month: 7
+2026-07-22 01:05:03.633 Information Generate Records for 2024/month: 8
+2026-07-22 01:05:03.637 Information Generate Records for 2024/month: 9
+2026-07-22 01:05:03.640 Information Generate Records for 2024/month: 10
+2026-07-22 01:05:03.644 Information Generate Records for 2024/month: 11
+2026-07-22 01:05:03.648 Information Generate Records for 2024/month: 12
+2026-07-22 01:05:03.652 Information Generate Records for 2025
+2026-07-22 01:05:03.656 Information Generate Records for 2025/month: 1
+2026-07-22 01:05:03.660 Information Generate Records for 2025/month: 2
+2026-07-22 01:05:03.665 Information Generate Records for 2025/month: 3
+2026-07-22 01:05:03.669 Information Generate Records for 2025/month: 4
+2026-07-22 01:05:03.673 Information Generate Records for 2025/month: 5
+2026-07-22 01:05:03.677 Information Generate Records for 2025/month: 6
+2026-07-22 01:05:03.682 Information Generate Records for 2025/month: 7
+2026-07-22 01:05:03.687 Information Generate Records for 2025/month: 8
+2026-07-22 01:05:03.691 Information Generate Records for 2025/month: 9
+2026-07-22 01:05:03.696 Information Generate Records for 2025/month: 10
+2026-07-22 01:05:03.704 Information Generate Records for 2025/month: 11
+2026-07-22 01:05:03.716 Information Generate Records for 2025/month: 12
+2026-07-22 01:05:03.724 Information Generate Records for 2026
+2026-07-22 01:05:03.730 Information Generate Records for 2026/month: 1
+2026-07-22 01:05:03.736 Information Generate Records for 2026/month: 2
+2026-07-22 01:05:03.741 Information Generate Records for 2026/month: 3
+2026-07-22 01:05:03.747 Information Generate Records for 2026/month: 4
+2026-07-22 01:05:03.751 Information Generate Records for 2026/month: 5
+2026-07-22 01:05:03.756 Information Generate Records for 2026/month: 6
+2026-07-22 01:05:03.762 Information Generate Records for 2026/month: 7
+2026-07-22 01:05:03.769 Information Generate Records: CUtils.ThriftyRecordsDirty True detected on 21/07/2026 00:00:00
+2026-07-22 01:05:03.786 Generate HTML table for Records Starting
+2026-07-22 01:05:03.808 Generate DayRecords Starting
+2026-07-22 01:05:03.839 Information Generate DayRecords: CUtils.ThriftyDayRecordsDirty True detected on 21/07/2026 00:00:00.
+2026-07-22 01:05:03.839 Information Generate DayRecords: CUtils.ThriftyDayRecordsDirty True detected on 21/07/2026 00:00:00.
+2026-07-22 01:05:03.839 Information Generate DayRecords: CUtils.ThriftyDayRecordsDirty True detected on 21/07/2026 00:00:00.
+2026-07-22 01:05:03.839 Information Generate DayRecords: CUtils.ThriftyDayRecordsDirty True detected on 21/07/2026 00:00:00.
+2026-07-22 01:05:03.848 Information Generate DayRecords End
+2026-07-22 01:05:03.856 Information  GenerateNOAAparameters: NOAARainNormYearAv 824.0
+2026-07-22 01:05:03.859 Information Graphx: Using Highcharts Boost Module!
+2026-07-22 01:05:03.859 Monthfile constructor: Using fixed path: | data/ |; file: | *log.txt
+2026-07-22 01:05:03.875 CumulusUtils: starting Graphx
+2026-07-22 01:05:03.876 Information Graphs: Starting Rain section
+2026-07-22 01:05:03.881 GenDailyRainGraphData : starting
+2026-07-22 01:05:03.892 GenMonthlyRainvsNOAAGraphData: starting
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormJan -> 63.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormFeb -> 58.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormMar -> 57.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormApr -> 50.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormMay -> 63.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormJun -> 73.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormJul -> 87.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormAug -> 78.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormSep -> 64.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormOct -> 78.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormNov -> 76.0
+2026-07-22 01:05:03.893 Information  Normal values: NOAARainNormDec -> 77.0
+2026-07-22 01:05:03.908 Generate GenerateYearRainStatistics Start
+2026-07-22 01:05:03.909 Information Generating Year Rain Statistics, doing year 2024
+2026-07-22 01:05:03.914 Information Generating Year Rain Statistics, doing year 2025
+2026-07-22 01:05:03.914 Information Generating Year Rain Statistics, doing year 2026
+2026-07-22 01:05:03.931 GenDailyRAINvsEVT: starting
+2026-07-22 01:05:03.937 Information Graphs: Starting Temp section
+2026-07-22 01:05:03.942 GenMonthlyTempvsNOAAGraphData : starting
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormJan -> 3.6
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormFeb -> 4.1
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormMar -> 6.3
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormApr -> 9.2
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormMay -> 12.2
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormJun -> 14.9
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormJul -> 16.8
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormAug -> 16.0
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormSep -> 13.6
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormOct -> 10.4
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormNov -> 6.6
+2026-07-22 01:05:03.944 Information  Normal values: NOAATempNormDec -> 4.5
+2026-07-22 01:05:03.944 Information GenMonthlyTempvsNOAAGraphData : starting loop over DayfileValues
+2026-07-22 01:05:03.955 Information GenMonthlyTempvsNOAAGraphData : starting Generation
+2026-07-22 01:05:03.958 Generate GenerateYearTempStatistics Starting
+2026-07-22 01:05:03.959 Information Generating Year Temp Statistics, doing year 2024
+2026-07-22 01:05:03.960 Information Generating Year Temp Statistics, doing year 2025
+2026-07-22 01:05:03.961 Information Generating Year Temp Statistics, doing year 2026
+2026-07-22 01:05:03.978 GenStackedWarmDaysGraphData : starting
+2026-07-22 01:05:03.983 Generate Heat Map Starting
+2026-07-22 01:05:03.984 Information Generating Heat Map data, doing year 2024
+2026-07-22 01:05:03.985 Information Generating Heat Map data, doing year 2025
+2026-07-22 01:05:03.987 Information Generating Heat Map data, doing year 2026
+2026-07-22 01:05:03.989 Information Graphs : Starting Wind section
+2026-07-22 01:05:03.989 Information Graphs : Starting writing HTML Style and Menu.
+2026-07-22 01:05:03.994 Information Generate WindRose : Starting writing the javascript menu.
+2026-07-22 01:05:03.995 Information Generate Windrun : Starting writing the javascript menu.
+2026-07-22 01:05:03.997 ReadMonthlyLogs: Starting.
+2026-07-22 01:05:04.300 Information ReadMonthlyLogs: reading data/202503log.txt
+2026-07-22 01:05:06.007 Information ReadMonthlyLogs: reading data/202509log.txt
+2026-07-22 01:05:06.276 Information ReadMonthlyLogs: reading data/202603log.txt
+2026-07-22 01:05:07.444 Information ReadMonthlyLogs: reading data/202507log.txt
+2026-07-22 01:05:08.708 Information ReadMonthlyLogs: reading data/202512log.txt
+2026-07-22 01:05:10.113 Information ReadMonthlyLogs: reading data/202410log.txt
+2026-07-22 01:05:10.280 Information ReadMonthlyLogs reading data/202410log.txt: DateTime is less than prev Date: 27/10/2024 01:59:00
+2026-07-22 01:05:10.309 Information ReadMonthlyLogs: reading data/202601log.txt
+2026-07-22 01:05:10.585 Information ReadMonthlyLogs: reading data/202407log.txt
+2026-07-22 01:05:10.715 Information ReadMonthlyLogs reading data/202407log.txt: DateTime is less than prev Date: 21/07/2024 00:01:00
+2026-07-22 01:05:10.758 Information ReadMonthlyLogs: reading data/202607log.txt
+2026-07-22 01:05:10.886 Information ReadMonthlyLogs: reading data/202606log.txt
+2026-07-22 01:05:12.347 Information ReadMonthlyLogs: reading data/202412log.txt
+2026-07-22 01:05:13.307 Information ReadMonthlyLogs: reading data/202511log.txt
+2026-07-22 01:05:13.555 Information ReadMonthlyLogs: reading data/202404log.txt
+2026-07-22 01:05:15.023 Information ReadMonthlyLogs: reading data/202504log.txt
+2026-07-22 01:05:15.825 Information ReadMonthlyLogs: reading data/202510log.txt
+2026-07-22 01:05:15.971 Information ReadMonthlyLogs reading data/202510log.txt: DateTime is less than prev Date: 26/10/2025 01:59:00
+2026-07-22 01:05:16.966 Information ReadMonthlyLogs: reading data/202506log.txt
+2026-07-22 01:05:17.235 Information ReadMonthlyLogs: reading data/202401log.txt
+2026-07-22 01:05:17.373 Information ReadMonthlyLogs: reading data/202602log.txt
+2026-07-22 01:05:17.932 Information ReadMonthlyLogs: reading data/202409log.txt
+2026-07-22 01:05:18.719 Information ReadMonthlyLogs: reading data/202408log.txt
+2026-07-22 01:05:19.577 Information ReadMonthlyLogs: reading data/202505log.txt
+2026-07-22 01:05:20.512 Information ReadMonthlyLogs: reading data/202508log.txt
+2026-07-22 01:05:20.672 Information ReadMonthlyLogs: reading data/202604log.txt
+2026-07-22 01:05:20.828 Information ReadMonthlyLogs: reading data/202605log.txt
+2026-07-22 01:05:21.058 Information ReadMonthlyLogs: reading data/202406log.txt
+2026-07-22 01:05:21.246 Information ReadMonthlyLogs reading data/202406log.txt: DateTime is less than prev Date: 21/06/2024 00:01:00
+2026-07-22 01:05:21.253 Information ReadMonthlyLogs reading data/202406log.txt: DateTime is less than prev Date: 23/06/2024 00:01:00
+2026-07-22 01:05:21.276 Information ReadMonthlyLogs reading data/202406log.txt: DateTime is less than prev Date: 27/06/2024 00:02:00
+2026-07-22 01:05:22.169 Information ReadMonthlyLogs: reading data/202502log.txt
+2026-07-22 01:05:23.023 Information ReadMonthlyLogs: reading data/202411log.txt
+2026-07-22 01:05:23.280 Information ReadMonthlyLogs: reading data/202405log.txt
+2026-07-22 01:05:24.290 Information ReadMonthlyLogs: reading data/202501log.txt
+2026-07-22 01:05:24.575 Information ReadMonthlyLogs: reading data/202402log.txt
+2026-07-22 01:05:24.797 Information ReadMonthlyLogs: reading data/202403log.txt
+2026-07-22 01:05:24.998 Information Monthfile : RecordsBeganDate used: 04/01/2024 00:00:00, Number of entries removed from list: 0
+2026-07-22 01:05:24.998 Information ReadMonthlyLogs: MainMonthList created/fetched: 1316401 records.
+2026-07-22 01:05:24.998 Information ReadMonthlyLogs: End
+2026-07-22 01:05:25.001 GenerateWindRose: Starting
+2026-07-22 01:05:25.029 Information WindRose : Starting writing the javascript data arrays.
+2026-07-22 01:05:25.290 Information WindRose : Starting writing year: 2024
+2026-07-22 01:05:26.931 Information WindRose : Starting writing year: 2025
+2026-07-22 01:05:29.688 Information WindRose : Starting writing year: 2026
+2026-07-22 01:05:35.214 Information WindRose : Starting writing : AllYearsAllMonths
+2026-07-22 01:05:37.442 GenerateWindrunStatistics: Starting
+2026-07-22 01:05:37.970 Information GenerateWindrunStatistics: Starting 0
+2026-07-22 01:05:38.061 Information GenerateWindrunStatistics: Starting 2024
+2026-07-22 01:05:38.064 Information GenerateWindrunStatistics: Starting 2025
+2026-07-22 01:05:38.067 Information GenerateWindrunStatistics: Starting 2026
+2026-07-22 01:05:38.171 Information Graphs : Starting Solar section
+2026-07-22 01:05:38.171 ReadMonthlyLogs: Starting.
+2026-07-22 01:05:38.212 Information Monthfile : RecordsBeganDate used: 04/01/2024 00:00:00, Number of entries removed from list: 0
+2026-07-22 01:05:38.212 Information ReadMonthlyLogs: MainMonthList created/fetched: 1316401 records.
+2026-07-22 01:05:38.212 Information ReadMonthlyLogs: End
+2026-07-22 01:05:38.305 Information Graphs : Starting writing HTML Style and Menu.
+2026-07-22 01:05:38.458 Information Solar Graphs - CreateListsFromMonthlyLogs start
+2026-07-22 01:05:39.272 Information Solar Graphs - CreateListsFromMonthlyLogs DataLogInterval = 1
+2026-07-22 01:05:39.290 Information Solar Graphs - CreateListsFromMonthlyLogs SunThreshold = 0.75
+2026-07-22 01:05:39.510 GenerateYearSolarHoursStatistics: Starting
+2026-07-22 01:05:39.547 Information Generating Year Solar Hours Statistics, doing year 2024
+2026-07-22 01:05:39.673 Information Generating Year Solar Hours Statistics, doing year 2025
+2026-07-22 01:05:39.674 Information Generating Year Solar Hours Statistics, doing year 2026
+2026-07-22 01:05:39.752 Generate GenerateYearSolarEnergyStatistics: Starting
+2026-07-22 01:05:39.753 Information Generating Year Solar Energy Statistics, doing year 2024
+2026-07-22 01:05:39.753 Information Generating Year Solar Energy Statistics, doing year 2025
+2026-07-22 01:05:39.754 Information Generating Year Solar Energy Statistics, doing year 2026
+2026-07-22 01:05:40.059 GenTempSum : starting
+2026-07-22 01:05:40.087 GrowingDegreeDays : starting
+2026-07-22 01:05:40.090 GenDailyEVTGraphData: starting
+2026-07-22 01:05:40.151 GenMonthlyEVTGraphData : starting
+2026-07-22 01:05:40.442 Top10funcs: Initialising Top10 Array
+2026-07-22 01:05:40.639 Top10funcs: Generating Top10 lists
+2026-07-22 01:05:41.319 Information Top10funcs: Starting the HTML Generation
+2026-07-22 01:05:41.340 HTMLexportTop10
+2026-07-22 01:05:41.367 Information HTMLexportTop10 : Ready generating HTML
+2026-07-22 01:05:41.367 Information Top10funcs: Completed, returning from generating the Top10 list
+2026-07-22 01:05:41.384 Generating Website: Starting
+2026-07-22 01:05:41.384 Generating Website: Generating index.html
+2026-07-22 01:05:41.689 Information GetUrlData Start: URL - http://localhost:8998/api/tags/process.json?version&build&ProgramUpTime&NewBuildAvailable&NewBuildNumber&CpuCount&CPUTemp 
+2026-07-22 01:05:42.229 Warning Website Menu generator: No Menu definition found, using standard menu
+2026-07-22 01:05:42.256 Generating Website: Only index.html done because Thrifty active
+2026-07-22 01:05:42.404 Testing PHP upload compression on https://jpickles.com/cutils/upload.php
+2026-07-22 01:05:46.293 Information PHP upload does not support compression
+2026-07-22 01:05:46.293 Information UploadFile: Starting utils/index.html => index.html
+2026-07-22 01:05:46.293 Information Upload File values: localfile: utils/index.html
+2026-07-22 01:05:46.293 Information Upload File values: remotefile: index.html
+2026-07-22 01:05:46.325 Information PHP Upload: starting utils/index.html
+2026-07-22 01:05:46.336 Information Incremental = False; filename = index.html; ext = .html; HoursInGraph = 72
+2026-07-22 01:05:46.489 Information InetPhp: index.html: Response code = 200: OK
+2026-07-22 01:05:46.496 Information InetPhp: index.html: Response text follows:
+Opening text file index.html for replacement
+Writing text file index.html
+Write complete
+2026-07-22 01:05:46.496 Information PHP UploadFile: Success
+2026-07-22 01:05:46.496 Information CheckPackageAndCopy: Uploaded utils/index.html to index.html
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/cumulusutils.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/cumuluscharts.txt not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/CUgauges.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/HighchartsDefaults.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/HighchartsLanguage.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/suncalc.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/CUtween.min.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/CUsteelseries.min.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/CURGraph.rose.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/CURGraph.common.core.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/CUlanguage.js not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.497 Information CheckPackageAndCopy: utils/CUgauges-ss.css not uploaded because of Thrifty condition.
+2026-07-22 01:05:46.748 Information MapsOn: Starting
+2026-07-22 01:05:46.749 Information  MapsOn: Adding Station: Westlands
+2026-07-22 01:05:46.897 Information MapsOn: Before testing DoneToday after parsing: 21/07/2026 10:31:03 
+2026-07-22 01:05:46.898 Information DateIsToday for thisDate: 21/07/2026 10:31:03 | thisDate.DayOfYear: 202 versus Now.DayOfYear: 203)
+2026-07-22 01:05:46.912 Information DateIsToday: thisSpan: 14:34:43.8984493 | thisSpan.TotalDays = 0.6074525283483796
+2026-07-22 01:05:46.912 Information MapsOn: Must NOT send signature, has been done already : 2026-07-21T10:31:03
+2026-07-22 01:05:46.939 Information Fetch Map: Fetching the generated map
+2026-07-22 01:05:46.939 Information GetUrlData Start: URL - https://meteo-wagenborgen.nl/maps.txt 
+2026-07-22 01:05:47.150 Information Main: <!--
+ This file is generated as part of CumulusUti
+2026-07-22 01:05:47.151 Information Uploading = pwsFWI.txt
+2026-07-22 01:05:47.151 Information UploadFile: Starting utils/pwsFWI.txt => pwsFWI.txt
+2026-07-22 01:05:47.151 Information Upload File values: localfile: utils/pwsFWI.txt
+2026-07-22 01:05:47.151 Information Upload File values: remotefile: pwsFWI.txt
+2026-07-22 01:05:47.151 Information PHP Upload: starting utils/pwsFWI.txt
+2026-07-22 01:05:47.160 Information Incremental = False; filename = pwsFWI.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.210 Information InetPhp: pwsFWI.txt: Response code = 200: OK
+2026-07-22 01:05:47.210 Information InetPhp: pwsFWI.txt: Response text follows:
+Opening text file pwsFWI.txt for replacement
+Writing text file pwsFWI.txt
+Write complete
+2026-07-22 01:05:47.210 Information PHP UploadFile: Success
+2026-07-22 01:05:47.210 Information Uploading = pwsFWIcurrent.txt
+2026-07-22 01:05:47.210 Information UploadFile: Starting utils/pwsFWIcurrent.txt => pwsFWIcurrent.txt
+2026-07-22 01:05:47.210 Information Upload File values: localfile: utils/pwsFWIcurrent.txt
+2026-07-22 01:05:47.210 Information Upload File values: remotefile: pwsFWIcurrent.txt
+2026-07-22 01:05:47.210 Information PHP Upload: starting utils/pwsFWIcurrent.txt
+2026-07-22 01:05:47.226 Information Incremental = False; filename = pwsFWIcurrent.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.260 Information InetPhp: pwsFWIcurrent.txt: Response code = 200: OK
+2026-07-22 01:05:47.260 Information InetPhp: pwsFWIcurrent.txt: Response text follows:
+Opening text file pwsFWIcurrent.txt for replacement
+Writing text file pwsFWIcurrent.txt
+Write complete
+2026-07-22 01:05:47.260 Information PHP UploadFile: Success
+2026-07-22 01:05:47.260 Information Thrifty: DoTop10 && (!Thrifty || ThriftyTop10RecordsDirty ) - True | Uploading = top10Table.txt
+2026-07-22 01:05:47.260 Information UploadFile: Starting utils/top10Table.txt => top10Table.txt
+2026-07-22 01:05:47.260 Information Upload File values: localfile: utils/top10Table.txt
+2026-07-22 01:05:47.260 Information Upload File values: remotefile: top10Table.txt
+2026-07-22 01:05:47.260 Information PHP Upload: starting utils/top10Table.txt
+2026-07-22 01:05:47.260 Information Incremental = False; filename = top10Table.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.307 Information InetPhp: top10Table.txt: Response code = 200: OK
+2026-07-22 01:05:47.307 Information InetPhp: top10Table.txt: Response text follows:
+Opening text file top10Table.txt for replacement
+Writing text file top10Table.txt
+Write complete
+2026-07-22 01:05:47.307 Information PHP UploadFile: Success
+2026-07-22 01:05:47.307 Information Thrifty: !Thrifty || ThriftyRainGraphsDirty - True => Uploading = graphsrain.txt
+2026-07-22 01:05:47.307 Information UploadFile: Starting utils/graphsrain.txt => graphsrain.txt
+2026-07-22 01:05:47.307 Information Upload File values: localfile: utils/graphsrain.txt
+2026-07-22 01:05:47.307 Information Upload File values: remotefile: graphsrain.txt
+2026-07-22 01:05:47.307 Information PHP Upload: starting utils/graphsrain.txt
+2026-07-22 01:05:47.367 Information Incremental = False; filename = graphsrain.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.482 Information InetPhp: graphsrain.txt: Response code = 200: OK
+2026-07-22 01:05:47.483 Information InetPhp: graphsrain.txt: Response text follows:
+Opening text file graphsrain.txt for replacement
+Writing text file graphsrain.txt
+Write complete
+2026-07-22 01:05:47.483 Information PHP UploadFile: Success
+2026-07-22 01:05:47.483 Information Thrifty: !Thrifty || ThriftyTempGraphsDirty - True => Uploading = graphstemp.txt
+2026-07-22 01:05:47.483 Information UploadFile: Starting utils/graphstemp.txt => graphstemp.txt
+2026-07-22 01:05:47.483 Information Upload File values: localfile: utils/graphstemp.txt
+2026-07-22 01:05:47.483 Information Upload File values: remotefile: graphstemp.txt
+2026-07-22 01:05:47.483 Information PHP Upload: starting utils/graphstemp.txt
+2026-07-22 01:05:47.494 Information Incremental = False; filename = graphstemp.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.548 Information InetPhp: graphstemp.txt: Response code = 200: OK
+2026-07-22 01:05:47.549 Information InetPhp: graphstemp.txt: Response text follows:
+Opening text file graphstemp.txt for replacement
+Writing text file graphstemp.txt
+Write complete
+2026-07-22 01:05:47.549 Information PHP UploadFile: Success
+2026-07-22 01:05:47.549 Information Thrifty: !Thrifty || ThriftyWindGraphsDirty) - True => Uploading = graphswind.txt
+2026-07-22 01:05:47.549 Information UploadFile: Starting utils/graphswind.txt => graphswind.txt
+2026-07-22 01:05:47.549 Information Upload File values: localfile: utils/graphswind.txt
+2026-07-22 01:05:47.549 Information Upload File values: remotefile: graphswind.txt
+2026-07-22 01:05:47.549 Information PHP Upload: starting utils/graphswind.txt
+2026-07-22 01:05:47.559 Information Incremental = False; filename = graphswind.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.604 Information InetPhp: graphswind.txt: Response code = 200: OK
+2026-07-22 01:05:47.604 Information InetPhp: graphswind.txt: Response text follows:
+Opening text file graphswind.txt for replacement
+Writing text file graphswind.txt
+Write complete
+2026-07-22 01:05:47.604 Information PHP UploadFile: Success
+2026-07-22 01:05:47.605 Information Thrifty: !Thrifty || ThriftySolarGraphsDirty) - True => Uploading = graphssolar.txt
+2026-07-22 01:05:47.605 Information UploadFile: Starting utils/graphssolar.txt => graphssolar.txt
+2026-07-22 01:05:47.605 Information Upload File values: localfile: utils/graphssolar.txt
+2026-07-22 01:05:47.605 Information Upload File values: remotefile: graphssolar.txt
+2026-07-22 01:05:47.605 Information PHP Upload: starting utils/graphssolar.txt
+2026-07-22 01:05:47.605 Information Incremental = False; filename = graphssolar.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.646 Information InetPhp: graphssolar.txt: Response code = 200: OK
+2026-07-22 01:05:47.646 Information InetPhp: graphssolar.txt: Response text follows:
+Opening text file graphssolar.txt for replacement
+Writing text file graphssolar.txt
+Write complete
+2026-07-22 01:05:47.646 Information PHP UploadFile: Success
+2026-07-22 01:05:47.647 Information Thrifty: !Thrifty || ThriftyMiscGraphsDirty - True => Uploading = graphsmisc.txt
+2026-07-22 01:05:47.647 Information UploadFile: Starting utils/graphsmisc.txt => graphsmisc.txt
+2026-07-22 01:05:47.647 Information Upload File values: localfile: utils/graphsmisc.txt
+2026-07-22 01:05:47.647 Information Upload File values: remotefile: graphsmisc.txt
+2026-07-22 01:05:47.647 Information PHP Upload: starting utils/graphsmisc.txt
+2026-07-22 01:05:47.647 Information Incremental = False; filename = graphsmisc.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.695 Information InetPhp: graphsmisc.txt: Response code = 200: OK
+2026-07-22 01:05:47.695 Information InetPhp: graphsmisc.txt: Response text follows:
+Opening text file graphsmisc.txt for replacement
+Writing text file graphsmisc.txt
+Write complete
+2026-07-22 01:05:47.695 Information PHP UploadFile: Success
+2026-07-22 01:05:47.695 Information Uploading = maps.txt
+2026-07-22 01:05:47.695 Information UploadFile: Starting utils/maps.txt => maps.txt
+2026-07-22 01:05:47.695 Information Upload File values: localfile: utils/maps.txt
+2026-07-22 01:05:47.695 Information Upload File values: remotefile: maps.txt
+2026-07-22 01:05:47.695 Information PHP Upload: starting utils/maps.txt
+2026-07-22 01:05:47.695 Information Incremental = False; filename = maps.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.739 Information InetPhp: maps.txt: Response code = 200: OK
+2026-07-22 01:05:47.739 Information InetPhp: maps.txt: Response text follows:
+Opening text file maps.txt for replacement
+Writing text file maps.txt
+Write complete
+2026-07-22 01:05:47.739 Information PHP UploadFile: Success
+2026-07-22 01:05:47.739 Information Thrifty: DoRecords && (!Thrifty || ThriftyRecordsDirty) - True => Uploading = records.txt
+2026-07-22 01:05:47.739 Information UploadFile: Starting utils/records.txt => records.txt
+2026-07-22 01:05:47.739 Information Upload File values: localfile: utils/records.txt
+2026-07-22 01:05:47.739 Information Upload File values: remotefile: records.txt
+2026-07-22 01:05:47.739 Information PHP Upload: starting utils/records.txt
+2026-07-22 01:05:47.756 Information Incremental = False; filename = records.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.831 Information InetPhp: records.txt: Response code = 200: OK
+2026-07-22 01:05:47.832 Information InetPhp: records.txt: Response text follows:
+Opening text file records.txt for replacement
+Writing text file records.txt
+Write complete
+2026-07-22 01:05:47.832 Information PHP UploadFile: Success
+2026-07-22 01:05:47.832 Information Thrifty: DoDayRecords && (!Thrifty || ThriftyDayRecordsDirty) - True => Uploading = dayrecords.txt
+2026-07-22 01:05:47.832 Information UploadFile: Starting utils/dayrecords.txt => dayrecords.txt
+2026-07-22 01:05:47.832 Information Upload File values: localfile: utils/dayrecords.txt
+2026-07-22 01:05:47.832 Information Upload File values: remotefile: dayrecords.txt
+2026-07-22 01:05:47.832 Information PHP Upload: starting utils/dayrecords.txt
+2026-07-22 01:05:47.846 Information Incremental = False; filename = dayrecords.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:47.973 Information InetPhp: dayrecords.txt: Response code = 200: OK
+2026-07-22 01:05:47.973 Information InetPhp: dayrecords.txt: Response text follows:
+Opening text file dayrecords.txt for replacement
+Writing text file dayrecords.txt
+Write complete
+2026-07-22 01:05:47.973 Information PHP UploadFile: Success
+2026-07-22 01:05:47.973 Information UploadFile: Starting utils/forecast.txt => forecast.txt
+2026-07-22 01:05:47.973 Information Upload File values: localfile: utils/forecast.txt
+2026-07-22 01:05:47.973 Information Upload File values: remotefile: forecast.txt
+2026-07-22 01:05:47.973 Information PHP Upload: starting utils/forecast.txt
+2026-07-22 01:05:47.979 Information Incremental = False; filename = forecast.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:48.015 Information InetPhp: forecast.txt: Response code = 200: OK
+2026-07-22 01:05:48.015 Information InetPhp: forecast.txt: Response text follows:
+Opening text file forecast.txt for replacement
+Writing text file forecast.txt
+Write complete
+2026-07-22 01:05:48.015 Information PHP UploadFile: Success
+2026-07-22 01:05:48.015 Information Thrifty: True - YADR - Upload for only current year 2026
+2026-07-22 01:05:48.015 Information UploadFile: Starting utils/YadrHum2026.txt => YadrHum2026.txt
+2026-07-22 01:05:48.015 Information Upload File values: localfile: utils/YadrHum2026.txt
+2026-07-22 01:05:48.015 Information Upload File values: remotefile: YadrHum2026.txt
+2026-07-22 01:05:48.015 Information PHP Upload: starting utils/YadrHum2026.txt
+2026-07-22 01:05:48.035 Information Incremental = False; filename = YadrHum2026.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:48.079 Information InetPhp: YadrHum2026.txt: Response code = 200: OK
+2026-07-22 01:05:48.080 Information InetPhp: YadrHum2026.txt: Response text follows:
+Opening text file YadrHum2026.txt for replacement
+Writing text file YadrHum2026.txt
+Write complete
+2026-07-22 01:05:48.080 Information PHP UploadFile: Success
+2026-07-22 01:05:48.080 Information UploadFile: Starting utils/YadrTemp2026.txt => YadrTemp2026.txt
+2026-07-22 01:05:48.080 Information Upload File values: localfile: utils/YadrTemp2026.txt
+2026-07-22 01:05:48.080 Information Upload File values: remotefile: YadrTemp2026.txt
+2026-07-22 01:05:48.080 Information PHP Upload: starting utils/YadrTemp2026.txt
+2026-07-22 01:05:48.090 Information Incremental = False; filename = YadrTemp2026.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:48.133 Information InetPhp: YadrTemp2026.txt: Response code = 200: OK
+2026-07-22 01:05:48.133 Information InetPhp: YadrTemp2026.txt: Response text follows:
+Opening text file YadrTemp2026.txt for replacement
+Writing text file YadrTemp2026.txt
+Write complete
+2026-07-22 01:05:48.133 Information PHP UploadFile: Success
+2026-07-22 01:05:48.133 Information UploadFile: Starting utils/YadrWind2026.txt => YadrWind2026.txt
+2026-07-22 01:05:48.133 Information Upload File values: localfile: utils/YadrWind2026.txt
+2026-07-22 01:05:48.133 Information Upload File values: remotefile: YadrWind2026.txt
+2026-07-22 01:05:48.133 Information PHP Upload: starting utils/YadrWind2026.txt
+2026-07-22 01:05:48.150 Information Incremental = False; filename = YadrWind2026.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:48.247 Information InetPhp: YadrWind2026.txt: Response code = 200: OK
+2026-07-22 01:05:48.247 Information InetPhp: YadrWind2026.txt: Response text follows:
+Opening text file YadrWind2026.txt for replacement
+Writing text file YadrWind2026.txt
+Write complete
+2026-07-22 01:05:48.247 Information PHP UploadFile: Success
+2026-07-22 01:05:48.247 Information UploadFile: Starting utils/YadrRain2026.txt => YadrRain2026.txt
+2026-07-22 01:05:48.247 Information Upload File values: localfile: utils/YadrRain2026.txt
+2026-07-22 01:05:48.247 Information Upload File values: remotefile: YadrRain2026.txt
+2026-07-22 01:05:48.247 Information PHP Upload: starting utils/YadrRain2026.txt
+2026-07-22 01:05:48.248 Information Incremental = False; filename = YadrRain2026.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:48.289 Information InetPhp: YadrRain2026.txt: Response code = 200: OK
+2026-07-22 01:05:48.289 Information InetPhp: YadrRain2026.txt: Response text follows:
+Opening text file YadrRain2026.txt for replacement
+Writing text file YadrRain2026.txt
+Write complete
+2026-07-22 01:05:48.289 Information PHP UploadFile: Success
+2026-07-22 01:05:48.290 Information UploadFile: Starting utils/YadrPress2026.txt => YadrPress2026.txt
+2026-07-22 01:05:48.290 Information Upload File values: localfile: utils/YadrPress2026.txt
+2026-07-22 01:05:48.290 Information Upload File values: remotefile: YadrPress2026.txt
+2026-07-22 01:05:48.290 Information PHP Upload: starting utils/YadrPress2026.txt
+2026-07-22 01:05:48.291 Information Incremental = False; filename = YadrPress2026.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:48.337 Information InetPhp: YadrPress2026.txt: Response code = 200: OK
+2026-07-22 01:05:48.337 Information InetPhp: YadrPress2026.txt: Response text follows:
+Opening text file YadrPress2026.txt for replacement
+Writing text file YadrPress2026.txt
+Write complete
+2026-07-22 01:05:48.337 Information PHP UploadFile: Success
+2026-07-22 01:05:48.337 Information UploadFile: Starting utils/YadrWindrun2026.txt => YadrWindrun2026.txt
+2026-07-22 01:05:48.337 Information Upload File values: localfile: utils/YadrWindrun2026.txt
+2026-07-22 01:05:48.337 Information Upload File values: remotefile: YadrWindrun2026.txt
+2026-07-22 01:05:48.337 Information PHP Upload: starting utils/YadrWindrun2026.txt
+2026-07-22 01:05:48.338 Information Incremental = False; filename = YadrWindrun2026.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:48.379 Information InetPhp: YadrWindrun2026.txt: Response code = 200: OK
+2026-07-22 01:05:48.379 Information InetPhp: YadrWindrun2026.txt: Response text follows:
+Opening text file YadrWindrun2026.txt for replacement
+Writing text file YadrWindrun2026.txt
+Write complete
+2026-07-22 01:05:48.379 Information PHP UploadFile: Success
+2026-07-22 01:05:48.379 Information UploadFile: Starting utils/systeminfoTable.txt => systeminfoTable.txt
+2026-07-22 01:05:48.379 Information Upload File values: localfile: utils/systeminfoTable.txt
+2026-07-22 01:05:48.379 Information Upload File values: remotefile: systeminfoTable.txt
+2026-07-22 01:05:48.379 Information PHP Upload: starting utils/systeminfoTable.txt
+2026-07-22 01:05:48.391 Information Incremental = False; filename = systeminfoTable.txt; ext = .txt; HoursInGraph = 72
+2026-07-22 01:05:48.423 Information InetPhp: systeminfoTable.txt: Response code = 200: OK
+2026-07-22 01:05:48.423 Information InetPhp: systeminfoTable.txt: Response text follows:
+Opening text file systeminfoTable.txt for replacement
+Writing text file systeminfoTable.txt
+Write complete
+2026-07-22 01:05:48.423 Information PHP UploadFile: Success
+2026-07-22 01:05:48.423 All done, Entering the finally section...; Closing down.
+2026-07-22 01:05:48.423 Disposing Isup...
+2026-07-22 01:05:48.433 Disposing Sup...

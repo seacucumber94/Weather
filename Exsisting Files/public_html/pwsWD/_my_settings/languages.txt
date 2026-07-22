@@ -1,0 +1,47 @@
+#  $scrpt_vrsn_dt  = 'languages.txt|01|2020-12-16';  # release 2012_lts
+#
+#  key  | flag   |locale  |language file   |description setup/menu |countryFlag|wu locale |
+en-uk   |uk.svg  |en-gb   |lang_en.txt     |English (United Kingdom)|          |en-GB|
+#en-au   |aus.svg |en-au   |lang_en.txt     |English (Australia)    |	       |en-GB|
+#en-ca   |us.svg  |en-ca   |lang_en.txt     |English (Canada)       |can.svg    |en-US|
+#en-ie   |ire.svg |en-ie   |lang_en.txt     |English (Ireland)      | 	       |en-GB|
+#en-nz   |nz.svg  |en-nz   |lang_en.txt     |English (New Zealand)  | 	       |en-GB|
+#en-us   |us.svg  |en      |lang_en.txt     |English (United States)|  	       |en-US|
+
+ct-ct   |cat.svg |ca      |lang_ct.txt     |Catalan (Catalonia)    | 	       |ca-ES|
+
+da-dk   |dk.svg  |da      |lang_da.txt     |Danish (Denmark)       |  	       |da-DK|
+
+de-dl   |dl.svg  |de      |lang_de.txt     |German (Germany)       |  	       |de-DE|
+#de-at   |dl.svg  |de-at   |lang_de.txt     |German (Austria)       |at.png     |de-DE|
+#de-ch   |dl.svg  |de-ch   |lang_de.txt     |German (Switzerland)   |ch.svg     |de-DE|
+
+es-es   |sp.svg  |es      |lang_es.txt     |Spanish (Spain)        |  	       |es-ES|
+#es-us   |sp.svg  |es-us   |lang_es.txt     |Spanish (USA)          |us.svg     |es-US|
+
+fr-fr   |fr.svg  |fr      |lang_fr.txt     |French (France)        |  	       |fr-FR|
+#fr-ca   |fr.svg  |fr-ca   |lang_fr.txt     |French (Canada)        |can.svg    |fr-CA|
+#fr-be   |fr.svg  |fr      |lang_fr.txt     |French (Belgium)       |be.svg     |fr-FR|
+
+el-gr   |gr.svg  |el      |lang_gr.txt     |Greece                 |  	       |el-GR|
+       
+it-it   |it.svg  |it      |lang_it.txt     |Italian (Italy)        |           |it-IT|
+
+nl-nl   |nl.svg  |nl      |lang_nl.txt     |Dutch (Netherlands)    |  	       |nl-NL|
+nl-be   |nl.svg  |nl      |lang_nl.txt     |Dutch (Belgium)        |be.svg     |nl-NL|
+
+nn-no   |no.svg  |nn      |lang_no.txt     |Norwegian (Norway)     |  	       |no-NO|
+
+sr-rs   |sr.png  |sr      |lang_sr.txt     |Serbian (Serbia)       |  	       |sr-RS|
+
+pt      |pt.svg  |pt      |lang_pt.txt     |Portugese(Portugal)    |pt.svg     |pt-PT|
+
+pt-br   |br.png  |pt-br   |lang_br.txt     |Portuguese (Brazil)    |br.png     |pt-BR|
+
+pl	|pol.svg |pl      |lang_pl.txt     |Polish (Poland)        |pl.svg     |pl-PL| 
+
+hr      |hr.png |hr      |lang_hr.txt     |Croatian (Croatia)     |hr.png    |hr-HR|
+   
+se      |se.png |hr      |lang_se.txt     |Swedish (Sweden)       |se.png    |hr-HR|
+
+fi      |fi.svg |fi      |lang_fi.txt     |Finnish (Finland)      |fi.png     |fi-FI|

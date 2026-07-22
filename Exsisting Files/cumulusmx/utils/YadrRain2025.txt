@@ -1,0 +1,119 @@
+﻿<!--
+ This file is generated as part of CumulusUtils - 01/01/2026 01:05:03
+ This header must not be removed and the user must comply to the Creative Commons 4.0 license
+ The license conditions imply the non-commercial use of HighCharts for which the user is held responsible
+ © Copyright 2019 - 2026 Hans Rottier <hans.rottier@gmail.com>
+ See also License conditions of CumulusUtils: https://meteo-wagenborgen.nl/
+-->
+
+<h3 style='text-align:center;'>Daily Values Rain (mm)</h3><br/>
+<table class='CUtable'><tbody>
+<tr>
+  <th class='labels'>Day</th>
+  <th class='labels'>Jan</th>
+  <th class='labels'>Feb</th>
+  <th class='labels'>Mar</th>
+  <th class='labels'>Apr</th>
+  <th class='labels'>May</th>
+  <th class='labels'>Jun</th>
+  <th class='labels'>Jul</th>
+  <th class='labels'>Aug</th>
+  <th class='labels'>Sept</th>
+  <th class='labels'>Oct</th>
+  <th class='labels'>Nov</th>
+  <th class='labels'>Dec</th>
+</tr>
+<tr><td class='reportttl'>1</td><td class="levelT" style="color:white;background-color:#cc3300">25.2</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.4</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">4.9</td><td class="levelT" style="background-color:#CCFFFF">1.4</td><td class="levelT" style="background-color:#99FFCC">2.5</td><td class="levelT" style="background-color:#99CC00">10.1</td></tr>
+
+<tr><td class='reportttl'>2</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">4.9</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">4.3</td><td class="levelT" style="background-color:#CCFFFF">2.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.2</td></tr>
+
+<tr><td class='reportttl'>3</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">3.7</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">2.0</td><td class="levelT" style="background-color:#99FF00">10.0</td><td class="levelT" style="background-color:#FF6600">19.2</td><td class="levelT" style="background-color:#CCFFFF">1.8</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>4</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.7</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="levelT" style="background-color:#CCFFFF">0.5</td><td class="levelT" style="background-color:#99FFCC">2.9</td><td class="levelR" style="color:white;background-color: #cc3300">41.4</td><td class="levelT" style="background-color:#99FFCC">2.6</td><td class="levelT" style="background-color:#FF9900">18.0</td><td class="levelT" style="background-color:#CCCC00">13.0</td></tr>
+
+<tr><td class='reportttl'>5</td><td class="levelR" style="color:white;background-color: #cc3300">28.1</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF66">7.8</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">2.9</td><td class="levelT" style="background-color:#99FF66">8.0</td></tr>
+
+<tr><td class='reportttl'>6</td><td class="levelT" style="background-color:#FF9900">17.8</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">2.6</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">5.1</td><td class="levelT" style="background-color:#CCCC00">13.2</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">4.6</td></tr>
+
+<tr><td class='reportttl'>7</td><td class="levelT" style="background-color:#99FF99">4.6</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="levelT" style="background-color:#99FF99">5.1</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF00">9.5</td><td class="levelT" style="background-color:#99FF00">8.9</td><td class="levelT" style="background-color:#CCFFFF">2.0</td><td class="levelT" style="background-color:#99CC00">10.6</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="levelT" style="background-color:#99FF99">4.9</td></tr>
+
+<tr><td class='reportttl'>8</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.5</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="levelT" style="background-color:#CCFFFF">1.5</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.6</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="levelT" style="background-color:#CCFFFF">1.7</td></tr>
+
+<tr><td class='reportttl'>9</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.2</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.7</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">6.0</td><td class="levelR" style="color:white;background-color: #cc3300">29.8</td></tr>
+
+<tr><td class='reportttl'>10</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.6</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.1</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">6.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.9</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>11</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.6</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF00">9.7</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>12</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.9</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.2</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.8</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF00">8.1</td><td class="levelT" style="background-color:#99FF66">6.9</td></tr>
+
+<tr><td class='reportttl'>13</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.6</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF66">6.3</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="levelT" style="background-color:#CCFFFF">1.4</td><td class="levelT" style="background-color:#CCFFFF">0.3</td></tr>
+
+<tr><td class='reportttl'>14</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.2</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.1</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99CC00">10.1</td><td class="reportday">0.0</td><td class="levelR" style="color:white;background-color: #cc3300">28.1</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>15</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">3.8</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">3.5</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">5.2</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.9</td><td class="levelR" style="color:white;background-color: #cc3300">29.3</td></tr>
+
+<tr><td class='reportttl'>16</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.4</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">2.9</td></tr>
+
+<tr><td class='reportttl'>17</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">2.5</td><td class="reportday">0.0</td><td class="levelT" style="color:white;background-color:#FF0000">22.9</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="color:white;background-color:#FF3300">21.8</td></tr>
+
+<tr><td class='reportttl'>18</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.6</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#FF6600">18.4</td><td class="levelT" style="background-color:#FFCC00">14.9</td></tr>
+
+<tr><td class='reportttl'>19</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">2.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.5</td><td class="levelT" style="background-color:#CCFFFF">0.2</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#FF9900">17.8</td><td class="levelT" style="background-color:#99FFCC">2.3</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>20</td><td class="levelT" style="background-color:#CCFFFF">0.6</td><td class="levelT" style="background-color:#CCFFFF">2.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">5.4</td><td class="reportday">0.0</td><td class="levelR" style="color:white;background-color: #cc3300">44.2</td><td class="levelT" style="background-color:#CCFFFF">1.4</td><td class="reportday">0.0</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>21</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.1</td><td class="levelT" style="background-color:#99FF99">4.9</td><td class="levelT" style="background-color:#CCFFFF">2.0</td><td class="levelT" style="background-color:#CCFFFF">0.2</td><td class="levelT" style="background-color:#99FF99">4.1</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">2.0</td><td class="levelT" style="background-color:#CCFFFF">1.5</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">5.2</td></tr>
+
+<tr><td class='reportttl'>22</td><td class="levelT" style="background-color:#CCFFFF">0.5</td><td class="levelT" style="background-color:#CCFFFF">0.8</td><td class="levelT" style="background-color:#99FF99">4.1</td><td class="levelT" style="background-color:#CCFFFF">0.6</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">4.3</td><td class="levelT" style="background-color:#99FFCC">2.5</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">2.3</td><td class="levelT" style="background-color:#99FF66">7.1</td><td class="levelT" style="background-color:#99FFCC">2.3</td></tr>
+
+<tr><td class='reportttl'>23</td><td class="levelT" style="background-color:#99FFCC">2.6</td><td class="levelT" style="background-color:#99FF66">7.8</td><td class="levelT" style="background-color:#99FFCC">3.4</td><td class="levelT" style="background-color:#99CC00">10.9</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99CC00">10.3</td><td class="levelT" style="background-color:#99FF66">6.9</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>24</td><td class="levelT" style="background-color:#99FF99">5.7</td><td class="levelT" style="background-color:#CCFFFF">0.9</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF00">10.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">3.2</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>25</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">6.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.1</td><td class="reportday">0.0</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>26</td><td class="levelT" style="background-color:#99FF00">8.1</td><td class="levelT" style="background-color:#CCFFFF">2.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">3.5</td><td class="levelT" style="background-color:#CCFFFF">0.6</td><td class="levelT" style="background-color:#CCFFFF">1.1</td><td class="levelT" style="background-color:#CCFFFF">0.9</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.7</td><td class="levelT" style="background-color:#CCFFFF">0.3</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>27</td><td class="levelT" style="background-color:#99CC00">10.6</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#FF9900">16.3</td><td class="levelT" style="background-color:#CCFFFF">1.2</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">1.4</td><td class="levelT" style="background-color:#99FFCC">3.4</td><td class="levelT" style="background-color:#99FFCC">4.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>28</td><td class="levelT" style="background-color:#99FFCC">3.1</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#CCFFFF">0.9</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF66">6.6</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">4.9</td><td class="levelT" style="background-color:#99FF99">5.5</td><td class="levelT" style="background-color:#CCFFFF">0.9</td><td class="levelT" style="background-color:#99FF00">9.2</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>29</td><td class="levelT" style="background-color:#99FF99">5.2</td><td class="reportday">---</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF00">8.1</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">4.9</td><td class="levelT" style="background-color:#99FF99">5.2</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF66">7.2</td><td class="levelT" style="color:white;background-color:#FF3300">21.8</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>30</td><td class="levelT" style="background-color:#CCFFFF">0.6</td><td class="reportday">---</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FF99">6.0</td><td class="reportday">0.0</td><td class="levelT" style="background-color:#99FFCC">2.6</td><td class="levelT" style="background-color:#CCFFFF">2.0</td><td class="reportday">0.0</td></tr>
+
+<tr><td class='reportttl'>31</td><td class="levelT" style="background-color:#99FF66">7.2</td><td class="reportday">---</td><td class="reportday">0.0</td><td class="reportday">---</td><td class="reportday">0.0</td><td class="reportday">---</td><td class="levelT" style="background-color:#CCFFFF">1.2</td><td class="reportday">0.0</td><td class="reportday">---</td><td class="levelT" style="background-color:#FF9900">16.1</td><td class="reportday">---</td><td class="reportday">0.0</td></tr>
+
+</tbody></table>
+
+<table class='CUtable'><tbody>
+<tr><td class='separator' colspan='13'>&nbsp;</td></tr>
+<tr>
+<th class='labels' style='width:7%;'>&nbsp;</th>
+  <th class='labels' style='width:6%;'>Jan</th>
+  <th class='labels' style='width:6%;'>Feb</th>
+  <th class='labels' style='width:6%;'>Mar</th>
+  <th class='labels' style='width:6%;'>Apr</th>
+  <th class='labels' style='width:6%;'>May</th>
+  <th class='labels' style='width:6%;'>Jun</th>
+  <th class='labels' style='width:6%;'>Jul</th>
+  <th class='labels' style='width:6%;'>Aug</th>
+  <th class='labels' style='width:6%;'>Sept</th>
+  <th class='labels' style='width:6%;'>Oct</th>
+  <th class='labels' style='width:6%;'>Nov</th>
+  <th class='labels' style='width:6%;'>Dec</th>
+</tr>
+<tr><td class="reportttl">Rain Days</td><td class="reportttl">17.0</td><td class="reportttl">14.0</td><td class="reportttl">8.0</td><td class="reportttl">7.0</td><td class="reportttl">7.0</td><td class="reportttl">15.0</td><td class="reportttl">14.0</td><td class="reportttl">10.0</td><td class="reportttl">17.0</td><td class="reportttl">19.0</td><td class="reportttl">22.0</td><td class="reportttl">16.0</td></tr>
+
+<tr><td class="reportttl">Month Total</td><td class="reportttl">120.8</td><td class="reportttl">24.1</td><td class="reportttl">18.4</td><td class="reportttl">23.0</td><td class="reportttl">52.5</td><td class="reportttl">37.6</td><td class="reportttl">57.4</td><td class="reportttl">27.3</td><td class="reportttl">174.5</td><td class="reportttl">96.2</td><td class="reportttl">149.2</td><td class="reportttl">155.9</td></tr>
+
+<tr><td class="reportttl">Ytd Total</td><td class="reportttl">120.8</td><td class="reportttl">144.9</td><td class="reportttl">163.3</td><td class="reportttl">186.3</td><td class="reportttl">238.8</td><td class="reportttl">276.4</td><td class="reportttl">333.8</td><td class="reportttl">361.1</td><td class="reportttl">535.6</td><td class="reportttl">631.8</td><td class="reportttl">781.0</td><td class="reportttl">936.9</td></tr>
+
+</tbody></table>
+<table class='CUtable'><tbody>
+<tr><td class='separator' colspan='13'>&nbsp;</td></tr>
+<tr><td class='reportttl' colspan='13'>Color Key</td></tr>
+<tr><td class="levelT" style="background-color:#CCFFFF">&lt;&nbsp;2</td><td class="levelT" style="background-color:#99FFCC">2 - 4</td><td class="levelT" style="background-color:#99FF99">4 - 6</td><td class="levelT" style="background-color:#99FF66">6 - 8</td><td class="levelT" style="background-color:#99FF00">8 - 10</td><td class="levelT" style="background-color:#99CC00">10 - 12</td><td class="levelT" style="background-color:#CCCC00">12 - 14</td><td class="levelT" style="background-color:#FFCC00">14 - 16</td><td class="levelT" style="background-color:#FF9900">16 - 18</td><td class="levelT" style="background-color:#FF6600">18 - 20</td><td class="levelT" style="color:white;background-color:#FF3300">20 - 22</td><td class="levelT" style="color:white;background-color:#FF0000">22 - 24</td><td class="levelT" style="color:white;background-color:#cc3300">24&gt;</td></tr>
+</tbody></table>
+<br/>

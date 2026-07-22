@@ -1,0 +1,566 @@
+<!--
+ This file is generated as part of CumulusUtils - 22-07-2026 16:45:04
+ This header must not be removed and the user must comply to the GNU General Public License
+ See also License conditions of CumulusUtils at https://meteo-wagenborgen.nl/
+-->
+
+<style>
+.cuMapCircle {cursor: grab;}
+#CumulusUtils {height: 750px; width: 100%;}
+</style>
+<link rel='stylesheet' href='https://unpkg.com/leaflet@1.5.1/dist/leaflet.css' integrity='sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==' crossorigin='' />
+<script src='https://unpkg.com/leaflet@1.5.1/dist/leaflet.js' integrity='sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==' crossorigin=''></script>
+
+<script>
+$(function(){ CreateThisMap() });
+function CreateThisMap() {
+  var CumulusStations = L.map('CumulusUtils').setView([0, 0], 2);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(CumulusStations);
+  var marker = L.marker([37.685555, -77.76778]).addTo(CumulusStations);
+  marker.bindPopup("<b>Fox Downs</b><br/>Fox Downs Home in Oilville, Virginia, USA<br/>Lat: 37,685555 / Lon: -77,76778<br/><a href='https://webserver.tail064ed8.ts.net/' target='_blank'>Website</a><br/>Last alive (UTC): 20-07-2026 04:10 / CUversion: 8.2.0 .NET 8");
+  var circle = L.circle([37.6856, -77.7678], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([43.31139, -2.0141666]).addTo(CumulusStations);
+  marker.bindPopup("<b>San Sebastian</b><br/><br/>Lat: 43,31139 / Lon: -2,0141666<br/>Website: No link supplied<br/>Last alive (UTC): 20-07-2026 22:10 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([43.3114, -2.0142], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([42.880554, -4.560278]).addTo(CumulusStations);
+  marker.bindPopup("<b>Ventanilla</b><br/>Estación Meteorológica ECOWITT WS2910<br/>Lat: 42,880554 / Lon: -4,560278<br/><a href='https://ventanilla.edudele.com/utils/index.html' target='_blank'>Website</a><br/>Last alive (UTC): 20-07-2026 22:00 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([42.8806, -4.5603], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([47.911667, 7.3555555]).addTo(CumulusStations);
+  marker.bindPopup("<b>Meyenheim VP2</b><br/><br/>Lat: 47,911667 / Lon: 7,3555555<br/><a href='http:///www/davis/utils/index.html' target='_blank'>Website</a><br/>Last alive (UTC): 20-07-2026 22:00 / CUversion: -");
+  var circle = L.circle([47.9117, 7.3556], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([41.445, 2.2430556]).addTo(CumulusStations);
+  marker.bindPopup("<b>Badalona-Progres</b><br/>Badalona-España<br/>Lat: 41,445 / Lon: 2,2430556<br/><a href='https://www.badameteo.com/CumulusMX/FWI/' target='_blank'>Website</a><br/>Last alive (UTC): 20-07-2026 22:11 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([41.4450, 2.2431], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([52.440277, 4.821111]).addTo(CumulusStations);
+  marker.bindPopup("<b>Weerhaas</b><br/>Weerstation Weerhaas, Zaandam<br/>Lat: 52,440277 / Lon: 4,821111<br/><a href='http://weerhaas.nl/cumulusmx_wll/index_4me.html' target='_blank'>Website</a><br/>Last alive (UTC): 20-07-2026 22:19 / CUversion: -");
+  var circle = L.circle([52.4403, 4.8211], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([54.16, -3.1227777]).addTo(CumulusStations);
+  marker.bindPopup("<b>Great Urswick</b><br/>The Great Urswick Weather Station<br/>Lat: 54,16 / Lon: -3,1227777<br/>Website: No link supplied<br/>Last alive (UTC): 20-07-2026 23:25 / CUversion: -");
+  var circle = L.circle([54.1600, -3.1228], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([-31.810556, 115.80389]).addTo(CumulusStations);
+  marker.bindPopup("<b>Kingsley Weather</b><br/>Perth Western Australia<br/>Lat: -31,810556 / Lon: 115,80389<br/><a href='https://maxfieldg.com/weather' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 01:00 / CUversion: 8.1.1 ");
+  var circle = L.circle([-31.8106, 115.8039], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([37.935276, -1.1980555]).addTo(CumulusStations);
+  marker.bindPopup("<b>MeteoSangonera</b><br/>www.meteosangonera.es<br/>Lat: 37,935276 / Lon: -1,1980555<br/>Website: No link supplied<br/>Last alive (UTC): 21-07-2026 10:16 / CUversion: 8.2.2 .NET 10");
+  var circle = L.circle([37.9353, -1.1981], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([36.426388, -82.62028]).addTo(CumulusStations);
+  marker.bindPopup("<b>SGU Fall Branch</b><br/>Fall Branch, TN<br/>Lat: 36,426388 / Lon: -82,62028<br/>Website: No link supplied<br/>Last alive (UTC): 21-07-2026 12:31 / CUversion: 7.3.2 ");
+  var circle = L.circle([36.4264, -82.6203], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([-32.119167, 116.07389]).addTo(CumulusStations);
+  marker.bindPopup("<b>Roleystone</b><br/>Weather  Roleystone  Western  Australia<br/>Lat: -32,119167 / Lon: 116,07389<br/><a href='https://nossis.com.au/weather' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 14:50 / CUversion: 8.1.1 ");
+  var circle = L.circle([-32.1192, 116.0739], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([-35.071667, 138.86055]).addTo(CumulusStations);
+  marker.bindPopup("<b>Mount Barker</b><br/>Weather  Mount Barker  South Australia<br/>Lat: -35,071667 / Lon: 138,86055<br/><a href='https://windyweather.com.au/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 15:45 / CUversion: 8.1.1 ");
+  var circle = L.circle([-35.0717, 138.8605], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([50.734444, -1.8380556]).addTo(CumulusStations);
+  marker.bindPopup("<b>Bournemouth</b><br/>Springbourne, Bournemouth<br/>Lat: 50,734444 / Lon: -1,8380556<br/>Website: No link supplied<br/>Last alive (UTC): 21-07-2026 16:35 / CUversion: 8.1.2 ");
+  var circle = L.circle([50.7344, -1.8381], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([49.50054, 13.582334]).addTo(CumulusStations);
+  marker.bindPopup("<b>Klášter</b><br/>Plzeňský kraj, Czech Republic<br/>Lat: 49,50054 / Lon: 13,582334<br/><a href='https://meteo.micjon.cz/cutils' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 16:30 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([49.5005, 13.5823], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([50.11, 18.4725]).addTo(CumulusStations);
+  marker.bindPopup("<b>Stacja meteo Rybnik - Jejkowice</b><br/>Rybnik - Jejkowice<br/>Lat: 50,11 / Lon: 18,4725<br/><a href='https://www.pogodarybnik.pl' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 16:52 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([50.1100, 18.4725], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([48.705555, 9.431666]).addTo(CumulusStations);
+  marker.bindPopup("<b>WebCam Plochingen - by panki</b><br/>Plochingen Wetterstation (OT) Lettenäcker ; Modell: froggit gw1101<br/>Lat: 48,705555 / Lon: 9,431666<br/><a href='https://cmx.panki.de/CUtils/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 18:10 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([48.7056, 9.4317], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([51.036667, 4.5125]).addTo(CumulusStations);
+  marker.bindPopup("<b>Sint-Katelijne-Waver  Station Veronique</b><br/>Davis Vantage Pro Plus 2, ISS, WLL, 24h Fan Radiation Shield, Sonic Anemometer, Soil-Leaf and Air Quality<br/>Lat: 51,036667 / Lon: 4,5125<br/><a href='https://www.sint-katelijne-waver-meteo.be/Cutils' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 18:51 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([51.0367, 4.5125], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([41.601665, -81.465]).addTo(CumulusStations);
+  marker.bindPopup("<b>wickliffe</b><br/><br/>Lat: 41,601665 / Lon: -81,465<br/><a href='https://cuutils.wickliffeweather.com' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 19:59 / CUversion: 8.2.0 beta4 .NET 10");
+  var circle = L.circle([41.6017, -81.4650], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([50.705555, 3.2616668]).addTo(CumulusStations);
+  marker.bindPopup("<b>Station Estaimpuis</b><br/>null<br/>Lat: 50,705555 / Lon: 3,2616668<br/><a href='https://meteo-estaimpuis.be/utils' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 19:51 / CUversion: 8.1.2 ");
+  var circle = L.circle([50.7056, 3.2617], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([50.91, -3.15]).addTo(CumulusStations);
+  marker.bindPopup("<b>Munty Weather</b><br/>Davis VP2 with daytime aspiration<br/>Lat: 50,91 / Lon: -3,15<br/><a href='https://MuntyWeather.org' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 20:30 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([50.9100, -3.1500], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([47.53417, -53.208057]).addTo(CumulusStations);
+  marker.bindPopup("<b>Brigus</b><br/>Live Weather Data<br/>Lat: 47,53417 / Lon: -53,208057<br/>Website: No link supplied<br/>Last alive (UTC): 21-07-2026 20:30 / CUversion: 7.1.1 ");
+  var circle = L.circle([47.5342, -53.2081], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([49.19528, -2.0338888]).addTo(CumulusStations);
+  marker.bindPopup("<b>L'Alouette Gorey Weather</b><br/>Gorey Jersey<br/>Lat: 49,19528 / Lon: -2,0338888<br/><a href='https://lalouettegoreyweather.uk/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 21:30 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([49.1953, -2.0339], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([31.697779, -94.523056]).addTo(CumulusStations);
+  marker.bindPopup("<b>Waffelow Creek</b><br/>Nacogdoches County Texas<br/>Lat: 31,697779 / Lon: -94,523056<br/><a href='https://weather.ejmj.net/fwi.php' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:30 / CUversion: 7.4.4 ");
+  var circle = L.circle([31.6978, -94.5231], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([55.3725, 10.473056]).addTo(CumulusStations);
+  marker.bindPopup("<b>Odense</b><br/>Tornbjerg, Odense, Danmark<br/>Lat: 55,3725 / Lon: 10,473056<br/>Website: No link supplied<br/>Last alive (UTC): 21-07-2026 22:00 / CUversion: 8.2.3 .NET 10");
+  var circle = L.circle([55.3725, 10.4731], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([42.135, -0.46888888]).addTo(CumulusStations);
+  marker.bindPopup("<b>Huesca-Banariés</b><br/>Barrio de Banariés<br/>Lat: 42,135 / Lon: -0,46888888<br/><a href='http://eb2ra.ure.es/wx/cumulusutils/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:05 / CUversion: 7.4.5 ");
+  var circle = L.circle([42.1350, -0.4689], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([40.584167, -3.2502778]).addTo(CumulusStations);
+  marker.bindPopup("<b>Alovera Las Suertes</b><br/>Sainlogic ws3500<br/>Lat: 40,584167 / Lon: -3,2502778<br/><a href='https://estacion.indicaprichos.com/utils/index.html' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:00 / CUversion: 8.1.2 ");
+  var circle = L.circle([40.5842, -3.2503], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([37.943054, -0.73305553]).addTo(CumulusStations);
+  marker.bindPopup("<b>Andalus</b><br/>Vejrstation Al Andalus<br/>Lat: 37,943054 / Lon: -0,73305553<br/><a href='https://www.mingjen.net/spanien/utils' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:00 / CUversion: 8.2.3 .NET 10");
+  var circle = L.circle([37.9431, -0.7331], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([47.91139, 7.355278]).addTo(CumulusStations);
+  marker.bindPopup("<b>Schachenfeld</b><br/>Meyenheim, Alsace, France<br/>Lat: 47,91139 / Lon: 7,355278<br/><a href='https://laurentmey.fr/meteo/utils/index.html' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:00 / CUversion: -");
+  var circle = L.circle([47.9114, 7.3553], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([49.266666, 7.016667]).addTo(CumulusStations);
+  marker.bindPopup("<b>GW1000-HP2553-PWS-MESHKA</b><br/>GW1000-HP2553 PWS MESHKA Saarbruecken-Dudweiler<br/>Lat: 49,266666 / Lon: 7,016667<br/><a href='http://meshka.eu/CUtils48' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:00 / CUversion: -");
+  var circle = L.circle([49.2667, 7.0167], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([51.900555, 10.324166]).addTo(CumulusStations);
+  marker.bindPopup("<b>Wolfshagen</b><br/>Hokos Wetterstation<br/>Lat: 51,900555 / Lon: 10,324166<br/><a href='https://wetter.hokodata.com' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:00 / CUversion: 7.4.5 ");
+  var circle = L.circle([51.9006, 10.3242], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([46.0725, 13.733889]).addTo(CumulusStations);
+  marker.bindPopup("<b>VP Okroglo</b><br/>Vremenska postaja Okroglo - Kal nad Kanalom<br/>Lat: 46,0725 / Lon: 13,733889<br/>Website: No link supplied<br/>Last alive (UTC): 21-07-2026 22:30 / CUversion: -");
+  var circle = L.circle([46.0725, 13.7339], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([53.368057, 6.773889]).addTo(CumulusStations);
+  marker.bindPopup("<b>Weerstation t Zandt E</b><br/>Weerstation op t Zandt E<br/>Lat: 53,368057 / Lon: 6,773889<br/><a href='https://weerstationtzandt.nl/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:30 / CUversion: 8.2.3 .NET 10");
+  var circle = L.circle([53.3681, 6.7739], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([49.266666, 7.016667]).addTo(CumulusStations);
+  marker.bindPopup("<b>GW2001 Wittboy PWS MESHKA Saarbrücken Dudweiler</b><br/>GW2001-Wittboy PWS MESHKA Saarbrücken-Dudweiler<br/>Lat: 49,266666 / Lon: 7,016667<br/><a href='http://meshka.eu/CUtils' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:03 / CUversion: -");
+  var circle = L.circle([49.2667, 7.0167], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([38.5575, -6.0680556]).addTo(CumulusStations);
+  marker.bindPopup("<b>Hornachos</b><br/>Ecowitt GW1100<br/>Lat: 38,5575 / Lon: -6,0680556<br/><a href='https://estacionmeteo.daviddca.com/utils/index.html' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:00 / CUversion: 7.3.2 ");
+  var circle = L.circle([38.5575, -6.0681], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([51.315556, 4.823889]).addTo(CumulusStations);
+  marker.bindPopup("<b>Beerse</b><br/>Beerse, Belgium<br/>Lat: 51,315556 / Lon: 4,823889<br/><a href='https://cutils.weerstationkempen.be/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 22:20 / CUversion: 8.2.0 beta .NET 10");
+  var circle = L.circle([51.3156, 4.8239], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([52.119167, 9.551389]).addTo(CumulusStations);
+  marker.bindPopup("<b>Coppenbrügge</b><br/>Ecowitt WS90 (Wittboy)<br/>Lat: 52,119167 / Lon: 9,551389<br/><a href='https://cclima.de/cmx/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 23:11 / CUversion: 8.2.1 .NET 10");
+  var circle = L.circle([52.1192, 9.5514], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([40.47278, -3.6880555]).addTo(CumulusStations);
+  marker.bindPopup("<b>Madrid Capital (zona Cuatro Torres)</b><br/>Madrid, Spain<br/>Lat: 40,47278 / Lon: -3,6880555<br/><a href='https://cuatrotorres.ddns.net' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 23:06 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([40.4728, -3.6881], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([53.259167, 6.931389]).addTo(CumulusStations);
+  marker.bindPopup("<b>CMX Wagenborgen beta</b><br/>Beta test<br/>Lat: 53,259167 / Lon: 6,931389<br/><a href='https://meteo-wagenborgen.nl/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 23:10 / CUversion: 8.3.1 .NET 10");
+  var circle = L.circle([53.2592, 6.9314], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([42.765, -4.6830554]).addTo(CumulusStations);
+  marker.bindPopup("<b>Respenda de la Peña</b><br/>Sainlogic WS3500<br/>Lat: 42,765 / Lon: -4,6830554<br/><a href='https://estacion.edudele.com/utils/index.html' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 23:00 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([42.7650, -4.6831], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([-34.195557, 150.785]).addTo(CumulusStations);
+  marker.bindPopup("<b>Appin Village Weather Station</b><br/>Appin Village Weather Station<br/>Lat: -34,195557 / Lon: 150,785<br/><a href='https://appinweather.au/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 23:10 / CUversion: 7.4.3 ");
+  var circle = L.circle([-34.1956, 150.7850], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([51.328056, 12.315556]).addTo(CumulusStations);
+  marker.bindPopup("<b>pWS_Sun_Dancer</b><br/>private Weatherstation<br/>Lat: 51,328056 / Lon: 12,315556<br/><a href='https://sundancer.bplaced.net/cumulusmx/' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 23:50 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([51.3281, 12.3156], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([57.662777, -4.3377776]).addTo(CumulusStations);
+  marker.bindPopup("<b>Evanton</b><br/>null<br/>Lat: 57,662777 / Lon: -4,3377776<br/>Website: No link supplied<br/>Last alive (UTC): 22-07-2026 00:05 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([57.6628, -4.3378], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([55.050556, -1.7416667]).addTo(CumulusStations);
+  marker.bindPopup("<b>Ponteland</b><br/>Stella and Paul welcome you to our weather station readings here at Ponteland, Northumberland<br/>Lat: 55,050556 / Lon: -1,7416667<br/><a href='https://pcmwx.com' target='_blank'>Website</a><br/>Last alive (UTC): 21-07-2026 23:57 / CUversion: -");
+  var circle = L.circle([55.0506, -1.7417], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([60.699165, 6.8441668]).addTo(CumulusStations);
+  marker.bindPopup("<b>Rjoanddalen</b><br/>Mjølfjell, Voss<br/>Lat: 60,699165 / Lon: 6,8441668<br/><a href='https://rjoand.utnet.no/utils' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 00:22 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([60.6992, 6.8442], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([-33.6225, 115.083885]).addTo(CumulusStations);
+  marker.bindPopup("<b>Red Robin Retreat</b><br/>Dunsborough, Western Australia<br/>Lat: -33,6225 / Lon: 115,083885<br/><a href='http://redrobin.duckdns.org/index.htm' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 01:00 / CUversion: 7.4.0 ");
+  var circle = L.circle([-33.6225, 115.0839], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([-32.09667, 115.85306]).addTo(CumulusStations);
+  marker.bindPopup("<b>Jandakot</b><br/>Jandakot, Western Australia<br/>Lat: -32,09667 / Lon: 115,85306<br/><a href='http://jandakotwa.duckdns.org/index.htm' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 01:00 / CUversion: 7.4.0 ");
+  var circle = L.circle([-32.0967, 115.8531], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([48.932777, 9.350555]).addTo(CumulusStations);
+  marker.bindPopup("<b>Burgstallwetter</b><br/>Wetterstation Burgstetten<br/>Lat: 48,932777 / Lon: 9,350555<br/><a href='https://burgstallcumu.4lima.de/' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 02:01 / CUversion: 8.2.1 .NET 10");
+  var circle = L.circle([48.9328, 9.3506], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([51.271667, 6.552778]).addTo(CumulusStations);
+  marker.bindPopup("<b>Wetterstation Willich</b><br/>Wetterstation Willich<br/>Lat: 51,271667 / Lon: 6,552778<br/><a href='https://wetter-willich.de/wetter/cumulusmx/CUtils/index.html' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 02:29 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([51.2717, 6.5528], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([48.58389, 16.06889]).addTo(CumulusStations);
+  marker.bindPopup("<b>PWS-Suttenbrunn-Wittboy</b><br/>PWS Suttenbrunn Ecowitt Wittboy/GW2000/WS90 operated by Leo.Semmelmayer since 2022-06-25.<br/>Lat: 48,58389 / Lon: 16,06889<br/><a href='http://leonas.ddns.net/Wetterstation.Suttenbrunn.CumulusMX/' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 03:05 / CUversion: 7.4.1 ");
+  var circle = L.circle([48.5839, 16.0689], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([52.716667, 23.561666]).addTo(CumulusStations);
+  marker.bindPopup("<b>GW3000-Akra</b><br/>null<br/>Lat: 52,716667 / Lon: 23,561666<br/>Website: No link supplied<br/>Last alive (UTC): 22-07-2026 04:00 / CUversion: 8.1.2 ");
+  var circle = L.circle([52.7167, 23.5617], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([48.86, 20.945278]).addTo(CumulusStations);
+  marker.bindPopup("<b>Gelnica</b><br/>GoGEN - Sportova 1834/41<br/>Lat: 48,86 / Lon: 20,945278<br/><a href='http://hudak.wz.sk/pws' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 04:00 / CUversion: 7.4.5 ");
+  var circle = L.circle([48.8600, 20.9453], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([50.886665, 10.011389]).addTo(CumulusStations);
+  marker.bindPopup("<b>Private Wetterstation (RPi)</b><br/>Wetterstation<br/>Lat: 50,886665 / Lon: 10,011389<br/>Website: No link supplied<br/>Last alive (UTC): 22-07-2026 05:31 / CUversion: 8.1.2 ");
+  var circle = L.circle([50.8867, 10.0114], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([53.259167, 6.931389]).addTo(CumulusStations);
+  marker.bindPopup("<b>De Wilgen - Wagenborgen (NL)</b><br/>Weerstation De Wilgen te Wagenborgen (Groningen)<br/>Lat: 53,259167 / Lon: 6,931389<br/><a href='https://meteo-wagenborgen.nl/' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 06:01 / CUversion: 8.3.1 .NET 10");
+  var circle = L.circle([53.2592, 6.9314], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([60.371666, 5.3427777]).addTo(CumulusStations);
+  marker.bindPopup("<b>Kronstad</b><br/>Kronstad, Bergen<br/>Lat: 60,371666 / Lon: 5,3427777<br/><a href='https://kronstad.utnet.no/utils' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 06:07 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([60.3717, 5.3428], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([38.286667, -120.284164]).addTo(CumulusStations);
+  marker.bindPopup("<b>Big Trees</b><br/>Big Trees Village in Dorrington, CA<br/>Lat: 38,286667 / Lon: -120,284164<br/><a href='https://www.bigtreeshome.com/cumulusmx/cumulusutils/index.html' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 07:15 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([38.2867, -120.2842], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([44.59667, -123.34417]).addTo(CumulusStations);
+  marker.bindPopup("<b>Kyle and his old lady's weather station</b><br/>The weather at the center of the universe<br/>Lat: 44,59667 / Lon: -123,34417<br/>Website: No link supplied<br/>Last alive (UTC): 22-07-2026 07:05 / CUversion: 8.2.1 .NET 8");
+  var circle = L.circle([44.5967, -123.3442], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([44.807777, -68.91417]).addTo(CumulusStations);
+  marker.bindPopup("<b>NØBGS Hermon, Maine</b><br/>NØBGS Near Real-Time Weather<br/>Lat: 44,807777 / Lon: -68,91417<br/><a href='https://www.kpw3.com/CUtils/' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 08:01 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([44.8078, -68.9142], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([51.82528, -4.949167]).addTo(CumulusStations);
+  marker.bindPopup("<b>Crundale, Pembrokeshire</b><br/>Crundale, Pembrokeshire<br/>Lat: 51,82528 / Lon: -4,949167<br/>Website: No link supplied<br/>Last alive (UTC): 22-07-2026 08:30 / CUversion: 7.4.3 ");
+  var circle = L.circle([51.8253, -4.9492], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([58.281387, 12.318055]).addTo(CumulusStations);
+  marker.bindPopup("<b>Sandhem/Trollhättan</b><br/>Sandhem/Trollhättan, Västra Götaland Sweden<br/>Lat: 58,281387 / Lon: 12,318055<br/><a href='https://rogerthn.se/cumulusutils' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 08:01 / CUversion: 7.4.5 ");
+  var circle = L.circle([58.2814, 12.3181], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([54.935, -2.7344444]).addTo(CumulusStations);
+  marker.bindPopup("<b>Brampton, Cumbria -</b><br/>Brampton Climatological Weather Station<br/>Lat: 54,935 / Lon: -2,7344444<br/><a href='https://www.bramptonweather.co.uk/utils' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 09:01 / CUversion: -");
+  var circle = L.circle([54.9350, -2.7344], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([53.00528, -2.24]).addTo(CumulusStations);
+  marker.bindPopup("<b>Westlands</b><br/>Westlands PWM<br/>Lat: 53,00528 / Lon: -2,24<br/><a href='https:////www.jpickles.com/cutils/' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 09:41 / CUversion: 7.1.1 ");
+  var circle = L.circle([53.0053, -2.2400], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([49.055557, 13.991667]).addTo(CumulusStations);
+  marker.bindPopup("<b>Husinec, okr. Prachatice</b><br/>CumulusUtils<br/>Lat: 49,055557 / Lon: 13,991667<br/><a href='https://pocasi-husinec.mzidek.net/' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 10:11 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([49.0556, 13.9917], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([55.685555, -4.5091667]).addTo(CumulusStations);
+  marker.bindPopup("<b>Stewarton Station</b><br/>An enthusiast operated weather station situated in the north east of Stewarton in Ayrshire.<br/>Lat: 55,685555 / Lon: -4,5091667<br/><a href='https://stewartonweather.com/' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 10:30 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([55.6856, -4.5092], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([43.293056, 24.071667]).addTo(CumulusStations);
+  marker.bindPopup("<b>MM-RB-CumulusMX</b><br/>null<br/>Lat: 43,293056 / Lon: 24,071667<br/>Website: No link supplied<br/>Last alive (UTC): 22-07-2026 12:51 / CUversion: 7.4.5 ");
+  var circle = L.circle([43.2931, 24.0717], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([42.96, -81.43806]).addTo(CumulusStations);
+  marker.bindPopup("<b>KomokaWeather  - Komoka, ON  Canada</b><br/><br/>Lat: 42,96 / Lon: -81,43806<br/><a href='http://www.komokaweather.com/cumulusmx/index.html' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 14:10 / CUversion: 8.3.0 .NET 10");
+  var circle = L.circle([42.9600, -81.4381], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([40.688057, 22.860277]).addTo(CumulusStations);
+  marker.bindPopup("<b>Thessaloniki / Diavata</b><br/>null<br/>Lat: 40,688057 / Lon: 22,860277<br/>Website: No link supplied<br/>Last alive (UTC): 22-07-2026 14:21 / CUversion: 8.1.2 ");
+  var circle = L.circle([40.6881, 22.8603], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([-37.823055, 145.29639]).addTo(CumulusStations);
+  marker.bindPopup("<b>Bayswater North</b><br/>The GKTnet.com Weather pages, showing weather conditions in Bayswater North, Victoria, Australia<br/>Lat: -37,823055 / Lon: 145,29639<br/>Website: No link supplied<br/>Last alive (UTC): 22-07-2026 14:03 / CUversion: -");
+  var circle = L.circle([-37.8231, 145.2964], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+  var marker = L.marker([-29.773056, 151.12056]).addTo(CumulusStations);
+  marker.bindPopup("<b>Phil's Backyard</b><br/>Phil's Weather Station, located in Inverell NSW<br/>Lat: -29,773056 / Lon: 151,12056<br/><a href='http://weather.inverellit.com/cu/' target='_blank'>Website</a><br/>Last alive (UTC): 22-07-2026 14:09 / CUversion: -");
+  var circle = L.circle([-29.7731, 151.1206], {
+     color: 'lightgrey', weight:2,
+     fillColor: 'whitesmoke',
+     fillOpacity: 0.3,
+     className: 'cuMapCircle',
+     radius: 25000}).addTo(CumulusStations);
+}
+</script>
+<div id="CumulusUtils"></div>
+<br/><div style ='margin-left:auto; margin-right:auto; text-align:center; font-size: 12px;'><a href='https://cumulus.hosiene.co.uk/viewtopic.php?f=44&t=17998' target='_blank'>CumulusUtils</a> Version 8.3.1 .NET 10 - generated at 22-07-2026 16:45 - &copy; GNU GPL v3 </div>

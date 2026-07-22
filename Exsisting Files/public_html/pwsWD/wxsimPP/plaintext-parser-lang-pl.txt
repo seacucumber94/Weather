@@ -1,0 +1,443 @@
+# Language file for plaintext-parser.php program
+# Thunder
+langlookup|Thunderstorm probability|Prawdopodobieństwo burzy|
+lang|probability|prawdopodobieñstwo|
+lang|Except for higher amounts of precipitation within thunderstorms.|Z wyjątkiem większych opadów podczas burzy.|
+lang|Light showers. They can contain lightning.|Lekki deszcz. Możliwe wyładowania|
+lang|Light showers but thunder unlikely|Lekki deszcz lecz z nikłą szansą na burzę|
+lang|Light showers with scattered thundershowers possible|Lekki deszcz, miejscami wyładowania|
+lang|Light showers with thunder possible|Lekki deszcz, możliwe wyładowania|
+lang|Light showers with thundershowers possible|Lekki deszcz, możliwe burze|
+lang|Light showers with scattered thunderstorms likely|Lekki deszcz, miejscami burze|
+lang|Light showers with scattered heavy or severe thunderstorms|Lekki deszcz, miejscami gwałtowne burze|
+lang|Light showers but few with thunder|Lekki deszcz, kilka grzmotów|
+lang|Light showers with numerous thunderstorms, some possible heavy|Lekki deszcz z licznymi burzami, niektóre z nich prawdopobobnie gwałtowne|
+lang|Light showers with numerous thunderstorms, some heavy or severe|Lekki deszcz z licznymi burzami, niektóre z nich gwałtowne|
+lang|Light showers with numerous thunderstorms, some severe|Lekki deszcz z licznymi burzami, niektóre z nich gwałtowne|
+lang|Light showers with numerous thunderstorms, many severe|Lekki deszcz z licznymi burzami, wiele z nich gwałtowne|
+
+lang|Moderate showers. They can contain lightning.|Umiarkowany deszcz. Możliwe burze|
+lang|Moderate showers but thunder unlikely|Umiarkowany deszcz. Burze mało prawdopodobne|
+lang|Moderate showers with scattered thundershowers possible|Umiarkowany deszcz, miejscami burze|
+lang|Moderate showers with thunder possible|Umiarkowany deszcz, możliwe burze|
+lang|Moderate showers with thundershowers possible|Umiarkowany deszcz, możliwe burze|
+lang|Moderate showers with scattered thunderstorms likely|Umiarkowany deszcz, miejscami burze|
+lang|Moderate showers with scattered heavy or severe thunderstorms|Umiarkowany deszcz, miejscami gwałtowne burze|
+lang|Moderate showers but few with thunder|Umiarkowany deszcz, kilka grzmotów|
+lang|Moderate showers with numerous thunderstorms, some possible heavy|Umiarkowany deszcz z licznymi burzami, niektóre z nich prawdopobobnie gwałtowne|
+lang|Moderate showers with numerous thunderstorms, some heavy or severe|Umiarkowany deszcz z licznymi burzami, niektóre z nich gwałtowne|
+lang|Moderate showers with numerous thunderstorms, some severe|Umiarkowany deszcz z licznymi burzami, niektóre z nich gwałtowne|
+lang|Moderate showers with numerous thunderstorms, many severe|Umiarkowany deszcz z licznymi burzami, niektóre z nich gwałtowne|
+
+lang|Heavy showers. They can contain lightning.|Intensywny deszcz. Możliwe burze|
+lang|Heavy showers but thunder unlikely|Intensywny deszcz. Burze mało prawdopodobne|
+lang|Heavy showers with scattered thundershowers possible|Intensywny deszcz, miejscami burze|
+lang|Heavy showers with thunder possible|Intensywny deszcz, możliwe burze|
+lang|Heavy showers with thundershowers possible|Intensywny deszcz, możliwe burze|
+lang|Heavy showers with scattered thunderstorms likely|Intensywny deszcz, miejscami burze|
+lang|Heavy showers with scattered heavy or severe thunderstorms|Intensywny deszcz, miejscami gwałtowne burze|
+lang|Heavy showers but few with thunder|Intensywny deszcz, kilka grzmotów|
+lang|Heavy showers with numerous thunderstorms, some possible heavy|Intensywny deszcz z licznymi burzami, niektóre z nich prawdopobobnie gwałtowne|
+lang|Heavy showers with numerous thunderstorms, some heavy or severe|Intensywny deszcz z licznymi burzami, niektóre z nich gwałtowne|
+lang|Heavy showers with numerous thunderstorms, some severe|Intensywny deszcz z licznymi burzami, niektóre z nich gwałtowne|
+lang|Heavy showers with numerous thunderstorms, many severe|Intensywny deszcz z licznymi burzami, wiele z nich gwałtowne|
+
+# PLAINTEXT
+lang|Scattered thundershowers possible.|Miejscami prawdopodobne burze.|
+lang|Scattered thunderstorms likely.|Miejscami prawdopodobne burze.|
+lang|Scattered thunderstorms likely, some possibly severe.|Miejscami prawdopodobne burze, możliwy gwałtowny przebieg niektórych z nich.|
+lang|Thunderstorms likely, some possibly severe.|Prawdopodobne burze, niektóre gwałtowne.|
+lang|Thunderstorms likely, some severe.|Prawdopodobne burze, niektóre gwałtowne.|
+lang|Severe thunderstorms likely, with possible tornados.|Gwałtowne burze, możliwe tornada.|
+
+# lastret cont.
+lang|Showers unlikely, but could contain lightning if they occur.|Małe szanse na deszcz, jeœli wystąpi, może byæ z wyłądowaniami.|
+lang|Scattered showers likely, with thunder possible|Miejscami deszcz, możliwa burza|
+lang|Scattered showers possible, but thunder unlikely|Miejscami deszcz, lecz bez burz|
+lang|Scattered thundershowers possible|Miejscami możliwe burze|
+lang|Scattered showers and thundershowers possible|Miejscami deszcz i burze|
+lang|Scattered thunderstorms likely|Miejscami burze|
+lang|Scattered thunderstorms likely, some heavy or severe|Miejscami burze, możliwy gwałtowny przebieg|
+lang|Numerous showers likely, but few with thunder|Liczne przelotne deszcze, kilka grzotów|
+lang|Numerous thundershowers likely, some possible heavy|Liczne burze, możliwy gwałtowny przebieg|
+lang|Numerous thunderstorms likely, some heavy or severe|Liczne burze, możliwy gwałtowny przebieg|
+lang|Numerous thunderstorms likely, some severe|Liczne burze, możliwy gwałtowny przebieg|
+lang|Numerous thunderstorms likely, many severe|Liczne burze, możliwy gwałtowny przebieg w wielu miejscach|
+
+lang|They can contain lightning.|Możliwe błyskawice|
+lang|but thunder unlikely|, lecz rzadko grzmoty|
+lang|scattered thundershowers possible|miejscami możliwe wyładowania|
+lang|thunder possible|prawdopodobne burze|
+lang|thundershowers possible|prawdopodobne burze|
+lang|scattered thunderstorms likely|prawdopodobne miejscowe burze|
+lang|scattered heavy or severe thunderstorms|miejscami gwałtowne burze|
+lang|but few with thunder|kilka grzmotów|
+lang|numerous thunderstorms, some possible heavy|liczne burze, możliwy gwałtowny przebieg|
+lang|numerous thunderstorms, some heavy or severe|liczne burze, możliwy gwałtowny przebieg|
+lang|numerous thunderstorms, some severe|liczne burze, możliwy gwałtowny przebieg|
+lang|numerous thunderstorms, many severe|liczne burze, możliwy gwałtowny przebieg w wielu miejscach|
+
+langlookup|Some thunderstorms likely|Prawdopodobne burze|
+langlookup|unlikely|mało prawdopodobne|
+langlookup|likely|prawdopodobne|
+langlookup|probably|prawdopodobnie|
+langlookup|within 80km from|w promieniu 80 km od miejscowości|
+
+lang|Light showers|Lekki deszcz|
+lang|Moderate showers|Umiarkowany deszcz|
+lang|Heavy showers|Intensywny deszcz|
+lang|Light rain|Lekki deszcz|
+lang|Moderate rain|Umiarkowany deszcz|
+lang|Heavy rain|Intensywny deszcz|
+lang|Visibility|Widocznoœæ|
+
+charset|UTF-8|
+#
+# New descriptions
+langlookup|Wind chill|Temperatura odczuwalna|
+langlookup|Windchill|Temp odczuwalna|
+langlookup|windchill|Temp odczuwalna|
+lang|colder than|chłodniej niż|
+lang|as low as|dochodząca do|
+lang|Scattered frost|Szron, gołoledz|
+lang|ranging from|w zakresie od|
+lang|down to|do|
+lang|Relatively|Względnie|
+lang|relatively|względnie|
+lang|Breezy|Wietrznie|
+lang|Windy|Wietrznie|
+lang|Cold|Zimno|
+lang|cold|zimno|
+lang|cool|chłodno|
+lang|warm|ciepło|
+lang|mild|łagodnie|
+lang|hot|gorąco|
+lang|Scattered light frost|Szron miejscami|
+lang|Areas of light frost|Gdzieniegdzie lekki szron, przymorozek|
+lang|Moderate fog.|Umiarkowana mgła.|
+lang|Light to moderate frost|Szron, lekki do umiarkowany przymrozek|
+lang|with moderate to heavy frost|z umiarkowanym lub obfitym szronem, przymrozkiem|
+lang|heavy frost|obfity szron|
+lang|Very windy|Bardzo wietrznie|
+lang|very hot|bardzo gorąco|
+lang|very cold|bardzo zimno|
+lang|relatively cool|względnie chłodno|
+lang|relatively mild|umiarkowanie ciepło|
+lang|unusually warm|nadzwyczajnie ciepło|
+lang|unusually mild|nadzwyczajnie łagodnie|
+lang|unusually cold|nadzwyczajnie chłodno|
+lang|unusually cool|nadzwyczajnie chłodno|
+lang|unusually hot|nadzwyczajnie gorąco|
+lang|exceptionally warm|niezwykle ciepło|
+lang|exceptionally mild|niezwykle łagodnie|
+lang|exceptionally cold|niezwykle zimno|
+lang|exceptionally cool|niezwykle chłodno|
+lang|exceptionally hot|niezwykle gorąco|
+lang|extremely cold|ekstremalnie zimno|
+lang|extremely hot|ekstremalnie gorąco|
+lang|near record warmth|niemal rekordowe ciepło|
+lang|near record cold|niemal rekordowe chłodno|
+lang|near record warmth|niemal rekordowe ciepło|
+lang|near record heat|niemal rekordowe gorąco|
+lang|near record low temperatures|temperatury bliskie rekordowi zimna|
+lang|near record cool temperatures|temperatury bliskie rekordowi zimna|
+lang|with scattered light frost possible|możliwy lekki do umiarkowany szron, przymorozek|
+#
+langlookup|Jan|Styczeñ|
+langlookup|Feb|Luty|
+langlookup|Mar|Marzec|
+langlookup|Apr|Kwiecieñ|
+langlookup|May|Maj|
+langlookup|Jun|Czerwiec|
+langlookup|Jul|Lipiec|
+langlookup|Aug|Sierpieñ|
+langlookup|Sep|Wrzesieñ|
+langlookup|Oct|PaŸdziernik|
+langlookup|Now|Listopad|
+langlookup|Dec|Grudzieñ|
+#
+langlookup|Detailed forecast|Prognoza szczegółowa|
+langlookup|Hour-by-hour|Prognoza godzinowa|
+langlookup|Pressure|Ciśnienie|
+langlookup|Snowdepth|Warstwa śniegu|
+langlookup|Description and notes|Opis|
+langlookup|Conditions|Warunki|
+langlookup|Windgust|Porywy|
+langlookup|Wind|Wiatr|
+langlookup|Windch.|Temp odczuwalna.|
+langlookup|Precipitation|Opady|
+langlookup|Solar radiation|Nasłonecznienie|
+langlookup|unlikely|mało prawdopodobne|
+langlookup|likely|możliwe|
+langlookup|possible|prawdopodobne|
+langlookup|Thunderstorm probality|Prawdopodonieñstwo burzy|
+langlookup|ET|ET|
+langlookup|Grass temperature|Temperatura na poziomie +10cm|
+langlookup|Surface temperature|Temperatura przy gruncie|
+langlookup|Grass & Soil|Trawa i gleba|
+langlookup|Soil|Gleba|
+langlookup|Moisture|Wilgæ|
+langlookup|Temperature|Temperatura|
+langlookup|Cold!|Zimno!|
+langlookup|Hot!|Gorąco!|
+langlookup|mm/h|mm/h|
+langlookup|night|noc|
+langlookup|Heat.|Heat.|
+langlookup|Heat index|Indeks cieplny|
+langlookup|Thunder|Burza|
+langlookup|Dewpoint|Punkt rosy|
+#
+lang|Light rain shower|Lekki przelotny deszcz|
+lang|Thunderstorms likely, some possibly severe|Prawdopodobne burze, możliwy gwałtowny przebieg|
+lang|Thunderstorms possible|Możliwe burze|
+lang|Thunderstorms likely|Prawdopodobne burze|
+lang|Moderate rain shower|Umiarkowany deszcz przelotny|
+lang|Heavy rain shower|Intensywny deszcz przelotny|
+lang|Light sleet shower|Lekki przelotny deszcz ze śniegiem|
+lang|Moderate sleet shower|Umiarkowany przelotny deszcz ze śniegiem|
+lang|Heavy sleet shower|Intensywny przelotny deszcze ze śniegiem|
+lang|Light snow shower|Lekki przelotny śnieg|
+lang|Moderate snow shower|Umiarkowany przelotny śnieg|
+lang|Heavy snow shower|Intensywny przelotny śnieg|
+lang|Light rain|Lekki deszcz|
+lang|Moderate rain|Umiarkowany deszcz|
+lang|Heavy rain|Intensywny deszcz|
+lang|Light sleet|Lekki deszcz ze śniegiem|
+lang|Moderate sleet|Umiarkowany deszcze ze śniegiem|
+lang|Heavy slee|Intensywny deszcz ze śniegiem|
+lang|Light snow|Lekki śnieg|
+lang|Moderate snow|Umiarkowany śnieg|
+lang|Heavy snow|Intensywny śnieg|
+#
+lang|Cloudy in the morning|Pochmurny poranek|
+lang|Little or no ice (on ground) accumulation expected|Spodziewana znikoma lub brak akumulacji lodu na gruncie|
+lang|Little or no snow accumulation expected|Spodziewana znikoma lub brak akumulacji śniegu.|
+lang|A slight chance of a mix of rain and snow|Możliwy deszcze ze śniegiem|
+lang|A slight chance of snow|Możliwy śnieg|
+lang|A slight chance of a mix of sleet, rain, and snow|Możliwa mieszanka śniegu, deszczu i gołoledzi|
+lang|No ice (on ground) accumulation expected| Brak spodziewanej akumulacji lodu na powierzchni gruntu|
+lang|Little if any freezing rain accumulation| Małe szanse na akumulację marznacego deszczu|
+lang|No snow accumulation expected|Nie jest spodziewana akumulacja śniegu|
+lang|High risk of severe thunderstorms and possible tornados|Wysokie ryzyko wyst±pienia silnych burz z piorunami i tornad|
+lang| becoming | przechodzi w |
+lang|Overcast.|Zachurzenie.|
+lang|dense overcast|gęste zachmurzenie|
+lang|Chance of precipitation|Możliwe opady|
+lang|Some thunder possible|Możliwa burza|
+lang|Some thunderstorms likely|Prawdopodobne burze|
+lang|some high cloudiness|niekiedy wysokie zachmurzenie|
+lang|some high thin clouds|niekiedy wysoka cienka warstwa chmur|
+lang|of an inch|cala|
+lang|half an inch|0.5 cala|
+lang|UV index up to|UV index do|
+lang|UV index more than|UV index większy niż|
+lang| mostly around | przeważnie około |
+lang| mostly less than | przeważnie mniej niż |
+lang|mix of snow and sleet|śnieg i deszcz ze śniegiem, gołoledŸ |
+lang|A slight chance of rain|Niewielkie prawdopodobieñstwo deszczu|
+lang|then a slight chance of rain|następnie niewielkie prawdopodobieñstwo deszczu|
+lang|then rain likely|następnie prawdopodobnie deszcz|
+lang|Rain very likely|Deszcz bardzo prawdopodobny|
+lang|Precipitation showery or intermittent|Opad intensywny lub przerywany| 
+lang|Precipitation (liquid equivalent)|Opad (odpowiednik płynu)|
+lang|showery or intermittent|intensywny lub przerywany|
+lang|Precipitation|Opady|
+lang|Snow likely|Prawdopodobny śnieg|
+lang|Snow accumulation|Akumulacja śniegu|
+lang|accumulation expected|oczekiwana akumulacja|
+lang|Wind chill down to|Temperatura odczuwalna spadnie do|
+lang| chance | możliwy |
+lang| likely | prawdopodobny |
+lang| accumulation | akumulacja |
+lang| cales | cali |
+lang|less than a tenth of an inch|mniej niż 0.1 cala|
+lang| a mix of | mieszanka |
+lang|in the morning|rano|
+lang|in the afternoon|popołudniu|
+lang|in the evening|wieczorem|
+lang| then | potem |
+lang| the | |
+lang| in | w |
+lang| of |  |
+lang|Fair|£adnie|
+lang|afternoon|popołudnie|
+lang|cloudy|pochmurno|
+lang|Patchy|Miejscami|
+lang| slight | |
+lang| light | lekka |
+lang| fog| mgła|
+lang|Partly|Częściowo|
+lang| to | do |
+lang|wind chill|temperatura odczuwalna|
+lang|Windgust|Porywy|
+lang|Wind|Wiatr|
+lang|gusting|w porywach|
+lang|mostly|przeważnie|
+lang| after | po |
+lang|midnight|północy|
+lang|morning|ranek|
+lang|Mostly|Przeważnie|
+lang|partly|częściowo|
+lang|Light|Lekka|
+lang| moderate | umiarkowanej |
+lang|evening|wieczór|
+lang|Dense|Gęste|
+lang|overcast|zachmurzenie|
+lang|Moderate|Umiarkowany|
+lang|dense|gęste|
+lang|sunny|słonecznie|
+lang|Rain likely|Możliwy deszcz|
+lang| rain| deszcz|
+lang|A | |
+lang| a |  |
+lang|chance of|szansa na|
+lang|High|Maximum:|
+lang|Low|Minimum:|
+lang| but | ale |
+lang|temperatures falling|temperatura spadnie|
+lang|temperatures rising|temperatura wzrośnie|
+lang|northeast|północno wschodni|
+lang|northwest|północno zachodni|
+lang|southeast|południowo wschodni|
+lang|southwest|południowo zachodni|
+lang|north-|północny-|
+lang|east-|wschodni-|
+lang|west-|zachodni-|
+lang|south-|południowy-|
+lang| east | wschodni |
+lang| north | północny |
+lang| south | południowy |
+lang| west | zachodni |
+lang|down |spadnie |
+lang| or | lub |
+lang|Rain|Dzeszcz|
+lang|up to|do|
+lang|Freezing|Marzn±cy|
+lang|No snow|Bezśnieżnie,|
+lang|no snow|bezśnieżnie,|
+lang|accumulation about a quarter inch|akumulacja około 0.25 cala|
+lang|likely|prawdopodobnie|
+lang|less than a tenth of an inch|mniej niż 0.1 cala|
+lang|around a tenth of an inch|około 0.1 cala|
+lang|between a quarter and half an inch|pomiędzy 0.25 a 0.5 cala|
+lang|around a quarter of an inch|około 0.25 cala|
+lang|around|około|
+lang|kph|km/h|
+lang|mps|m/s|
+lang|near|prawie|
+lang|percent|%|
+lang|less than|mniej niż|
+lang| between | między |
+lang| and | i |
+lang|Little|Mało|
+lang| no | nie |
+lang| snow| śnieg|
+lang| Snow| ¦nieg|
+lang|about|około|
+lang| one | 1 |
+lang|No |Nie |
+lang| fair | ładnie |
+lang|Cloudy|Pochmurno|
+lang| calm| cisza|
+lang|Clear|Bezchmurnie|
+lang|clear|bezchmurnie|
+lang|Sunny|Słonecznie|
+lang| ice | lód |
+lang|freezing|marzn±cy|
+lang|sleet|śnieg z deszczem|
+lang|a mix of|mieszanina|
+lang|if any|ewentualnie|
+lang|on ground|na gruncie|
+lang|patchy|miejscami|
+lang| half | pół |
+lang| an |  |
+lang| quarter | 0.25 |
+lang| tenth | 0.1 |
+lang| inch| cala|
+#
+# Translation of headings, periods and short conditions statements
+# headings
+#
+langlookup|WXSIM Forecast for:|Prognoza WXSIM dla:|
+langlookup|WXSIM Weather Forecast|Prognoza WXSIM |
+langlookup|wsWxsimForecast.|Prognoza pogody dla |
+langlookup|Issued by:|Wydana przez:|
+langlookup|Updated:|Uaktualniona:|
+langlookup|High:|Max|
+langlookup|Low:|Min|
+#
+langlookup|Sunday|Niedziela|
+langlookup|Monday|Poniedziałek|
+langlookup|Tuesday|Wtorek|
+langlookup|Wednesday|¦roda|
+langlookup|Thursday|Czwartek|
+langlookup|Friday|Pi±tek|
+langlookup|Saturday|Sobota|
+langlookup|Sunday night|Niedziela noc|
+langlookup|Monday night|Poniedziałek noc|
+langlookup|Tuesday night|Wtorek noc|
+langlookup|Wednesday night|¦roda noc|
+langlookup|Thursday night|Czwartek noc|
+langlookup|Friday night|Pi±tek noc|
+langlookup|Saturday night|Sobota noc|
+langlookup|Today's|Dzisiaj|
+langlookup|Tonight's|Wieczorem|
+langlookup|Today|Dzisiaj|
+langlookup|Tonight|Wieczorem|
+langlookup|Rest of tonight|Reszta nocy|
+langlookup|This afternoon|Popołudnie|
+# UV Index words
+langlookup|Low|Niski|
+langlookup|Medium|¦redni|
+langlookup|High|Wysoki|
+langlookup|Very High|Bardzo Wysoki|
+langlookup|Extreme|Ekstremalny|
+# Summary conditions lookup
+langlookup|Severe storm|Gwałtowna burza|
+langlookup|Showers storms|Przelotne burze|
+langlookup|Thunder storm|Burza z piorunami|
+langlookup|Rain Sleet|Deszcz ze śniegiem|
+langlookup|FrzgRn Snow|Marznący śnieg|
+langlookup|Rain and Snow|¦nieg z deszczem|
+langlookup|Freezing Rain|Marzn±cy deszcz|
+langlookup|Rain likely|Deszcz|
+langlookup|Chance rain|Możliwy deszcz|
+langlookup|Mix|Deszcz ze śniegiem|
+langlookup|Sleet|¦nieg|
+langlookup|Snow|¦nieg|
+langlookup|except for few wispy clouds |za wyjątkiem kilku chmurek |
+langlookup|Fog a.m.|Poranna mgła|
+langlookup|Fog late|Mgła pózniej|
+langlookup|Fog|Mgła|
+langlookup|Very Cold|Bardzo zimno|
+langlookup|Very Hot|Bardzo gor±co|
+langlookup|Partly Cloudy|Częściowe zachmurzenie|
+langlookup|Mostly Cloudy|Przeważnie pochmurno|
+langlookup|Cloudy|Pochmurno|
+langlookup|Overcast|Zachmurzenie|
+langlookup|Partly Sunny|Częściowo słonecznie|
+langlookup|Mostly Sunny|Przeważnie słonecznie|
+langlookup|Mostly Clear|Przeważnie bezchmurnie|
+langlookup|Sunny|Słonecznie|
+langlookup|Clear|Bezchmurnie|
+langlookup|Fair|£adnie|
+langlookup|Variable Clouds|Chmury|
+# translation for ordinal wind directions must be in North-East-South-West order
+# NOTE: comma format used here requires plaintext-parser.php V1.13 or above to process correctly
+langlookup|NESW|Pn,Ws,Pd,Zs|
+# translation for Beaufort Wind Force
+langlookup|Calm|Cisza|
+langlookup|Light air|Powiew|
+langlookup|Light breeze|Słaby wiatr|
+langlookup|Gentle breeze|£agodny wiatr|
+langlookup|Moderate breeze|Umiarkowany wiatr|
+langlookup|Fresh breeze|Dośæ silny wiatr|
+langlookup|Strong breeze|Silny wiatr|
+langlookup|Near gale|Bardzo silny wiatr|
+langlookup|Gale|Sztorm|
+langlookup|Strong gale|Silny sztorm|
+langlookup|Storm|Bardzo silny sztorm|
+langlookup|Violent storm|Gwałtowny sztorm|
+langlookup|Hurricane|Huragan|
+#
+# --- end of language file ------

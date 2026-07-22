@@ -1,0 +1,10 @@
+﻿Highcharts.lang = {
+  lang:{
+    months:['January','February','March','April','May','June','July','August','September','October','November','December'],
+    shortMonths:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sept','Oct','Nov','Dec'],
+    weekdays:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+    thousandsSep: ""
+  }
+};
+
+highchartsOptions = Highcharts.setOptions(Highcharts.lang);

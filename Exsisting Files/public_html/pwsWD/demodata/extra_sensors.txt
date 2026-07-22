@@ -1,0 +1,29 @@
+# cumulus extra tags
+#actTime|unix|1608314541|! ## 2020-12-18  
+# 
+|fromtemp|uom|C|!  
+#
+|extra_hum1|hum|12.4|! 
+#|extra_hum2|hum|0.0|! 
+#|extra_hum3|hum|0.0|! 
+#|extra_hum4|hum|0.0|! 
+# 
+|extra_tmp1|temp|54|! 
+#|extra_tmp2|temp|0|! 
+#|extra_tmp3|temp|0|!  
+#|extra_tmp4|temp|0|!  
+#
+|soil_mst1|moist|46|! 
+#|soil_mst2|moist|0|! 
+#
+#|soil_tmp1|temp|0.0|! 
+#|soil_tmp2|temp|0.0|!  
+#
+|soilmoist_type|text|%|!  ## 2020-12-18  ecowitt uses % for moist
+#
+#|pm25_crnt1|text|0.0|!
+#|pm25_crnt2|text|0.0|!
+#
+|lightning|light|0|!
+|lightningtime|cudt|17/12/2020 18:37:33|!  ## 2020-12-18  for  CU
+|lightningkm|light|27.0|!

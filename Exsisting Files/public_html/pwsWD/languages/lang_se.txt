@@ -1,0 +1,770 @@
+# $scrpt_vrsn_dt = 'lang_se.txt|01|2020-12-15|';  # release 2012_lts
+
+# units
+ |/h|/t|
+ |/m|/m|
+ |and|och|
+ |Bft|Bft|
+ |C|C|
+ |Celsius|Celsius|
+ |cm|cm|
+ |F|F|
+ |Fahrenheit|Fahrenheit|
+ |feet|fötter|
+ |Hours|Timme|
+ |hPa|hPa|
+ |hrs |timmar |
+ |Hrs|Timme|
+ |hrs|Tms|
+ |inHg|inHg|
+ |in|in|
+ |KM/H|KM/T|
+ |km/h|km/t|
+ |km|km|
+ |KMs|KMs|
+ |kph|km/t|
+ |KTS|KTS|
+ |Kts|Kts|
+ |M/S|M/S|
+ |m/s|m/s|
+ |mile|mil|
+ |Miles|Miles|
+ |min |min |
+ |mins |min |
+ |minutes|minuter|
+ |mm|mm|
+ |MPH|MPH|
+ |mph|mpt|
+ |mt|mt|
+ |secs |sek |
+
+# months short
+ |Apr |Apr |
+ |Aug |Aug |
+ |Dec |Dec |
+ |Feb |Feb |
+ |Jan |Jan |
+ |Jul |Jul |
+ |Jun |Juni |
+ |Mar |Mar |
+ |May |Maj  |
+ |Nov |Nov |
+ |Oct |Okt |
+ |Sep |Sep|
+
+# months long
+ |April|April|
+ |August|Augusti|
+ |December|December|
+ |February|Februari|
+ |January|Januari|
+ |July|Juli|
+ |June|Juni|
+ |March|Mars|
+ |May|Maj|
+ |November|November|
+ |October|Oktober|
+ |September|September|
+
+# days short
+ |Fri |Fre |
+ |Mon |Mån |
+ |Sat |Lör |
+ |Sun |Sol  |
+ |Thu |Tors |
+ |Thur |Tors |
+ |Tue |Tis |
+ |Wed |Ons |
+
+# days long
+ |Friday|Fredag ​​#|
+ |Monday|Måndag|
+ |Saturday|Lördag|
+ |Sunday|Söndag|
+ |Thursday|Torsdag|
+ |Tuesday|Tisdag|
+ |Wednesday|Onsdag|
+
+# dayparts
+ |Afternoon|Eftermiddag|
+ |afternoon|eftermiddag|
+ |Evening|Kväll|
+ |evening|kväll|
+ |Morning|Morgon|
+ |morning|morgon|
+ |Night time|Nattetid|
+ |Night|Natt|
+ |night|natt|
+
+# compass
+ |E|Ö|
+ |East|Öst|
+ |ENE|ÖNÖ|
+ |ESE|ÖSÖ|
+ |N|N|
+ |NE|NÖ|
+ |NNE|NNÖ|
+ |NNW|NNV|
+ |North|Norr|
+ |NW|NV|
+ |S|S|
+ |SE|SÖ|
+ |South|Syd|
+ |SSE|SSÖ|
+ |SSW|SSV|
+ |SW|SV|
+ |W|V|
+ |West|Väst|
+ |WNW|VNV|
+ |WSW|VSV|
+
+# common
+ |All time|Hela tiden|
+ |any day|vilken dag|
+ |any month|varje månad|
+ |any year|varje år|
+ |Average|Genomsnitt|
+ |Avg |Gen. |
+ |avg|genomsnitt|
+ |by|förbi|
+ |Close|Stänga|
+ |Current|Nuvarande|
+ |current|nuvarande|
+ |Daily|Dagligen|
+ |Day|Dag|
+ |days|dagar|
+ |Description|Beskrivning|
+ |Distance|Distans|
+ |Falling Rapidly|Faller snabbt|
+ |Falling Slowly|Faller långsamt|
+ |Falling|Faller|
+ |Force|Tvinga|
+ |Forecast for|Prognos för|
+ |forecast|prognos|
+ |from|från|
+ |Graph type|Diagramtyp|
+ |here|här|
+ |History|Historik|
+ |Hourly|Timtaxa|
+ |Information|Information|
+ |Last Hour|Sista timmen|
+ |Last Updated|Senast uppdaterad|
+ |Link|Länk|
+ |Max|Max|
+ |Min|Min|
+ |Month|Månad|
+ |Never base important decisions that could result in harm to people or property on this weather information.|Basera aldrig viktiga beslut som kan leda till skador på människor eller egendom på denna väderinformation.|
+ |No valid sensors found|Inga giltiga sensorer hittades|
+ |Offline|Off-line|
+ |Online|Uppkopplad|
+ |Period|Period|
+ |Powered by|Data från|
+ |Rising Rapidly|Stiger snabbt|
+ |Rising Slowly|Stiger långsamt|
+ |Rising|Stiger|
+ |Select|Välj|
+ |Steady|Stadigt|
+ |the last|den sista|
+ |Time|Tid|
+ |Today|I dag|
+ |today|i dag|
+ |Tomorrow|I morgon|
+ |Tonight|Ikväll|
+ |Updated|Uppdaterad|
+ |Year|År|
+ |Yesterday|I går|
+
+# notifications
+ |Heat Exhaustion|Värme slag|
+ |Heat Index Caution|Värmeindex Varning|
+ |Lightning Strike Alert Detected|Blixtlarm upptäckt|
+ |Notification|Meddelande|
+ |Notifications|Meddelanden|
+ |Reduce Sun Exposure|Minska exponeringen för solen|
+ |seconds ago|för några sekunder sedan|
+ |UV-Index Caution|UV-index Varning|
+ |Wind Gusts Becoming Strong Caution Required|Vindbyar blir starka. Försiktighet krävs|
+ |Wind Gusts Reaching Gale Force|Vindbyar som når stormkraft|
+
+# blocks
+ |24h Avg|24t Gj.sn.|
+ |Airport|Flygplats|
+ |Annual Rainfall|Årlig nederbörd|
+ |Aurora|Norrsken|
+ |Currentsky|Nuvarande himmel|
+ |Details|Detaljer|
+ |Enlarge|Förstora|
+ |Environment Canada forecast|Miljö Kanada prognos|
+ |for the last|för det sista|
+ |Forecast|Prognos|
+ |Full page|Hel sida|
+ |Indoor Temperature|Inomhus temperatur|
+ |LiveWebCam|Live WebCam|
+ |Map|Karta|
+ |Max-Min Temperature|Max-min temperatur|
+ |Meteors|Meteorer|
+ |Moon info|Måninfo|
+ |Moonphase information|Information om månfasen|
+ |Movie|Film|
+ |Official AQ sensor station|Officiell AQ-sensorstation|
+ |One hour forecast|En timmes prognos|
+ |Our WXSIM forecast|Vår WXSIM-prognos|
+ |Outside|Utanför|
+ |Radar|Radar|
+ |Rainfalltoday|Nederbörd idag|
+ |Solar - UV-Index - Lux|Solar - UV-index - Lux|
+ |Station weather history|Station väderhistoria|
+ |Station|Station|
+ |stored at WU|lagras på WU|
+ |SunPosition|Solens position|
+ |Texts|Texter|
+ |UV Guide|UV-guide|
+ |WeatherUnderground forecast|VäderUnderplats prognos|
+ |Wind - Gust|Vindby|
+
+# soil-moist
+ |Adequate|Tillräcklig|
+ |Current planting and watering guide|Aktuell plantering och vattning guide|
+ |Dangerous Dry|Farligt torrt|
+ |ERROR no reading|FEL ingen läsning|
+ |Explanation|Förklaring|
+ |Irrigation desired|Bevattning önskad|
+ |Irrigation needed|Bevattning behövs|
+ |Moisture|markfuktighet|
+ |Saturated|Mättad|
+ |Soil info|Jordinfo|
+ |Soil sensor - more information|Jordgivare - mer information|
+
+# soil-moist explain
+ |Saturated Soil. Occurs for a day or two after irrigation.|Mättad jord. Förekommer en dag eller två efter bevattning.|
+ |Soil is adequately wet (except coarse sands which are drying out at this range)|Marken är tillräckligt våt (utom grov sand som torkar ut i detta intervall)|
+ |Soil is becoming dangerously dry for maximum production.|Marken blir farligt torr för maximal produktion.|
+ |Usual range to irrigate heavy clay soils|Vanligt område för att bevattna tunga lerjordar|
+ |Usual range to irrigate or water (except heavy clay soils)<br />Irrigate at the upper end of this range in cool humid climates and with higher water-holding capacity soils.|Vanligt område för bevattning eller vatten (förutom tunga lerjordar) <br /> Bevattna i den övre änden av detta område i svala fuktiga klimat och med högre vattenhållfasthetsjord.|
+
+# soil-temp
+ |Deep freeze|Delt fryst|
+ |Frost line|Frostlinje|
+ |Ideal growth|Ideal tillväxt|
+ |Minimum growth|Minsta tillväxt|
+ |Optimal growth|Optimal tillväxt|
+ |Too cold to plant|För kallt för att plantera|
+
+# advisory
+ |(Severe) thunderstorms possible|(Allvarliga) åskväder möjligt|
+ |Below Freezing|Under frysning|
+ |Caution|Varning|
+ |Expect|Förvänta sig|
+ |Firerisk|Brandrisk|
+ |Flooding Possible|Översvämning möjligt|
+ |Have a nice day|Ha en bra dag|
+ |Lightning Strike Nearby|Lightning Strike i närheten|
+ |Possible Storm Approaching|Möjlig storm närmar sig|
+ |Possible|Möjligt|
+ |Radio Aurora Possible|Radio Aurora möjligt|
+ |This hour|Denna timme|
+ |This Week|Denna vecka|
+ |Viewing Possible|Visar möjligt|
+
+# lightning
+ |Direction|Riktning|
+ |Last 3 hr|Sista 3 t.|
+ |Latest strike at|Senaste blixtnedslag på|
+ |Lightning strike|Blixtnedslag|
+ |Lightning|Blixt|
+ |Nearby Lightning|Blixt i närheten|
+ |Nearby|I närheten|
+ |Total strikes|Totalt blixtnedslag|
+
+# bft_names
+ |Calm|Lugn|
+ |Fresh breeze|Ny bris|
+ |Gale force|Kraftkraft|
+ |Gentle breeze|Lätt bris|
+ |Hurricane|Orkan|
+ |Light air|Lätt luft|
+ |Light breeze|Lätt vind|
+ |Moderate breeze|Måttlig bris|
+ |Near gale|Nära kulan|
+ |Storm|Storm|
+ |Strong breeze|Stark vind|
+ |Strong gale|Stark kuling|
+ |Violent storm|Våldsam storm|
+
+# w-names common
+ |Barometer|Barometer|
+ |Dewpoint|Daggpunkt|
+ |ET|ET|
+ |Feels like|Känns som|
+ |Feels|Känner|
+ |Gust|Vindil|
+ |Heatindex|Värmeindex|
+ |Humidity|Fuktighet|
+ |Indoor|Inuti|
+ |Leaf wetness|Bladfuktighet|
+ |Precipitation|Nederbörd|
+ |precipitation|nederbörd|
+ |Pressure|Tryck|
+ |Rainfall|Nederbörd|
+ |Rate|Fart|
+ |Solar|Solar|
+ |Speed|Fart|
+ |Temp|Temp|
+ |Temperature|Temperatur|
+ |UV index|UV-index|
+ |UV|UV|
+ |UVI|UVI|
+ |Wet Bulb|Våtlampa|
+ |Wind Run|Vindavstånd|
+ |Wind run|Vindavstånd|
+ |Wind|Vind|
+ |Windchill|Kyleffekt|
+ |Winddirection|Vindriktning|
+ |Windspeed|Vindhastighet|
+
+# meteors
+ |Active Sky Events|Aktiviteter på himlen|
+ |Annual Meteor Showers|Årlig Meteor Dusch|
+ |Annular|Ringformig|
+ |Current Events|Aktuella händelser|
+ |Data Provided by|Data tillhandahållna av|
+ |Eclipse|Förmörkelse|
+ |Guide|Guide|
+ |Lunar|Lunar|
+ |Meteor Shower|Meteorregn|
+ |Meteor Showers|Meteor Duschar|
+ |Next Events|Nästa händelser|
+ |No Active Sky Events|Inga aktiviteter på himlen|
+ |Partial|Partiellt|
+ |Peak|Topp|
+ |Total|Total|
+ |Visible|Synlig|
+ |Wikipedia|Wikipedia|
+
+# meteors explain
+ |Any nearby ambientlight, Moonlight can make it difficult viewing.|Omgivande omgivningsljus eller månsken kan göra det svårt att se.|
+ |Meteor showers are best viewed away from the city lights.|Meteordusch visas bäst från stadens ljus.|
+ |Meteors are best viewed during the night hours, though meteors enter the atmosphere at any time of the day.|Meteorer ses bäst under nattetimmarna, även om meteorer kommer in i atmosfären när som helst på dygnet.|
+ |They are just harder to see in the daylight apart from dawn and dusk.|De är bara svårare att se i dagsljuset bortsett från gryning och skymning.|
+
+# aurora
+ |A-INDEX|A-INDEX|
+ |Excellent Aurora Viewing Possible|Utmärkt Aurora visning möjligt|
+ |Geomagnetic Major Storm|Major Geomagnetic storm|
+ |Geomagnetic Severe Storm|Alvorlig geomagnetisk storm|
+ |Geomagnetic Storm|Geomagnetisk storm|
+ |High Latitude Aurora Viewing Possible|Aurora med hög breddvisning möjlig|
+ |High Latitude Radio Aurora|Hög latitud Radio Aurora|
+ |High Latitude Weak Radio Aurora|Hög latitud svag Radio Aurora|
+ |KP-INDEX|KP-INDEX|
+ |KP-PLANETARY INDEX|KP-PLANETÄR INDEX|
+ |Major Storm|Stor Storm|
+ |Mid to High Latitude Aurora Viewing Possible|Mid till hög latitud Aurora visning möjligt|
+ |Mid-High Latitude Radio Aurora|Mitt till hög latitud Radio Aurora|
+ |Minor|Mindre|
+ |No Aurora|Ingen Aurora|
+ |No Radio Aurora|Ingen radio Aurora|
+ |NOT ACTIVE|INTE AKTIV|
+ |Quiet No|Tyst Nej|
+ |RADIO AURORA ACTIVE|RADIO AURORA AKTIV|
+ |Radio Aurora Indicators|Radio Aurora-indikatorer|
+ |Radio Aurora|Radio Aurora|
+ |Severe Storm|Allvarlig storm|
+ |Strong Radio Aurora|Stark Radio Aurora|
+ |Visual Aurora Borealis/Northern Lights and VHF Radio Aurora Indicators|Visual Aurora Borealis / Northern Lights och VHF Radio Aurora Indicators|
+ |Weak High Latitude Aurora Viewing Possible|Svag Aurora med hög breddvisning möjlig|
+ |Weak|Svag|
+
+# aurora explain
+ |is an indicator of possible enhanced VHF radio communication at a range of 1000 miles or more.|är en indikator på möjlig förbättrad VHF-radiokommunikation inom ett område av 1000 miles eller mer.|
+ |provides a good indicator of viewing the Aurora Borealis or Northern Lights.|ger en bra indikator för att se Aurora Borealis eller norrsken.|
+ |Strong solar activity may allow long-distance radio communications at 28-433 MHz in mid to high latitudes.|Stark solaktivitet kan tillåta långdistansradiokommunikation vid 28-433 MHz i mitten till höga breddgrader.|
+ |The estimated 3-hour Planetary Kp-index data is collected from ground-based magnetometers.|Den beräknade 3-timmars Planetary Kp-indexdata samlas in från markbaserade magnetometrar.|
+ |The higher the Kp-Index the greater the probability of viewing.|Ju högre Kp-index desto större är sannolikheten för visning.|
+
+# airquality
+ |1 hour|1 timme|
+ |1 week|1 vecka|
+ |10 min|10 min|
+ |24 hour|24 timmar|
+ |24 hours|24 timmar|
+ |30 min|30 min|
+ |6 hour|6 timmar|
+ |_1_hour|1 timme|
+ |_24_hour|24 timmar|
+ |_3_hour|3 timmar|
+ |Air Quality data from our own sensor|Luftkvalitetsdata från vår egen sensor|
+ |Air Quality Index|Luftkvalitetsindex|
+ |Air quality sensor|Luftkvalitetssensor|
+ |Air Quality|Luftkvalitet|
+ |AQI|AQI|
+ |Based on a common formula using the temperature & dewpoint, as recorded realtime from this weather station, an estimated height of the cloudbase is calculated.|Baserat på en vanlig formel med temperatur och daggpunkt, som registreras i realtid från denna väderstation, beräknas en uppskattad höjd på molnbasen.|
+ |classification|klassificering|
+ |concentration|koncentration|
+ |Critical Conditions|Kritiska förhållanden|
+ |Current cloudbase|Nuvarande molnbas|
+ |Davis sensor|Davis-sensor|
+ |EPA Air Quality Index|EPA Luftkvalitetsindex|
+ |GoodAQ|Bra luftkvalitet|
+ |HazordousAQ|Farlig luftkvalitet|
+ |iaqB|iaqB|
+ |Information on Air Quality|Information om luftkvalitet|
+ |Information on Cloudbase|Information om Molnbas|
+ |It is not a accurate tool it is a relative indicator.|Det är inte ett exakt verktyg, det är en relativ indikator.|
+ |Last 24 hours|Senaste 24 timmarna|
+ |Last 7 days|Senaste 7 dagarna|
+ |Life Threatening|Livshotande|
+ |Luftdaten sensor|Luftdatensensor|
+ |max|max|
+ |min|min|
+ |ModerateAQ|Måttlig luftkvalitet|
+ |More information|Mer information|
+ |My city|Min stad|
+ |O3|O3|
+ |Our Davis AQ sensor|Vår Davis sensor|
+ |Our Luftdaten AQ sensor|Vår Luftdaten sensor|
+ |Our Luftdaten sensor|Vår Luftdaten sensor|
+ |Our measurement values above are real-time values|Våra mätvärden ovan är realtidsvärden|
+ |Our Purple AQ sensor|Vår PurpleAir sensor|
+ |Our PurpleAir sensor|Vår PurpleAir-sensor|
+ |Our station AQ sensor|Vår station AQ-sensor|
+ |Our station sensor|Vår station sensor|
+ |Particle|Partikel|
+ |particle|partikel|
+ |period|period|
+ |pm10|pm10|
+ |pm1|pm1|
+ |pm2.5|pm2.5|
+ |PM25|pm2.5|
+ |pm_10|pm10|
+ |pm_2p5|pm2.5|
+ |Precautions Required|Försiktighetsåtgärder krävs|
+ |Purpleair sensor|Purpleair-sensor|
+ |Risk|Risk|
+ |Sensor data captured at|Sensordata fångad kl|
+ |Sensor_ID|Sensor_ID|
+ |Station ID|Station_ID|
+ |Station sensor|Stationssensor|
+ |The health effects should be based on 24 hours average values only.|Hälsoeffekterna bör endast baseras på 24-timmars genomsnittsvärden.|
+ |UnhealthyAQ|Ohälsosamt|
+ |UnhealthyFSAQ|Ohälsosamt för vissa|
+ |unkown / error in data|okänt / fel i data|
+ |VeryUnhealthyAQ|Mycket ohälsosamt|
+
+# airquality explain
+ |Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.|Luftkvaliteten är acceptabel; för vissa föroreningar kan det emellertid finnas ett måttligt hälsoproblem för ett mycket litet antal människor som är ovanligt känsliga för luftföroreningar.|
+ |Air quality is considered satisfactory, and air pollution poses little or no risk|Luftkvaliteten anses vara tillfredsställande och luftföroreningar utgör liten eller ingen risk|
+ |Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.|Alla kan börja uppleva hälsoeffekter; medlemmar i känsliga grupper kan uppleva allvarligare hälsoeffekter.|
+ |Health alert: everyone may experience more serious health effects|Hälsovarning: alla kan uppleva allvarligare hälsoeffekter|
+ |Health warnings of emergency conditions. The entire population is more likely to be affected|Hälsovarningar om nödsituationer. Det är mer sannolikt att hela befolkningen påverkas|
+ |Members of sensitive groups may experience health effects. The general public is not likely to be affected.|Medlemmar i känsliga grupper kan uppleva hälsoeffekter. Allmänheten kommer sannolikt inte att påverkas.|
+
+# earthquake
+ |Click to sort the table on|Klicka för att sortera tabellen på|
+ |Coordinates|Koordinater|
+ |Dangerous|Farlig|
+ |Depth|Djup|
+ |Earthquake information courtesy of|Jordbävningsinformation med tillstånd av|
+ |Earthquake|Jordbävning|
+ |Earthquakes|Jordbävningar|
+ |Great earthquake|Stor jordbävning|
+ |GreatE|Stor jordbävning|
+ |Largest|Största|
+ |Last Earthquake|Sista jordbävningen|
+ |LightE|Lätt jordbävning|
+ |Magnitude|Magnitud|
+ |Major earthquake|Större jordbävning|
+ |MajorE|Större jordbävning|
+ |Minor earthquake|Mindre jordbävning|
+ |MinorE|Mindre jordbävning|
+ |Moderate earthquake|Måttlig jordbävning|
+ |ModerateE|Måttlig jordbävning|
+ |or on|eller på|
+ |Regional earthquake|Regional jordbävning|
+ |RegionalE|Regional jordbävning|
+ |Strong earthquake|Stark jordbävning|
+ |StrongE|Stark jordbävning|
+ |Table is sorted by|Tabellen sorteras efter|
+
+# sun/moon
+ |Azimuth|Azimut|
+ |Current Moon cycle is|Nuvarande måncykel är|
+ |Darkness|Mörker|
+ |day before|dagen innan|
+ |Daylight|Dagsljus|
+ |days old|dagar gamla|
+ |Elevation|Höjd|
+ |Estimated|Beräknad|
+ |First Quarter|Första kvarten|
+ |Full Moon|Fullmåne|
+ |Luminance|Luminans|
+ |Moon Phase / Sun-Moon  Rise-Set Information|Månfas och solmåne stiga och ställa in|
+ |Moon Rise/Set Information|Månen stiger och sätter|
+ |Moon|Måne|
+ |Moonphase|Månfas|
+ |Moonrise|Månen stiger|
+ |Moonset|Månset|
+ |New Moon|Ny måne|
+ |Next Full Moon|Nästa fullmåne|
+ |Next New Moon|Nästa New Moon|
+ |Of Daylight|Av dagsljus|
+ |Sun Rise/Set Information|Solen går upp och går|
+ |Sun rose at|Solen steg på|
+ |Sun set|Solnedgång|
+ |Sun will set|Solnedgång på|
+ |Sun|Sol|
+ |SunRise/Set|Soluppgång och set|
+ |Sunrise|Soluppgång|
+ |Sunset|Solnedgång|
+ |Third Quarter|Tredje kvartalet|
+ |Till Sunrise|Soluppgång|
+ |Till Sunset|Solnedgång|
+ |Waning Crescent|Avtagande halvmåne|
+ |Waning Gibbous|Avtagande Gibbous|
+ |Waxing Crescent|Vaxande halvmåne|
+ |Waxing Gibbous|Vaxande Gibbous|
+
+# UV/solar/lux
+ |Brightness|Ljusstyrka|
+ |Current UVINDEX Advisory|Nuvarande UVINDEX-rådgivning|
+ |CURRENT UVINDEX|AKTUELL UVINDEX|
+ |Excellent and Sustainable|Utmärkt och hållbart|
+ |Good and Sustainable|Bra och hållbart|
+ |Good to Excellent|Bra till utmärkt|
+ |Index|Index|
+ |Low |Låg |
+ |Low to Moderate|Låg till måttlig|
+ |Lux Brightness|Lux ljusstyrka|
+ |Lux measurement|Lux mätning|
+ |Lux|Lux|
+ |Moderate to Good|Måttlig till bra|
+ |None |Ingen  |
+ |Poor |Låg |
+ |Solar Energy Replenishment|Solenergi påfyllning|
+ |Solar Radiation|Solstrålning|
+ |Ultraviolet|Ultraviolett|
+
+# UV/solar/lux explain
+ |High risk of harm from unprotected sun exposure.|Hög risk för skador på grund av oskyddad exponering för solen.|
+ |Low danger from the sun&apos;s UV rays for the average person|Låg fara från solens UV-strålar för den genomsnittliga personen|
+ |Measures the approximate human eye response to light under a variety of lighting conditions.|Mät den ungefärliga människans ögonsvar på ljus under olika ljusförhållanden.|
+ |Moderate risk of harm from unprotected sun exposure.|Måttlig risk för skador på grund av oskyddad exponering för solen.|
+ |The total amount of all the light measured is known as the "luminous flux".|Den totala mängden allt uppmätt ljus är känt som "ljusflödet".|
+ |Very high risk of harm from unprotected sun exposure. Take extra precautions.|Mycket hög risk för skador på grund av oskyddad exponering för solen. Vidta extra försiktighetsåtgärder.|
+
+# metar
+ |Airport-code|Flygplatskod|
+ |Current Conditions|Nuvarande omständigheter|
+ |Heavy |Tung |
+ |Light |Ljus |
+ |Location|Plats|
+ |Metar Aviation Weather Data|Metar väderdata för luftfart|
+ |Visibility|Synlighet|
+
+# menu
+ |air-quality.com|air-quality.com|
+ |Atlantic Ocean pressure map|Atlanten tryck karta|
+ |Aurora info|Nordlys info|
+ |Awekas|Awekas|
+ |Contact Info|Kontaktinformation|
+ |CWOP|CWOP|
+ |Dark Theme|Mörkt tema|
+ |DarkSky Forecast|DarkSky Prognos|
+ |European Weather Network|Europeiska vädernätverket|
+ |EXTRAS|EXTRA|
+ |FIRST SETUP (protected)|FÖRSTA INSTÄLLNING (skyddad)|
+ |Graphs|Grafer|
+ |History at WU |Historia vid WU|
+ |History at WU|Historia vid WU|
+ |Home|Start|
+ |HWA|HWA|
+ |Imperial|Imperial|
+ |License|Licens|
+ |Light Theme|Lätt tema|
+ |Luftdaten Map|Luftdaten karta|
+ |Maintained by|Underhållen av|
+ |Menu|Meny|
+ |Metric|Metrisk |
+ |NWS forecast|NWS-prognos|
+ |Official weather alarms|Officiella väderlarm|
+ |Pacific Ocean pressure map|Stilla havet tryck karta|
+ |PurpleAir Map|PurpleAir-karta|
+ |PwsWeather|PwsWeather|
+ |pwsWeather|PwsWeather|
+ |Reports at WU |Rapporter vid WU|
+ |Reports at WU|Rapporter vid WU|
+ |Scandinavia|Skandinavien|
+ |Select language|Välj språk|
+ |Settings|Inställningar|
+ |Station Theme|Station tema|
+ |Stations data at WL.com|Stationsdata på WL.com|
+ |SUPPORT|STÖD|
+ |Template by|Mall av|
+ |UK (MPH)|UK (MPH)|
+ |USER PREFERENCES|ANVÄNDAR PREFERENSER|
+ |WEATHER NETWORKS|VÄDERNÄT|
+ |Weather Networks|Vädernätverk|
+ |WeatherCloud|WeatherCloud|
+ |WeatherFlow map|WeatherFlow-karta|
+ |WeatherFlow_map|WeatherFlow-karta|
+ |WeatherUnderground|WeatherUnderground|
+ |Web Cam|Webbkamera|
+ |Wind forecast|Vindprognos|
+ |WOW|Vindprognos|
+ |WXSIM Forecast|WXSIM-prognos|
+ |YrNo Forecast|YrNo-prognos|
+
+# bio
+ |About copyrighted parts used in this template|Om upphovsrättsskyddade delar som används i den här mallen|
+ |Contact information|Kontakt information|
+ |Copyrighted material used|Upphovsrättsskyddat material som används|
+ |Credits, contact and|Krediter, kontakt och|
+ |Download and support|Ladda ner och stöd|
+ |Facebook|Facebook|
+ |For your remarks or questions|För dina kommentarer eller frågor|
+ |Legal information|Juridisk information|
+ |Mail|Post|
+ |More information about the used website template and tools|Mer information om den använda webbplatsmallen och verktygen|
+ |Our main website|Vår huvudsida|
+ |Twitter|Twitter|
+ |Website|Hemsida|
+ |You can find us here also|Du hittar oss också här|
+
+# graphs
+ |Data from our weatherstation|Data från vår väderstation|
+ |for this day|för denna dag|
+ |for this month|för den här månaden|
+ |for this year|för detta år|
+ |High|Hög|
+ |Low|Låg|
+
+# snow
+ |Add measurement|Lägg till mätning|
+ |Current height|Aktuell höjd|
+ |Date|Datum|
+ |Fresh|Nytt snöfall|
+ |Manual measurements|Manuella mätningar|
+ |Melted|Smält|
+ |Snow measurements|Mått på snö|
+ |Snowfall since last measurement|Snöfall sedan senaste mätning|
+ |Remove measurement|Ta bort mätningen|
+
+# conditions
+ |blowing|blåser|
+ |Clear sky|Klar himmel|
+ |Clear|Klar|
+ |Clouds|Moln|
+ |Cloudy|Molnig|
+ |Conditions|Betingelser|
+ |Drizzle|duggregn|
+ |drizzle|duggregn|
+ |dust|damm|
+ |Fair|Fint väder|
+ |Fog|Dimma|
+ |fog|dimma|
+ |freezing|frysning|
+ |hail|hagel|
+ |haze|dis|
+ |Heavy rain and thunder|Kraftigt regn och åska|
+ |Heavy rain showers and thunder|Kraftiga regnskurar och åska|
+ |Heavy rain showers|Kraftiga regnskurar|
+ |Heavy rain|Mycket regn|
+ |Heavy sleet and thunder|Kraftig snö och åska|
+ |Heavy sleet showers and thunder|Kraftiga regnskurar och åska|
+ |Heavy sleet showers|Kraftiga regnskurar|
+ |Heavy sleet|Tung snö|
+ |Heavy snow and thunder|Tung snö och åska|
+ |Heavy snow showers and thunder|Kraftiga snöbyar och åska|
+ |Heavy snow showers|Tunga snöbyar|
+ |Heavy snow|Tung snö|
+ |heavy|tung|
+ |ice_crystals|iskristaller|
+ |ice_pellets|ispellets|
+ |Isolated Light Showers|några lätta duschar|
+ |Isolated Showers|lite regnskurar|
+ |Isolated|Enstaka|
+ |Light rain and thunder|Lätt regn och åska|
+ |Light rain showers and thunder|Lätt regn och åska|
+ |Light Rain Showers|Lätt regn|
+ |Light rain showers|Lätt regn|
+ |Light rain|Lätt regn|
+ |Light Showers|Lätt regn|
+ |Light sleet and thunder|Lätt snö och åska|
+ |Light sleet showers|Lätt snö |
+ |Light sleet|Lätt snö|
+ |Light snow and thunder|Lätt snö och åska|
+ |Light Snow Showers|Lätt snöbyar|
+ |Light snow showers|Lätt snöbyar|
+ |Light snow|Lätt snö|
+ |Light Wintry Mix|Lätt vintermix|
+ |light|ljus|
+ |lightning|blixt|
+ |Lights sleet showers and thunder|Lätt regnskur och åska|
+ |Lights snow showers and thunder|Lätt snöbyar och åska|
+ |Mist and Fog|Dimma|
+ |Mist|Dimma|
+ |mist|dimma|
+ |moderate|måttlig|
+ |Mostly Clear|Mest klart|
+ |Mostly Cloudy|Mestadels molnigt|
+ |Mostly Scattered Clouds|Mest spridda moln|
+ |Mostly Sunny|Mestadels soligt|
+ |Mostly|Mestadels|
+ |or|eller|
+ |Overcast|Molnigt|
+ |Partly Cloudy|Delvis molnigt|
+ |Partly cloudy|Delvis molnigt|
+ |Rain and thunder|Regn och åska|
+ |Rain showers and thunder|Regnskurar och åska|
+ |Rain Showers Likely|Sannolikt några regnskurar|
+ |Rain showers|Regnskurar|
+ |Rain|Regn|
+ |rain|regn|
+ |sand|sand|
+ |Scattered Light Showers|Spritt ljus regnskurar|
+ |Scattered Showers|Spritt regnskurar|
+ |Scattered|Spritt |
+ |showers,|regnskurar|
+ |showers|regnskurar|
+ |Sleet and thunder|Slö och åska|
+ |Sleet showers and thunder|Sörjregn och åska|
+ |Sleet showers|Suddiga duschar|
+ |Sleet|Snöblandat regn|
+ |smoke|rök|
+ |Snow and thunder|Snö och åska|
+ |Snow showers and thunder|Snöbyar och åska|
+ |Snow showers|Snö duschar|
+ |Snow|Snö|
+ |snow|snö|
+ |squall|kastby|
+ |steady|stadig|
+ |storm|storm|
+ |Sunny|Solig|
+ |thunderstorm|åskväder|
+ |tornado|tornado|
+ |unknown|okänd|
+ |vulcanic_ash|vulkanisk aska|
+ |water_spout|water_spout|
+ |widespread|utbredd|
+ |Windy|Blåsigt|
+
+# extra sensors
+ |Extra block large|Extra block large|
+ |Extra block|Extra block|
+ |Extra sensors|Extra sensors|
+ |extra_hum1|extra_hum1|
+ |extra_hum2|extra_hum2|
+ |extra_hum3|extra_hum3|
+ |extra_hum4|extra_hum4|
+ |extra_hum5|extra_hum5|
+ |extra_hum6|extra_hum6|
+ |extra_hum7|extra_hum7|
+ |extra_hum8|extra_hum8|
+ |extra_tmp1|extra_tmp1|
+ |extra_tmp2|extra_tmp2|
+ |extra_tmp3|extra_tmp3|
+ |extra_tmp4|extra_tmp4|
+ |extra_tmp5|extra_tmp5|
+ |extra_tmp6|extra_tmp6|
+ |extra_tmp7|extra_tmp7|
+ |extra_tmp8|extra_tmp8|

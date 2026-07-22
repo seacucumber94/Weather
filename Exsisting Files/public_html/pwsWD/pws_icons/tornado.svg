@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 200 200" aria-labelledby="title" aria-describedby="desc" role="img" width="200pt" height="200pt" xmlns="http://www.w3.org/2000/svg">
+  <title>Tornado</title>
+  <desc>A color styled icon from Orion Icon Library.</desc>
+  <path data-name="layer1" d="M 158.204 14.351 L 36.043 14.351 C 87.307 49.409 32.335 61.186 69.855 100.078 C 97.123 129.385 101.05 146.64 92.76 167.729 L 101.486 167.729 C 101.486 167.729 143.37 128.289 132.026 101.996 C 95.814 45.848 191.798 71.32 158.204 14.351 Z" style="fill: rgba(17, 61, 55, 0.35);"/>
+  <path data-name="stroke" fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 36.043 14.351 L 157.772 14.351 M 57.78 36.202 L 166.467 36.202 M 57.357 57.279 L 144.73 58.053 M 57.78 79.904 L 122.993 79.904 M 70.823 101.754 C 69.361 101.366 131.618 101.735 131.688 101.754 M 88.213 123.605 L 131.688 123.605 M 96.908 145.456 L 118.645 145.456 M 92.56 167.307 L 101.255 167.307" style=""/>
+</svg>

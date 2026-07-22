@@ -1,0 +1,14 @@
+<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M 47.788 45.691"/>
+    <polyline fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="24 45.144 13 37.884 13 33.714 24 40.984"/>
+    <polyline fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="48 45.144 59 37.884 59 33.714 48 40.984"/>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M 58.232 30.136 C 55.644 20.294 46.696 13.025 36.04 13"/>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M 13.759 41.934 C 16.37 51.74 25.3 58.975 35.932 59 C 46.59 59.025 55.572 51.796 58.205 41.965"/>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M 13.12 33.504"/>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M 36.04 13 C 25.356 12.975 16.358 20.237 13.749 30.103"/>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M 45.904 52.38 L 26.097 52.38 C 24.939 52.38 24 51.439 24 50.278 L 24 40.577 C 24 39.416 24.939 38.475 26.097 38.475 L 45.903 38.475 C 47.061 38.475 48 39.416 48 40.577 L 48 50.278 C 48 51.439 47.061 52.38 45.904 52.38 Z"/>
+    <path d="M 30.078 30.006 C 30.078 31.663 28.733 33.006 27.078 33.006 C 25.423 33.006 24.078 31.663 24.078 30.006 C 24.078 28.351 25.423 27.006 27.078 27.006 C 28.733 27.006 30.078 28.351 30.078 30.006"/>
+    <path d="M 47.878 29.839 C 47.878 31.496 46.533 32.839 44.878 32.839 C 43.223 32.839 41.878 31.496 41.878 29.839 C 41.878 28.184 43.223 26.839 44.878 26.839 C 46.533 26.839 47.878 28.184 47.878 29.839"/>
+  </g>
+</svg>

@@ -1,0 +1,165 @@
+/*  version 3.00 date 2014-06-30  name: wsreport.css contents: CSS external file for report pages / WU-data  
+   $pageName	= 'wsReports.css'; 
+   $pageVersion	= '4.00 2017-12-16'; 
+   $pageUpdated	= 'first version';
+report specific - template redefine */
+.blockHead {
+	background-color: #666666;
+	color: white;					/* changed 2014-05-31 */
+	text-align: center;
+	margin: 0;}
+.genericTable{
+        font-family: arial;
+     /*   color: #000000;  */
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 9pt;}  
+.table-top {	/* 	table-top   level_head  */
+	background-color: #666666;
+	color: white;					/* changed 2014-05-31 */
+        border: 1px solid #22464F;  
+	text-align: center;
+	padding: 2px;
+	font-size: 85%;}
+.table-top a {
+	color: white;}
+.blockHead a {
+	color: white;}
+.level_empty {
+	background-color: #666666; }
+.level_nocolor {
+    background-color: transparent;
+    border: 1px solid #22464F;
+    text-align: center;
+    padding: 2px;
+    font-weight:bold;
+    font-size: 85%;}
+.level_novalue {
+    background-color: #666666;
+    color: #000000;
+    border: 1px solid #22464F;
+    text-align: center;
+    padding: 2px;
+    font-weight:bold;
+    font-size: 85%;}
+.level_0 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #0000cc;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 85%;}
+.level_1 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #0066cc;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 85%;}
+.level_2 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #0099cc;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 85%;}
+.level_3 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #00ccff;
+    font-weight: bold;
+    font-size: 85%;}
+.level_4 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #00ffcc;
+    font-weight: bold;
+    font-size: 85%;;}
+.level_5 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #00ff99;
+    font-weight: bold;
+    font-size: 85%;}
+.level_6 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #ccff00;
+    font-weight: bold;
+    font-size: 85%;}
+.level_7 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #ffff66;
+    font-weight: bold;
+    font-size: 85%;}
+.level_8 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #ffcc00;
+    font-weight: bold;
+    font-size: 85%;}
+.level_9 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #ff9933;
+    font-weight: bold;
+    font-size: 85%;}
+.level_10 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #ff6600;
+    font-weight: bold;
+    font-size: 85%;}
+.level_11 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #ff3300;
+    font-weight: bold;
+    font-size: 85%;}
+.level_12 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #cc3300;
+    font-weight: bold;
+    font-size: 85%;}
+.level_13 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #ff6600;
+    font-weight: bold;
+    font-size: 85%;}
+.level_14 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #ff3300;
+    font-weight: bold;
+    font-size: 85%;}
+.level_15 {
+    border: 1px solid #666666;
+    color: #000000;
+    text-align: center;
+    background-color: #cc3300;
+    font-weight: bold;
+    font-size: 85%;}
+.separator {
+	background-color: transparent; 	/*	#ffffff; */
+	border: 0px;}
+
+
+

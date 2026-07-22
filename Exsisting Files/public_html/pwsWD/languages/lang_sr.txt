@@ -1,0 +1,770 @@
+# $scrpt_vrsn_dt = 'lang_sr.txt|01|2020-12-15|';  # release 2012_lts
+
+# units
+ |/h|/s|
+ |/m|/m|
+ |and|i|
+ |Bft|Bofor|
+ |C|C|
+ |Celsius|Celzijus|
+ |cm|cm|
+ |F|F|
+ |Fahrenheit|Fahrenheit|
+ |feet|Stopala|
+ |Hours|Sati|
+ |hPa|hPa|
+ |hrs |Sati|
+ |Hrs|Sati|
+ |hrs|sati|
+ |inHg|inHg|
+ |in|in|
+ |KM/H|KM/S|
+ |km/h|km/s|
+ |km|km|
+ |KMs|KM|
+ |kph|kps|
+ |KTS|Čvorovi|
+ |Kts|Čvorovi|
+ |M/S|M/S|
+ |m/s|m/s|
+ |mile|Milje|
+ |Miles|Milja|
+ |min |min|
+ |mins |mins |
+ |minutes|Minuta|
+ |mm|mm|
+ |MPH|MPS|
+ |mph|mps|
+ |mt|mt|
+ |secs |sek |
+
+# months short
+ |Apr |Apr |
+ |Aug |Avg |
+ |Dec |Dec |
+ |Feb |Feb |
+ |Jan |Jan |
+ |Jul |Jul |
+ |Jun |Jun |
+ |Mar |Mar |
+ |May |Maj |
+ |Nov |Nov |
+ |Oct |Okt |
+ |Sep |Sep |
+
+# months long
+ |April|Aprila|
+ |August|Avgusta|
+ |December|Decembra|
+ |February|Februara|
+ |January|Januara|
+ |July|Jula|
+ |June|Juna|
+ |March|Marta|
+ |May|Maj|
+ |November|Novembra|
+ |October|Oktobra|
+ |September|Septembar|
+
+# days short
+ |Fri |Pet|
+ |Mon |Pon|
+ |Sat |Sub |
+ |Sun |Ned |
+ |Thu |Čet |
+ |Thur |Čet |
+ |Tue |Uto |
+ |Wed |Sre |
+
+# days long
+ |Friday|Petak|
+ |Monday|Ponedeljak|
+ |Saturday|Subotu|
+ |Sunday|Nedelju|
+ |Thursday|Иetvrtak|
+ |Tuesday|Utorak|
+ |Wednesday|Srede|
+
+# dayparts
+ |Afternoon|Popodnevni|
+ |afternoon|popodnevni|
+ |Evening|Veče|
+ |evening|veče|
+ |Morning|Jutro|
+ |morning|jutro|
+ |Night time|Noć|
+ |Night|Noć|
+ |night|noć|
+
+# compass
+ |E|I|
+ |East|Istok|
+ |ENE|ISI|
+ |ESE|IJI|
+ |N|S|
+ |NE|SI|
+ |NNE|SSI|
+ |NNW|SSZ|
+ |North|Sever|
+ |NW|SZ|
+ |S|J|
+ |SE|JI|
+ |South|Jug|
+ |SSE|JJI|
+ |SSW|JJZ|
+ |SW|JZ|
+ |W|Z|
+ |West|Zapad|
+ |WNW|ZSZ|
+ |WSW|ZJZ|
+
+# common
+ |All time|Sve vreme|
+ |any day|Bilo koji dan|
+ |any month|bilo koji mesec|
+ |any year|bilo koje godine|
+ |Average|Srednja|
+ |Avg |Sr|
+ |avg|pros|
+ |by|po|
+ |Close|Blizu|
+ |Current|Trenutno|
+ |current|trenutno|
+ |Daily|Dnevne|
+ |Day|Dan|
+ |days|dana|
+ |Description|Opis|
+ |Distance|Udaljenost|
+ |Falling Rapidly|Brzo pada|
+ |Falling Slowly|Polako se urušava|
+ |Falling|U padu|
+ |Force|Sila|
+ |Forecast for|Predviđanje za|
+ |forecast|Prognoza|
+ |from|od|
+ |Graph type|Tip grafikona|
+ |here|Ovde|
+ |History|Istorija|
+ |Hourly|/ Sat|
+ |Information|Informacije|
+ |Last Hour|Prošli sat|
+ |Last Updated|Poslednje ažuriranje|
+ |Link|Vezu|
+ |Max|Max|
+ |Min|Min|
+ |Month|Mesec dana|
+ |Never base important decisions that could result in harm to people or property on this weather information.|Nikada se na ovim vremenskim informacijama ne zasnivajte na važnim odlukama koje bi mogle rezultirati ljudima ili imovinom.|
+ |No valid sensors found|Nisu pronađeni važeći senzori|
+ |Offline|Offline|
+ |Online|Online|
+ |Period|Razdoblje|
+ |Powered by|Osnažen|
+ |Rising Rapidly|Brzo raste|
+ |Rising Slowly|Polako raste|
+ |Rising|U porastu|
+ |Select|Izaberite|
+ |Steady|Neprekidna|
+ |the last|poslednji|
+ |Time|Vreme|
+ |Today|Danas|
+ |today|danas|
+ |Tomorrow|Sutra|
+ |Tonight|Noćas|
+ |Updated|Ažurirano|
+ |Year|Godine|
+ |Yesterday|Juče|
+
+# notifications
+ |Heat Exhaustion|Iscrpljna toplota|
+ |Heat Index Caution|Iscrpljna toplota Oprez|
+ |Lightning Strike Alert Detected|Otkriven je upozorenje o munjevitom napadu|
+ |Notification|Obaveštenje|
+ |Notifications|Obaveštenja|
+ |Reduce Sun Exposure|Smanji ekspoziciju sunca|
+ |seconds ago|pre nekoliko sekundi|
+ |UV-Index Caution|UV-indeks Oprez|
+ |Wind Gusts Becoming Strong Caution Required|Vetar postaje jak. Potrebno je oprez|
+ |Wind Gusts Reaching Gale Force|Vetar koji je dostigao "na silu"|
+
+# blocks
+ |24h Avg|24h Prosek|
+ |Airport|Aerodrom|
+ |Annual Rainfall|Godišnje Padavine |
+ |Aurora|Aurora|
+ |Currentsky|Trenutno|
+ |Details|Detalje|
+ |Enlarge|Uvećaj|
+ |Environment Canada forecast|Environment Canada prognoza|
+ |for the last|za poslednju|
+ |Forecast|Prognoza|
+ |Full page|Cela strana|
+ |Indoor Temperature|Unutrašnju temperaturu|
+ |LiveWebCam|UživoWebKamera|
+ |Map|Mapa|
+ |Max-Min Temperature|Max-Min Temperatura |
+ |Meteors|Meteori|
+ |Moon info|Mesec info|
+ |Moonphase information|Informacije o mesečevim menama|
+ |Movie|Film|
+ |Official AQ sensor station|Oficijelna AQ senzor|
+ |One hour forecast|Прогноза за један сат|
+ |Our WXSIM forecast|Naša WXSIM prognoza|
+ |Outside|Napolju|
+ |Radar|Radar|
+ |Rainfalltoday|Padavine danas|
+ |Solar - UV-Index - Lux|Sunce - UV-Indeks - Luks|
+ |Station weather history|Historija stanice|
+ |Station|Stanica|
+ |stored at WU|čuva na WU|
+ |SunPosition|Pozicija Sunca|
+ |Texts|Tekstove|
+ |UV Guide|UV Vodič|
+ |WeatherUnderground forecast|WeatherUnderground prognoza|
+ |Wind - Gust|Vetar - Nalet|
+
+# soil-moist
+ |Adequate|Adekvatan|
+ |Current planting and watering guide|Trenutni vodič za sadnju i zalivanje|
+ |Dangerous Dry|Opasno suvo|
+ |ERROR no reading|GREŠKA nema čitanja|
+ |Explanation|Objašnjenje|
+ |Irrigation desired|Navodnjavanje željeno|
+ |Irrigation needed|Potrebno je navodnjavanje|
+ |Moisture|vlažnost zemljišta|
+ |Saturated|Zasićen|
+ |Soil info|Informacije o zemljištu|
+ |Soil sensor - more information|Senzor tla - više informacija|
+
+# soil-moist explain
+ |Saturated Soil. Occurs for a day or two after irrigation.|Zasićeno zemljište. Javlja se dan ili dva nakon navodnjavanja.|
+ |Soil is adequately wet (except coarse sands which are drying out at this range)|Zemljište je dovoljno vlažno (osim grubog peska koji se u ovom opsegu isušuje)|
+ |Soil is becoming dangerously dry for maximum production.|Tlo postaje opasno suvo za maksimalnu proizvodnju.|
+ |Usual range to irrigate heavy clay soils|Uobičajeni domen za navodnjavanje teških glinenih tla|
+ |Usual range to irrigate or water (except heavy clay soils)<br />Irrigate at the upper end of this range in cool humid climates and with higher water-holding capacity soils.|Uobičajeni raspon za navodnjavanje ili zalivanje (osim teških glinenih zemljišta) <br /> Navodnjavanje na gornjem kraju ovog raspona u hladnoj vlažnoj klimi i sa većim zemljištima kapaciteta zadržavanja vode.|
+
+# soil-temp
+ |Deep freeze|Potpuno smrznuto|
+ |Frost line|Linija mraza|
+ |Ideal growth|Idealan rast|
+ |Minimum growth|Minimalni rast|
+ |Optimal growth|Optimalan rast|
+ |Too cold to plant|Prehladno za sadnju|
+
+# advisory
+ |(Severe) thunderstorms possible|(Teška) munja, moguća|
+ |Below Freezing|Ispod Nule|
+ |Caution|Pažnja|
+ |Expect|Očekivano|
+ |Firerisk|Opasnost od požara|
+ |Flooding Possible|Moguće poplave|
+ |Have a nice day|prijatan dan|
+ |Lightning Strike Nearby|Grmljavina u blizini|
+ |Possible Storm Approaching|Moguć razvoj oluje|
+ |Possible|Moguće|
+ |Radio Aurora Possible|Moguće je da je radio Aurora|
+ |This hour|Ovaj sat|
+ |This Week|Ove nedelje|
+ |Viewing Possible|Posmatrajući moguće|
+
+# lightning
+ |Direction|Pravac|
+ |Last 3 hr|Pos. 3 sata|
+ |Latest strike at|Poslednji grom na|
+ |Lightning strike|Udar groma|
+ |Lightning|Munja|
+ |Nearby Lightning|Obližnja munja|
+ |Nearby|Blizu|
+ |Total strikes|Totalna munja|
+
+# bft_names
+ |Calm|Tiho|
+ |Fresh breeze|Umereno jak vetar|
+ |Gale force|Oluja|
+ |Gentle breeze|Nežni povetarac|
+ |Hurricane|Uragan|
+ |Light air|Lagani povetarac|
+ |Light breeze|Povetarac|
+ |Moderate breeze|Umeren vetar|
+ |Near gale|Umerena oluja|
+ |Storm|Olujni vetar|
+ |Strong breeze|Jak vetar|
+ |Strong gale|Oluja|
+ |Violent storm|Jaka oluja|
+
+# w-names common
+ |Barometer|Vaz.pritisak|
+ |Dewpoint|Tačka Rose|
+ |ET|ET|
+ |Feels like|Osećaj|
+ |Feels|Oseća|
+ |Gust|Udar vetra|
+ |Heatindex|Osećaj toplote|
+ |Humidity|Vlaga|
+ |Indoor|Indoor|
+ |Leaf wetness|Vlažnost lista|
+ |Precipitation|-Padavine|
+ |precipitation|-padavine|
+ |Pressure|Vazdušni pritisak|
+ |Rainfall|Padavine|
+ |Rate|Trend|
+ |Solar|Solarni|
+ |Speed|brzina|
+ |Temp|Temp|
+ |Temperature|Temperatura|
+ |UV index|UV indeks|
+ |UV|UV|
+ |UVI|UVI|
+ |Wet Bulb|Vlažne sijalice|
+ |Wind Run|Pređeni put vetra|
+ |Wind run|Kaputa|
+ |Wind|Vetar|
+ |Windchill|Osećaj hladnoće|
+ |Winddirection|Pravac vetra|
+ |Windspeed|Brzina vetra|
+
+# meteors
+ |Active Sky Events|Aktivni nebeski događaji|
+ |Annual Meteor Showers|Godišnji pljuskovi meteora|
+ |Annular|Godišnji|
+ |Current Events|Aktuelnosti|
+ |Data Provided by|Podaci koje pruža|
+ |Eclipse|Pomračenje|
+ |Guide|Vodič|
+ |Lunar|Lunar|
+ |Meteor Shower|Meteorski pljusak|
+ |Meteor Showers|Meteor pljuskovi|
+ |Next Events|Sledeći događaji|
+ |No Active Sky Events|Nema aktivnih nebeskih događaja|
+ |Partial|Delimično|
+ |Peak|Paksimum|
+ |Total|Ukupno|
+ |Visible|Vidljivo|
+ |Wikipedia|Vikipedia|
+
+# meteors explain
+ |Any nearby ambientlight, Moonlight can make it difficult viewing.|Bilo koja blizina svetlosne svetlosti, mesečina može napraviti teško.|
+ |Meteor showers are best viewed away from the city lights.|Meteorski pljuskovi najbolje su gledani daleko od gradskih svetala.|
+ |Meteors are best viewed during the night hours, though meteors enter the atmosphere at any time of the day.|Meteorsarevievs gledajućithethghthours, iakometereorsenterthemosphereatanitimeofthedai.|
+ |They are just harder to see in the daylight apart from dawn and dusk.|Samo ih je teže vidjeti na dnevnom svetlu, osim zore i sumraka.|
+
+# aurora
+ |A-INDEX|A-INDEX|
+ |Excellent Aurora Viewing Possible|Izvrsna mogućnost pregleda Aurore|
+ |Geomagnetic Major Storm|Geomagnetic velika oluja|
+ |Geomagnetic Severe Storm|Geomagnetic teška oluja|
+ |Geomagnetic Storm|Geomagnetic Storm|
+ |High Latitude Aurora Viewing Possible|Moguće je gledanje u visokoj širini Aurore|
+ |High Latitude Radio Aurora|Radio aurora visoke Latitude|
+ |High Latitude Weak Radio Aurora|Radio aurora visoke geografske širine|
+ |KP-INDEX|KP-INDEX|
+ |KP-PLANETARY INDEX|KP-PLANETARY INDEX|
+ |Major Storm|Velika oluja|
+ |Mid to High Latitude Aurora Viewing Possible|Srednja do visoka širina Aurore gledanje moguće|
+ |Mid-High Latitude Radio Aurora|Srednja-visoka Latitude Radio Aurora|
+ |Minor|Manji|
+ |No Aurora|No Aurora|
+ |No Radio Aurora|No Radio Aurora|
+ |NOT ACTIVE|NIJE AKTIVNO|
+ |Quiet No|Tiho Ne|
+ |RADIO AURORA ACTIVE|RADIO AURORA AKTIVANn|
+ |Radio Aurora Indicators|Radio Aurora indikatori|
+ |Radio Aurora|Radio Aurora|
+ |Severe Storm|Teška oluja|
+ |Strong Radio Aurora|Jaki radio Aurora|
+ |Visual Aurora Borealis/Northern Lights and VHF Radio Aurora Indicators|Izuelna aurora borealis - severna svetla i VHF Radio Aurora indikatori|
+ |Weak High Latitude Aurora Viewing Possible|Slaba visina zemljopisne širine Aurora|
+ |Weak|Slab|
+
+# aurora explain
+ |is an indicator of possible enhanced VHF radio communication at a range of 1000 miles or more.|je pokazatelj moguće poboljšane VHF radio veze u dometu od 1000 milja ili više.|
+ |provides a good indicator of viewing the Aurora Borealis or Northern Lights.|pruža dobar pokazatelj gledanja Aurore Borealis ili Severne svetlosti.|
+ |Strong solar activity may allow long-distance radio communications at 28-433 MHz in mid to high latitudes.|Jaka solarna aktivnost može omogućiti radio veze na velike daljine na 28-433 MHz u srednjim i visokim geografskim širinama.|
+ |The estimated 3-hour Planetary Kp-index data is collected from ground-based magnetometers.|Procenjeni trosatni podaci o planetarnom Kp-indeksu prikupljaju se sa zemaljskih magnetometara.|
+ |The higher the Kp-Index the greater the probability of viewing.|Što je veći Kp-indeks veća je verovatnoća gledanja.|
+
+# airquality
+ |1 hour|1 sat|
+ |1 week|1 nedelja|
+ |10 min|10 min|
+ |24 hour|24 sati|
+ |24 hours|24 sati|
+ |30 min|30 min|
+ |6 hour|6 sati|
+ |_1_hour|1 sat|
+ |_24_hour|24 sati|
+ |_3_hour|3 sati|
+ |Air Quality data from our own sensor|Podaci o kvalitetu vazduha sa našeg sopstvenog senzora|
+ |Air Quality Index|Indeks kvaliteta vazduha|
+ |Air quality sensor|Senzor kvaliteta vazduha|
+ |Air Quality|Kvalitet vazduha|
+ |AQI|AQI|
+ |Based on a common formula using the temperature & dewpoint, as recorded realtime from this weather station, an estimated height of the cloudbase is calculated.|Na osnovu zajedničke formule koja koristi temperaturu i tačku rošenja, kao što je snimljeno u realnom vremenu sa ove meteorološke stanice, izračunava se procenjena visina baze oblaka.|
+ |classification|klasifikacija|
+ |concentration|koncentracija|
+ |Critical Conditions|Kritično stanje|
+ |Current cloudbase|Trenutna oblačna baza|
+ |Davis sensor|Davis senzor|
+ |EPA Air Quality Index|EPA indeks kvaliteta vazduha|
+ |GoodAQ|Dobar kvalitet vazduha|
+ |HazordousAQ|Opasni kvalitet vazduha|
+ |iaqB|iaqB|
+ |Information on Air Quality|Informacije o kvalitetu vazduha|
+ |Information on Cloudbase|Informacije o cloudbase-u|
+ |It is not a accurate tool it is a relative indicator.|To nije tačan alat, već relativni pokazatelj.|
+ |Last 24 hours|Last 24 hours|
+ |Last 7 days|Poslednjih 7 dana|
+ |Life Threatening|Life Threatening|
+ |Luftdaten sensor|Luftdaten senzor|
+ |max|maks|
+ |min|mini|
+ |ModerateAQ|Umeren kvalitet vazduha|
+ |More information|Više informacija|
+ |My city|Moj grad|
+ |O3|O3|
+ |Our Davis AQ sensor|Our Davis sensor|
+ |Our Luftdaten AQ sensor|Naš Luftdaten senzor|
+ |Our Luftdaten sensor|Naš Luftdaten senzor|
+ |Our measurement values above are real-time values|Naše gornje mere su vrednosti u realnom vremenu|
+ |Our Purple AQ sensor|Naš PurpleAir senzor|
+ |Our PurpleAir sensor|Naš PurpleAir senzor|
+ |Our station AQ sensor|Naš senzor stanice|
+ |Our station sensor|Naš senzor stanice|
+ |Particle|Čestica|
+ |particle|čestica|
+ |period|razdoblje|
+ |pm10|pm10|
+ |pm1|pm1|
+ |pm2.5|pm2.5|
+ |PM25|pm2.5|
+ |pm_10|pm10|
+ |pm_2p5|pm2.5|
+ |Precautions Required|Potreban oprez|
+ |Purpleair sensor|Purpleair senzor|
+ |Risk|Rizik|
+ |Sensor data captured at|Podaci senzora snimljeni u|
+ |Sensor_ID|ID_senzora|
+ |Station ID|ID Stanice|
+ |Station sensor|Сензор станице|
+ |The health effects should be based on 24 hours average values only.|Efekti na zdravlje treba da se zasnivaju samo na prosečnim vrednostima od 24 sata.|
+ |UnhealthyAQ|Nezdrav kvalitet vazduha|
+ |UnhealthyFSAQ|Nezdrav za neki kvalitet vazduha|
+ |unkown / error in data|nepoznato / greška u podacima|
+ |VeryUnhealthyAQ|Veoma nezdravi kvalitet vazduha|
+
+# airquality explain
+ |Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.|Kvalitet vazduha je prihvatljiv; međutim, za neke zagađivače može postojati umerena zdravstvena briga za vrlo mali broj ljudi koji su neobično osetljivi na zagađenje vazduha.|
+ |Air quality is considered satisfactory, and air pollution poses little or no risk|Kvalitet vazduha se smatra zadovoljavajućim, a zagađenje vazduha predstavlja mali ili nikakav rizik|
+ |Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.|Svako može početi da iskušava zdravstvene posledice; članovi osetljivih grupa mogu iskusiti ozbiljnije zdravstvene posledice.|
+ |Health alert: everyone may experience more serious health effects|Upozorenje o zdravlju: svi mogu imati ozbiljnije zdravstvene posledice|
+ |Health warnings of emergency conditions. The entire population is more likely to be affected|Zdravstvena upozorenja za vanredne uslove. Verovatnije je da će to biti pogođeno celokupnom populacijom|
+ |Members of sensitive groups may experience health effects. The general public is not likely to be affected.|Pripadnici osetljivih grupa mogu iskusiti zdravstvene efekte. Široka javnost verovatno neće biti pogođena.|
+
+# earthquake
+ |Click to sort the table on|Kliknite da biste sortirali tabelu na |
+ |Coordinates|Koordinate|
+ |Dangerous|Opasno|
+ |Depth|Dubina|
+ |Earthquake information courtesy of|Informacije o zemljotresima ljubazno|
+ |Earthquake|Zemljotres|
+ |Earthquakes|Zemljotresi|
+ |Great earthquake|Veliki potres|
+ |GreatE|Veliki potres|
+ |Largest|Najveći |
+ |Last Earthquake|Poslednji zemljotres|
+ |LightE|Lagan zemljotres|
+ |Magnitude|Veličina|
+ |Major earthquake|Veliki zemljotres|
+ |MajorE|Veliki zemljotres|
+ |Minor earthquake|Mali zemljotres|
+ |MinorE|Mali zemljotres|
+ |Moderate earthquake|Umjeren zemljotres|
+ |ModerateE|Umjeren zemljotres|
+ |or on| ili |
+ |Regional earthquake|Regionalni zemljotres|
+ |RegionalE|Regionalni zemljotres|
+ |Strong earthquake|Snažan zemljotres|
+ |StrongE|Snažan zemljotres|
+ |Table is sorted by|Tabela je sortirana prema|
+
+# sun/moon
+ |Azimuth|Azimut|
+ |Current Moon cycle is|Trenutni Mesečev ciklus je|
+ |Darkness|Mrak|
+ |day before|Dan prije|
+ |Daylight|Obdanica|
+ |days old|dana|
+ |Elevation|Elevacija|
+ |Estimated|Preostalo|
+ |First Quarter|Prva četvrtina|
+ |Full Moon|Pun mesec|
+ |Luminance|Luminansa |
+ |Moon Phase / Sun-Moon  Rise-Set Information|Faza meseca - sunce i mesec - uspon i zalazak|
+ |Moon Rise/Set Information|Uspon meseca i postavljanje informacija|
+ |Moon|Mesec|
+ |Moonphase|Mesečeva mena|
+ |Moonrise|Izlazak meseca|
+ |Moonset|Zalazak meseca|
+ |New Moon|Mlad mesec|
+ |Next Full Moon|Pun mesec|
+ |Next New Moon|Mlad mesec|
+ |Of Daylight|dnevne svetlosti|
+ |Sun Rise/Set Information|Izlazak sunca i postavljanje informacija|
+ |Sun rose at|Sunce se diglo|
+ |Sun set|Zalazak sunca|
+ |Sun will set|Sunce će zalaziti|
+ |Sun|Sunce|
+ |SunRise/Set|Izlazak/zalazak sunca|
+ |Sunrise|Izlazak sunca|
+ |Sunset|Zalazak sunca|
+ |Third Quarter|Treća četvrtina|
+ |Till Sunrise|Do izlaska<br />sunca|
+ |Till Sunset|Do zalaska<br />sunca|
+ |Waning Crescent|Opadajući srp|
+ |Waning Gibbous|Opadajući mesec|
+ |Waxing Crescent|Rastući srp|
+ |Waxing Gibbous|Rastući mesec|
+
+# UV/solar/lux
+ |Brightness|Osvetljenje|
+ |Current UVINDEX Advisory|Trenutni UVINDEX saveti|
+ |CURRENT UVINDEX|TRENUTNI UVINDEX|
+ |Excellent and Sustainable|Odličan i održiv|
+ |Good and Sustainable|Dobro i održivo|
+ |Good to Excellent|Dobro do odlično|
+ |Index|Indeks|
+ |Low |Nizak|
+ |Low to Moderate|Nizak do umjeren|
+ |Lux Brightness|Luks Osvetlejnost|
+ |Lux measurement|Luk merenje|
+ |Lux|Lux|
+ |Moderate to Good|Umereno do dobro|
+ |None |Nijedan |
+ |Poor |Niska |
+ |Solar Energy Replenishment|Nadoknada solarne energije|
+ |Solar Radiation|Sunčevo zračenje|
+ |Ultraviolet|Ultraljubičasto|
+
+# UV/solar/lux explain
+ |High risk of harm from unprotected sun exposure.|Visok rizik od štete od nezaštićenog izlaganja suncu.|
+ |Low danger from the sun&apos;s UV rays for the average person|Mala opasnost od sunčevih UV zraka za prosečnu osobu|
+ |Measures the approximate human eye response to light under a variety of lighting conditions.|Izmeri približan odziv ljudskog oka na svetlost u različitim svetlosnim uslovima.|
+ |Moderate risk of harm from unprotected sun exposure.|Umeren rizik od štete od nezaštićenog izlaganja suncu.|
+ |The total amount of all the light measured is known as the "luminous flux".|Ukupna količina sve izmerene svetlosti poznata je kao "svetlosni tok".|
+ |Very high risk of harm from unprotected sun exposure. Take extra precautions.|Veoma visok rizik od štete od nezaštićenog izlaganja suncu. Preduzmite dodatne mere predostrožnosti.|
+
+# metar
+ |Airport-code|Aerodromski kod.|
+ |Current Conditions|Trenutna situacija|
+ |Heavy |Jaka |
+ |Light |Slaba|
+ |Location|Lokacija|
+ |Metar Aviation Weather Data|METAR Podaci o vazduhoplovstvu|
+ |Visibility|Vidljivost|
+
+# menu
+ |air-quality.com|air-quality.com|
+ |Atlantic Ocean pressure map|Мапа притиска Атлантског океана|
+ |Aurora info|Aurora info|
+ |Awekas|Awekas|
+ |Contact Info|Kontakt informacije|
+ |CWOP|CWOP|
+ |Dark Theme|Mračna tema|
+ |DarkSky Forecast|Prognoza za DarkSki|
+ |European Weather Network|Evropska vremenska mreža|
+ |EXTRAS|EKTRAS|
+ |FIRST SETUP (protected)|PODEsAVANE (zaštićeno)|
+ |Graphs|Grafikoni|
+ |History at WU |Istorija na VU|
+ |History at WU|Istorija na VU|
+ |Home|Kuća|
+ |HWA|HWA|
+ |Imperial|Carski|
+ |License|Licenca|
+ |Light Theme|Lagana tema|
+ |Luftdaten Map|Luftdaten karta|
+ |Maintained by|Održava|
+ |Menu|Meni|
+ |Metric|Metrički|
+ |NWS forecast|NVS prognoza|
+ |Official weather alarms|Zvanično alarmi vremenskih uzbuna|
+ |Pacific Ocean pressure map|Mapa pritiska Tihog okeana|
+ |PurpleAir Map|PurpleAir karta|
+ |PwsWeather|PwsWeather|
+ |pwsWeather|PwsWeather|
+ |Reports at WU |Izveštaji na VU|
+ |Reports at WU|Izveštaji na VU|
+ |Scandinavia|Skandinavije (M/S)|
+ |Select language|Izaberite jezik|
+ |Settings|Podešavanja|
+ |Station Theme|Stanična tema|
+ |Stations data at WL.com|Podaci o stanicama na VL.com|
+ |SUPPORT|PODRŠKA|
+ |Template by|Template bi|
+ |UK (MPH)|UK (MPH)|
+ |USER PREFERENCES|PODEšAVANJA POSETILACA|
+ |WEATHER NETWORKS|VEATHER NETWORKS|
+ |Weather Networks|Veather Netvorks|
+ |WeatherCloud|WeatherCloud|
+ |WeatherFlow map|WeatherFlow karta|
+ |WeatherFlow_map|WeatherFlow karta|
+ |WeatherUnderground|WeatherUnderground|
+ |Web Cam|Vebcam|
+ |Wind forecast|Vjetar prognoza|
+ |WOW|WOW|
+ |WXSIM Forecast|WXSIM prognoza|
+ |YrNo Forecast|YrNo prognoza|
+
+# bio
+ |About copyrighted parts used in this template|O delovima zaštićenim autorskim pravima koji se koriste u ovom predlošku|
+ |Contact information|Kontakt informacije|
+ |Copyrighted material used|Korišćeni materijal zaštićen autorskim pravima|
+ |Credits, contact and|Zasluge, kontakt i|
+ |Download and support|Preuzimanje i podrška|
+ |Facebook|Facebook|
+ |For your remarks or questions|Za vaše primedbe ili pitanja|
+ |Legal information|Pravne informacije|
+ |Mail|e-mail|
+ |More information about the used website template and tools|Više informacija o korišćenom predlošku i alatima veb stranica|
+ |Our main website|Naš glavni veb sajt|
+ |Twitter|Twitter|
+ |Website|Veb sajt|
+ |You can find us here also|Takođe nas možete naći ovde|
+
+# graphs
+ |Data from our weatherstation|Podaci sa vaše meteorološke stanice|
+ |for this day|za ovaj dan|
+ |for this month|za ovaj mesec|
+ |for this year|za ovu godinu|
+ |High|Visoko|
+ |Low|Nizak|
+
+# snow
+ |Add measurement|Dodajte merenje|
+ |Current height|Trenutna visina|
+ |Date|Datum|
+ |Fresh|Svež sneg|
+ |Manual measurements|Ručna merenja|
+ |Melted|Otopljeni sneg|
+ |Snow measurements|Merenja snega|
+ |Snowfall since last measurement|Snežne padavine od poslednjeg merenja|
+ |Remove measurement|Uklonite merenje|
+
+# conditions
+ |blowing|puhanje|
+ |Clear sky|Čisto nebo|
+ |Clear|Vedro|
+ |Clouds|Oblaci|
+ |Cloudy|Oblačno|
+ |Conditions|Stanje|
+ |Drizzle|Sipiti|
+ |drizzle|sipiti|
+ |dust|prašina|
+ |Fair|Lepo vreme|
+ |Fog|Magla|
+ |fog|magla|
+ |freezing|smrzavanje|
+ |hail|hajduk|
+ |haze|izmaglica|
+ |Heavy rain and thunder|Jaka kiša i grmljavina|
+ |Heavy rain showers and thunder|Jaka kiša i grmljavina|
+ |Heavy rain showers|Jaka kiša|
+ |Heavy rain|Jaka kiša|
+ |Heavy sleet and thunder|Jaka susnežica i grmljavina|
+ |Heavy sleet showers and thunder|Jaka susnežica i grmljavina|
+ |Heavy sleet showers|Jaka susnežica|
+ |Heavy sleet|Jaka susnežica|
+ |Heavy snow and thunder|Jaki sneg i grmljavina|
+ |Heavy snow showers and thunder|Jaki sneg i grmljavina|
+ |Heavy snow showers|Jaki sneg|
+ |Heavy snow|Jaki sneg i grmljavina|
+ |heavy|Jaki |
+ |ice_crystals|ledeni kristali|
+ |ice_pellets|Ledena zrnca|
+ |Isolated Light Showers|izolirani pljuskovi kiše|
+ |Isolated Showers|izolirani pljuskovi kiše|
+ |Isolated|izolirani|
+ |Light rain and thunder|Slaba kiša i grmljavina|
+ |Light rain showers and thunder|Slaba kiša i grmljavina|
+ |Light Rain Showers|Slaba kiša|
+ |Light rain showers|Slaba kiša|
+ |Light rain|Slaba kiša|
+ |Light Showers|Slaba kiša|
+ |Light sleet and thunder|Slaba kiša i grmljavina|
+ |Light sleet showers|Slaba kiša|
+ |Light sleet|Slaba kiša|
+ |Light snow and thunder|Slab sneg i grmljavina|
+ |Light Snow Showers|Slab sneg|
+ |Light snow showers|Slab sneg|
+ |Light snow|Slab sneg|
+ |Light Wintry Mix|Lagani zimski miks|
+ |light|Slaba|
+ |lightning|Munja|
+ |Lights sleet showers and thunder|Slaba kiša i grmljavina|
+ |Lights snow showers and thunder|Slab sneg i grmljavina|
+ |Mist and Fog|Magla|
+ |Mist|Magla|
+ |mist|izmaglica|
+ |moderate|Umeren|
+ |Mostly Clear|Uglavnom jasno|
+ |Mostly Cloudy|Pretežno oblačno|
+ |Mostly Scattered Clouds|Delimično oblačno|
+ |Mostly Sunny|Uglavnom sunčano|
+ |Mostly|Uglavnom|
+ |or|ili|
+ |Overcast|Oblačno|
+ |Partly Cloudy|Delimično oblačno|
+ |Partly cloudy|Delimično oblačno|
+ |Rain and thunder|Kiša i grmljavina|
+ |Rain showers and thunder|Kiša i grmljavina|
+ |Rain Showers Likely|verovatno kiša|
+ |Rain showers|Pljuskovi|
+ |Rain|Kiša|
+ |rain|Kiša|
+ |sand|pesak|
+ |Scattered Light Showers|Slaba kiša|
+ |Scattered Showers|Slaba kiša|
+ |Scattered|Razbacani|
+ |showers,|pljuskovi|
+ |showers|pljuskovi|
+ |Sleet and thunder|Pljusak i grmljavina|
+ |Sleet showers and thunder|Pljusak i grmljavina|
+ |Sleet showers|Pljusak|
+ |Sleet|Pljusak|
+ |smoke|dim|
+ |Snow and thunder|Sneg i grmljavina|
+ |Snow showers and thunder|Sneg i grmljavina|
+ |Snow showers|Sneg|
+ |Snow|Sneg|
+ |snow|sneg|
+ |squall|skuall|
+ |steady|Neprekidna|
+ |storm|Olujni vetar|
+ |Sunny|Sunčan|
+ |thunderstorm|Oluje|
+ |tornado|tornado|
+ |unknown|nepoznat|
+ |vulcanic_ash|vulkanski pepeo|
+ |water_spout|izliv vode|
+ |widespread|rasprostranjena|
+ |Windy|Vindi|
+
+# extra sensors
+ |Extra block large|Extra block large|
+ |Extra block|Extra block|
+ |Extra sensors|Extra sensors|
+ |extra_hum1|extra_hum1|
+ |extra_hum2|extra_hum2|
+ |extra_hum3|extra_hum3|
+ |extra_hum4|extra_hum4|
+ |extra_hum5|extra_hum5|
+ |extra_hum6|extra_hum6|
+ |extra_hum7|extra_hum7|
+ |extra_hum8|extra_hum8|
+ |extra_tmp1|extra_tmp1|
+ |extra_tmp2|extra_tmp2|
+ |extra_tmp3|extra_tmp3|
+ |extra_tmp4|extra_tmp4|
+ |extra_tmp5|extra_tmp5|
+ |extra_tmp6|extra_tmp6|
+ |extra_tmp7|extra_tmp7|
+ |extra_tmp8|extra_tmp8|

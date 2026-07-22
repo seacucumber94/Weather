@@ -1,0 +1,60 @@
+/*  $scrpt_vrsn_dt  = 'popup_css.css|01|2021-04-09|';  # font-sizes  |release 2012_lts */
+
+        body    { margin: 0; padding: 0; text-align: center; font-size: 10px; font-family: arial, sans-serif; vertical-align: middle; min-width: 300px;}
+        div     { display: block;}
+        strongnumbers{font-weight:600}
+        
+        .PWS_weather_container  { display: flex; width: 640px; height: 204px; overflow: hidden; margin: 0 auto;}
+        .PWS_weather_item       { margin: 2px; width: 312px; height: 202px; border: 1px solid #F0F0F0; box-sizing: border-box; list-style: none; position: relative;}
+        .PWS_module_title       { width:100%;  height: 20px; border: none; background-color: #F4F4F4; font-size: 12px; }
+        .PWS_module_title .title {padding-top: 3px;}
+        .PWS_popup_list         { width:100%;  height: 20px; border: none; background-color: #F4F4F4; font-size: 14px;
+                                        position: absolute; bottom: 0;}
+        .PWS_ol_time { margin-top: -15px; margin-right: 6px;color: #d65b4a; font: 700 10px arial, sans-serif;line-height: 10px; float: right;}    
+        .PWS_left    { float: left;  width: 80px; padding-left:  2px; height: 160px; border: none; }
+        .PWS_right   { float: left; width: 80px; padding-right: 2px; height: 160px; border: none; }
+        .PWS_middle  { float: left;  width: 140px;      position: relative;               height: 160px; border: none; }
+        .PWS_2_heigh { height: 80px; vertical-align: middle;}
+        .PWS_3_heigh { height: 53px; vertical-align: middle;}
+        .PWS_4_heigh { height: 40px; vertical-align: middle;}
+
+        .PWS_offline { color: #ff8841;}
+        .PWS_online  { color: green;}        
+
+        .orange      { color: #ff8841;}
+        .green       { color: #9aba2f;}
+        .blue        { color: #01a4b4;}
+        .red         { color: #d65b4a;}
+
+        .large       { font-size: 26px;}
+        .xlarge      { font-size: 46px;}
+        .narrow      { width: 100px;}
+        .low_item    { height: 165px;}
+        .xlow_item   { height: 110px;}
+
+        .dark        { background-color: black; color: #AAA;}
+        .dark .PWS_module_title   {background-color: #393D40; }
+        .dark .PWS_popup_list     {background-color: #393D40; }
+        .dark .PWS_weather_item   {background-color: #24262B; border-color: #24262B; }
+
+        @media screen and (max-width: 639px) {
+                body            {height: 250px; font-size: 10px;}
+                .PWS_module_title {height: 18px;}
+                .div_height     {height: 232px;}
+                .chartContainer{width:100%;  height:220px; }
+                .font_head      {font-size: 10px;} }
+        @media screen and (min-width: 640px) {
+                body            {height: 350px; font-size: 12px;}
+                .PWS_module_title {height: 18px;}
+                .div_height     {height: 332px;}
+                .chartContainer{width:100%;  height:320px; }
+                .font_head      {font-size: 12px;} }         
+        @media screen and (min-width: 850px) {
+                body            {height: 550px; font-size: 13px;}
+                .div_height     {height: 530px;}
+                .chartContainer{width:850px;  height:518px;}
+                .font_head      {font-size: 13px;} }
+        @media screen and (max-width: 800px) {
+                .PWS_weather_item       {margin: 10px auto 0; float: none;}
+                .PWS_weather_container  {display: inline; overflow: hidden;}}
+

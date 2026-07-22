@@ -1,0 +1,19 @@
+#  $scrpt_vrsn_dt  = 'user_theme.txt|01|2020-11-06|'; # release 2012_lts
+#
+#  This file contains the "greenish" colors you should modify  
+#  so this color set looks exactly right for you and your visitors.
+#
+#  a color specification line starts with | followed by the name and again an |
+#    then you specify the color for that item which is explained in the last part.
+#  Do not remove any of the lines, just modify the values in the color column.
+#
+# do not change | modify colors below 
+#  
+|clr_htmlbg     | rgb(233,241,226)      |bckground  html 
+|clr_mnbg       | #b0cba0    	        |bckground  menu/header   
+|clr_hdrdrk     | #669966    	        |bckground  text headers    
+|clr_hdrbg      | #b0cba0    	        |bckground  block title    
+|clr_blckbg     | rgba(233,241,226, 0.4)|bckground  block     
+|clr_brdr       | #108400    	        |color  border        
+|clr_txt        | #000       	        |color  text          
+|clr_offline    | #f37867

@@ -1,0 +1,138 @@
+# WeatherUnderground Stations History
+langlookup|error|error|
+langlookup|Show me|Do it!|
+langlookup|With this date|With this date|
+langlookup|Directly to|Directly to|
+langlookup|previous|previous|
+langlookup|next|next|
+langlookup|Custom range|Custom range|
+langlookup|use both date-selectors for a custom range|use both date-selectors for a custom range|
+langlookup|avg|avg|
+langlookup|Download your copy of this data-set|Download your copy of this data-set|
+langlookup|here|from WeatherUnderground|
+langlookup|WeatherUnderground graphs for this period|WeatherUnderground graphs for this period|
+langlookup|Tabular details for|Tabular details for|
+langlookup|Select another period|Select another period|
+langlookup|Our weather-data as stored at|Our weather-data as stored at|
+langlookup|Temp.|Temp.|
+langlookup|Speed|Speed|
+langlookup|Precip.|Precip.|
+langlookup|Dew pt.|Dew pt.|
+langlookup|Rainrate|Rainrate|
+langlookup|Humid.|Humid.|
+langlookup|Cond.|Cond.|
+langlookup|click here|click here|
+langlookup|hide this area|hide this area|
+langlookup|Scripts failed, check html for problems|Scripts failed, check html for problems|
+langlookup|Original script by|Original script b|
+langlookup|Rewritten for template use|Rewritten for template use|
+langlookup|Loading the graph can take up to a minute!|Loading the graph can take up to a minute!|
+
+langlookup|Daily|Daily|
+langlookup|Weekly|Weekly|
+langlookup|Monthly|Monthly|
+langlookup|Yearly|Yearly|
+
+langlookup|Temperature|Temperature|
+langlookup|Dew Point|Dew Point|
+langlookup|Humidity|Humidity|
+langlookup|Wind Speed|Wind Speed|
+langlookup|Wind Gust|Wind Gust|
+langlookup|Wind Direction|Wind Direction|
+langlookup|Pressure|Pressure|
+langlookup|Precipitation|Precipitation|
+langlookup|Solar|Solar|
+
+langlookup|Current|Current|
+langlookup|High|High|
+langlookup|Low|Low|
+langlookup|Average|Average|
+langlookup|Summary for|Summary for|
+langlookup|Units|Units|
+langlookup|Both|Both|
+langlookup|English|English|
+langlookup|Metric|Metric|
+langlookup|Period|Period|
+langlookup|Date|Date|
+langlookup|Day|Day|
+langlookup|Week|Week|
+langlookup|Month|Month|
+langlookup|Year|Year|
+langlookup|Time|Time|
+langlookup|From|From|
+langlookup|Wind|Wind|
+langlookup|Gust|Gust|
+langlookup|high|high|
+langlookup|low|low|
+langlookup|sum|sum|
+langlookup|today|today|
+ 
+langlookup|Calm|Calm|
+# -------------- wind direction compass headings
+langlookup|E|E|
+langlookup|ENE|ENE|
+langlookup|ESE|ESE|
+langlookup|East|East|
+langlookup|N|N|
+langlookup|NE|NE|
+langlookup|NNE|NNE|
+langlookup|NNW|NNW|
+langlookup|NW|NW|
+langlookup|North|North|
+langlookup|Northeast|Northeast|
+langlookup|Northwest|Northwest|
+langlookup|S|S|
+langlookup|SE|SE|
+langlookup|SSE|SSE|
+langlookup|SSW|SSW|
+langlookup|SW|SW|
+langlookup|South|South|
+langlookup|Southeast|Southeast|
+langlookup|Southwest|Southwest|
+langlookup|W|W|
+langlookup|WNW|WNW|
+langlookup|WSW|WSW|
+langlookup|West|West|
+# ---------------------------   month names long
+langlookup|April|April|
+langlookup|August|August|
+langlookup|December|December|
+langlookup|February|February|
+langlookup|January|January|
+langlookup|July|July|
+langlookup|June|June|
+langlookup|March|March|
+langlookup|November|November|
+langlookup|October|October|
+langlookup|September|September|
+#
+# ---------------------------  month names short
+langlookup|Apr|Apr|
+langlookup|Aug|Aug|
+langlookup|Dec|Dec|
+langlookup|Feb|Feb|
+langlookup|Jan|Jan|
+langlookup|Jul|Jul|
+langlookup|Jun|Jun|
+langlookup|Mar|Mar|
+langlookup|May|May|
+langlookup|Nov|Nov|
+langlookup|Oct|Oct|
+langlookup|Sep|Sep|
+#
+# --------------------- days of the week 
+langlookup|Friday|Friday|
+langlookup|Monday|Monday|
+langlookup|Saturday|Saturday|
+langlookup|Sunday|Sunday|
+langlookup|Thursday|Thursday|
+langlookup|Tuesday|Tuesday|
+langlookup|Wednesday|Wednesday|
+langlookup|Fri|Fri|
+langlookup|Mon|Mon|
+langlookup|Sat|Sat|
+langlookup|Sun|Sun|
+langlookup|Thu|Thu|
+langlookup|Tue|Tue|
+langlookup|Wed|Wed|
+#

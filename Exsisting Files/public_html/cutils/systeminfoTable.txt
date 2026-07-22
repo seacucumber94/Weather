@@ -1,0 +1,35 @@
+<!--
+ This file is generated as part of CumulusUtils - 22/07/2026 16:31:02
+ This header must not be removed and the user must comply to the Creative Commons 4.0 license
+ The license conditions imply the non-commercial use of HighCharts for which the user is held responsible
+ © Copyright 2019 - 2026 Hans Rottier <hans.rottier@gmail.com>
+ See also License conditions of CumulusUtils: https://meteo-wagenborgen.nl/
+-->
+
+<div style='margin:auto; text-align:left; width:700px'><pre>
+Cumulus version: 4.5.2 (build: 4105)
+Cumulus uptime: 25 days 20 hours
+Weather station: GW1000/Ecowitt Local API
+
+The Ecowitt Firmware Version: GW1100A_V2.4.5
+The Ecowitt Reception Stats: WS69=4
+The Ecowitt Free Memory: 28120
+Extra Station Info: 
+
+
+Linux/Unix
+
+System uptime: 3 weeks, 4 days, 20 hours, 57 minutes
+OS: Linux 6.1.0-23-amd64 x86_64
+Description: Debian GNU/Linux 12 (bookworm)
+Microsoft.NETCore.App 8.0.8 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+
+Memory info:
+               total        used        free      shared  buff/cache   available
+Mem:             960         372         149          32         619         588
+Swap:            974          74         900
+
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/sda1      ext4   31G  7.6G   22G  27% /
+</pre></div>
+<div style ='width:100%; margin-left: auto; margin-right: auto; text-align: center; font-size: 12px;'><a href='https://cumulus.hosiene.co.uk/viewtopic.php?f=44&t=17998' target='_blank'>CumulusUtils</a> Version 7.1.1  - generated at 22/07/2026 16:31 - &copy; Hans Rottier </div>

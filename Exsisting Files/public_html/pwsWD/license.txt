@@ -1,0 +1,45 @@
+/*                                                    version 2019-11-04
+* -------------------- Free for Non-Commercial Use--------------------
+* 
+* For non-commercial purposes you can use the PWS_Dashboard for free 
+*     under Creative Commons Attribution-NonCommercial 3.0 License. 
+*
+*     http://creativecommons.org/licenses/by-nc/3.0/deed.en_US
+* 
+* -----  This version of CanvasJS  as used in PWS_Dashboard ----------
+*
+* The developer of the PWS_Dashboard used a commercial paid for license.
+* But that licence prohibit the use this "non-watermarked" version 
+*   of the canvasjs script in any other product or script !
+*                          ===============================
+*
+* ----  Other scripts / products used in PWS_Dashboard ---------------
+*
+* I made considerable efforts to check if there other persons (CR) materials used.
+* PLease contact me at pwsdashboard.com if you find that your rights are 
+*   invalidated in any way
+*
+* azimuth.php  by "niko of weather-watch"
+* codebird by Jublo Limited <support@jublo.net> GNU General Public License 3.0
+* moon.php adapted by Matt "dxprog" Hackmann <dxprog.com> GNU General Public License
+* moonpahse.php by Samir Shah (http://rayofsolaris.net) licence MIT
+* Featherlight  http://noelboss.github.io/featherlight/ licence MIT
+* jQuery v3.4.1 | (c) JS Foundation and other contributors | jquery.org/license
+* Moment.js  by https://momentjs.com/ MIT license.
+*
+* Some complete script(set)s are used from Ken True of http://saratoga-weather.org/  :
+*    The wxsim plaintext-parser, all WXSIM users know this one
+*    He also maintains the NWS-alerts scripts, check readme at ./nws-alerts/NWS-alerts_read_me.html
+*
+*
+*
+* And special thanks to Brian Underdown for his original work for the graphics used. 
+* His fine work is widely visible in multiple svg files, css and other blocks used in this template
+* 
+* ----------  Warnings: -----------------------------------------------
+* Please do not mix and match graphics or scripts from different templates 
+*    as this can lead to difficult to debug problems.
+*
+* Always contact the author of the template with your questions or problems.
+*
+*/

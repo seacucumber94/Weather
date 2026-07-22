@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" >
+  <g transform="matrix(-0.390732, -0.920504, 0.920504, -0.390732, 48.297546, 229.800018)">
+    <path d="M -101.632 -90.242 Q -100.213 -93.146 -98.777 -90.242 L -61.764 -15.381 Q -60.328 -12.477 -63.183 -12.477 L -136.767 -12.477 Q -139.622 -12.477 -138.203 -15.381 Z" style="stroke-width: 0px; fill: rgb(67, 176, 64);" transform="matrix(-1, 0, 0, -1, 0, 0)"  />
+    <circle style="stroke-width: 9px; paint-order: stroke; fill: rgba(219, 219, 219, 0); stroke: rgb(171, 174, 163);" cx="-100" cy="-100" r="90" transform="matrix(0, 1, -1, 0, -0.131642, 198.416245)"/>
+  </g>
+</svg>

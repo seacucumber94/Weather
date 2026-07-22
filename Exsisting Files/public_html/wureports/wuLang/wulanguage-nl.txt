@@ -1,0 +1,96 @@
+# langfile modified on: 2021-05-10		(YYYY-MM-DD)
+charset|UTF-8|
+# report types
+langlookup|wsreport_report type|Rapport type|
+langlookup|wsreport_Daily detail|Gedetailleerd per jaar per dag|
+langlookup|wsreport_Monthly summary|Samenvatting per maand|
+langlookup|wsreport_Season detail|Gedetailleerd per seizoen|
+langlookup|wsreport_Seasonal summary|Samenvatting per seizoen|
+langlookup|wsreport_Freeze days|Dagen met vorst|
+# weather values
+langlookup|wsreport_weather value|Weer-veld|
+langlookup|wsreport_Temperature|Temperatuur|
+langlookup|wsreport_Barometric pressure|Luchtdruk|
+langlookup|wsreport_Rain|Regen|
+langlookup|wsreport_Wind|Wind|
+langlookup|wsreport_Wind run|Wind run|
+langlookup|wsreport_Gust|Windvlaag|
+langlookup|wsreport_Dewpoint|Dauwpunt|
+langlookup|wsreport_Humidity|Luchtvochtigheid|
+# other  items
+langlookup|wsreport_report| |
+langlookup|wsreport_period|Periode|
+langlookup|wsreport_Period|Periode|
+langlookup|wsreport_go|Selecteer|
+langlookup|wsreport_All years|Alle jaren|
+langlookup|wsreport_Color key|Betekenis gebruikte kleuren|
+langlookup|wsreport_Script developed by Wim van der Kuil of|Script ontwikkeld door Wim van der Kuil van|
+langlookup|wsreport_The script uses the data from this station which is uploaded to|Het script gebruikt de weer-gegevens van dit station zoals opgeladen naar|
+langlookup|wsreport_The idea for this script came from a similar kind of script using NOAA data, written by Murry Conarroe of|Het idee voor dit script komt van een vergelijkbaar script wat NOAA gegevens gebruikt van Murry Conarroe van|
+langlookup|wsreport_no data for the selected period available "yet"|Er zijn "nog" geen gegevens voor de geselecteerde periode.|
+# descriptions of data shown
+langlookup|wsreport_avg|Gem|
+langlookup|wsreport_Avg|Gemiddeld|
+langlookup|wsreport_Avg High|Gemiddeld hoogste|
+langlookup|wsreport_high|Ho|
+langlookup|wsreport_High|Hoog|
+langlookup|wsreport_High Avg|Hoog gemiddeld|
+langlookup|wsreport_Mean|Gemiddeld|
+langlookup|wsreport_Low Avg|Laag gemiddeld|
+langlookup|wsreport_Low|Laag|
+langlookup|wsreport_low|La|
+langlookup|wsreport_Average  of the maximums|Gemiddelde van de maxima|
+langlookup|wsreport_Average Low|Gemiddelde van de laagste waardes|
+langlookup|wsreport_Raindays|Dagen regen|
+langlookup|wsreport_Month total|Maand-totaal|
+langlookup|wsreport_Year-to-day total|Jaar-totaal tot vandaag|
+langlookup|wsreport_YTD total|Jaar-totaal|
+langlookup|wsreport_Highest of the averages|Hoogste van de gemiddeldes|
+langlookup|wsreport_Average|Gemiddeld|
+langlookup|wsreport_Maximums|Maxima|
+# day / month / period names
+langlookup|wsreport_day|Dag|
+langlookup|wsreport_Year|Jaar|
+langlookup|wsreport_Jan|Jan|
+langlookup|wsreport_Feb|Feb|
+langlookup|wsreport_Mar|Mrt|
+langlookup|wsreport_Apr|Apr|
+langlookup|wsreport_May|Mei|
+langlookup|wsreport_Jun|Jun|
+langlookup|wsreport_Jul|Jul|
+langlookup|wsreport_Aug|Aug|
+langlookup|wsreport_Sep|Sep|
+langlookup|wsreport_Oct|Okt|
+langlookup|wsreport_Nov|Nov|
+langlookup|wsreport_Dec|Dec|
+langlookup|wsreport_January|Januari|
+langlookup|wsreport_February|Februari|
+langlookup|wsreport_March|Maart|
+langlookup|wsreport_April|April|
+langlookup|wsreport_June|Juni|
+langlookup|wsreport_July|Juli|
+langlookup|wsreport_August|Augustes|
+langlookup|wsreport_September|September|
+langlookup|wsreport_October|October|
+langlookup|wsreport_November|November|
+langlookup|wsreport_December|December|
+langlookup|wsreport_Saturday|Zaterdag|
+langlookup|wsreport_Tuesday|Dinsdag|
+langlookup|wsreport_Thursday|Donderdag|
+langlookup|wsreport_Friday|Vrijdag|
+langlookup|wsreport_Monday|Maandag|
+langlookup|wsreport_Wednesday|Dinsdag|
+langlookup|wsreport_Sunday|Zondag|
+# seasons
+langlookup|wsreport_winter|Winter|
+langlookup|wsreport_spring|Lente|
+langlookup|wsreport_summer|Zomer|
+langlookup|wsreport_autumn|Najaar|
+# freeze
+langlookup|wsreport_First freeze|Eerste vorst|
+langlookup|wsreport_Last freeze|Laatste vorst|
+langlookup|wsreport_Earliest|Vroegste|
+langlookup|wsreport_Latest|Laatste|
+langlookup|wsreport_Days with low|Dagen met laagste|
+langlookup|wsreport_Days with high|Dagen met hoogste|
+langlookup|wsreport_Consecutive days with|Opeenvolgende dagen met|

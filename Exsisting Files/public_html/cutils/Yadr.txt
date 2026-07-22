@@ -1,0 +1,120 @@
+<!--
+ This file is generated as part of CumulusUtils - 02/01/2026 01:05:03
+ This header must not be removed and the user must comply to the Creative Commons 4.0 license
+ The license conditions imply the non-commercial use of HighCharts for which the user is held responsible
+ © Copyright 2019 - 2026 Hans Rottier <hans.rottier@gmail.com>
+ See also License conditions of CumulusUtils: https://meteo-wagenborgen.nl/
+-->
+
+
+<script>
+console.log( 'Module YADR...' );
+$(function() {
+  $('#year').change(function() {
+    handleChange();
+  });
+  $('#func').change(function() {
+    handleChange();
+  });
+  $('#YRNext').click(function() {
+    $('#year option:selected').next('option').prop('selected', 'selected');
+    handleChange();
+  });
+  $('#YRPrev').click(function() {
+    $('#year option:selected').prev('option').prop('selected', 'selected');
+    handleChange();
+  });
+  handleChange();
+});
+function handleChange()
+{
+  let w1 = $('#year').val();
+  let w2 = $('#func').val();
+  loadYadrTable(w2+w1);
+};
+function loadYadrTable( FuncYear)
+{
+  $.ajax({
+    url: 'Yadr' + FuncYear + '.txt',
+    timeout: 2000,
+    cache: false,
+    headers:{'Access-Control-Allow-Origin': '*'},
+    crossDomain: true
+  }).fail( function (jqXHR, textStatus, errorThrown) {
+      console.log( 'loadYadrTable: ' + textStatus + ' : ' + errorThrown );
+  }).done( function (response, responseStatus) {
+      $( '#Table' ).html( response );
+  });
+};
+</script>
+<style>
+#report{
+  font-family: arial;
+  border-radius: 15px;
+  border-spacing: 0;
+  border: 1px solid #b0b0b0;
+}
+#report .CUtable{
+  border-collapse: collapse;
+  border-radius: 15px;
+  border-spacing: 0;
+  border: 1px solid #b0b0b0;
+   text-align: center;
+   width:100%;
+   max-width:1000px;
+   margin: auto;
+}
+#report .labels {
+  background-color: #777777;
+  color: #cccccc;
+  border: 1px solid #888888;
+}
+#report .reportday {
+    background-color: #999999;
+    border: 1px solid #888888;
+    font-size: 80%;
+}
+#report .reportttl {
+  background-color: #777777;
+  color: #cccccc;
+  border: 1px solid #888888;
+    font-size: 80%;
+}
+#report .separator {
+  background-color: #ffffff; 
+}
+#report .levelT {
+    border: 1px solid #888888;
+    font-size: 80%;
+}
+#report .beaufort {
+    border: 1px solid #888888;
+    font-size: 80%;
+}
+#report .levelR {
+    border: 1px solid #888888;
+    font-size: 80%;
+}
+.buttonFat {border-radius: 4px; margin-right:10px; margin-left:10px; }
+.buttonSlim {border-radius: 4px;}
+</style>
+<div id=report><br/>
+<p style='text-align:center;'>
+<input type='button' class=buttonFat id='YRPrev' value='Prev Year'>
+<select id='year'>
+<option value='2024' >2024</option>
+<option value='2025' >2025</option>
+<option value='2026' selected>2026</option>
+</select>
+<select id='func'>
+<option value='Temp' selected>Temperature</option>
+<option value='Rain'>Rain</option>
+<option value='Wind'>Wind Speed</option>
+<option value='Windrun'>Wind Run</option>
+<option value='Press'>Pressure</option>
+<option value='Hum'>Humidity</option>
+</select>
+<input type='button' class=buttonFat id='YRNext' value='Next Year'>
+</p>
+<div id='Table'></div>
+</div>

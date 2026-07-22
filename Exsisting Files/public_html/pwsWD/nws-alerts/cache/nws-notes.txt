@@ -1,0 +1,28 @@
+Script characteristics on last page load:
+Last update: Sun 03-28-2021 13:25 PDT
+nws-alerts.php - V1.43 - 14-May-2019
+4 unique Zone entries found. Zones='CTZ006,CTC009,CAZ529,CAC087'
+cache age 14152 seconds - fetch needed
+Cron job not used
+XML source: https://alerts.weather.gov/cap/wwaatmget.php?x=CTZ006&y=1
+HTTP stats:  RC=200 dest=2.23.104.18 port=443 (from sce=192.168.0.151)
+      Times: dns=0.172 conn=0.188 pxfer=0.256 get=0.681 total=0.937 secs
+XML source: https://alerts.weather.gov/cap/wwaatmget.php?x=CTC009&y=1
+HTTP stats:  RC=200 dest=2.23.104.18 port=443 (from sce=192.168.0.151)
+      Times: dns=0.001 conn=0.018 pxfer=0.065 get=0.527 total=0.592 secs
+XML source: https://alerts.weather.gov/cap/wwaatmget.php?x=CAZ529&y=1
+HTTP stats:  RC=200 dest=2.23.104.18 port=443 (from sce=192.168.0.151)
+      Times: dns=0.001 conn=0.015 pxfer=0.069 get=0.651 total=0.720 secs
+XML source: https://alerts.weather.gov/cap/wwaatmget.php?x=CAC087&y=1
+HTTP stats:  RC=200 dest=2.23.104.18 port=443 (from sce=192.168.0.151)
+      Times: dns=0.001 conn=0.014 pxfer=0.057 get=0.658 total=0.715 secs
+XML source: https://alerts.weather.gov/cap/wwacapget.php?x=CT1261956EC720.WindAdvisory.1261957E73A0CT.OKXNPWOKX.492f93a7e92987663c1eb1e9732425d6
+HTTP stats:  RC=200 dest=2.23.104.18 port=443 (from sce=192.168.0.151)
+      Times: dns=0.001 conn=0.019 pxfer=0.078 get=0.765 total=0.843 secs
+XML source: https://alerts.weather.gov/cap/wwacapget.php?x=CT1261956E806C.SpecialWeatherStatement.1261957B1840CT.OKXSPSOKX.c5e8c1b3eab04e3365031a5224eea886
+HTTP stats:  RC=200 dest=2.23.104.18 port=443 (from sce=192.168.0.151)
+      Times: dns=0.001 conn=0.151 pxfer=0.206 get=0.714 total=0.920 secs
+Cache file updated: Sun 03-28-2021 1:25 pm
+Alert box data file updated
+Icon data file updated
+Total process time: 4.7375 seconds

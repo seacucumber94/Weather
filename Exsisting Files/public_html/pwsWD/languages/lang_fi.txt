@@ -1,0 +1,770 @@
+# $scrpt_vrsn_dt = 'lang_fi.txt|01|2020-12-15|';  # release 2012_lts
+
+# units
+ |/h|/t|
+ |/m|/m|
+ |and|og|
+ |Bft|Bft|
+ |C|C|
+ |Celsius|Celsius|
+ |cm|cm|
+ |F|F|
+ |Fahrenheit|Fahrenheit|
+ |feet|jalat|
+ |Hours|Tuntia|
+ |hPa|hPa|
+ |hrs |tun. |
+ |Hrs|Tun.|
+ |hrs|tun.|
+ |inHg|inHg|
+ |in|in|
+ |KM/H|KM/T|
+ |km/h|km/t|
+ |km|km|
+ |KMs|KM|
+ |kph|kpt|
+ |KTS|KTS|
+ |Kts|Kts|
+ |M/S|M/S|
+ |m/s|m/s|
+ |mile|maili|
+ |Miles|Mailia|
+ |min |min |
+ |mins |min |
+ |minutes|minuutit|
+ |mm|mm|
+ |MPH|MPH|
+ |mph|mph|
+ |mt|mt|
+ |secs |sekuntia |
+
+# months short
+ |Apr |Huhtikuu |
+ |Aug |Elokuu |
+ |Dec |Joulukuu |
+ |Feb |Helmikuu |
+ |Jan |Tammikuu |
+ |Jul |Heinäkuu |
+ |Jun |Kesäkuu |
+ |Mar |Maaliskuu |
+ |May |Saattaa  |
+ |Nov |Marraskuu |
+ |Oct |Lokakuu |
+ |Sep |Syyskuu |
+
+# months long
+ |April|Huhtikuu|
+ |August|Elokuu|
+ |December|Joulukuu|
+ |February|Helmikuu|
+ |January|Tammikuu|
+ |July|Heinäkuu|
+ |June|Kesäkuu|
+ |March|Maaliskuu|
+ |May|Toukokuu|
+ |November|Marraskuu|
+ |October|Lokakuu|
+ |September|Syyskuu|
+
+# days short
+ |Fri |Pe |
+ |Mon |Ma |
+ |Sat |La |
+ |Sun |Su |
+ |Thu |To |
+ |Thur |To |
+ |Tue |Ti |
+ |Wed |Ke |
+
+# days long
+ |Friday|Perjantai|
+ |Monday|Maanantai|
+ |Saturday|Lauantai|
+ |Sunday|Sunnuntai|
+ |Thursday|Torstai|
+ |Tuesday|Tiistai|
+ |Wednesday|Keskiviikko|
+
+# dayparts
+ |Afternoon|Iltapäivällä|
+ |afternoon|iltapäivällä|
+ |Evening|Ilta|
+ |evening|ilta|
+ |Morning|Aamu|
+ |morning|aamu|
+ |Night time|Yöaika|
+ |Night|Yö|
+ |night|yö|
+
+# compass
+ |E|I|
+ |East|Itä|
+ |ENE|IPI|
+ |ESE|IEI|
+ |N|P|
+ |NE|PI|
+ |NNE|PPI|
+ |NNW|PPL|
+ |North|Pohjoinen|
+ |NW|PL|
+ |S|E|
+ |SE|EI|
+ |South|Eteläinen|
+ |SSE|EEI|
+ |SSW|EEL|
+ |SW|EL|
+ |W|L|
+ |West|Länsi|
+ |WNW|LPL|
+ |WSW|LESL|
+
+# common
+ |All time|Koko ajan|
+ |any day|yksi päivä|
+ |any month|yksi kuukausi|
+ |any year|yksi vuosi|
+ |Average|Keskiverto|
+ |Avg |Keskim. |
+ |avg|keski-|
+ |by|kirjoittanut|
+ |Close|Kiinni|
+ |Current|Nykyinen|
+ |current|nykyinen|
+ |Daily|Päivittäin|
+ |Day|Päivä|
+ |days|päivää|
+ |Description|Kuvaus|
+ |Distance|Etäisyys|
+ |Falling Rapidly|Laskee Nopeasti|
+ |Falling Slowly|Laskee Hitaasti|
+ |Falling|Laskee|
+ |Force|Pakota|
+ |Forecast for|Sääennuste|
+ |forecast|ennuste|
+ |from|alkaen|
+ |Graph type|Kaaviotyyppi|
+ |here|täällä|
+ |History|Historia|
+ |Hourly|Tuntitaksa|
+ |Information|Tiedot|
+ |Last Hour|Viime tunti|
+ |Last Updated|Viimeksi päivitetty|
+ |Link|Linkki|
+ |Max|Mak.|
+ |Min|Min|
+ |Month|Kuukausi|
+ |Never base important decisions that could result in harm to people or property on this weather information.|Älä koskaan perusta säätietoihin tärkeitä päätöksiä, jotka voivat aiheuttaa vahinkoa ihmisille tai omaisuudelle.|
+ |No valid sensors found|Ei kelvollisia antureita löytynyt|
+ |Offline|Poissa|
+ |Online|Online|
+ |Period|Aika|
+ |Powered by|Tiedot|
+ |Rising Rapidly|Nousee Nopeasti|
+ |Rising Slowly|Nousee Hhitaasti|
+ |Rising|Nouseva|
+ |Select|Valitse|
+ |Steady|Vakaa|
+ |the last|viimeinen|
+ |Time|Aika|
+ |Today|Tänään|
+ |today|Tänään|
+ |Tomorrow|Huomenna|
+ |Tonight|Tänä yönä|
+ |Updated|Päivitetty|
+ |Year|Vuosi|
+ |Yesterday|Eilen|
+
+# notifications
+ |Heat Exhaustion|Lämpöhalvaus|
+ |Heat Index Caution|Lämpöindeksi Varoitus|
+ |Lightning Strike Alert Detected|Salamavaroitus havaittu|
+ |Notification|Ilmoituksen|
+ |Notifications|Ilmoitukset|
+ |Reduce Sun Exposure|Vähennä auringonvaloa|
+ |seconds ago|sekuntia sitten|
+ |UV-Index Caution|UV-indeksin varoitus|
+ |Wind Gusts Becoming Strong Caution Required|Tuulen tuulen voimakkuus. Varovaisuus vaaditaan|
+ |Wind Gusts Reaching Gale Force|Tuulen puuskat saavuttavat gale voiman|
+
+# blocks
+ |24h Avg|24 t. keskimäärin|
+ |Airport|Lentokenttä|
+ |Annual Rainfall|Vuotuinen sademäärä|
+ |Aurora|Aurora|
+ |Currentsky|Nykyinen taivas|
+ |Details|Tiedot|
+ |Enlarge|Suurentaa|
+ |Environment Canada forecast|Kanadan ympäristöennuste|
+ |for the last|lopuksi|
+ |Forecast|Sääennuste|
+ |Full page|Täysi sivu|
+ |Indoor Temperature|Sisälämpötila|
+ |LiveWebCam|Live WebCam|
+ |Map|Kartta|
+ |Max-Min Temperature|Enimmäislämpötila|
+ |Meteors|Meteorit|
+ |Moon info|Kuutiedot|
+ |Moonphase information|Kuuvaiheen tiedot|
+ |Movie|Elokuva|
+ |Official AQ sensor station|Virallinen AQ-anturiaseman|
+ |One hour forecast|Tunnin ennuste|
+ |Our WXSIM forecast|WXSIM-ennusteemme|
+ |Outside|Ulkopuolella|
+ |Radar|Tutka|
+ |Rainfalltoday|Sade tänään|
+ |Solar - UV-Index - Lux|Solar - UV-indeksi - Lux|
+ |Station weather history|Aseman säähistoria|
+ |Station|Sääasema|
+ |stored at WU|varastoidaan WU: ssa|
+ |SunPosition|Aurinko sijainti|
+ |Texts|Tekstit|
+ |UV Guide|UV-opas|
+ |WeatherUnderground forecast|WeatherUnderground ennuste|
+ |Wind - Gust|Tuulenpuuska|
+
+# soil-moist
+ |Adequate|Riittävä|
+ |Current planting and watering guide|Nykyinen istutus- ja kasteluopas|
+ |Dangerous Dry|Vaarallinen Kuiva|
+ |ERROR no reading|VIRHE ei lukea|
+ |Explanation|Selitys|
+ |Irrigation desired|Haluttu kastelu|
+ |Irrigation needed|Kastelu tarvitaan|
+ |Moisture|maan kosteus|
+ |Saturated|Tyydyttynyt maaperä|
+ |Soil info|maaperän tiedot|
+ |Soil sensor - more information|Maaperän anturi - lisätietoja|
+
+# soil-moist explain
+ |Saturated Soil. Occurs for a day or two after irrigation.|Tyydyttynyt maaperä. Tapaa päivän tai kaksi kastelun jälkeen.|
+ |Soil is adequately wet (except coarse sands which are drying out at this range)|Maaperä on riittävän märkä (lukuun ottamatta karkeaa hiekkaa, joka kuivuu tällä alueella)|
+ |Soil is becoming dangerously dry for maximum production.|Maaperä on tulossa vaarallisen kuivaksi maksimaalisen tuotannon saavuttamiseksi.|
+ |Usual range to irrigate heavy clay soils|Tavallinen alue raskas savimaiden kasteluun|
+ |Usual range to irrigate or water (except heavy clay soils)<br />Irrigate at the upper end of this range in cool humid climates and with higher water-holding capacity soils.|Tavanomainen kastelu- tai kastelualue (lukuun ottamatta raskasta savimaata) <br /> Kastele tämän alueen yläpäässä viileässä kosteassa ilmastossa ja vedenkestävämmällä maaperällä.|
+
+# soil-temp
+ |Deep freeze|Täysin jäätynyt|
+ |Frost line|Pakkasviiva|
+ |Ideal growth|Ihanteellinen kasvu|
+ |Minimum growth|Minimum growthMinimum growth|
+ |Optimal growth|Optimaalinen kasvu|
+ |Too cold to plant|Liian kylmä istuttaa|
+
+# advisory
+ |(Severe) thunderstorms possible|(Vaikea) ukkosta mahdollista|
+ |Below Freezing|Jäätymispisteen alapuolella|
+ |Caution|Varoitus|
+ |Expect|Odottaa|
+ |Firerisk|Paloriski|
+ |Flooding Possible|Tulva mahdollinen|
+ |Have a nice day|Hauskaa päivän jatkoa|
+ |Lightning Strike Nearby|Salamaisku lähellä|
+ |Possible Storm Approaching|Mahdollinen myrsky lähestymässä|
+ |Possible|Mahdollinen|
+ |Radio Aurora Possible|Radio Aurora Mahdollinen|
+ |This hour|Tällä tunnilla|
+ |This Week|Tämä viikko|
+ |Viewing Possible|Tarkastele mahdollista|
+
+# lightning
+ |Direction|Suunta|
+ |Last 3 hr|Viimeiset 3 tuntia|
+ |Latest strike at|Viimeisin salamanisku|
+ |Lightning strike|Salamanisku|
+ |Lightning|Salama|
+ |Nearby Lightning|Salama lähellä|
+ |Nearby|Lähellä|
+ |Total strikes|Yhteensä salamaiskuja|
+
+# bft_names
+ |Calm|Rauhoittaa|
+ |Fresh breeze|Tuore tuulen|
+ |Gale force|Gale voima|
+ |Gentle breeze|Hento tuulenvire|
+ |Hurricane|Hirmumyrsky|
+ |Light air|Kevyt ilma|
+ |Light breeze|Kevyttä tuulta|
+ |Moderate breeze|Kohtalainen tuuli|
+ |Near gale|Lähellä gale|
+ |Storm|Myrsky|
+ |Strong breeze|Voimakas tuulta|
+ |Strong gale|Vahva kulma|
+ |Violent storm|Väkivaltainen myrsky|
+
+# w-names common
+ |Barometer|Barometri|
+ |Dewpoint|Kastepiste|
+ |ET|ET|
+ |Feels like|Tuntuu siltä|
+ |Feels|Tuntuu|
+ |Gust|Puhuri|
+ |Heatindex|Lämpöindeksi|
+ |Humidity|Kosteus|
+ |Indoor|Sisällä|
+ |Leaf wetness|Lehtien kosteus|
+ |Precipitation|Sademäärä|
+ |precipitation|sademäärä|
+ |Pressure|Paine|
+ |Rainfall|Sade|
+ |Rate|Nopeus|
+ |Solar|Aurinko|
+ |Speed|nopeus|
+ |Temp|Lämpötila|
+ |Temperature|Lämpötila|
+ |UV index|UV-indeksi|
+ |UV|UV|
+ |UVI|UVI|
+ |Wet Bulb|Märkä polttimo|
+ |Wind Run|Tuulen juoksu|
+ |Wind run|Tuulen juoksu|
+ |Wind|Tuuli|
+ |Windchill|Tuuletus|
+ |Winddirection|Tuulen suunta|
+ |Windspeed|Tuulen nopeus|
+
+# meteors
+ |Active Sky Events|Toimintaa taivaalla|
+ |Annual Meteor Showers|Vuotuinen meteorisuihku|
+ |Annular|Rengas|
+ |Current Events|Ajankohtaiset tapahtumat|
+ |Data Provided by|Tiedot tarjoaa|
+ |Eclipse|Pimennys|
+ |Guide|Opas|
+ |Lunar|Kuun|
+ |Meteor Shower|Meteorisuihku|
+ |Meteor Showers|Meteoriläiset|
+ |Next Events|Seuraavat tapahtumat|
+ |No Active Sky Events|Ei toimintaa taivaalla|
+ |Partial|Osittainen|
+ |Peak|Huippu|
+ |Total|Kaikki yhteensä|
+ |Visible|Näkyvä|
+ |Wikipedia|Wikipedia|
+
+# meteors explain
+ |Any nearby ambientlight, Moonlight can make it difficult viewing.|Mikä tahansa läheinen ympäröivä valo tai kuutamo voi vaikeuttaa katselua.|
+ |Meteor showers are best viewed away from the city lights.|Meteorisuihku katsotaan parhaiten kaukana kaupungin valoista.|
+ |Meteors are best viewed during the night hours, though meteors enter the atmosphere at any time of the day.|Meteoreita katsotaan parhaiten yöaikana, vaikka meteorit saapuvat ilmakehään milloin tahansa vuorokauden aikana.|
+ |They are just harder to see in the daylight apart from dawn and dusk.|Niitä on vain vaikeampi nähdä päivänvalossa auringonvalon ja hämärän lisäksi.|
+
+# aurora
+ |A-INDEX|A-INDEX|
+ |Excellent Aurora Viewing Possible|Erinomainen Aurora-näkymä mahdollinen|
+ |Geomagnetic Major Storm|Suuri geomagneettinen myrsky|
+ |Geomagnetic Severe Storm|Vakava geomagneettinen myrsky|
+ |Geomagnetic Storm|Geomagneettinen myrsky|
+ |High Latitude Aurora Viewing Possible|High Latitude Aurora -mahdollisuus|
+ |High Latitude Radio Aurora|High Latitude Radio Aurora|
+ |High Latitude Weak Radio Aurora|High Latitude Heikko Radio Aurora|
+ |KP-INDEX|KP-INDEX|
+ |KP-PLANETARY INDEX|KP-PLANETARY INDEX|
+ |Major Storm|Suuri myrsky|
+ |Mid to High Latitude Aurora Viewing Possible|Keskipitkästä korkeaan leveysasteeseen Aurora katseleminen mahdollista|
+ |Mid-High Latitude Radio Aurora|Keskikorkean leveyden radio Aurora|
+ |Minor|Alaikäinen|
+ |No Aurora|Ei auroraa|
+ |No Radio Aurora|Ei radio Aurora|
+ |NOT ACTIVE|EI AKTIIVINEN|
+ |Quiet No|Hiljainen nro|
+ |RADIO AURORA ACTIVE|RADIO AURORA ACTIVE|
+ |Radio Aurora Indicators|Radio Aurora -osoittimet|
+ |Radio Aurora|Radio Aurora|
+ |Severe Storm|Vakava myrsky|
+ |Strong Radio Aurora|Vahva radio Aurora|
+ |Visual Aurora Borealis/Northern Lights and VHF Radio Aurora Indicators|Visuaalinen Aurora Borealis / Revontulet ja VHF Radio Aurora -osoittimet|
+ |Weak High Latitude Aurora Viewing Possible|Heikko korkea leveysaste Aurora katseleminen mahdollista|
+ |Weak|Heikko|
+
+# aurora explain
+ |is an indicator of possible enhanced VHF radio communication at a range of 1000 miles or more.|on indikaattori mahdollisesta parannetusta VHF-radioviestinnästä vähintään 1000 mailin etäisyydellä.|
+ |provides a good indicator of viewing the Aurora Borealis or Northern Lights.|tarjoaa hyvän indikaattorin Aurora Borealiksen tai revontulien katselusta.|
+ |Strong solar activity may allow long-distance radio communications at 28-433 MHz in mid to high latitudes.|Voimakas aurinkoaktiivisuus voi sallia pitkän matkan radioviestinnän taajuuksilla 28-433 MHz keski- ja korkeilla leveysasteilla.|
+ |The estimated 3-hour Planetary Kp-index data is collected from ground-based magnetometers.|Arvioidut 3 tunnin planeetan Kp-indeksitiedot kerätään maapohjaisista magnetometreistä.|
+ |The higher the Kp-Index the greater the probability of viewing.|Mitä korkeampi Kp-indeksi, sitä suurempi on katselun todennäköisyys.|
+
+# airquality
+ |1 hour|1 tunti|
+ |1 week|1 viikko|
+ |10 min|10 min.|
+ |24 hour|24 tuntia|
+ |24 hours|24 tuntia|
+ |30 min|30 min.|
+ |6 hour|6 tuntia|
+ |_1_hour|1 tunti|
+ |_24_hour|24 tuntia|
+ |_3_hour|3 tuntia|
+ |Air Quality data from our own sensor|Ilmanlaatua koskevat tiedot omasta anturistamme|
+ |Air Quality Index|Ilmanlaatuindeksi|
+ |Air quality sensor|Ilmanlaatuanturi|
+ |Air Quality|Ilman laatu|
+ |AQI|AQI|
+ |Based on a common formula using the temperature & dewpoint, as recorded realtime from this weather station, an estimated height of the cloudbase is calculated.|Pilvipohjan arvioitu korkeus lasketaan perustuen yleiseen kaavaan, jossa käytetään lämpötilaa ja kastepistettä, sellaisena kuin se on mitattu tämän sääaseman reaaliaikaisesti.|
+ |classification|luokittelu|
+ |concentration|pitoisuus|
+ |Critical Conditions|Kriittiset olosuhteet|
+ |Current cloudbase|Nykyinen pilvipohja|
+ |Davis sensor|Davis-anturi|
+ |EPA Air Quality Index|EPA: n ilmanlaatuindeksi|
+ |GoodAQ|Hyvä ilmanlaatu|
+ |HazordousAQ|Vaarallinen|
+ |iaqB|iaqB|
+ |Information on Air Quality|Tietoja ilmanlaadusta|
+ |Information on Cloudbase|Tietoja Cloudbase|
+ |It is not a accurate tool it is a relative indicator.|Se ei ole tarkka työkalu, vaan suhteellinen indikaattori.|
+ |Last 24 hours|Viimeiset 24 tuntia|
+ |Last 7 days|Viimeiset 7 päivää|
+ |Life Threatening|Elämää uhkaava|
+ |Luftdaten sensor|Luftdaten-anturi|
+ |max|maksimi|
+ |min|vähintään|
+ |ModerateAQ|Kohtalainen ilmanlaatu|
+ |More information|Lisää tietoa|
+ |My city|Minun kaupunkini|
+ |O3|O3|
+ |Our Davis AQ sensor|Davis-anturimme|
+ |Our Luftdaten AQ sensor|Luftdaten AQ -anturimme|
+ |Our Luftdaten sensor|Luftdaten-anturimme|
+ |Our measurement values above are real-time values|Yllä olevat mittausarvomme ovat reaaliaikaisia arvoja|
+ |Our Purple AQ sensor|PurpleAir-anturimme|
+ |Our PurpleAir sensor|PurpleAir-anturimme|
+ |Our station AQ sensor|Aseman anturi|
+ |Our station sensor|Aseman anturi|
+ |Particle|Hiukkanen|
+ |particle|particle|
+ |period|Hiukkanen|
+ |pm10|pm10|
+ |pm1|pm1|
+ |pm2.5|pm2.5|
+ |PM25|PM25|
+ |pm_10|pm10|
+ |pm_2p5|pm2.5|
+ |Precautions Required|Vaadittavat varotoimenpiteet|
+ |Purpleair sensor|Purpleair-anturi|
+ |Risk|Riski|
+ |Sensor data captured at|Anturitiedot on tallennettu|
+ |Sensor_ID|Anturi tunnus|
+ |Station ID|Sääasema tunnus|
+ |Station sensor|Aseman anturi|
+ |The health effects should be based on 24 hours average values only.|Terveysvaikutusten tulisi perustua vain 24 tunnin keskiarvoihin.|
+ |UnhealthyAQ|Epäterveellinen|
+ |UnhealthyFSAQ|Epäterveellinen joillekin|
+ |unkown / error in data|tuntematon / virhe tiedoissa|
+ |VeryUnhealthyAQ|Hyvin epäterveellinen|
+
+# airquality explain
+ |Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.|Ilmanlaatu on hyväksyttävä; Joidenkin epäpuhtauksien terveysongelmat saattavat kuitenkin olla kohtuullisia hyvin pienelle määrälle ihmisiä, jotka ovat epätavallisen herkkiä ilmansaasteille.|
+ |Air quality is considered satisfactory, and air pollution poses little or no risk|Ilman laatua pidetään tyydyttävänä, ja ilman pilaantuminen aiheuttaa vain vähän tai ei lainkaan riskiä|
+ |Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.|Jokainen voi alkaa kokea terveysvaikutuksia; herkkien ryhmien jäsenillä voi olla vakavampia terveysvaikutuksia.|
+ |Health alert: everyone may experience more serious health effects|Terveyshälytys: Kaikilla voi olla vakavampia terveysvaikutuksia|
+ |Health warnings of emergency conditions. The entire population is more likely to be affected|Terveysvaroitukset hätätilanteista. Tämä vaikuttaa todennäköisemmin koko väestöön|
+ |Members of sensitive groups may experience health effects. The general public is not likely to be affected.|Herkkien ryhmien jäsenillä voi olla terveysvaikutuksia. Tämä ei todennäköisesti vaikuta väestöön.|
+
+# earthquake
+ |Click to sort the table on|Napsauta lajitellaksesi taulukon|
+ |Coordinates|Koordinaatit|
+ |Dangerous|Vaarallinen|
+ |Depth|Syvyys|
+ |Earthquake information courtesy of|Maanjäristyksestä tiedossa|
+ |Earthquake|Maanjäristys|
+ |Earthquakes|Maanjäristykset|
+ |Great earthquake|Suuri maanjäristys|
+ |GreatE|Suuri maanjäristys|
+ |Largest|Suurin|
+ |Last Earthquake|Viimeinen maanjäristys|
+ |LightE|Kevyt maanjäristys|
+ |Magnitude|Suuruus|
+ |Major earthquake|Suuri maanjäristys|
+ |MajorE|Suuri maanjäristys|
+ |Minor earthquake|Pieni maanjäristys|
+ |MinorE|Pieni maanjäristys|
+ |Moderate earthquake|Kohtalainen maanjäristys|
+ |ModerateE|Kohtalainen maanjäristys|
+ |or on|tai|
+ |Regional earthquake|Alueellinen maanjäristys|
+ |RegionalE|Alueellinen maanjäristys|
+ |Strong earthquake|Voimakas maanjäristys|
+ |StrongE|Voimakas maanjäristys|
+ |Table is sorted by|Taulukko on lajiteltu|
+
+# sun/moon
+ |Azimuth|Atsimuutti|
+ |Current Moon cycle is|Nykyinen kuunsykli on|
+ |Darkness|Pimeys|
+ |day before|päivä ennen|
+ |Daylight|Kesäaika|
+ |days old|päivää vanha|
+ |Elevation|Korkeus|
+ |Estimated|Arvioitu|
+ |First Quarter|Ensimmäinen neljännes|
+ |Full Moon|Täysikuu|
+ |Luminance|Valaistuksen|
+ |Moon Phase / Sun-Moon  Rise-Set Information|Kuun vaihe ja aurinko kuu nousevat ja asettuvat|
+ |Moon Rise/Set Information|Kuun nousu ja asetettu|
+ |Moon|Kuu|
+ |Moonphase|Kuun vaihe|
+ |Moonrise|Kuun nousu|
+ |Moonset|Kuu asettaa|
+ |New Moon|Uusi kuu|
+ |Next Full Moon|Seuraava täysikuu|
+ |Next New Moon|Seuraava uusi kuu|
+ |Of Daylight|Päivänvalosta|
+ |Sun Rise/Set Information|Auringonnousu ja lasku|
+ |Sun rose at|Aurinko nousi|
+ |Sun set|Auringonlasku|
+ |Sun will set|Auringonlasku|
+ |Sun|Aurinko|
+ |SunRise/Set|Auringonnousu ja asetettu|
+ |Sunrise|Auringonnousu|
+ |Sunset|Auringonlasku|
+ |Third Quarter|Kolmas neljäsosa|
+ |Till Sunrise|Auringonnousu|
+ |Till Sunset|Auringonlasku|
+ |Waning Crescent|Puolikuu|
+ |Waning Gibbous|Vähenevä gibbous|
+ |Waxing Crescent|Kuorellinen puolikuu|
+ |Waxing Gibbous|Gibbousvaha|
+
+# UV/solar/lux
+ |Brightness|Kirkkaus|
+ |Current UVINDEX Advisory|Nykyinen UVINDEX-neuvoja|
+ |CURRENT UVINDEX|NYKYINEN UVINDEX|
+ |Excellent and Sustainable|Erinomainen ja kestävä|
+ |Good and Sustainable|Hyvä ja kestävä|
+ |Good to Excellent|Hyvästä erinomaiseen|
+ |Index|Indeksi|
+ |Low |Matala |
+ |Low to Moderate|Alhaisesta kohtalaiseen|
+ |Lux Brightness|Lux-kirkkaus|
+ |Lux measurement|Lux-mittaus|
+ |Lux|Lux|
+ |Moderate to Good|Kova - Hyvä|
+ |None |Ei mitään  |
+ |Poor |Matala |
+ |Solar Energy Replenishment|Aurinkoenergian lisäys|
+ |Solar Radiation|Auringonsäteily|
+ |Ultraviolet|Ultravioletti|
+
+# UV/solar/lux explain
+ |High risk of harm from unprotected sun exposure.|Suojaamattomalta auringolta aiheutuva suuri haitariski.|
+ |Low danger from the sun&apos;s UV rays for the average person|Vähäinen auringon UV-säteilyn aiheuttama vaara tavalliselle ihmiselle|
+ |Measures the approximate human eye response to light under a variety of lighting conditions.|Mittaa ihmisen silmän arvioidun vasteen valolle erilaisissa valaistusolosuhteissa.|
+ |Moderate risk of harm from unprotected sun exposure.|Suojaamattomasta auringosta johtuva kohtalainen haitariski.|
+ |The total amount of all the light measured is known as the "luminous flux".|Kaikkien mitatun valon kokonaismäärä tunnetaan nimellä "valovirta".|
+ |Very high risk of harm from unprotected sun exposure. Take extra precautions.|Erittäin suuri suojariskin aiheuttama vaurioituminen. Ole varovainen.|
+
+# metar
+ |Airport-code|Lentokentän koodi|
+ |Current Conditions|Nykyiset olosuhteet|
+ |Heavy |Raskas |
+ |Light |Kevyt |
+ |Location|Sijainti|
+ |Metar Aviation Weather Data|Metar Aviation säätiedot|
+ |Visibility|Näkyvyys|
+
+# menu
+ |air-quality.com|air-quality.com|
+ |Atlantic Ocean pressure map|Atlantin valtameren painekartta|
+ |Aurora info|Revontuletiedot|
+ |Awekas|Awekas|
+ |Contact Info|Yhteystiedot|
+ |CWOP|CWOP|
+ |Dark Theme|Tumma teema|
+ |DarkSky Forecast|DarkSky -ennuste|
+ |European Weather Network|Euroopan sääverkosto|
+ |EXTRAS|EXTRAS|
+ |FIRST SETUP (protected)|ENSIMMÄINEN ASETUS (suojattu)|
+ |Graphs|Kaaviot|
+ |History at WU |Historia WU: ssa|
+ |History at WU|Historia WU: ssa|
+ |Home|Alkaa|
+ |HWA|HWA|
+ |Imperial|Imperial|
+ |License|Lisenssi|
+ |Light Theme|Kevyt teema|
+ |Luftdaten Map|Luftdaten kartta|
+ |Maintained by|Ylläpitäjä|
+ |Menu|Valikko|
+ |Metric|Metrinen|
+ |NWS forecast|NWS-ennuste|
+ |Official weather alarms|Viralliset säähälytykset|
+ |Pacific Ocean pressure map|Tyynenmeren painekartta|
+ |PurpleAir Map|PurpleAir-kartta|
+ |PwsWeather|PwsWeather|
+ |pwsWeather|PwsWeather|
+ |Reports at WU |Raportit WU: ssa|
+ |Reports at WU|Raportit WU: ssa|
+ |Scandinavia|Skandinavia|
+ |Select language|Valitse kieli|
+ |Settings|Asetukset|
+ |Station Theme|Asema-teema|
+ |Stations data at WL.com|Sääaseman tiedot WL.com|
+ |SUPPORT|TUKI|
+ |Template by|Mallin tekijä|
+ |UK (MPH)|UK (MPH)|
+ |USER PREFERENCES|KÄYTTÄJÄN ASETUKSET|
+ |WEATHER NETWORKS|SÄÄN VERKOT|
+ |Weather Networks|Sääverkot|
+ |WeatherCloud|WeatherCloud|
+ |WeatherFlow map|WeatherFlow-kartta|
+ |WeatherFlow_map|WeatherFlow-kartta|
+ |WeatherUnderground|WeatherUnderground|
+ |Web Cam|Verkkokameran|
+ |Wind forecast|Tuuliennuste|
+ |WOW|WOW|
+ |WXSIM Forecast|WXSIM-ennuste|
+ |YrNo Forecast|YrNo-ennuste|
+
+# bio
+ |About copyrighted parts used in this template|Tietoja tässä mallissa käytetyistä tekijänoikeuksien alaisista osista|
+ |Contact information|Yhteystiedot|
+ |Copyrighted material used|Käytetty tekijänoikeuksin suojattu materiaali|
+ |Credits, contact and|Laajuus, yhteyshenkilö ja|
+ |Download and support|Lataa ja tuki|
+ |Facebook|Facebook|
+ |For your remarks or questions|Huomautuksia tai kysymyksiä varten|
+ |Legal information|Oikeudelliset tiedot|
+ |Mail|Posti|
+ |More information about the used website template and tools|Lisätietoja käytetystä verkkosivustomallista ja työkaluista|
+ |Our main website|Pääsivustomme|
+ |Twitter|Viserrys|
+ |Website|Verkkosivusto|
+ |You can find us here also|Löydät meidät myös täältä|
+
+# graphs
+ |Data from our weatherstation|Tiedot sääasemaltamme|
+ |for this day|tälle päivälle|
+ |for this month|tälle kuukaudelle|
+ |for this year|tälle vuodelle|
+ |High|Korkea|
+ |Low|Matala|
+
+# snow
+ |Add measurement|Lisää mittaus|
+ |Current height|Nykyinen korkeus|
+ |Date|Päivä|
+ |Fresh|Tuore|
+ |Manual measurements|Manuaaliset mittaukset|
+ |Melted|Sulatettu|
+ |Snow measurements|Lumimittaukset|
+ |Snowfall since last measurement|Lumisade viime mittauksesta|
+ |Remove measurement|Poista mittaus|
+
+# conditions
+ |blowing|puhaltaa|
+ |Clear sky|Kirkas taivas|
+ |Clear|Kirkas|
+ |Clouds|Pilviä|
+ |Cloudy|Pilvinen|
+ |Conditions|Ehdot|
+ |Drizzle|Tihkusade|
+ |drizzle|tihkusade|
+ |dust|pöly|
+ |Fair|Hyvä sää|
+ |Fog|Sumu|
+ |fog|sumu|
+ |freezing|jäädyttäminen|
+ |hail|rakeita|
+ |haze|utu|
+ |Heavy rain and thunder|Rankkasade ja ukkonen|
+ |Heavy rain showers and thunder|Sadekuuroja ja ukkosta|
+ |Heavy rain showers|Rankkasade suihkut|
+ |Heavy rain|Rankkasade|
+ |Heavy sleet and thunder|Rankkasateita ja ukkosta|
+ |Heavy sleet showers and thunder|Sadekuuroja ja ukkosta|
+ |Heavy sleet showers|Raskas lumisade|
+ |Heavy sleet|Raskas lumisade|
+ |Heavy snow and thunder|Raskas lumi ja ukkonen|
+ |Heavy snow showers and thunder|Raskaita lumisadetta ja ukkosta|
+ |Heavy snow showers|Raskaita lumikuuroja|
+ |Heavy snow|Raskas lumi|
+ |heavy|raskas|
+ |ice_crystals|jääkristallit|
+ |ice_pellets|jää pelletit|
+ |Isolated Light Showers|Eristetty kevyttä sadetta|
+ |Isolated Showers|Eristettyjä vesisadetta|
+ |Isolated|Eristetty|
+ |Light rain and thunder|Pieni sade ja ukkosta|
+ |Light rain showers and thunder|Vähän sadetta ja ukkosta|
+ |Light Rain Showers|Vähän sadetta|
+ |Light rain showers|Vähän sadetta|
+ |Light rain|Kevyt sade|
+ |Light Showers|Kevyt sade|
+ |Light sleet and thunder|Kevyttä lumisadetta ja ukkosta|
+ |Light sleet showers|Kevyitä sadesuihkuja|
+ |Light sleet|Kevyt lumisade|
+ |Light snow and thunder|Heikkoa lunta ja ukkosta|
+ |Light Snow Showers|Lumikuuroja|
+ |Light snow showers|Lumikuuroja|
+ |Light snow|Lumikuuroja|
+ |Light Wintry Mix|Kevyt talvinen sekoitus|
+ |light|kevyt|
+ |lightning|salama|
+ |Lights sleet showers and thunder|Sadekuuroja ja ukkosta|
+ |Lights snow showers and thunder|Heikkoa lunta ja ukkosta|
+ |Mist and Fog|Sumu|
+ |Mist|Sumu|
+ |mist|sumu|
+ |moderate|kohtalainen|
+ |Mostly Clear|Suurimmaksi osaksi selvä|
+ |Mostly Cloudy|Enimmäkseen pilvistä|
+ |Mostly Scattered Clouds|Enimmäkseen pilvistä|
+ |Mostly Sunny|Enimmäkseen aurinkoista|
+ |Mostly|Enimmäkseen|
+ |or|tai|
+ |Overcast|Pilvinen|
+ |Partly Cloudy|Puolipilvistä|
+ |Partly cloudy|Puolipilvistä|
+ |Rain and thunder|Sade ja ukkonen|
+ |Rain showers and thunder|Sade ja ukkonen|
+ |Rain Showers Likely|Todennäköisesti sadetta|
+ |Rain showers|Sadekuuroja|
+ |Rain|Sade|
+ |rain|sade|
+ |sand|hiekka|
+ |Scattered Light Showers|Hajanaisia ukkoskuuroja|
+ |Scattered Showers|Hajanaisia ukkoskuuroja|
+ |Scattered|Hajallaan|
+ |showers,|sadekuuroja|
+ |showers|suihkut|
+ |Sleet and thunder|Sadekuuroja ja ukkosta|
+ |Sleet showers and thunder|Sadekuuroja ja ukkosta|
+ |Sleet showers|Sadekuuroja|
+ |Sleet|Laiva|
+ |smoke|savu|
+ |Snow and thunder|Lunta ja ukkosta|
+ |Snow showers and thunder|Lunta ja ukkosta|
+ |Snow showers|Lunta|
+ |Snow|Lumi|
+ |snow|lumi|
+ |squall|kyykky|
+ |steady|tasainen|
+ |storm|myrsky|
+ |Sunny|Aurinkoinen|
+ |thunderstorm|ukkosmyrsky|
+ |tornado|tornado|
+ |unknown|tuntematon|
+ |vulcanic_ash|vulkaaninen_ash|
+ |water_spout|vesisuora|
+ |widespread|laajalle levinnyt|
+ |Windy|Tuulinen|
+
+# extra sensors
+ |Extra block large|Extra block large|
+ |Extra block|Extra block|
+ |Extra sensors|Extra sensors|
+ |extra_hum1|extra_hum1|
+ |extra_hum2|extra_hum2|
+ |extra_hum3|extra_hum3|
+ |extra_hum4|extra_hum4|
+ |extra_hum5|extra_hum5|
+ |extra_hum6|extra_hum6|
+ |extra_hum7|extra_hum7|
+ |extra_hum8|extra_hum8|
+ |extra_tmp1|extra_tmp1|
+ |extra_tmp2|extra_tmp2|
+ |extra_tmp3|extra_tmp3|
+ |extra_tmp4|extra_tmp4|
+ |extra_tmp5|extra_tmp5|
+ |extra_tmp6|extra_tmp6|
+ |extra_tmp7|extra_tmp7|
+ |extra_tmp8|extra_tmp8|

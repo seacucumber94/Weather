@@ -1,0 +1,316 @@
+<!--
+ This file is generated as part of CumulusUtils - 22/07/2026 01:05:03
+ This header must not be removed and the user must comply to the Creative Commons 4.0 license
+ The license conditions imply the non-commercial use of HighCharts for which the user is held responsible
+ © Copyright 2019 - 2026 Hans Rottier <hans.rottier@gmail.com>
+ See also License conditions of CumulusUtils: https://meteo-wagenborgen.nl/
+-->
+
+<h3>A Fire Weather Index for personal weather stations</h3>
+<h5>(See below the table for background)</h5>
+<table style='width:95%; margin-left:auto; margin-right:auto; border-collapse: collapse;'><tbody>
+<tr style='text-align:center;'>
+<td style='width:26.2%;background-color:green;color: white;'>Low<br/>(0 - 210)</td>
+<td style='width:17.5%;background-color:blue;color: white;'>Moderate<br/>(210 - 350)</td>
+<td style='width:17.5%;background-color:yellow;color: black;'>High<br/>(350 - 490)</td>
+<td style='width:17.5%;background-color:orange;color: black;'>Very High<br/>(490 - 630)</td>
+<td style='width:21.2%;background-color:red;color: black;'>Extreme<br/>(630+)</td>
+</tr>
+</tbody></table>
+<br/>
+<div style='width:95%; margin-left:auto; margin-right:auto; padding:10px;background-image: linear-gradient(to right, green 16%,blue 36%,yellow 53%,orange 71%,red 89%);' >
+<div style='align: left; width: 16.3%;background: #f0f0f0; text-align: right;'>
+<span >></span></div></div>
+<div style='width: 95%; margin-left: auto; margin-right: auto; text-align: left;'>Current FWI value = 130.3 (maximum scale = 800)</div>
+<div style ='width: 95%; margin-left: auto; margin-right: auto; text-align:left;'><small>For more information on the Fire Weather Index, see the end of this page.</small></div>
+<br/><br/>
+<table style='width: 95%; margin-left: auto; margin-right: auto; border-collapse: collapse; background-color: #d7d7d7;'><tbody>
+<tr>
+<th style='width: 16%;text-align: center;'>Date</th>
+<th style='width: 14%;text-align: center;'>Temp.
+(&deg;C)</th>
+<th style='width: 14%;text-align: center;'>Wind Speed
+(km/hr)</th>
+<th style='width: 14%;text-align: center;'>Rain
+(mm)</th>
+<th style='width: 14%;text-align: center;'>RH
+</th>
+<th style='width: 14%;text-align: center;'>Days since Rain</th>
+<th style='width: 14%;text-align: center;'>pwsFWI</th>
+</tr>
+<tr style='text-align:center;'>
+<td>21/07/2026</td>
+<td>25.0</td>
+<td>6.4</td>
+<td>0.0</td>
+<td>0.53</td>
+<td>19</td>
+<td style='background:green;color: white'>130.3</td>
+</tr>
+<tr style='text-align:center;'>
+<td>20/07/2026</td>
+<td>25.3</td>
+<td>4.8</td>
+<td>0.0</td>
+<td>0.35</td>
+<td>18</td>
+<td style='background:green;color: white'>122.9</td>
+</tr>
+<tr style='text-align:center;'>
+<td>19/07/2026</td>
+<td>23.1</td>
+<td>4.8</td>
+<td>0.0</td>
+<td>0.38</td>
+<td>17</td>
+<td style='background:green;color: white'>118.3</td>
+</tr>
+<tr style='text-align:center;'>
+<td>18/07/2026</td>
+<td>23.0</td>
+<td>4.8</td>
+<td>0.0</td>
+<td>0.50</td>
+<td>16</td>
+<td style='background:green;color: white'>117.2</td>
+</tr>
+<tr style='text-align:center;'>
+<td>17/07/2026</td>
+<td>26.4</td>
+<td>6.4</td>
+<td>0.0</td>
+<td>0.41</td>
+<td>15</td>
+<td style='background:green;color: white'>133.6</td>
+</tr>
+<tr style='text-align:center;'>
+<td>16/07/2026</td>
+<td>28.0</td>
+<td>3.2</td>
+<td>0.0</td>
+<td>0.36</td>
+<td>14</td>
+<td style='background:green;color: white'>128.7</td>
+</tr>
+<tr style='text-align:center;'>
+<td>15/07/2026</td>
+<td>26.2</td>
+<td>3.2</td>
+<td>0.0</td>
+<td>0.42</td>
+<td>13</td>
+<td style='background:green;color: white'>147.1</td>
+</tr>
+<tr style='text-align:center;'>
+<td>14/07/2026</td>
+<td>26.4</td>
+<td>4.8</td>
+<td>0.0</td>
+<td>0.50</td>
+<td>12</td>
+<td style='background:green;color: white'>172.8</td>
+</tr>
+<tr style='text-align:center;'>
+<td>13/07/2026</td>
+<td>26.3</td>
+<td>4.8</td>
+<td>0.0</td>
+<td>0.49</td>
+<td>11</td>
+<td style='background:green;color: white'>182.9</td>
+</tr>
+<tr style='text-align:center;'>
+<td>12/07/2026</td>
+<td>27.9</td>
+<td>6.4</td>
+<td>0.0</td>
+<td>0.36</td>
+<td>10</td>
+<td style='background:green;color: white'>196.7</td>
+</tr>
+<tr style='text-align:center;'>
+<td>11/07/2026</td>
+<td>29.5</td>
+<td>4.8</td>
+<td>0.0</td>
+<td>0.44</td>
+<td>9</td>
+<td style='background:green;color: white'>208.8</td>
+</tr>
+<tr style='text-align:center;'>
+<td>10/07/2026</td>
+<td>34.3</td>
+<td>4.8</td>
+<td>0.0</td>
+<td>0.33</td>
+<td>8</td>
+<td style='background:green;color: white'>201.0</td>
+</tr>
+<tr style='text-align:center;'>
+<td>09/07/2026</td>
+<td>32.1</td>
+<td>6.4</td>
+<td>0.0</td>
+<td>0.36</td>
+<td>7</td>
+<td style='background:green;color: white'>179.8</td>
+</tr>
+<tr style='text-align:center;'>
+<td>08/07/2026</td>
+<td>31.0</td>
+<td>4.8</td>
+<td>0.0</td>
+<td>0.36</td>
+<td>6</td>
+<td style='background:green;color: white'>172.3</td>
+</tr>
+<tr style='text-align:center;'>
+<td>07/07/2026</td>
+<td>25.9</td>
+<td>8.0</td>
+<td>0.0</td>
+<td>0.41</td>
+<td>5</td>
+<td style='background:green;color: white'>143.5</td>
+</tr>
+<tr style='text-align:center;'>
+<td>06/07/2026</td>
+<td>28.4</td>
+<td>9.7</td>
+<td>0.0</td>
+<td>0.41</td>
+<td>4</td>
+<td style='background:green;color: white'>135.4</td>
+</tr>
+<tr style='text-align:center;'>
+<td>05/07/2026</td>
+<td>24.9</td>
+<td>6.4</td>
+<td>0.0</td>
+<td>0.62</td>
+<td>3</td>
+<td style='background:green;color: white'>90.4</td>
+</tr>
+<tr style='text-align:center;'>
+<td>04/07/2026</td>
+<td>22.4</td>
+<td>8.0</td>
+<td>0.0</td>
+<td>0.66</td>
+<td>2</td>
+<td style='background:green;color: white'>88.8</td>
+</tr>
+<tr style='text-align:center;'>
+<td>03/07/2026</td>
+<td>24.9</td>
+<td>9.7</td>
+<td>0.0</td>
+<td>0.46</td>
+<td>1</td>
+<td style='background:green;color: white'>108.1</td>
+</tr>
+<tr style='text-align:center;'>
+<td>02/07/2026</td>
+<td>18.3</td>
+<td>11.3</td>
+<td>1.1</td>
+<td>0.55</td>
+<td>0</td>
+<td style='background:green;color: white'>131.2</td>
+</tr>
+<tr style='text-align:center;'>
+<td>01/07/2026</td>
+<td>22.1</td>
+<td>11.3</td>
+<td>0.0</td>
+<td>0.59</td>
+<td>1</td>
+<td style='background:green;color: white'>121.6</td>
+</tr>
+<tr style='text-align:center;'>
+<td>30/06/2026</td>
+<td>23.7</td>
+<td>12.9</td>
+<td>1.2</td>
+<td>0.48</td>
+<td>0</td>
+<td style='background:green;color: white'>151.9</td>
+</tr>
+<tr style='text-align:center;'>
+<td>29/06/2026</td>
+<td>21.4</td>
+<td>6.4</td>
+<td>0.0</td>
+<td>0.55</td>
+<td>1</td>
+<td style='background:green;color: white'>163.2</td>
+</tr>
+<tr style='text-align:center;'>
+<td>28/06/2026</td>
+<td>21.6</td>
+<td>12.9</td>
+<td>0.3</td>
+<td>0.47</td>
+<td>0</td>
+<td style='background:green;color: white'>174.2</td>
+</tr>
+<tr style='text-align:center;'>
+<td>27/06/2026</td>
+<td>27.5</td>
+<td>12.9</td>
+<td>0.0</td>
+<td>0.51</td>
+<td>1</td>
+<td style='background:green;color: white'>174.9</td>
+</tr>
+<tr style='text-align:center;'>
+<td>26/06/2026</td>
+<td>33.3</td>
+<td>14.5</td>
+<td>1.7</td>
+<td>0.35</td>
+<td>0</td>
+<td style='background:green;color: white'>188.8</td>
+</tr>
+<tr style='text-align:center;'>
+<td>25/06/2026</td>
+<td>32.4</td>
+<td>6.4</td>
+<td>0.0</td>
+<td>0.42</td>
+<td>5</td>
+<td style='background:green;color: white'>163.8</td>
+</tr>
+<tr style='text-align:center;'>
+<td>24/06/2026</td>
+<td>31.6</td>
+<td>6.4</td>
+<td>0.0</td>
+<td>0.50</td>
+<td>4</td>
+<td style='background:green;color: white'>147.6</td>
+</tr>
+<tr style='text-align:center;'>
+<td>23/06/2026</td>
+<td>31.9</td>
+<td>6.4</td>
+<td>0.0</td>
+<td>0.56</td>
+<td>3</td>
+<td style='background:green;color: white'>133.1</td>
+</tr>
+<tr style='text-align:center;'>
+<td>22/06/2026</td>
+<td>28.3</td>
+<td>9.7</td>
+<td>0.0</td>
+<td>0.53</td>
+<td>2</td>
+<td style='background:green;color: white'>105.4</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div style ='width: 95%; margin-left: auto; margin-right: auto; text-align: center; font-size: 12px;'><br/>
+<a href='https://cumuluswiki.org/a/Theoretical_background_on_pwsFWI' target='_blank'>Science background here.</a> Prediction: <a href='https://www.yourweather.co.uk/' target='_blank'>https://www.yourweather.co.uk/</a>
+ </div>

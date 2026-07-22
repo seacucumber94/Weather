@@ -1,0 +1,138 @@
+# WeatherUnderground Stations History
+langlookup|error|Fehler|
+langlookup|Show me|Zeig es mir!|
+langlookup|With this date|Mit diesem Datum|
+langlookup|Directly to|Direkt zu|
+langlookup|previous|vorherige|
+langlookup|next|nächste|
+langlookup|Custom range|Benutzerdefinierten Bereich|
+langlookup|use both date-selectors for a custom range|Verwenden Sie beide Datumsselektoren für einen benutzerdefinierten Bereich|
+langlookup|avg|Durchschn|
+langlookup|Download your copy of this data-set|Laden Sie Ihre Kopie dieses Datensatzes herunter|
+langlookup|here|von WetterUnterground|
+langlookup|WeatherUnderground graphs for this period|Wetter Underground Graphen für diesen Zeitraum| 
+langlookup|Tabular details for|Tabellarische Details für|
+langlookup|Select another period|Wählen Sie einen anderen Zeitraum|
+langlookup|Our weather-data as stored at|Unsere Wetterdaten wie bei|
+langlookup|Temp.|Temp.|
+langlookup|Speed|Geschwindigkeit|
+langlookup|Precip.|Niederschlag|
+langlookup|Dew pt.|Taupunkt|
+langlookup|Rainrate|Niederschlagsrate|
+langlookup|Humid.|Feuchtigkeit|
+langlookup|Cond.|Zustand|
+langlookup|click here|Klick hier|
+langlookup|hide this area|Verstecke diesen Bereich| 
+langlookup|Scripts failed, check html for problems|Skripte sind fehlgeschlagen, überprüfe HTML auf Probleme|
+langlookup|Original script by|Script entwickelt von|
+langlookup|Rewritten for template use|Für die Verwendung der "Template" neu geschrieben| 
+langlookup|Loading the graph can take up to a minute!|Das Laden der Grafik kann bis zu einer Minute dauern!| 
+
+langlookup|Daily|Tägliche|
+langlookup|Weekly|Wöchentliche|
+langlookup|Monthly|Monatliche|
+langlookup|Yearly|Jährlich|
+
+langlookup|Temperature|Temperatur|
+langlookup|Dew Point|Taupunkt|
+langlookup|Humidity|Luftfeuchte|
+langlookup|Wind Speed|Windgeschwindigkeit|
+langlookup|Wind Gust|Windböen|
+langlookup|Wind Direction|Windrichtung|
+langlookup|Pressure|Luftdruck|
+langlookup|Precipitation|Niederschlag|
+langlookup|Solar|Solar|
+
+langlookup|Current|aktuell|
+langlookup|High|Hoch|
+langlookup|Low|Wenig|
+langlookup|Average|Durchchnittswerte|
+langlookup|Summary for|Zusammenfassung für|
+langlookup|Units|Einheiten|
+langlookup|Both|Beide|
+langlookup|English|Englisch|
+langlookup|Metric|Metrisch|
+langlookup|Period|Zeitraum|
+langlookup|Date|Datum|
+langlookup|Day|Tag|
+langlookup|Week|woche|
+langlookup|Month|Monat|
+langlookup|Year|Jahr|
+langlookup|Time|Zeit|
+langlookup|From|Von|
+langlookup|Wind|Wind|
+langlookup|Gust|Windböen|
+langlookup|high|hoch|
+langlookup|low|tief|
+langlookup|sum|Summe|
+langlookup|today|heute|
+
+langlookup|Calm|Windstille|
+# -------------- wind direction compass headings
+langlookup|E|O|
+langlookup|ENE|ONO|
+langlookup|ESE|OSO|
+langlookup|East|Osten|
+langlookup|N|N|
+langlookup|NE|NO|
+langlookup|NNE|NNO|
+langlookup|NNW|NNW|
+langlookup|NW|NW|
+langlookup|North|Norden|
+langlookup|Northeast|Nordost|
+langlookup|Northwest|Nordwest|
+langlookup|S|S|
+langlookup|SE|SO|
+langlookup|SSE|SSO|
+langlookup|SSW|SSW|
+langlookup|SW|SW|
+langlookup|South|Süden|
+langlookup|Southeast|Süd-Ost|
+langlookup|Southwest|Südwesten|
+langlookup|W|W|
+langlookup|WNW|WNW|
+langlookup|WSW|WSW|
+langlookup|West|Westen|
+# ---------------------------   month names long
+langlookup|April|April|
+langlookup|August|August|
+langlookup|December|Dezember|
+langlookup|February|Februar|
+langlookup|January|Januar|
+langlookup|July|Juli|
+langlookup|June|Juni|
+langlookup|March|März|
+langlookup|November|November|
+langlookup|October|Oktober|
+langlookup|September|September|
+#
+# ---------------------------  month names short
+langlookup|Apr|Apr|
+langlookup|Aug|Aug|
+langlookup|Dec|Dez|
+langlookup|Feb|Feb|
+langlookup|Jan|Jan|
+langlookup|Jul|Jul|
+langlookup|Jun|Juni|
+langlookup|Mar|Mrz|
+langlookup|May|Mai|
+langlookup|Nov|Nov|
+langlookup|Oct|Okt|
+langlookup|Sep|Sep|
+#
+# --------------------- days of the week
+langlookup|Friday|Freitag|
+langlookup|Monday|Montag|
+langlookup|Saturday|Samstag|
+langlookup|Sunday|Sonntag|
+langlookup|Thursday|Donnerstag|
+langlookup|Tuesday|Dienstag|
+langlookup|Wednesday|Mittwoch|
+langlookup|Fri|Frei|
+langlookup|Mon|Mon|
+langlookup|Sat|Sam|
+langlookup|Sun|Son|
+langlookup|Thu|Don|
+langlookup|Tue|Die|
+langlookup|Wed|Mit|
+#

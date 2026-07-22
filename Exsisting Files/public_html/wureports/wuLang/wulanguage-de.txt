@@ -1,0 +1,96 @@
+# langfile modified on: 2021-05-10		(YYYY-MM-DD)
+charset|UTF-8|
+# report types
+langlookup|wsreport_report type|Report type|
+langlookup|wsreport_Daily detail|Jährlich pro Tag Detail|
+langlookup|wsreport_Monthly summary|Zusammenfassung pro Monat|
+langlookup|wsreport_Season detail|Ausführliche pro Saison|
+langlookup|wsreport_Seasonal summary|Zusammenfassung pro Saison|
+langlookup|wsreport_Freeze days|Tage mit Frost|
+# weather values
+langlookup|wsreport_weather value|Wetter-Feld|
+langlookup|wsreport_Temperature|Temperatur|
+langlookup|wsreport_Barometric pressure|Luftdruck|
+langlookup|wsreport_Rain|Regen|
+langlookup|wsreport_Wind|Wind|
+langlookup|wsreport_Wind run|Wind lauf|
+langlookup|wsreport_Gust|Windstoß|
+langlookup|wsreport_Dewpoint|Taupunkt|
+langlookup|wsreport_Humidity|Luftfeuchtigkeit|
+# other  items
+langlookup|wsreport_report| |
+langlookup|wsreport_period|Zeitraum|
+langlookup|wsreport_Period|Zeitraum|
+langlookup|wsreport_All years|Alle Jahre|
+langlookup|wsreport_Color key|Bedeutung der Farben|
+langlookup|wsreport_Script developed by Wim van der Kuil of|Das Skript wurde entwickelt durch Bill von|
+langlookup|wsreport_The script uses the data from this station which is uploaded to|Das Skript verwendet die Wetterdaten von der Wetterstation, wie aufgeladen nach|
+langlookup|wsreport_The idea for this script came from a similar kind of script using NOAA data, written by Murry Conarroe of|Die Idee für dieses Skript stammt von einem ähnlichen script von Murry Conarroe von|
+langlookup|wsreport_no data for the selected period available "yet"|Es liegen keine Daten für den gewählten Zeitraum vor.|
+langlookup|wsreport_go|Wählen|
+# descriptions of data shown
+langlookup|wsreport_avg|Schnitt|
+langlookup|wsreport_Avg|Durchschnitt|
+langlookup|wsreport_Avg High|Höchste durchschnittliche|
+langlookup|wsreport_high|Ho|
+langlookup|wsreport_High|Hoch|
+langlookup|wsreport_High Avg|Hoch durchschnitt|
+langlookup|wsreport_Mean|Durchschnittlich|
+langlookup|wsreport_Low Avg|Tief durchschnitt|
+langlookup|wsreport_Low|Tief|
+langlookup|wsreport_low|Ti|
+langlookup|wsreport_Average  of the maximums|Durchschnitt der Maxima|
+langlookup|wsreport_Average Low|Durchschnitt der niedrigsten Werte|
+langlookup|wsreport_Raindays|Regen Tage|
+langlookup|wsreport_Month total|Monate-insgesamt|
+langlookup|wsreport_Year-to-day total|Jahr-zu-Tag insgesamt|
+langlookup|wsreport_YTD total|Saison Summe|
+langlookup|wsreport_Highest of the averages|Höchste der Durchschnittswerte|
+langlookup|wsreport_Average|Durchschnitt|
+langlookup|wsreport_Maximums|Maximalwerte|
+# day / month / period names
+langlookup|wsreport_day|Tag|
+langlookup|wsreport_Year|Jahr|
+langlookup|wsreport_Jan|Jan|
+langlookup|wsreport_Feb|Feb|
+langlookup|wsreport_Mar|Mrt|
+langlookup|wsreport_Apr|Apr|
+langlookup|wsreport_May|Mei|
+langlookup|wsreport_Jun|Jun|
+langlookup|wsreport_Jul|Jul|
+langlookup|wsreport_Aug|Aug|
+langlookup|wsreport_Sep|Sep|
+langlookup|wsreport_Oct|Okt|
+langlookup|wsreport_Nov|Nov|
+langlookup|wsreport_Dec|Dec|
+langlookup|wsreport_January|Januar|
+langlookup|wsreport_February|Februar|
+langlookup|wsreport_March|März|
+langlookup|wsreport_April|April|
+langlookup|wsreport_June|Juni|
+langlookup|wsreport_July|Juli|
+langlookup|wsreport_August|August|
+langlookup|wsreport_September|September|
+langlookup|wsreport_October|Oktober|
+langlookup|wsreport_November|November|
+langlookup|wsreport_December|Dezember|
+langlookup|wsreport_Saturday|Samstag|
+langlookup|wsreport_Tuesday|Dienstag|
+langlookup|wsreport_Thursday|Donnerstag|
+langlookup|wsreport_Friday|Freitag|
+langlookup|wsreport_Monday|Montag|
+langlookup|wsreport_Wednesday|Mittwoch|
+langlookup|wsreport_Sunday|Sonntag|
+# seasons
+langlookup|wsreport_winter|Winter|
+langlookup|wsreport_spring|Frühling|
+langlookup|wsreport_summer|Sommer|
+langlookup|wsreport_autumn|Herbst|
+# freeze
+langlookup|wsreport_First freeze|Erster Frost|
+langlookup|wsreport_Last freeze|Letzter Frost|
+langlookup|wsreport_Earliest|Der früheste|
+langlookup|wsreport_Latest|Letzter|
+langlookup|wsreport_Days with low|Tage mit niedriger|
+langlookup|wsreport_Days with high|Tage mit hoher|
+langlookup|wsreport_Consecutive days with|Aufeinanderfolgende Tage mit|

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 200 200" width="200pt" height="200pt" xmlns="http://www.w3.org/2000/svg" >
+  <title>Clear partly cloudy day</title>
+  <g transform="matrix(1, 0, 0, 1, -0.364609, 0.345673)">
+    <line style="stroke-linecap: round; stroke-width: 7px; fill: rgb(232, 196, 0); paint-order: stroke; stroke: rgb(232, 196, 0);" x1="190.715" y1="100" x2="162.607" y2="100"/>
+    <line style="stroke-linecap: round; stroke-width: 7px; fill: rgb(232, 196, 0); paint-order: stroke; stroke: rgb(232, 196, 0);" x1="36.918" y1="100" x2="8.81" y2="100"/>
+    <line style="stroke-linecap: round; stroke-width: 7px; fill: rgb(232, 196, 0); paint-order: stroke; stroke: rgb(232, 196, 0);" x1="114.054" y1="22.79" x2="85.946" y2="22.79" transform="matrix(0, -1, 1, 0, 77.209999, 122.790001)"/>
+    <line style="stroke-linecap: round; stroke-width: 7px; fill: rgb(232, 196, 0); paint-order: stroke; stroke: rgb(232, 196, 0);" x1="114.054" y1="176.451" x2="85.946" y2="176.451" transform="matrix(0, -1, 1, 0, -76.451004, 276.451004)"/>
+    <line style="stroke-linecap: round; stroke-width: 7px; fill: rgb(232, 196, 0); paint-order: stroke; stroke: rgb(232, 196, 0);" x1="60.369" y1="154.248" x2="32.261" y2="154.248" transform="matrix(0.694658, -0.71934, 0.71934, 0.694658, -96.814848, 80.414598)"/>
+    <line style="stroke-linecap: round; stroke-width: 7px; fill: rgb(232, 196, 0); paint-order: stroke; stroke: rgb(232, 196, 0);" x1="168.934" y1="45.961" x2="140.826" y2="45.961" transform="matrix(0.694658, -0.71934, 0.71934, 0.694658, 14.229759, 125.445196)"/>
+    <line style="stroke-linecap: round; stroke-width: 7px; fill: rgb(232, 196, 0); paint-order: stroke; stroke: rgb(232, 196, 0);" x1="168.667" y1="153.553" x2="140.559" y2="153.553" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 153.863464, -64.353275)"/>
+    <line style="stroke-linecap: round; stroke-width: 7px; fill: rgb(232, 196, 0); paint-order: stroke; stroke: rgb(232, 196, 0);" x1="59.7" y1="46.076" x2="31.591" y2="46.076" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 45.94991, -18.780895)"/>
+    <circle style="fill: rgb(232, 196, 0);" cx="100.103" cy="99.239" r="55" />
+  </g>
+  <path fill="#aca6a6" stroke="#aca6a6" stroke-width=".1" d="M 34.06 133.889 C 46.623 127.179 63.62 131.263 71.602 142.933 C 78.253 139.725 86.826 139.141 93.033 143.663 C 97.467 145.997 98.945 150.519 100.719 154.605 C 107.814 156.354 115.056 160.148 118.012 167.15 C 121.854 175.466 118.307 185.823 110.622 190.49 C 106.482 193.701 101.162 194.867 95.841 194.867 L 29.33 194.867 C 21.497 195.304 13.072 192.533 8.342 186.406 C 3.021 179.986 2.874 170.067 8.046 163.503 C 11.002 159.565 15.437 157.376 19.871 155.479 C 20.462 146.435 25.783 137.973 34.06 133.889 Z" style=""/>
+  <path fill="#e4e3e3" stroke="#e4e3e3" stroke-width=".1" d="M 104.667 112.338 C 110.54 105.728 119.839 102.423 128.648 103.104 C 137.458 103.59 146.268 108.45 150.917 116.08 C 158.357 111.22 168.928 112.095 175.291 118.267 C 178.032 120.844 193.792 132.994 197.315 139.069 C 200.496 144.318 200.888 151.074 198.293 156.566 C 194.623 164.731 185.813 169.591 177.003 169.591 L 105.059 169.591 C 97.619 169.591 90.131 166.092 85.774 160.066 C 82.544 155.594 81.223 149.665 82.544 144.318 C 84.502 136.688 91.06 130.855 98.549 128.863 C 98.304 122.836 100.604 116.81 104.667 112.338" style="" />
+</svg>

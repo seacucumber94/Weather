@@ -1,0 +1,515 @@
+{
+	"version": "Last modified: 2025/05/16 15:59:17",
+	"type": "object",
+	"properties": {
+		"accessible": {
+			"type": "boolean"
+		},
+		"forecast": {
+			"title": "Zambretti Forecast Strings",
+			"type": "object",
+			"properties": {
+				"notavailable": {
+					"type": "string"
+				},
+				"exceptional": {
+					"type": "string"
+				},
+				"forecast": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"davisForecast": {
+			"title": "Davis Forecast Strings",
+			"type": "object",
+			"properties": {
+				"forecast1": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"forecast2": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"forecast3": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"moonPhase": {
+			"title": "Moon Phases",
+			"type": "object",
+			"properties": {
+				"Newmoon": {
+					"type": "string"
+				},
+				"WaxingCrescent": {
+					"type": "string"
+				},
+				"FirstQuarter": {
+					"type": "string"
+				},
+				"WaxingGibbous": {
+					"type": "string"
+				},
+				"Fullmoon": {
+					"type": "string"
+				},
+				"WaningGibbous": {
+					"type": "string"
+				},
+				"LastQuarter": {
+					"type": "string"
+				},
+				"WaningCrescent": {
+					"type": "string"
+				}
+			}
+		},
+		"beaufort": {
+			"title": "Beaufort Scale",
+			"type": "object",
+			"properties": {
+				"f0": {
+					"type": "string"
+				},
+				"f1": {
+					"type": "string"
+				},
+				"f2": {
+					"type": "string"
+				},
+				"f3": {
+					"type": "string"
+				},
+				"f4": {
+					"type": "string"
+				},
+				"f5": {
+					"type": "string"
+				},
+				"f6": {
+					"type": "string"
+				},
+				"f7": {
+					"type": "string"
+				},
+				"f8": {
+					"type": "string"
+				},
+				"f9": {
+					"type": "string"
+				},
+				"f10": {
+					"type": "string"
+				},
+				"f11": {
+					"type": "string"
+				},
+				"f12": {
+					"type": "string"
+				}
+			}
+		},
+		"trends": {
+			"title": "Trends",
+			"type": "object",
+			"properties": {
+				"Risingveryrapidly": {
+					"type": "string"
+				},
+				"Risingquickly": {
+					"type": "string"
+				},
+				"Rising": {
+					"type": "string"
+				},
+				"Risingslowly": {
+					"type": "string"
+				},
+				"Steady": {
+					"type": "string"
+				},
+				"Fallingslowly": {
+					"type": "string"
+				},
+				"Falling": {
+					"type": "string"
+				},
+				"Fallingquickly": {
+					"type": "string"
+				},
+				"Fallingveryrapidly": {
+					"type": "string"
+				}
+			}
+		},
+		"compass": {
+			"title": "Compass Points",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"extraTemp": {
+			"title": "Extra Temperature Sensors",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"extraHum": {
+			"title": "Extra Humidity Sensors",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"extraDP": {
+			"title": "Extra Dew Point Sensors",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"userTemp": {
+			"title": "User Temperature Sensors",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"soilTemp": {
+			"title": "Soil Temperature Sensors",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"soilMoist": {
+			"title": "Soil Moisture Sensors",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"leafWet": {
+			"title": "Leaf Wetness Sensors",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"airQuality": {
+			"title": "Air Quality",
+			"type": "object",
+			"properties": {
+				"sensor": {
+					"title": "Sensors PM2.5",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"sensorAvg": {
+					"title": "Sensor PM2.5 Averages",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"sensor10": {
+					"title": "Sensors PM10",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"sensor10Avg": {
+					"title": "Sensor PM10 Averages",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"co2": {
+			"title": "CO₂ Sensor",
+			"type": "object",
+			"properties": {
+				"Current": {
+					"type": "string"
+				},
+				"Hr24": {
+					"type": "string"
+				},
+				"Pm2p5": {
+					"type": "string"
+				},
+				"Pm2p5_24hr": {
+					"type": "string"
+				},
+				"Pm10": {
+					"type": "string"
+				},
+				"Pm10_24hr": {
+					"type": "string"
+				},
+				"Temperature": {
+					"type": "string"
+				},
+				"Humidity": {
+					"type": "string"
+				}
+			}
+		},
+		"solar": {
+			"title": "Solar",
+			"type": "object",
+			"properties": {
+				"lessdaylight": {
+					"type": "string"
+				},
+				"moredaylight": {
+					"type": "string"
+				}
+			}
+		},
+		"alarms": {
+			"title": "Alarms",
+			"type": "object",
+			"properties": {
+				"subject": {
+					"type": "string"
+				},
+				"preamble": {
+					"type": "string"
+				},
+				"names": {
+					"title": "Names",
+					"type": "object",
+					"properties": {
+						"windGustAbove": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"windAbove": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"pressureAbove": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"pressBelow": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"pressUp": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"pressDown": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"tempAbove": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"tempBelow": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"tempUp": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"tempDown": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"rainAbove": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"rainRateAbove": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"newRecord": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"sensorLost": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"dataStopped": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"batteryLow": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"dataSpike": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"upgrade": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"firmware": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"ftpStopped": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"httpStopped": {
+							"type": "string",
+							"maxLength": 20
+						},
+						"mySqlStopped": {
+							"type": "string",
+							"maxLength": 20
+						}
+					}
+				},
+				"email": {
+					"title": "Email Messages",
+					"type": "object",
+					"properties": {
+						"windGustAbove": {
+							"type": "string"
+						},
+						"windAbove": {
+							"type": "string"
+						},
+						"pressureAbove": {
+							"type": "string"
+						},
+						"pressBelow": {
+							"type": "string"
+						},
+						"pressUp": {
+							"type": "string"
+						},
+						"pressDown": {
+							"type": "string"
+						},
+						"tempAbove": {
+							"type": "string"
+						},
+						"tempBelow": {
+							"type": "string"
+						},
+						"tempUp": {
+							"type": "string"
+						},
+						"tempDown": {
+							"type": "string"
+						},
+						"rainAbove": {
+							"type": "string"
+						},
+						"rainRateAbove": {
+							"type": "string"
+						},
+						"newRecord": {
+							"type": "string"
+						},
+						"sensorLost": {
+							"type": "string"
+						},
+						"dataStopped": {
+							"type": "string"
+						},
+						"batteryLow": {
+							"type": "string"
+						},
+						"dataSpike": {
+							"type": "string"
+						},
+						"upgrade": {
+							"type": "string"
+						},
+						"firmware": {
+							"type": "string"
+						},
+						"ftpStopped": {
+							"type": "string"
+						},
+						"httpStopped": {
+							"type": "string"
+						},
+						"mySqlStopped": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		},
+		"webtags": {
+			"title": "Web Tags",
+			"type": "object",
+			"properties": {
+				"gentimedate": {
+					"type": "string"
+				},
+				"gendate": {
+					"type": "string"
+				},
+				"gentime": {
+					"type": "string"
+				},
+				"recdate": {
+					"type": "string"
+				},
+				"rectimedate": {
+					"type": "string"
+				},
+				"recwetdrytimedate": {
+					"type": "string"
+				},
+				"elapsedtime": {
+					"type": "string"
+				}
+			}
+		},
+		"snow": {
+			"title": "Snowfall",
+			"type": "object",
+			"properties": {
+				"snowdepth": {
+					"type": "string"
+				},
+				"snow24h": {
+					"type": "string"
+				}
+			}
+		},
+		"laser": {
+			"title": "Laser Sensors",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		}
+	}
+}

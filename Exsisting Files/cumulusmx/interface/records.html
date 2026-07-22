@@ -1,0 +1,179 @@
+<!--
+Last modified: 2024/11/23 15:10:22
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Records - Cumulus MX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- DATA TABLE CSS -->
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- menu -->
+    <script src="js/menu.js"></script>
+
+    <!-- jquery -->
+    <script src="lib/jquery/jquery-latest.min.js"></script>
+    <script src="lib/jquery/jquery.tmpl.js"></script>
+
+    <link href="css/cumulus.css" rel="stylesheet">
+
+    <script type="text/javascript"  src="lib/datatables/datatables.min.js"></script>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/records.js"></script>
+    <style>
+        .left   {text-align:left;}
+        .center {text-align:center;}
+        .right  {text-align:right;}
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION MENU -->
+    <div class="navbar-nav navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <nav class="navbar-collapse collapse">
+                <ul id="Main_Menu" class="nav navbar-nav"></ul>
+            </nav><!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- END NAVIGATION MENU -->
+
+    <div class="container">
+        <div class="row top-buffer">
+            <div class="col-md-12">
+            <h1>Highs and Lows</h1>
+            </div>
+        </div>
+        <!-- CONTENT -->
+        <div class="btn-group" id="btngroup" data-toggle="buttons">
+            <label class="btn btn-primary active">
+                <input type="radio" name="options" id="alltime" value="alltime" checked> All time
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="jan" value="1"> Jan
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="feb" value="2"> Feb
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="mar" value="3"> Mar
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="apr" value="4"> Apr
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="may" value="5"> May
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="jun" value="6"> Jun
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="jul" value="7"> Jul
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="aug" value="8"> Aug
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="sep" value="9"> Sep
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="oct" value="10"> Oct
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="nov" value="11"> Nov
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="dec" value="12"> Dec
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="thismonth" value="thismonth"> This month
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="options" id="thisyear" value="thisyear"> This year
+            </label>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <br>
+                <table id="temperature" class="display" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Temperature</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table id="humidity" class="display" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Humidity</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table id="pressure" class="display" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Pressure</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table id="wind" class="display" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Wind</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table id="rain" class="display" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Rainfall</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+            </div><!--/span12 -->
+        </div><!-- /row -->
+    </div> <!-- /container -->
+
+    <!-- FOOTER -->
+    <div id="footerwrap">
+        <footer class="clearfix"></footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <!--<p><img src="img/logo.png" alt=""></p>-->
+                    <p>Cumulus MX <span id="Version"></span>&nbsp;b<span id="Build"></span></p>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /footerwrap -->
+</body>
+</html>

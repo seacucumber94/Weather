@@ -1,0 +1,444 @@
+{
+	"version": "Last Modified: 2025/05/31 20:53:35",
+	"type": "object",
+	"properties": {
+		"accessible": {
+			"type": "boolean"
+		},
+		"website": {
+			"title": "Web/Upload Site",
+			"type": "object",
+			"properties": {
+				"localcopy": {
+					"type": "boolean"
+				},
+				"localcopyfolder": {
+				},
+				"enabled": {
+					"type": "boolean"
+				},
+				"sslftp": {
+					"enum": [0,1,2,3]
+				},
+				"hostname": {
+				},
+				"phpurl": {
+				},
+				"ftpport": {
+					"type": "integer",
+					"minimum": 0
+				},
+				"sshAuth": {
+					"type": "string",
+					"enum": [
+						"password",
+						"psk",
+						"password_psk"
+					]
+				},
+				"pskFile": {
+				},
+				"directory": {
+				},
+				"username": {
+				},
+				"password": {
+				},
+				"phpsecret": {
+				},
+				"general": {
+					"title": "General Settings",
+					"type": "object",
+					"properties": {
+						"ftprename": {
+							"type": "boolean"
+						},
+						"ftpdelete": {
+							"type": "boolean"
+						},
+						"utf8encode": {
+							"type": "boolean"
+						},
+						"ftpmode": {
+						}
+					},
+					"dependencies": {
+						"ftprename": ["ftpmode"],
+						"ftpdelete": ["ftpmode"]
+					}
+				},
+				"advanced": {
+					"title": "Advanced Settings",
+					"type": "object",
+					"properties": {
+						"autodetect": {
+							"type": "boolean"
+						},
+						"disableftpsepsv": {
+							"type": "boolean"
+						},
+						"disableftpsexplicit": {
+							"type": "boolean"
+						},
+						"activeftp": {
+							"type": "boolean"
+						},
+						"ignorecerts": {
+							"type": "boolean"
+						},
+						"phpignorecerts": {
+							"type": "boolean"
+						},
+						"maxuploads": {
+							"type": "integer",
+							"minimum": 1,
+							"maximum": 50
+						},
+						"phpuseget": {
+							"type": "boolean"
+						},
+						"phpusebrotli": {
+							"type": "boolean"
+						},
+						"ftpmode": {
+						}
+					},
+					"dependencies": {
+						"autodetect": ["ftpmode"],
+						"disableftpsepsv": ["ftpmode", "autodetect"],
+						"disableftpsexplicit": ["ftpmode", "autodetect"],
+						"activeftp": ["ftpmode"],
+						"ignorecerts":  ["ftpmode"],
+						"phpignorecerts": ["ftpmode"],
+						"phppersistent": ["ftpmode"],
+						"phpuseget": ["ftpmode"],
+						"phpusebrotli": ["ftpmode"],
+						"maxuploads": ["ftpmode"]
+					}
+				}
+			},
+			"dependencies": {
+				"localcopyfolder": ["localcopy"],
+				"hostname": ["enabled", "sslftp"],
+				"phpurl": ["enabled", "sslftp"],
+				"phpsecret": ["enabled", "sslftp"],
+				"sslftp": ["enabled"],
+				"ftpport": ["enabled", "sslftp"],
+				"sshAuth": ["sslftp"],
+				"pskFile": ["sshAuth"],
+				"directory": ["enabled", "sslftp"],
+				"username": ["enabled", "sslftp"],
+				"password": ["enabled", "sslftp"],
+				"advanced": ["sslftp"],
+				"general": ["enabled"]
+			}
+		},
+		"websettings": {
+			"title": "Interval Configuration",
+			"type": "object",
+			"properties": {
+				"stdwebsite": {
+					"type": "boolean"
+				},
+				"interval": {
+					"title": "Normal Interval Settings",
+					"type": "object",
+					"properties": {
+						"enabled": {
+							"type": "boolean"
+						},
+						"ftpinterval": {
+							"type": "integer",
+							"minimum": 1
+						},
+						"enableintervalftp": {
+							"type": "boolean"
+						},
+						"stdfiles": {
+							"title": "Standard File Settings",
+							"type": "object",
+							"properties": {
+								"files": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"filename": {
+												"type": "string",
+												"title": "Filename"
+											},
+											"create": {
+												"type": "boolean",
+												"title": "Local"
+											},
+											"ftp": {
+												"type": "boolean",
+												"title": "Upload"
+											},
+											"copy": {
+												"type": "boolean",
+												"title": "Copy"
+											}
+										}
+									}
+								},
+								"wxnowcomment": {
+									"type": "string"
+								},
+								"wxnowutc": {
+									"type": "boolean",
+									"title": "wxnow.txt Use UTC:"
+								}
+							}
+						},
+						"graphfiles": {
+							"title": "Graph File Settings",
+							"type": "object",
+							"properties": {
+								"files": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"filename": {
+												"type": "string",
+												"title": "Filename"
+											},
+											"create": {
+												"type": "boolean",
+												"title": "Local"
+											},
+											"ftp": {
+												"type": "boolean",
+												"title": "Upload"
+											},
+											"copy": {
+												"type": "boolean",
+												"title": "Copy"
+											}
+										}
+									}
+								}
+							}
+						},
+						"graphfileseod": {
+							"title": "Daily Graph File Settings",
+							"type": "object",
+							"properties": {
+								"files": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"filename": {
+												"type": "string",
+												"title": "Filename"
+											},
+											"create": {
+												"type": "boolean",
+												"title": "Local"
+											},
+											"ftp": {
+												"type": "boolean",
+												"title": "Upload"
+											},
+											"copy": {
+												"type": "boolean",
+												"title": "Copy"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"dependencies": {
+						"autoupdate": ["enabled"],
+						"ftpinterval": ["enabled"],
+						"enableintervalftp": ["enabled"],
+						"stdfiles": ["enabled"],
+						"graphfiles": ["enabled"],
+						"graphfileseod": ["enabled"]
+					}
+				},
+				"realtime": {
+					"title": "Real time Interval Settings",
+					"type": "object",
+					"properties": {
+						"enabled": {
+							"type": "boolean"
+						},
+						"realtimeinterval": {
+							"type": "integer",
+							"minimum": 0
+						},
+						"enablerealtimeftp": {
+							"type": "boolean"
+						},
+						"files": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"filename": {
+										"type": "string",
+										"title": "Filename"
+									},
+									"create": {
+										"type": "boolean",
+										"title": "Local"
+									},
+									"ftp": {
+										"type": "boolean",
+										"title": "Upload"
+									},
+									"copy": {
+										"type": "boolean",
+										"title": "Copy"
+									}
+								}
+							}
+						}
+					},
+					"dependencies": {
+						"realtimeinterval": ["enabled"],
+						"enablerealtimeftp": ["enabled"],
+						"files": ["enabled"]
+					}
+				}
+			}
+		},
+		"emailsettings": {
+			"title": "Email Server Settings",
+			"type": "object",
+			"properties": {
+				"enabled": {
+					"type": "boolean"
+				},
+				"server": {
+				},
+				"port": {
+					"type": "integer",
+					"minimum": 1,
+					"maximum": 65536
+				},
+				"ssloption": {
+					"enum": [0,1,2,3,4]
+				},
+				"ignorecerterrors": {
+					"type": "boolean"
+				},
+				"authenticate": {
+					"enum": [0,1]
+				},
+				"user": {
+				},
+				"password": {
+				}
+			},
+			"dependencies": {
+				"server": ["enabled"],
+				"port": ["enabled"],
+				"ssloption": ["enabled"],
+				"authenticate": ["enabled"],
+				"user": ["enabled", "authenticate"],
+				"password": ["enabled", "authenticate"],
+				"ignorecerterrors": ["enabled", "ssloption"],
+				"clientid": ["enabled", "authenticate"],
+				"clientsecret": ["enabled", "authenticate"]
+			}
+
+		},
+		"externalprograms": {
+			"title": "External Programs",
+			"type": "object",
+			"properties": {
+				"program": {
+				},
+				"programparams": {
+				},
+				"realtimeprogram": {
+				},
+				"realtimeprogramparams": {
+				},
+				"dailyprogram": {
+				},
+				"dailyprogramparams": {
+				}
+			}
+		},
+		"moonimage": {
+			"title": "Moon Image",
+			"type": "object",
+			"properties": {
+				"enabled": {
+					"type": "boolean"
+				},
+				"size": {
+					"type": "integer",
+					"minimum": 20,
+					"maximum": 400
+				},
+				"transparent": {
+					"type": "boolean"
+				},
+				"includemoonimage": {
+					"type": "boolean"
+				},
+				"ftpdest": {
+					"type": "string"
+				},
+				"copyimage": {
+					"type": "boolean"
+				},
+				"copydest": {
+					"type": "string"
+				}
+			},
+			"dependencies": {
+				"includemoonimage": ["enabled"],
+				"size": ["enabled"],
+				"transparent": ["enabled"],
+				"ftpdest": ["includemoonimage"],
+				"copyimage": ["enabled"],
+				"copydest": ["copyimage"]
+			}
+		},
+		"proxies": {
+			"title": "Proxies",
+			"type": "object",
+			"properties": {
+				"httpproxy": {
+					"title": "HTTP proxy",
+					"type": "object",
+					"properties": {
+						"proxy": {
+							"type": "string"
+						},
+						"port": {
+							"type": "number"
+						},
+						"user": {
+							"type": "string"
+						},
+						"password": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		},
+		"misc": {
+			"title": "Miscellaneous",
+			"type": "object",
+			"properties": {
+				"forumurl": {
+					"type": "uri"
+				},
+				"webcamurl": {
+					"type": "uri"
+				}
+			}
+		}
+	}
+}

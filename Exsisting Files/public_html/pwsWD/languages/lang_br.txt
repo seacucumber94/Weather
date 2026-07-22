@@ -1,0 +1,770 @@
+# $scrpt_vrsn_dt = 'lang_br.txt|01|2020-12-15|';  # release 2012_lts
+
+# units
+ |/h|/h|
+ |/m|/m|
+ |and|e|
+ |Bft|Bft|
+ |C|C|
+ |Celsius|Celsius|
+ |cm|cm|
+ |F|F|
+ |Fahrenheit|Fahrenheit|
+ |feet|pés|
+ |Hours|Horas|
+ |hPa|hPa|
+ |hrs |hrs |
+ |Hrs|Hrs|
+ |hrs|hrs|
+ |inHg|inHg|
+ |in|in|
+ |KM/H|KM/H|
+ |km/h|km/h|
+ |km|km|
+ |KMs|KMs|
+ |kph|kph|
+ |KTS|NÓS|
+ |Kts|Nós|
+ |M/S|M/S|
+ |m/s|m/s|
+ |mile|milha|
+ |Miles|Milhas|
+ |min |min |
+ |mins |min |
+ |minutes|minutos|
+ |mm|mm|
+ |MPH|MPH|
+ |mph|mph|
+ |mt|mt|
+ |secs |seg |
+
+# months short
+ |Apr |Abr |
+ |Aug |Ago |
+ |Dec |Dez |
+ |Feb |Fev |
+ |Jan |Jan |
+ |Jul |Jul |
+ |Jun |Jun |
+ |Mar |Mar |
+ |May |Mai |
+ |Nov |Nov |
+ |Oct |Out |
+ |Sep |Set |
+
+# months long
+ |April|Abril|
+ |August|Agosto|
+ |December|Dezembro|
+ |February|Fevereiro|
+ |January|Janeiro|
+ |July|Julho|
+ |June|Junho|
+ |March|Março|
+ |May|Maio|
+ |November|Novembro|
+ |October|Outubro|
+ |September|Setembro|
+
+# days short
+ |Fri |Sex |
+ |Mon |Seg |
+ |Sat |Sáb |
+ |Sun |Dom |
+ |Thu |Qui |
+ |Thur |Qui |
+ |Tue |Ter |
+ |Wed |Qua |
+
+# days long
+ |Friday|Sexta|
+ |Monday|Segunda|
+ |Saturday|Sábado|
+ |Sunday|Domingo|
+ |Thursday|Quinta|
+ |Tuesday|Terça|
+ |Wednesday|Quarta|
+
+# dayparts
+ |Afternoon|Tarde|
+ |afternoon|tarde|
+ |Evening|Noite|
+ |evening|noite|
+ |Morning|Manhã|
+ |morning|manhã|
+ |Night time|Período noturno|
+ |Night|à noite|
+ |night|noite|
+
+# compass
+ |E|L|
+ |East|Leste|
+ |ENE|LNL|
+ |ESE|LSL|
+ |N|N|
+ |NE|NL|
+ |NNE|NNL|
+ |NNW|NNO|
+ |North|Norte|
+ |NW|NO|
+ |S|S|
+ |SE|SL|
+ |South|Sul|
+ |SSE|SSL|
+ |SSW|SSO|
+ |SW|SO|
+ |W|O|
+ |West|Oeste|
+ |WNW|ONO|
+ |WSW|OSO|
+
+# common
+ |All time|Tempo todo|
+ |any day|qualquer dia|
+ |any month|qualquer mês|
+ |any year|qualquer ano|
+ |Average|Média|
+ |Avg |Méd |
+ |avg|média|
+ |by|por|
+ |Close|Fechar|
+ |Current|Atual|
+ |current|atual|
+ |Daily|Diário|
+ |Day|Dia|
+ |days|dias|
+ |Description|Descrição|
+ |Distance|Distância|
+ |Falling Rapidly|Caindo rapidamente|
+ |Falling Slowly|Caindo lentamente|
+ |Falling|Caindo|
+ |Force|Força|
+ |Forecast for|Previsão para|
+ |forecast|previsão|
+ |from|de|
+ |Graph type|Tipo de gráfico|
+ |here|aqui|
+ |History|Histórico|
+ |Hourly|Horário|
+ |Information|Informação|
+ |Last Hour|Última hora|
+ |Last Updated|Atualizado em|
+ |Link|Link|
+ |Max|Max|
+ |Min|Min|
+ |Month|Mês|
+ |Never base important decisions that could result in harm to people or property on this weather information.|Nunca baseie nestas informações meteorológicas decisões importantes que possam resultar em danos a pessoas ou propriedades.|
+ |No valid sensors found|Nenhum sensor válido encontrado|
+ |Offline|Offline|
+ |Online|Online|
+ |Period|Período|
+ |Powered by|Powered by|
+ |Rising Rapidly|Aumentando rapidamente|
+ |Rising Slowly|Aumentando lentamente|
+ |Rising|Aumentando|
+ |Select|Selecione|
+ |Steady|Estável|
+ |the last|o último|
+ |Time|Hora|
+ |Today|Hoje|
+ |today|hoje|
+ |Tomorrow|Amanhã|
+ |Tonight|Hoje à noite|
+ |Updated|Atualizado|
+ |Year|Ano|
+ |Yesterday|Ontem|
+
+# notifications
+ |Heat Exhaustion|Exaustão por calor|
+ |Heat Index Caution|Cuidado com índice de calor|
+ |Lightning Strike Alert Detected|Alerta de relâmpago detectado|
+ |Notification|Notificação|
+ |Notifications|Notificações|
+ |Reduce Sun Exposure|Reduza exposição ao Sol|
+ |seconds ago|segundos atrás|
+ |UV-Index Caution|Cuidado com índice UV|
+ |Wind Gusts Becoming Strong Caution Required|Rajadas de vento tornando-se fortes - cuidado|
+ |Wind Gusts Reaching Gale Force|Rajadas de vento com força de vendaval|
+
+# blocks
+ |24h Avg|24h médio|
+ |Airport|Aeroporto|
+ |Annual Rainfall|Chuva anual|
+ |Aurora|Aurora|
+ |Currentsky|Céu atual|
+ |Details|Detalhes|
+ |Enlarge|Aumentar|
+ |Environment Canada forecast|Previsão Environment Canada|
+ |for the last|por último|
+ |Forecast|Previsão|
+ |Full page|Página inteira|
+ |Indoor Temperature|Temperatura interna|
+ |LiveWebCam|WebCam ao vivo|
+ |Map|Mapa|
+ |Max-Min Temperature|Temperaturas Máx-Min|
+ |Meteors|Meteoros|
+ |Moon info|Info Lua|
+ |Moonphase information|Informação sobre fases da Lua|
+ |Movie|Vídeo|
+ |Official AQ sensor station|Estação oficial com sensor AQ|
+ |One hour forecast|Previsão esta hora|
+ |Our WXSIM forecast|Nossa previsão WXSIM|
+ |Outside|Fora|
+ |Radar|Radar|
+ |Rainfalltoday|Chuva hoje|
+ |Solar - UV-Index - Lux|Sol - Índice UV - Lux|
+ |Station weather history|Histórico meteorológico da estação|
+ |Station|Estação|
+ |stored at WU|armazenado em WU|
+ |SunPosition|Posição do Sol|
+ |Texts|Textos|
+ |UV Guide|Guia UV|
+ |WeatherUnderground forecast|Previsão WeatherUnderground|
+ |Wind - Gust|Vento - Rajada|
+
+# soil-moist
+ |Adequate|Adequado|
+ |Current planting and watering guide|Guia de plantio e rega atual|
+ |Dangerous Dry|Perigoso seco|
+ |ERROR no reading|ERRO sem leitura|
+ |Explanation|Explicação|
+ |Irrigation desired|Irrigação desejada|
+ |Irrigation needed|Irrigação necessária|
+ |Moisture|Umidade do solo|
+ |Saturated|Saturado|
+ |Soil info|Informação do solo|
+ |Soil sensor - more information|Sensor de solo - mais informações|
+
+# soil-moist explain
+ |Saturated Soil. Occurs for a day or two after irrigation.|Solo Saturado. Ocorre um ou dois dias após a irrigação.|
+ |Soil is adequately wet (except coarse sands which are drying out at this range)|O solo está adequadamente úmido (exceto areias grossas que estão secando nesta faixa)|
+ |Soil is becoming dangerously dry for maximum production.|O solo está se tornando perigosamente seco para produção máxima.|
+ |Usual range to irrigate heavy clay soils|Faixa usual para irrigar solos argilosos pesados|
+ |Usual range to irrigate or water (except heavy clay soils)<br />Irrigate at the upper end of this range in cool humid climates and with higher water-holding capacity soils.|Faixa usual para irrigar ou regar (exceto solos argilosos pesados) <br /> Irrigar na extremidade superior desta faixa em climas frios e úmidos e com solos de maior capacidade de retenção de água.|
+
+# soil-temp
+ |Deep freeze|Completamente congelado|
+ |Frost line|Linha de gelo|
+ |Ideal growth|Crescimento ideal|
+ |Minimum growth|Crescimento mínimo|
+ |Optimal growth|Crescimento ótimo|
+ |Too cold to plant|Muito frio para plantar|
+
+# advisory
+ |(Severe) thunderstorms possible|Possibilidade de trovoadas (severas)|
+ |Below Freezing|Abaixo do ponto de congelamento|
+ |Caution|Cuidado|
+ |Expect|Espere|
+ |Firerisk|Risco de incêndio|
+ |Flooding Possible|Possibilidade de inundação|
+ |Have a nice day|Tenha um bom dia!|
+ |Lightning Strike Nearby|Raio nas proximidades|
+ |Possible Storm Approaching|Possível tempestade se aproximando|
+ |Possible|Possível|
+ |Radio Aurora Possible|Possível Radio Aurora|
+ |This hour|Esta hora|
+ |This Week|Esta semana|
+ |Viewing Possible|Visualização possível|
+
+# lightning
+ |Direction|Direção|
+ |Last 3 hr|Últimas 3 horas|
+ |Latest strike at|Última ocorrência em|
+ |Lightning strike|Relâmpago|
+ |Lightning|Relâmpago|
+ |Nearby Lightning|Relâmpago nas imediações|
+ |Nearby|Imediações|
+ |Total strikes|Ocorrências totais|
+
+# bft_names
+ |Calm|Calmo|
+ |Fresh breeze|Brisa forte|
+ |Gale force|Ventania|
+ |Gentle breeze|Brisa fraca|
+ |Hurricane|Furacão|
+ |Light air|Aragem|
+ |Light breeze|Brisa leve|
+ |Moderate breeze|Brisa moderada|
+ |Near gale|Vento forte|
+ |Storm|Tempestade|
+ |Strong breeze|Vento fresco|
+ |Strong gale|Ventania forte|
+ |Violent storm|Tempestade violenta|
+
+# w-names common
+ |Barometer|Barômetro|
+ |Dewpoint|Ponto de orvalho|
+ |ET|ET|
+ |Feels like|Sensação térmica|
+ |Feels|Sensação|
+ |Gust|Rajada|
+ |Heatindex|Índice de calor|
+ |Humidity|Umidade|
+ |Indoor|Interno|
+ |Leaf wetness|Umidade da folha|
+ |Precipitation|Precipitação|
+ |precipitation|Precipitação|
+ |Pressure|Pressão|
+ |Rainfall|Chuva|
+ |Rate|Taxa|
+ |Solar|Solar|
+ |Speed|Velocidade|
+ |Temp|velocidade do vento|
+ |Temperature|Temperatura|
+ |UV index|Índice UV|
+ |UV|UV|
+ |UVI|UVI|
+ |Wet Bulb|Bulbo Úmido|
+ |Wind Run|Distância do vento|
+ |Wind run|Distância do vento|
+ |Wind|Vento|
+ |Windchill|Índice de resfriamento|
+ |Winddirection|Direção do vento|
+ |Windspeed|Velocidade do vento|
+
+# meteors
+ |Active Sky Events|Eventos ativos no céu|
+ |Annual Meteor Showers|Chuvas de meteoros anuais|
+ |Annular|Anular|
+ |Current Events|Eventos atuais|
+ |Data Provided by|Dados fornecidos por|
+ |Eclipse|Eclipse|
+ |Guide|Guia|
+ |Lunar|Lunar|
+ |Meteor Shower|Chuva de meteoros|
+ |Meteor Showers|Chuvas de meteoros|
+ |Next Events|Próximos eventos|
+ |No Active Sky Events|Sem eventos ativos no céu|
+ |Partial|Parcial|
+ |Peak|Pico|
+ |Total|Total|
+ |Visible|Visível|
+ |Wikipedia|Wikipedia|
+
+# meteors explain
+ |Any nearby ambientlight, Moonlight can make it difficult viewing.|Qualquer luz ambiente próxima, a luz da lua pode dificultar a visualização.|
+ |Meteor showers are best viewed away from the city lights.|Chuvas de meteoros são melhor visualizadas longe das luzes da cidade.|
+ |Meteors are best viewed during the night hours, though meteors enter the atmosphere at any time of the day.|Os meteoros são melhor visualizados durante a noite, embora eles entrem na atmosfera a qualquer hora do dia.|
+ |They are just harder to see in the daylight apart from dawn and dusk.|Eles são apenas mais difíceis de ver à luz do dia, exceto ao amanhecer e ao anoitecer.|
+
+# aurora
+ |A-INDEX|A-INDEX|
+ |Excellent Aurora Viewing Possible|Possibilidade de excelente visualização de Aurora|
+ |Geomagnetic Major Storm|Tempestade geomagnética maior|
+ |Geomagnetic Severe Storm|Tempestade geomagnética severa|
+ |Geomagnetic Storm|Tempestade geomagnética|
+ |High Latitude Aurora Viewing Possible|Visualização de Aurora de latitude alta|
+ |High Latitude Radio Aurora|Rádio Aurora de latitude alta|
+ |High Latitude Weak Radio Aurora|Rádio Aurora Fraca de Latitude alta|
+ |KP-INDEX|KP-INDEX|
+ |KP-PLANETARY INDEX|Índice KP-PLANETARY|
+ |Major Storm|Grande tempestade|
+ |Mid to High Latitude Aurora Viewing Possible|Possível visualização de Aurora de latitude média a alta|
+ |Mid-High Latitude Radio Aurora|Rádio Aurora de latitude média-alta|
+ |Minor|Menor|
+ |No Aurora|Sem Aurora|
+ |No Radio Aurora|Sem Rádio Aurora|
+ |NOT ACTIVE|NÃO ATIVO|
+ |Quiet No|Quiet No|
+ |RADIO AURORA ACTIVE|RADIO AURORA ATIVO|
+ |Radio Aurora Indicators|Indicadores de Rádio Aurora|
+ |Radio Aurora|Rádio Aurora|
+ |Severe Storm|Tempestade severa|
+ |Strong Radio Aurora|Rádio Aurora forte|
+ |Visual Aurora Borealis/Northern Lights and VHF Radio Aurora Indicators|Luzes do norte e indicadores de Rádio Aurora VHF|
+ |Weak High Latitude Aurora Viewing Possible|Possível visualização fraca de Aurora em latitude alta|
+ |Weak|Fraco|
+
+# aurora explain
+ |is an indicator of possible enhanced VHF radio communication at a range of 1000 miles or more.|é um indicador de possível comunicação de rádio VHF aprimorada em um alcance de 1000 milhas ou mais.|
+ |provides a good indicator of viewing the Aurora Borealis or Northern Lights.|fornece um bom indicador da visualização da Aurora Boreal ou da Aurora Boreal.|
+ |Strong solar activity may allow long-distance radio communications at 28-433 MHz in mid to high latitudes.|A forte atividade solar pode permitir comunicações de rádio de longa distância em 28-433 MHz em latitudes médias a altas.|
+ |The estimated 3-hour Planetary Kp-index data is collected from ground-based magnetometers.|Os dados estimados de índice Kp planetário de 3 horas são coletados de magnetômetros terrestres.|
+ |The higher the Kp-Index the greater the probability of viewing.|Quanto mais alto o Índice Kp, maior a probabilidade de visualização.|
+
+# airquality
+ |1 hour|1 hora|
+ |1 week|1 semana|
+ |10 min|10 min.|
+ |24 hour|24 horas|
+ |24 hours|24 horas|
+ |30 min|30 min.|
+ |6 hour|6 horas|
+ |_1_hour|1 hora|
+ |_24_hour|24 horas|
+ |_3_hour|3 horas|
+ |Air Quality data from our own sensor|Dados de qualidade do ar do nosso próprio sensor|
+ |Air Quality Index|Índice de Qualidade do Ar|
+ |Air quality sensor|Sensor de qualidade do ar|
+ |Air Quality|Qualidade do ar|
+ |AQI|IQA|
+ |Based on a common formula using the temperature & dewpoint, as recorded realtime from this weather station, an estimated height of the cloudbase is calculated.|Com base em uma fórmula comum usando a temperatura e ponto de orvalho, conforme registrado em tempo real a partir desta estação meteorológica, uma altura estimada da base de nuvens é calculada.|
+ |classification|classificação|
+ |concentration|concentração|
+ |Critical Conditions|COndições críticas|
+ |Current cloudbase|Base das nuvens atual|
+ |Davis sensor|Sensor Davis|
+ |EPA Air Quality Index|Índice de qualidade do ar EPA|
+ |GoodAQ|Qualidade do ar boa|
+ |HazordousAQ|Qualidade do ar crítica|
+ |iaqB|iaqB|
+ |Information on Air Quality|Informações sobre a qualidade do ar|
+ |Information on Cloudbase|Informação de base das nuvens|
+ |It is not a accurate tool it is a relative indicator.|Não é uma ferramenta precisa, é um indicador relativo.|
+ |Last 24 hours|Últimas 24 horas|
+ |Last 7 days|Últimos 7 dias|
+ |Life Threatening|Risco de vida|
+ |Luftdaten sensor|Sensor Luftdaten|
+ |max|max|
+ |min|mín|
+ |ModerateAQ|Qualidade do ar moderada|
+ |More information|Mais Informações|
+ |My city|Minha cidade|
+ |O3|O3|
+ |Our Davis AQ sensor|Nosso sensor Davis|
+ |Our Luftdaten AQ sensor|Nosso sensor AQ Luftdaten|
+ |Our Luftdaten sensor|Nosso sensor Luftdaten|
+ |Our measurement values above are real-time values|Nossos valores de medição acima são valores em tempo real|
+ |Our Purple AQ sensor|Nosso sensor PurpleAir|
+ |Our PurpleAir sensor|Nosso sensor PurpleAir|
+ |Our station AQ sensor|Nosso sensor de estação|
+ |Our station sensor|Nosso sensor de estação|
+ |Particle|Partícula|
+ |particle|partícula|
+ |period|período|
+ |pm10|pm10|
+ |pm1|pm1|
+ |pm2.5|pm2.5|
+ |PM25|pm2.5|
+ |pm_10|pm10|
+ |pm_2p5|pm2.5|
+ |Precautions Required|Precaução necessária|
+ |Purpleair sensor|Sensor Purpleair|
+ |Risk|Risco|
+ |Sensor data captured at|Dados do sensor capturados em|
+ |Sensor_ID|ID do sensor|
+ |Station ID|ID da estação|
+ |Station sensor|Sensor de estação|
+ |The health effects should be based on 24 hours average values only.|Os efeitos na saúde devem ser baseados apenas em valores médios de 24 horas.|
+ |UnhealthyAQ|Qualidade do ar muito ruim|
+ |UnhealthyFSAQ|Qualidade do ar ruim|
+ |unkown / error in data|desconhecido / erro nos dados|
+ |VeryUnhealthyAQ|Qualidade do ar péssima|
+
+# airquality explain
+ |Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.|A qualidade do ar é aceitável; entretanto, para alguns poluentes, pode haver um problema de saúde moderado para um número muito pequeno de pessoas que são excepcionalmente sensíveis à poluição do ar.|
+ |Air quality is considered satisfactory, and air pollution poses little or no risk|A qualidade do ar é considerada satisfatória e a poluição do ar apresenta pouco ou nenhum risco|
+ |Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.|Todos podem começar a sentir efeitos na saúde; membros de grupos sensíveis podem experimentar efeitos mais graves para a saúde.|
+ |Health alert: everyone may experience more serious health effects|Alerta de saúde: todos podem experimentar efeitos mais graves para a saúde|
+ |Health warnings of emergency conditions. The entire population is more likely to be affected|Advertências de saúde para condições de emergência. Toda a população tem maior probabilidade de ser afetada|
+ |Members of sensitive groups may experience health effects. The general public is not likely to be affected.|Membros de grupos sensíveis podem sofrer efeitos na saúde. O público em geral provavelmente não será afetado.|
+
+# earthquake
+ |Click to sort the table on|Clique para classificar a tabela em|
+ |Coordinates|Coordenadas|
+ |Dangerous|Perigoso|
+ |Depth|Profundidade|
+ |Earthquake information courtesy of|Informações sobre terremoto, cortesia de|
+ |Earthquake|Terremoto|
+ |Earthquakes|Terremotos|
+ |Great earthquake|Grande Sismo|
+ |GreatE|Terremoto gigante|
+ |Largest|O maior de todos|
+ |Last Earthquake|Último Terremoto|
+ |LightE|Terremoto leve|
+ |Magnitude|Magnitude|
+ |Major earthquake|Sismo Maior|
+ |MajorE|Terremoto grande|
+ |Minor earthquake|Sismo Menor|
+ |MinorE|Terremoto menor|
+ |Moderate earthquake|Sismo Moderado|
+ |ModerateE|Terremoto moderado|
+ |or on|ou em|
+ |Regional earthquake|Sismo regional|
+ |RegionalE|Terremoto regional|
+ |Strong earthquake|Sismo Forte|
+ |StrongE|Terremoto forte|
+ |Table is sorted by|A tabela é classificada por|
+
+# sun/moon
+ |Azimuth|Azimute|
+ |Current Moon cycle is|O ciclo atual da Lua é|
+ |Darkness|Escuridão|
+ |day before|dia anterior|
+ |Daylight|Luz do dia|
+ |days old|dias|
+ |Elevation|Elevação|
+ |Estimated|Estimado|
+ |First Quarter|Quarto crescente|
+ |Full Moon|Lua cheia|
+ |Luminance|Luminância|
+ |Moon Phase / Sun-Moon  Rise-Set Information|Fases da Lua / Informações Sol-Lua nascer-pôr|
+ |Moon Rise/Set Information|Informações Lua nascer-pôr|
+ |Moon|Lua|
+ |Moonphase|Fase da Lua|
+ |Moonrise|Nascer da Lua|
+ |Moonset|Pôr da Lua|
+ |New Moon|Lua nova|
+ |Next Full Moon|Próxima lua cheia|
+ |Next New Moon|Próxima lua nova|
+ |Of Daylight|Da luz do dia|
+ |Sun Rise/Set Information|Informações Sol nascer-pôr|
+ |Sun rose at|O Sol nasceu às|
+ |Sun set|O Sol se pôs|
+ |Sun will set|O Sol vai se pôr|
+ |Sun|Sol|
+ |SunRise/Set|Nascer/Pôr do Sol|
+ |Sunrise|Nascer do Sol|
+ |Sunset|Pôr do Sol|
+ |Third Quarter|Quarto minguante|
+ |Till Sunrise|Até o nascer<br />do Sol|
+ |Till Sunset|Até o pôr<br />do Sol|
+ |Waning Crescent|Minguante côncava|
+ |Waning Gibbous|Minguante convexa|
+ |Waxing Crescent|Crescente côncava|
+ |Waxing Gibbous|Crescente convexa|
+
+# UV/solar/lux
+ |Brightness|Brilho|
+ |Current UVINDEX Advisory|Aviso de Índice UV atual|
+ |CURRENT UVINDEX|Índice UV atual|
+ |Excellent and Sustainable|Excelente e sustentável|
+ |Good and Sustainable|Boa e sustentável|
+ |Good to Excellent|Boa a excelente|
+ |Index|Índice|
+ |Low |Baixa |
+ |Low to Moderate|Baixa a moderada|
+ |Lux Brightness|Brilho - Lux|
+ |Lux measurement|Medição Lux|
+ |Lux|Lux|
+ |Moderate to Good|Moderada a boa|
+ |None |Nenhuma |
+ |Poor |Pobre |
+ |Solar Energy Replenishment|Reposição de energia solar|
+ |Solar Radiation|Radiação solar|
+ |Ultraviolet|Ultravioleta|
+
+# UV/solar/lux explain
+ |High risk of harm from unprotected sun exposure.|Alto risco de danos causados pela exposição ao sol sem proteção.|
+ |Low danger from the sun&apos;s UV rays for the average person|Risco baixo de danos causados pela exposição ao sol sem proteção.|
+ |Measures the approximate human eye response to light under a variety of lighting conditions.|Mede a resposta aproximada do olho humano à luz sob uma variedade de condições de iluminação.|
+ |Moderate risk of harm from unprotected sun exposure.|Risco moderado de danos causados pela exposição ao sol sem proteção.|
+ |The total amount of all the light measured is known as the "luminous flux".|A quantidade total de toda a luz medida é conhecida como "fluxo luminoso".|
+ |Very high risk of harm from unprotected sun exposure. Take extra precautions.|Risco muito alto de danos causados pela exposição ao sol sem proteção. Tome cuidado extra.|
+
+# metar
+ |Airport-code|Código do aeroporto|
+ |Current Conditions|Condições atuais|
+ |Heavy |Pesada |
+ |Light |Leve |
+ |Location|Localização|
+ |Metar Aviation Weather Data|Dados meteorológicos de METAR da aviação|
+ |Visibility|Visibilidade|
+
+# menu
+ |air-quality.com|air-quality.com|
+ |Atlantic Ocean pressure map|Mapa de pressão do Oceano Atlântico|
+ |Aurora info|Aurora info|
+ |Awekas|Awekas|
+ |Contact Info|Contato|
+ |CWOP|CWOP|
+ |Dark Theme|Tema escuro|
+ |DarkSky Forecast|Previsão DarkSky|
+ |European Weather Network|European Weather Network|
+ |EXTRAS|EXTRAS|
+ |FIRST SETUP (protected)|FIRST SETUP (protected)|
+ |Graphs|Gráficos|
+ |History at WU |História na WU|
+ |History at WU|História na WU|
+ |Home|Home|
+ |HWA|HWA|
+ |Imperial|Imperial|
+ |License|License|
+ |Light Theme|Tema claro|
+ |Luftdaten Map|Mapa Luftdaten|
+ |Maintained by|Mantido por|
+ |Menu|Menu|
+ |Metric|Métrico|
+ |NWS forecast|Previsão NWS|
+ |Official weather alarms|Alarmes meteorológicos oficiais|
+ |Pacific Ocean pressure map|Mapa de pressão do Oceano Pacífico|
+ |PurpleAir Map|Mapa PurpleAir|
+ |PwsWeather|PwsWeather|
+ |pwsWeather|PwsWeather|
+ |Reports at WU |Relatórios em WU|
+ |Reports at WU|Relatórios em WU|
+ |Scandinavia|Scandinavia|
+ |Select language|Selecione o idioma|
+ |Settings|Configurações|
+ |Station Theme|Tema da estação|
+ |Stations data at WL.com|Stations data at WL.com|
+ |SUPPORT|SUPORTE|
+ |Template by|Template by|
+ |UK (MPH)|UK (MPH)|
+ |USER PREFERENCES|PREFERÊNCIAS DO USUÁRIO|
+ |WEATHER NETWORKS|REDES METEOROLÓGICAS|
+ |Weather Networks|Redes meteorológicas|
+ |WeatherCloud|WeatherCloud|
+ |WeatherFlow map|Mapa do WeatherFlow|
+ |WeatherFlow_map|Mapa do WeatherFlow|
+ |WeatherUnderground|WeatherUnderground|
+ |Web Cam|WebCam|
+ |Wind forecast|Previsão de vento|
+ |WOW|WOW|
+ |WXSIM Forecast|Previsão WXSIM|
+ |YrNo Forecast|Previsão YrNo|
+
+# bio
+ |About copyrighted parts used in this template|Sobre as peças protegidas por direitos autorais usadas neste modelo|
+ |Contact information|Contato|
+ |Copyrighted material used|Material protegido por direitos autorais usado|
+ |Credits, contact and|Créditos, contato e|
+ |Download and support|Baixe e suporte|
+ |Facebook|Facebook|
+ |For your remarks or questions|Para seus comentários ou perguntas|
+ |Legal information|Informação legal|
+ |Mail|E-mail|
+ |More information about the used website template and tools|Mais informações sobre o modelo de site e ferramentas usadas|
+ |Our main website|Nosso site principal|
+ |Twitter|Twitter|
+ |Website|Website|
+ |You can find us here also|Você pode nos encontrar aqui também|
+
+# graphs
+ |Data from our weatherstation|Dados da nossa estação meteorológica|
+ |for this day|para o dia de hoje|
+ |for this month|para este mês|
+ |for this year|para este ano|
+ |High|Máximo|
+ |Low|Mínimo|
+
+# snow
+ |Add measurement|Adicionar medição|
+ |Current height|Altura atual|
+ |Date|Encontro|
+ |Fresh|Fresca|
+ |Manual measurements|Medições manuais|
+ |Melted|Derretida|
+ |Snow measurements|Medidas de neve|
+ |Snowfall since last measurement|Queda de neve desde a última medição|
+ |Remove measurement|Remover medição|
+
+# conditions
+ |blowing|soprando|
+ |Clear sky|Céu limpo|
+ |Clear|Limpo|
+ |Clouds|Nuvens|
+ |Cloudy|Nublado|
+ |Conditions|Condições|
+ |Drizzle|Chuvisco|
+ |drizzle|garoa|
+ |dust|poeira|
+ |Fair|Buen tiempo|
+ |Fog|Névoa|
+ |fog|nevoeiro|
+ |freezing|congelamento|
+ |hail|granizo|
+ |haze|névoa seca|
+ |Heavy rain and thunder|Chuva forte e trovão|
+ |Heavy rain showers and thunder|Chuva forte e trovão|
+ |Heavy rain showers|Chuva forte |
+ |Heavy rain|Chuva forte |
+ |Heavy sleet and thunder|Granizo forte e trovão|
+ |Heavy sleet showers and thunder|Granizo forte e trovão|
+ |Heavy sleet showers|Granizo forte |
+ |Heavy sleet|Granizo forte|
+ |Heavy snow and thunder|Neve forte e trovão|
+ |Heavy snow showers and thunder|Neve forte e trovão|
+ |Heavy snow showers|Neve forte |
+ |Heavy snow|Neve forte |
+ |heavy|pesado|
+ |ice_crystals|geada|
+ |ice_pellets|granizo|
+ |Isolated Light Showers|Chuva leve isolada|
+ |Isolated Showers|Chuva leve |
+ |Isolated|isolada|
+ |Light rain and thunder|Chuva fraca |
+ |Light rain showers and thunder|Chuva fraca e trovão|
+ |Light Rain Showers|Chuva fraca |
+ |Light rain showers|Chuva fraca |
+ |Light rain|Chuva fraca |
+ |Light Showers|Chuva fraca |
+ |Light sleet and thunder|Granizo leve e trovão|
+ |Light sleet showers|Granizo leve |
+ |Light sleet|Granizo leve e trovão|
+ |Light snow and thunder|Neve fraca e trovão|
+ |Light Snow Showers|Neve fraca |
+ |Light snow showers|Neve fraca |
+ |Light snow|Neve fraca |
+ |Light Wintry Mix|Mistura leve de inverno|
+ |light|leve|
+ |lightning|relâmpago|
+ |Lights sleet showers and thunder|Granizo leve e trovão|
+ |Lights snow showers and thunder|Neve fraca e trovão|
+ |Mist and Fog|Névoa e nevoeiro|
+ |Mist|Névoa|
+ |mist|névoa|
+ |moderate|moderado|
+ |Mostly Clear|Quase claro|
+ |Mostly Cloudy|Muito nublado|
+ |Mostly Scattered Clouds|Nuvens esparsas|
+ |Mostly Sunny|Principalmente ensolarado|
+ |Mostly|Principalmente|
+ |or|ou|
+ |Overcast|Encoberto|
+ |Partly Cloudy|Parcialmente nublado|
+ |Partly cloudy|Pouco Nublado|
+ |Rain and thunder|Chuva e trovão|
+ |Rain showers and thunder|Chuva e trovão|
+ |Rain Showers Likely|Provável chuva|
+ |Rain showers|Chuva|
+ |Rain|Chuva|
+ |rain|chuva|
+ |sand|areia|
+ |Scattered Light Showers|Pancadas de luz dispersas|
+ |Scattered Showers|Chuveiros Espalhados|
+ |Scattered|Chuveiros Espalhados|
+ |showers,|aguaceiros|
+ |showers|chuvas|
+ |Sleet and thunder|Granizo e trovão|
+ |Sleet showers and thunder|Chuva de neve e trovão|
+ |Sleet showers|Aguaceiros de neve|
+ |Sleet|Granizo|
+ |smoke|fumaça|
+ |Snow and thunder|Neve e trovão|
+ |Snow showers and thunder|Aguaceiros de neve e trovões|
+ |Snow showers|Aguaceiros de neve|
+ |Snow|Neve|
+ |snow|neve|
+ |squall|tempestade|
+ |steady|estável|
+ |storm|tempestade|
+ |Sunny|Ensolarado|
+ |thunderstorm|trovoada|
+ |tornado|tornado|
+ |unknown|desconhecido|
+ |vulcanic_ash|cinzas vulcânicas|
+ |water_spout|Tromba d'água|
+ |widespread|generalizado|
+ |Windy|Ventoso|
+
+# extra sensors
+ |Extra block large|Extra block large|
+ |Extra block|Extra block|
+ |Extra sensors|Extra sensors|
+ |extra_hum1|extra_hum1|
+ |extra_hum2|extra_hum2|
+ |extra_hum3|extra_hum3|
+ |extra_hum4|extra_hum4|
+ |extra_hum5|extra_hum5|
+ |extra_hum6|extra_hum6|
+ |extra_hum7|extra_hum7|
+ |extra_hum8|extra_hum8|
+ |extra_tmp1|extra_tmp1|
+ |extra_tmp2|extra_tmp2|
+ |extra_tmp3|extra_tmp3|
+ |extra_tmp4|extra_tmp4|
+ |extra_tmp5|extra_tmp5|
+ |extra_tmp6|extra_tmp6|
+ |extra_tmp7|extra_tmp7|
+ |extra_tmp8|extra_tmp8|

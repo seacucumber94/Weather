@@ -1,0 +1,49 @@
+# $scrpt_vrsn_dt = 'lang_en.txt|01|2021-01-24|';  # release 2012_lts 
+
+# blocks 
+ |Rainfalltoday|Rainfall Today|
+ |LiveWebCam|Live Webcam| 
+
+#airquality                                              
+ |GoodAQ|Good Air Quality|
+ |ModerateAQ|Moderate Air Quality|
+ |UnhealthyFSAQ|Unhealthy for some|
+ |UnhealthyAQ|Unhealthy  Air Quality| #todo
+ |VeryUnhealthyAQ|Very Unhealthy| 
+ |HazordousAQ|Hazardous  Air Quality| 
+
+#earthquake
+ |MinorE|Minor Earthquake|
+ |LightE|Light Earthquake|
+ |ModerateE|Moderate Earthquake|
+ |StrongE|Strong Earthquake|
+ |MajorE|Major Earthquake|
+ |GreatE|Great Earthquake|
+ |RegionalE|Regional|
+
+#w-names
+ |precipitation|Precipitation|
+
+# extra sensors
+ |extra_hum1|extra_hum1|
+ |extra_hum2|extra_hum2|
+ |extra_hum3|extra_hum3|
+ |extra_hum4|extra_hum4|
+ |extra_hum5|extra_hum5|
+ |extra_hum6|extra_hum6|
+ |extra_hum7|extra_hum7|
+ |extra_hum8|extra_hum8|
+ |extra_tmp1|extra_tmp1|
+ |extra_tmp2|extra_tmp2|
+ |extra_tmp3|extra_tmp3|
+ |extra_tmp4|extra_tmp4|
+ |extra_tmp5|extra_tmp5|
+ |extra_tmp6|extra_tmp6|
+ |extra_tmp7|extra_tmp7|
+ |extra_tmp8|extra_tmp8|
+
+#  2021-01-24
+ |Rainfalltoday|Rainfall Today|
+ |SunPosition|Sun position|
+ |Currentsky|Current sky|
+

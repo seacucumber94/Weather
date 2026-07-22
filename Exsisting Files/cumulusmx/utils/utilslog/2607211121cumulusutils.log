@@ -1,0 +1,151 @@
+2026-07-21 11:21:02.009 Information According to Inifile Info => Error: True, Warning: True, Info: True, Verbose: False, 
+2026-07-21 11:21:02.036 CumulusUtils Initial: Shutting down the default listener
+2026-07-21 11:21:02.036 Information CumulusUtils Initial: Shutting down the default listener
+2026-07-21 11:21:02.083  CUstrings[xx].ini : CUstringsEN.ini looked for.
+2026-07-21 11:21:02.107  CumulusUtils version: 7.1.1 
+2026-07-21 11:21:02.108  CuSupport constructor : Unit Wind (m/s, mph2026-07-21 11:21:02.112  CumulusUtils version: 7.1.1 
+2026-07-21 11:21:02.112  CuSupport constructor : Unit Wind (m/s, mph, km/h, kts): mph
+2026-07-21 11:21:02.113  CuSupp2026-07-21 11:21:02.118  CuSupport constructor : Unit T (C,F): °C
+2026-07-21 11:21:02.118  CuSupport constructor : Unit Distance (m, mi, km, kn): mi
+2026-07-21 11:21:02.118  CuSupport constructor : Unit Height (m, ft): ft
+2026-07-21 11:21:02.134 InetSupport: Constructor starting
+2026-07-21 11:21:02.195 CumulusUtils : ----------------------------
+2026-07-21 11:21:02.195 CumulusUtils : Entering Main
+2026-07-21 11:21:02.203 HelpTexts: starting
+2026-07-21 11:21:02.246 Information HelpTexts Contructor: stop
+2026-07-21 11:21:02.295 CommandLineArgs : starting
+2026-07-21 11:21:02.295  CommandLineArgs : handling arg: sysinfo
+2026-02026-07-21 11:21:02.297 CommandLineArgs : starting
+2026-07-21 11:21:02.297  CommandLineArgs : handling arg: sysinfo
+2026-07-21 11:21:02.297  CommandLineArgs : handling arg: UserAskedData
+2026-072026-07-21 11:21:02.382 Information CumulusUtils : Read dayfile.txt succesfully - 929 records
+2026-07-21 11:21:02.408 Information SystemStatus : starting
+2026-07-21 11:21:02.441 Information GetUrlData Start: URL - http://localhost:8998/api/tags/process.json?version&build&Prog2026-07-21 11:21:02.445 Information GetUrlData Start: URL - h2026-07-21 11:21:02.848 CumulusMX Version: 4.5.2 build 4105
+2026-07-21 11:21:02.851 Information  SystemStatus: Found devic2026-07-21 11:21:02.863 CumulusMX Version: 4.5.2 build 4105
+2026-07-21 11:21:02.867 Information  SystemStatus: Found device 12 GW1000/Ecowitt Local API
+2026-07-21 11:21:02.867 Information ReplaceWebtagsPostAsync start:
+2026-07-21 11:21:02.874 Information  PostUrl2026-07-21 11:21:02.902 Information PostUrlData success response : OK - OK
+2026-07-21 11:21:02.907 SystemStatus : DoingUni2026-07-21 11:21:02.919 Information PostUrlData success response : OK - OK
+2026-07-21 11:21:02.926 SystemStatus : DoingUnix
+2026-07-21 11:2026-07-21 11:21:02.932 Information StartProcess cat:2026-07-21 11:21:02.934 Information StartProcess cat /etc/os-release
+2026-07-21 11:21:02.949 Information StartProcess cat: output=PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+2026-07-21 11:21:02.949 Information StartProcess cat: output=NAME="Debian GNU/Linux"
+2026-07-21 11:21:02.949 Information StartProcess cat: output=VERSION_ID="12"
+2026-07-21 11:21:02.949 Information StartProcess cat: output=VERSION="12 (bookworm)"
+2026-07-21 11:21:02.949 Information StartProcess cat: output=VERSION_CODENAME=bookworm
+2026-07-21 11:21:02.949 Information StartProcess cat: output=ID=debian
+2026-07-21 11:21:02.949 Information StartProcess cat: output=HOME_URL="https://www.debian.org/"
+2026-07-21 11:21:02.949 Information StartProcess cat: output=SUPPORT_URL="https://www.debian.org/support"
+2026-07-21 11:21:02.949 Information StartProcess cat: output=BUG_REPORT_URL="https://bugs.debian.org/"
+2026-07-21 11:21:02.949 Information Found Linux NAME: PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+2026-07-21 11:21:02.950 Information Using Linux dialect: Debian
+2026-07-21 11:21:02.950 Information StartProcess uptime -p
+2026-07-21 11:21:02.955 Information StartProcess uptime: output=up 3 weeks, 3 days, 15 hours, 47 minutes
+2026-07-21 11:21:02.955 Information StartProcess lshw -quiet -class system
+2026-07-21 11:21:02.958 Error System/Processor: Unknown (exception) - An error occurred trying to start process 'lshw' with working directory '/opt/CumulusMX'. No such file or directory
+2026-07-21 11:21:02.958 Please install lshw (apt-get install lshw)
+2026-07-21 11:21:02.959 Information StartProcess uname -s -r -m
+2026-07-21 11:21:02.961 Informati2026-07-21 11:21:02.985 Information StartProcess lsb_release: output=Distributor ID:	Debian
+2026-07-21 11:21:02.985 Inform2026-07-21 11:21:02.992 Information StartProcess lsb_release: output=Distributor ID:	Debian
+2026-07-21 11:21:02.992 Information StartProcess lsb_release: output=Description:	Debian GNU/Linux 12 (bookworm)
+2026-07-21 11:21:02.992 Information StartProcess lsb_release: output=Release:	12
+2026-07-21 11:21:02.992 Information StartProcess lsb_release: output=Codename:	bookworm
+2026-07-21 11:21:02.993 Information StartProcess dotnet --list-runtimes
+2026-07-21 11:21:02.996 Information StartProcess dotnet: output=Microsoft.NE2026-07-21 11:21:02.999 Information StartProcess free: output=   2026-07-21 11:21:02.999 Information StartProcess free -m
+2026-07-21 11:21:03.002 Information StartProcess free: output=               total        used        free      shared  buff/cache   available
+2026-07-21 11:21:03.002 Information StartProcess free: output=Mem:             960         357         466          32         306         602
+2026-07-21 11:21:03.002 Information StartProcess free: ou2026-07-21 11:21:03.005 Information StartProcess df: output=Filesystem     Type  Size  Used Avail Use% Mounted on
+2026-07-2026-07-21 11:21:03.013 Information StartProcess df: output=Filesystem     Type  Size  Used Avail Use% Mounted on
+2026-07-21 11:21:03.014 Infor2026-07-21 11:21:03.023 Information MapsOn: Starting
+2026-07-21 11:21:03.027 Information  MapsOn: Adding Station: Westland202026-07-21 11:21:03.044 Information MapsOn: Before testing DoneToday after parsing: 21/07/2026 10:31:03 
+2026-07-21 11:21:2026-07-21 11:21:03.051 Information MapsOn: Before testing DoneToday after parsing: 21/07/2026 10:31:03 
+2026-07-21 112026-07-21 11:21:03.062 Information DateIsToday: thisSpan: 00:50:00.0475148 | thisSpan.TotalDays = 0.034722772162037036
+202026-07-21 11:21:03.065 Information DateIsToday: thisSpan: 00:50:00.0518219 | thisSpan.TotalDays = 0.03472282201273148
+2026-07-21 11:21:03.066 Information MapsOn: Must NOT send signature, has been done already : 2026-07-21T10:31:03
+2026-07-21 11:21:03.066 Information Fetch Map: Fetch2026-07-21 11:21:03.932 Information Main: <!--
+ This file is generated as part of CumulusUti
+2026-07-21 11:21:03.933 Info2026-07-21 11:21:03.958 Information Main: <!--
+ This file is generated as part of CumulusUti
+2026-07-21 11:21:032026-07-21 11:21:03.961 Information CustomLogs constructor: starting
+2026-07-21 11:21:03.978 Information CustomLogs Webta2026-07-21 11:21:03.990 Information CustomLogs constructor: starting
+2026-07-21 11:21:04.004 Information CustomLogs WebtagInfo constructor2026-07-21 11:21:04.007 DefineUsercharts: Parsing User 2026-07-21 11:21:04.009 Information Custom Logs constructor: stop
+2026-07-21 11:21:04.034 DefineUsercharts: Parsing User charts definitions - starting
+2026-07-21 11:21:04.034 Information Parsing User Charts Definitions : Chart Overview'
+2026-07-21 11:21:04.054 Information Parsing User Charts Definitions : Chart Temperature'
+2026-07-21 11:21:04.054 Information Parsing User Charts Definitions : Chart Wind'
+2026-07-21 11:21:04.054 Information Parsing User Charts Definitions : Chart WindDirection'
+2026-07-21 11:21:04.054 Information Parsing User Charts Definitions : Chart Rain'
+2026-07-21 11:21:04.054 Information Parsing User Charts Definitions : Chart Humidity'
+2026-07-21 11:21:04.054 Information Parsing User Charts Definitions : Chart Solar'
+2026-07-21 11:21:04.055 Information Parsing User Charts Definitions : Chart DailyTemp'
+2026-07-21 11:21:04.055 Information Parsing User Charts Definitions : Chart DailyPressure'
+2026-07-21 11:21:04.061 Information Parsing User Charts: Evaluating Expression '(MinBarometer+MaxBarometer)/2'.
+2026-07-21 11:21:04.081 Generating Compiler UserAskedData: Starting
+2026-07-21 11:21:04.082 Information GenerateUserAskedData: timeStart = 21/07/2026 11:12:00; timeEnd = 21/07/2026 11:21:00
+2026-07-21 11:21:04.083 Monthfile constructor: Using fixed path: | data/ |; file: | *log.txt
+2026-07-21 11:21:042026-07-21 11:21:04.394 Information ReadMonthlyLogs: End
+2026-07-21 11:21:04.415 Information Generate UserAskedData: DoneToday = 20/07/2026 19:01:04.
+2026-07-21 11:21:04.415 Info2026-07-21 11:21:04.422 Information Generate UserAskedData: DoneToday = 20/07/2026 19:01:04.
+2026-07-21 11:21:04.423 Information DateIsToday for thisDate: 20/07/2026 19:01:04 | thisDate.DayOfYear: 201 versus Now.DayOfYear: 202)
+2026-07-21 11:21:04.423 Information DateIsToday: thisSpan: 16:20:00.4230450 | thisSpan.TotalDays = 0.6805604519097223
+2026-07-21 11:21:04.423 Information Generate UserAskedData: Must NOT generate the ALL Range.
+2026-07-21 11:21:04.423 Information Generate UserAskedData - Loop over Chart: Overview)
+2026-07-21 11:21:04.424 Information Generate UserAskedData - Testing temp into tempdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing dew into tempdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing press into pressdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing hum into humdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing SolarRad into solardata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing rfall into raindata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Loop over Chart: Temperature)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing intemp into tempdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing temp into tempdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing feelslike into tempdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing dew into tempdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Loop over Chart: Wind)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing wgust into winddata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing wspeed into winddata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Loop over Chart: WindDirection)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing bearing into wdirdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing avgbearing into wdirdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Loop over Chart: Rain)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing rfall into raindata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing rrate into raindata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Loop over Chart: Humidity)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing hum into humdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing inhum into humdata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Loop over Chart: Solar)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing UV into solardata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing SolarRad into solardata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing CurrentSolarMax into solardata.json (Range is Recent)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Loop over Chart: DailyTemp)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing avgTemp into alldailytempdata.json (Range is Daily)
+2026-07-21 11:21:04.428 Information Generate UserAskedData - Testing avgTemp into alldailytempdata.json (Range is Daily)
+2026-07-21 11:21:04.429 Information Generate UserAskedData - Loop over Chart: DailyPressure)
+2026-07-21 11:21:04.429 Information Generate UserAskedData - Testing minBaro into alldailypressdata.json (Range is Daily)
+2026-07-21 11:21:04.429 Information Generate UserAskedData - Testing  into  (Range is Daily)
+2026-07-21 11:21:04.429 Information DoAirLink / AirQualitySensor  = False / False
+2026-07-21 11:21:04.429 Informati2026-07-21 11:21:04.545 Information PHP upload does not support compression
+2026-07-21 11:21:04.545 Information UploadFil2026-07-21 11:21:04.565 Information PHP upload does not support compression
+2026-07-21 11:21:04.566 Information UploadFile: Starting utils/maps.txt => maps.txt
+2026-07-21 11:21:04.566 Information Upload File values: localfile: utils/maps.txt
+2026-07-21 11:21:04.566 Information Upload File values: remotefile: maps.txt
+2026-07-21 11:21:04.570 Information PHP Upload: starting ut2026-07-21 11:21:04.621 Information InetPhp: maps.txt: Response code = 200: OK
+2026-07-21 11:21:04.621 Information InetPh2026-07-21 11:21:04.651 Information InetPhp: maps.txt: Response code = 200: OK
+2026-07-21 11:21:04.651 Information InetPhp: maps.txt: Response text follows:
+Opening text file maps.txt for replacement
+Writing text file maps.txt
+Write complete
+2026-07-21 11:21:04.651 Information PHP UploadFile: Success
+2026-07-21 11:21:04.651 Information UploadFile: Starting utils/systeminfoTable.txt => systeminfoTable.txt
+2026-07-21 11:21:04.651 Information Upload File values: localfile: utils/systeminfoTable.txt
+2026-07-21 11:21:04.651 Information Upload File values: remotefile: systeminfoTable.txt
+2026-07-21 11:21:04.651 Information PHP Upload: starting utils/systeminfoTable.tx2026-07-21 11:21:04.653 Information InetPhp: systeminfoTable.txt: Response code = 200: OK
+2026-07-21 11:21:04.653 Informa2026-07-21 11:21:04.692 Information InetPhp: systeminfoTable.txt: Response code = 200: OK
+2026-07-21 11:21:04.692 Information InetPhp: systeminfoTable.txt: Response text follows:
+Opening text file systeminfoTable.txt for replacement
+Writing text file systeminfoTable.txt
+Write complete
+2026-07-21 11:21:04.692 Information PHP UploadFile: Success
+2026-07-21 11:21:04.692 All done, Entering the finally section...; Closing down.
+2026-07-21 11:21:04.692 Disposing Isup...
+2026-07-21 11:21:04.692 Disposing Sup...

@@ -1,0 +1,58 @@
+/* $pageName	= 'styleHist.css'; 
+   $pageVersion	= '4.00 208-07-24'; 
+   $pageUpdated	= 'first version';
+#
+version 4.00  contains previous versions
+.blockDiv *       {margin: 0;} 
+
+*       {margin: 0; /*padding: 0; */}  */
+
+.blockDiv {margin: 0; padding: 0; font-size: 10pt;
+        font-family: verdana, helvetica, arial, sans-serif;
+	color: black; 
+	background-color: #ACA8A1;
+	border: 1px solid grey;
+	border-bottom: 3px solid grey;
+	overflow: hidden;}
+.blockDiv *       {margin: 0;}
+.blockDiv tr { height: 20px;}
+
+.blockHead {font-size: 100%;
+	font-weight: bold;
+	background-color: #ACACAC;
+	text-align: center;}
+
+.green  	{ background-color: #D5DCCA ;}
+.blue  		{ background-color: #F1F8FE;}
+.pastel  	{ background-color: #F1F8FE;}
+.red  		{ background-color: #FFF7ED;}
+.orange  	{ background-color: #F9F0DD;}
+
+
+.green      .blockHead	{background-color: #00745B; color: white;}
+.blue       .blockHead	{background-color: #3173B1; color: white;}
+.pastel     .blockHead	{background-color: #7190BF; color: white; }
+.red        .blockHead	{background-color: #993333; color: white;}
+.orange     .blockHead	{background-color: #B36900; color: white;}
+
+
+.green      .blockHead  a {color: white;}
+.pastel     .blockHead  a {color: white;}
+
+.green      .table-top 	{background-color: #A7BF8E; }
+.blue       .table-top 	{background-color: #96C6F5; }
+.pastel     .table-top 	{background-color: #336699; color: white;}
+.red        .table-top 	{background-color: #CCBFAD; }
+.orange     .table-top 	{background-color: #E9C781; }
+
+.ws_wub         { width: 100%; margin: 0px  auto; background-color: transparent; font-size: 10px; font-family: verdana, helvetica, arial, sans-serif;}
+.ws_wub *       { margin: 0;}
+.ws_wub table   { text-align: center; padding: 0px; width: 100%; background-color: transparent; font-size: 10px;}
+.ws_wub td      { padding: 2px; vertical-align: top; background-color:white;}
+.ws_wub th      { padding: 2px; vertical-align: top;}
+.ws_wub tr      { height: 20px;}
+.ws_wub .slct   { padding-left: 6px;}
+.ws_wub .slct input      { height: 16px; vertical-align: middle;}
+.ws_wub .center { text-align: center;}
+.ws_wub .light  { background-color: white;}
+.ws_wub .dark   { color: black; opacity: 0.6;}

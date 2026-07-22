@@ -1,0 +1,7 @@
+<!--  $scrpt_vrsn_dt  = 'hooks.txt|01|2020-11-06';  # release 2012_lts 
+#
+put a link to what you want to include at the empty line below  
+#                      -->
+<p style=" margin: 0 auto;">
+
+</p>

@@ -1,0 +1,312 @@
+<!--
+Last modified: 2025/05/16 15:19:35
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Extra sensors - Cumulus MX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/font-style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+
+    <!-- menu -->
+    <script src="js/menu.js"></script>
+
+    <!-- jquery -->
+    <script src="lib/jquery/jquery-latest.min.js"></script>
+    <script src="lib/jquery/jquery.tmpl.js"></script>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="lib/datatables/datatables.min.js"></script>
+
+    <script src="js/extrasensors.js"></script>
+
+    <link href="css/cumulus.css" rel="stylesheet">
+    <style>
+        .left   {text-align:left;}
+        .center {text-align:center;}
+        .right  {text-align:right;}
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION MENU -->
+    <div class="navbar-nav navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <nav class="navbar-collapse collapse">
+                <ul id="Main_Menu" class="nav navbar-nav"></ul>
+            </nav><!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- END NAVIGATION MENU -->
+
+    <div class="container">
+            <div class="row top-buffer">
+            <div class="col-md-12">
+            <h1>Extra Sensors</h1>
+            </div>
+        </div>
+        <div class="row top-buffer">
+
+            <!-- TEMPERATURE BLOCK -->
+            <div class="col-md-4">
+                <table id="TempTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Temperature</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="TempSensor1">--</span></td>
+                        <td><span class="TempUnit">&deg;C</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- HUMIDITY BLOCK-->
+            <div class="col-md-4">
+                <table id="HumTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Humidity</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="HumSensor1">--</span></td>
+                        <td>%</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- DEW POINT BLOCK-->
+            <div class="col-md-4">
+                <table id="DewTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Dew Point</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="DewSensor1">--</span></td>
+                        <td><span class="TempUnit">&deg;C</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row top-buffer">
+            <!-- SOIL TEMP BLOCK -->
+            <div class="col-md-4">
+                <table id="SoilTempTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Soil Temperature</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="SoilTempSensor1">--</span></td>
+                        <td><span class="TempUnit">&deg;C</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- SOIL MOISTURE BLOCK-->
+            <div class="col-md-4">
+                <table id="SoilMoistureTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Soil Moisture</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="SoilMoistureSensor1">--</span></td>
+                        <td>cb</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- AIR QUALITY BLOCK -->
+            <div class="col-md-4">
+                <table id="AirQualityTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Air Quality</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table id="CO2Table" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;CO<sub>2</sub> Sensor</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div class="row top-buffer">
+            <!-- USER TEMPS BLOCK -->
+            <div class="col-md-4">
+                <table id="UserTempTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;User Temperature</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="UserTempSensor1">--</span></td>
+                        <td><span class="TempUnit">&deg;C</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- LEAF WETNESS BLOCK-->
+            <div class="col-md-4">
+                <table id="LeafTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Leaf Wetness</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Wetness&nbsp;1&nbsp;</td>
+                        <td><span id="LeafWetnessSensor1">--</span></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- LIGHTNING BLOCK-->
+            <div class="col-md-4">
+                <table id="LightningTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Lightning</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div class="row top-buffer">
+            <!-- LASER DEPTH BLOCK -->
+            <div class="col-md-4">
+                <table id="LaserDepthTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Laser Depth</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="LaserDepth1">--</span></td>
+                        <td><span class="LaserUnit"></span></td>
+                    </tr>
+                </table>
+            </div>
+            <!-- LASER DIST BLOCK -->
+            <div class="col-md-4">
+                <table id="LaserDistTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Laser Distance</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="LaserDist1">--</span></td>
+                        <td><span class="LaserUnit"></span></td>
+                    </tr>
+                </table>
+            </div>
+            <!-- SNOW BLOCK -->
+            <div class="col-md-4">
+                <table id="Snow24hTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Snowfall Accumulation (24h)</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="Snow24h1">--</span></td>
+                        <td><span class="SnowUnit"></span></td>
+                    </tr>
+                </table>
+                <table id="SnowSeasonTable" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;Snowfall Accumulation (Annual)</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Sensor&nbsp;1&nbsp;</td>
+                        <td><span id="SnowSeason1">--</span></td>
+                        <td><span class="SnowUnit"></span></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footerwrap">
+        <footer class="clearfix"></footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <!--<p><img src="img/logo.png" alt=""></p>-->
+                    <p>Cumulus MX <span id="Version"></span>&nbsp;b<span id="Build"></span></p>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /footerwrap -->
+</body>
+</html>

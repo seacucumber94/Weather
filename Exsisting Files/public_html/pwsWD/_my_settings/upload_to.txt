@@ -1,0 +1,24 @@
+#  $scrpt_vrsn_dt  = 'upload_to.txt|01|2020-11-06';  # release 2012_lts
+# ===============================================#
+# Your station data as shown on these sites 
+# These are only shown if you enter you stationID#
+# ===============================================#
+#
+# replace  'not' with your ID you got for that website.
+#
+# One example
+# below it reads now:   Awekas       | not     |        # replace  'not' with your 'Awekas ID'  such as '8578'  
+# change it to:         Awekas       | 8578     |
+#
+#  do mot change |change only|
+#  below         | below     |
+#
+Awekas          | not     |        # replace  'not' with your 'Awekas ID'  such as '8578'
+CWOP            | not     |        # replace  'not' with your 'CWOP ID'  such as 'D8113'
+ewn             | not     |        # replace  'not' with 'yes'
+mesonet         | not     |        # replace  'not' with your Mesonet name, such as 'Benelux', 
+#                                       you find them on https://www.northamericanweather.net/
+pwsweather      | not     |        # replace  'not' with your PWS station ID such as LEUVEN
+WU              | not     |        # replace  'not' with your weatherunderground station name
+WeatherCloud    | not     |        # replace  'not' with your 'WeatherCloud ID'  such as 'd168681765334'
+WOW             | not     |        # replace  'not' with your WOW id such as 8ed0ff9b-2013-e811-90cf-000d3ab1c4d1

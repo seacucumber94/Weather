@@ -1,0 +1,138 @@
+# WeatherUnderground Stations History
+langlookup|error|fout|
+langlookup|Show me|Doe het|
+langlookup|With this date|Met deze datum|
+langlookup|Directly to|Direct naar|
+langlookup|previous|vorige|
+langlookup|next|volgende|
+langlookup|Custom range|Aangepaste periode|
+langlookup|use both date-selectors for a custom range|gebruik allebei de datum selecties voor aan aangepaste periode|
+langlookup|avg|gem|
+langlookup|Download your copy of this data-set|Download een eigen kopie van onze gegevens|
+langlookup|here|vanaf WeatherUnderground|
+langlookup|WeatherUnderground graphs for this period|WeatherUnderground grafieken voor deze periode|
+langlookup|Tabular details for|Tabel met detailgegevens voor|
+langlookup|Select another period|Selecteer een andere periode|
+langlookup|Our weather-data as stored at|Onze weergegevens zoals opgeslagen bij|
+langlookup|Temp.|Temp.|
+langlookup|Speed|Wind|
+langlookup|Precip.|Neerslag.|
+langlookup|Dew pt.|Dauwp.|
+langlookup|Rainrate|Regen|
+langlookup|Humid.|Vocht.|
+langlookup|Cond.|Cond.|
+langlookup|click here|klik hier|
+langlookup|hide this area|verberg deze informatie|
+langlookup|Scripts failed, check html for problems|Scripts werken niet, controleer de html voor de oorzaak|
+langlookup|Original script by|Oorspronkelijke script van|
+langlookup|Rewritten for template use|Herschreven voor template gebruik|
+langlookup|Loading the graph can take up to a minute!|Het ophalen kan soms een minuut duren!|
+
+langlookup|Daily|Dagelijkse|
+langlookup|Weekly|Wekelijkse|
+langlookup|Monthly|Maandelijkse|
+langlookup|Yearly|Jaarlijkse|
+
+langlookup|Temperature|Temperatuur|
+langlookup|Dew Point|Dauwpunt|
+langlookup|Humidity|Vochtigheid|
+langlookup|Wind Speed|Wind snelheid|
+langlookup|Wind Gust|Windvlaag|
+langlookup|Wind Direction|Wind richting|
+langlookup|Pressure|Luchtdruk|
+langlookup|Precipitation|Neerslag|
+langlookup|Solar|Zonneschijn|
+
+langlookup|Current|Huidig|
+langlookup|High|Hoog|
+langlookup|Low|Laag|
+langlookup|Average|Gem.|
+langlookup|Summary for|Samenvatting|
+langlookup|Units|Eenheden|
+langlookup|Both|Beide|
+langlookup|English|Engels|
+langlookup|Metric|Metrisch|
+langlookup|Period|Periode|
+langlookup|Date|Datum|
+langlookup|Day|Dag|
+langlookup|Week|Week|
+langlookup|Month|Maand|
+langlookup|Year|Jaar|
+langlookup|Time|Tijd|
+langlookup|From|Van|
+langlookup|Wind|Wind|
+langlookup|Gust|Windvlaag|
+langlookup|high|hoog|
+langlookup|low|laag|
+langlookup|sum|som|
+langlookup|today|vandaag|
+
+langlookup|Calm|Kalm|
+# -------------- wind direction compass headings
+langlookup|E|O|
+langlookup|East|Oosten|
+langlookup|ENE|ONO|
+langlookup|ESE|OZO|
+langlookup|N|N|
+langlookup|NE|NO|
+langlookup|NNE|NNO|
+langlookup|NNW|NNW|
+langlookup|North|Noorden|
+langlookup|Northeast|Noordoost|
+langlookup|Northwest|Noordwest|
+langlookup|NW|NW|
+langlookup|S|Z|
+langlookup|SE|ZO|
+langlookup|South|Zuiden|
+langlookup|Southeast|Zuidoost|
+langlookup|Southwest|Zuidwest|
+langlookup|SSE|ZZO|
+langlookup|SSW|ZZW|
+langlookup|SW|ZW|
+langlookup|W|W|
+langlookup|West|Westen|
+langlookup|WNW|WNW|
+langlookup|WSW|WZW|
+# ----------------------------- month names long
+langlookup|April|april|
+langlookup|August|augustus|
+langlookup|December|december|
+langlookup|February|februari|
+langlookup|January|januari|
+langlookup|July|juli|
+langlookup|June|juni|
+langlookup|March|maart|
+langlookup|November|november|
+langlookup|October|oktober|
+langlookup|September|september|
+#
+# ---------------------------- month names short
+langlookup|Apr|apr|
+langlookup|Aug|aug|
+langlookup|Dec|dec|
+langlookup|Feb|feb|
+langlookup|Jan|jan|
+langlookup|Jul|jul|
+langlookup|Jun|jun|
+langlookup|Mar|mrt|
+langlookup|May|mei|
+langlookup|Nov|nov|
+langlookup|Oct|okt|
+langlookup|Sep|sep|
+#
+# ----------------------------- days of the week
+langlookup|Fri|Vrij|
+langlookup|Friday|Vrijdag|
+langlookup|Mon|Maan|
+langlookup|Monday|Maandag|
+langlookup|Sat|Zater|
+langlookup|Saturday|Zaterdag|
+langlookup|Sun|Zon|
+langlookup|Sunday|Zondag|
+langlookup|Thu|Donder|
+langlookup|Thursday|Donderdag|
+langlookup|Tue|Dins|
+langlookup|Tuesday|Dinsdag|
+langlookup|Wed|Woens|
+langlookup|Wednesday|Woensdag|
+#

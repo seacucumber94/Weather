@@ -1,0 +1,5 @@
+#KONSOLEH AREA START - PLEASE DO NOT EDIT MANUALLY BETWEEN THESE LINES
+
+#KONSOLEH AREA END - PLEASE ADD MANUAL CHANGES BELOW
+php_flag log_errors on
+php_value error_log /usr/home/jpickl/php.log

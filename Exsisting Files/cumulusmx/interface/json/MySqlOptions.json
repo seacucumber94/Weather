@@ -1,0 +1,277 @@
+{
+	"version": "Last Modified: 2025/04/02 17:15:18",
+	"fields": {
+		"accessible": {
+			"fieldClass": "hideme"
+		},
+		"server": {
+			"collapsible": true,
+			"collapsed": true,
+			"fields": {
+				"host": {
+					"label": "Host name:"
+				},
+				"port": {
+					"label": "Port number:"
+				},
+				"user": {
+					"label": "User name:"
+				},
+				"pass": {
+					"type": "password",
+					"label": "Password:"
+				},
+				"database": {
+					"label": "Database name:"
+				}
+			}
+		},
+		"options": {
+			"collapsible": true,
+			"collapsed": true,
+			"fields": {
+				"updateonedit": {
+					"rightLabel": "Update MySQL on Edit",
+					"helpers": ["When editing the dayfile and log file values via the dashboard, also update the corresponding MySQL values"]
+				},
+				"bufferonerror": {
+					"rightLabel": "Buffer commands on failure",
+					"helpers": [
+						"On a MySQL command failure, buffer the failed command(s) until Cumulus can reconnect to the MySQL server",
+						"The buffer of failed commands will be lost if you restart Cumulus"
+					]
+				}
+			}
+		},
+		"realtime": {
+			"collapsible": true,
+			"collapsed": true,
+			"fields": {
+				"enabled": {
+					"rightLabel": "Real time Enabled"
+				},
+				"table": {
+					"label": "Table name:",
+					"dependencies": {
+						"enabled": true
+					}
+				},
+				"retentionVal": {
+					"label": "Data Retention value:",
+					"numericEntry": true,
+					"helpers": ["The number of \"units\" to retain in your table"],
+					"dependencies": {
+						"enabled": true
+					}
+				},
+				"retentionUnit": {
+					"label": "Data Retention unit:",
+					"optionLabels": [
+						"Seconds",
+						"Minutes",
+						"Hours",
+						"Days",
+						"Weeks",
+						"Months"
+					],
+					"sort": false,
+					"removeDefaultNone": true,
+					"helpers": ["The the unit to use with the value above"],
+					"dependencies": {
+						"enabled": true
+					}
+				},
+				"limit1min": {
+					"label": "Limit Inserts:",
+					"rightLabel": "Limit real time table inserts to once a minute",
+					"helpers": [
+						"Setting this means that if your real time interval is less than one minute, then a new row will only be inserted once a minute",
+						"You should not enable this option if your real time interval is greater than one minute"
+					],
+					"dependencies": {
+						"enabled": true
+					}
+				}
+			}
+		},
+		"dayfile": {
+			"collapsible": true,
+			"collapsed": true,
+			"fields": {
+				"enabled": {
+					"rightLabel": "Dayfile Enabled"
+				},
+				"table": {
+					"label": "Table name:",
+					"dependencies": {
+						"enabled": true
+					}
+				}
+			}
+		},
+		"monthly": {
+			"collapsible": true,
+			"collapsed": true,
+			"fields": {
+				"enabled": {
+					"rightLabel": "Monthly Log Enabled"
+				},
+				"table": {
+					"label": "Table name:",
+					"dependencies": {
+						"enabled": true
+					}
+				}
+			}
+		},
+		"customseconds": {
+			"collapsible": true,
+			"collapsed": true,
+			"helpers": [
+				"A custom SQL command to be executed at an interval in seconds - can include webtags",
+				"For the logging date & time, use the web tag <#DataDateTime>"
+			],
+			"fields": {
+				"enabled": {
+					"rightLabel": "Custom Seconds Enabled"
+				},
+				"command": {
+					"label": "SQL Commands:",
+					"collapsible": false,
+					"dependencies": {
+						"enabled": true
+					}
+				},
+				"interval": {
+					"label": "Interval (seconds):",
+					"numericEntry": true,
+					"dependencies": {
+						"enabled": true
+					}
+				}
+			}
+		},
+		"customminutes": {
+			"collapsible": true,
+			"collapsed": true,
+			"helpers": [
+				"A custom SQL command to be executed at an interval in minutes - can include webtags",
+				"For the logging date & time, use the web tag <#DataDateTime>"
+			],
+			"fields": {
+				"enabled": {
+					"rightLabel": "Custom Minutes Enabled"
+				},
+				"entries": {
+					"collapsible": false,
+					"label": "SQL Commands:",
+					"fields": {
+						"item": {
+							"fields": {
+								"command": {
+									"label": "SQL:",
+									"required": true
+								},
+								"intervalidx": {
+									"label": "Interval:",
+									"optionLabels": ["1 min","2 mins","3 mins","4 mins","5 mins","6 mins","10 mins","12 mins","15 mins","20 mins","30 mins","60 mins"],
+									"removeDefaultNone": true,
+									"sort": false
+								},
+								"catchup": {
+									"label": "Catch up:",
+									"rightLabel": "Fill in historic data on catch up"
+								}
+							}
+						},
+						"dependencies": {
+							"enabled": true
+						}
+					}
+				}
+			}
+		},
+		"customrollover": {
+			"collapsible": true,
+			"collapsed": true,
+			"helper": [
+				"A custom SQL command to be executed just before end of day rollover - can include webtags",
+				"For the logging date & time, use the web tag <#DataDateTime>"
+			],
+			"fields": {
+				"enabled": {
+					"rightLabel": "Custom Rollover Enabled"
+				},
+				"command": {
+					"label": "SQL commands:",
+					"collapsible": false,
+					"collapsed": false,
+					"dependencies": {
+						"enabled": true
+					}
+				}
+			}
+		},
+		"customtimed": {
+			"collapsible": true,
+			"collapsed": true,
+			"helper": [
+				"A custom SQL command to be executed at a set time of day - can include webtags, and can be repeated at intervals",
+				"For the logging date & time, use the web tag <#DataDateTime>"
+			],
+			"fields": {
+				"enabled": {
+					"rightLabel": "Custom Timed Enabled"
+				},
+				"entries": {
+					"label": "SQL Commands:",
+					"fields": {
+						"item": {
+							"fields": {
+								"command": {
+									"required": true
+								},
+								"starttimestr": {
+									"type": "time",
+									"dateFormat": "HH:mm",
+									"placeholder": "00:00",
+									"required": true
+								},
+								"repeat":{
+								},
+								"interval": {
+									"type": "select",
+									"optionLabels": ["1 min","2 mins","5 mins","10 mins","15 mins","20 mins","30 mins","1 hr","2 hrs","3 hrs","4 hrs","6 hrs","8 hrs","12 hrs"],
+									"sort": false,
+									"removeDefaultNone": false,
+									"dependencies": {
+										"repeat": true
+									}
+								}
+							}
+						},
+						"dependencies": {
+							"enabled": true
+						}
+					}
+				}
+			}
+		},
+		"customstart": {
+			"collapsible": true,
+			"collapsed": true,
+			"helper": "A custom SQL command to be executed when Cumulus starts up",
+			"fields": {
+				"enabled": {
+					"rightLabel": "Custom Start-up Enabled"
+				},
+				"command": {
+					"label": "SQL commands:",
+					"dependencies": {
+						"enabled": true
+					}
+				}
+			}
+		}
+	}
+}
