@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright ©  2015-2026 Cumulus MX")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("4.5.0.4102")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("4.5.0.4102")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("4.5.0.4102+19b9661bd7dbec0b31f26541d25132639e9ecff5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CumulusMX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CumulusMX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("4.5.0.4102")]
