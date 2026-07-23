@@ -1,1 +1,0 @@
-﻿<span id='CurrentPwsFWI' style="border: 1px solid black;cursor:pointer;text-align:center;background:green;color: white"> &nbsp;130.3&nbsp;pwsFWI</span>
